@@ -1,34 +1,8 @@
-"""Scoring engine for BOAMP markets — multi-category, weighted 1-5 scale."""
+"""Scoring engine for BOAMP markets — Harington-specific, portfolio-driven."""
 
 import json
 import re
 from datetime import date, datetime
-
-# ── Harington Stack (for "match stack" criterion) ──
-HARINGTON_PRODUCTS = [
-    "omniafactory", "pearlflow", "migrator flow", "migrator bi",
-    "dev brain", "po assistant", "techlead assistant", "code migrator",
-]
-HARINGTON_TECH = [
-    ".net", "c#", "java", "spring", "react", "angular", "python",
-    "php", "typescript", "node", "micro-services", "microservices",
-    "api", "rest", "graphql", "docker", "kubernetes", "ci/cd", "devops",
-]
-HARINGTON_EXPERTISE = [
-    "audit", "urbanisation si", "architecture", "migration bi",
-    "migration data", "etl", "iam", "sécurité", "cyber", "rse",
-    "qa", "tests fonctionnels", "moyens de paiements", "paiement",
-]
-HARINGTON_DELIVERY = [
-    "centre de compétences", "centre de service", "centres de services",
-    "nearshore", "onshore", "forfait", "régie", "tma",
-]
-HARINGTON_PROFILES = [
-    "business analyste", "pmo", "chef de projet", "moa",
-    "product owner", "scrum master", "développeur", "architecte",
-]
-
-IDF_DEPARTMENTS = {"75", "77", "78", "91", "92", "93", "94", "95"}
 
 
 def _text_from_market(market: dict) -> str:
@@ -91,10 +65,26 @@ def _extract_budget(market: dict) -> float | None:
     return None
 
 
-def _count_matches(text: str, terms: list[str]) -> int:
-    """Count how many terms from the list appear in text."""
-    return sum(1 for t in terms if t.lower() in text)
+# ── ESN PRE-FILTER ──
 
+def _is_esn_market(text: str, esn_config: dict) -> bool:
+    """Pre-filter: only keep markets relevant for an ESN (IT services)."""
+    if not esn_config.get("enabled", True):
+        return True
+
+    # Check exclusion keywords
+    for excl in esn_config.get("exclusion_keywords", []):
+        if excl.lower() in text:
+            return False
+
+    # Check inclusion keywords (at least min_matches)
+    inclusions = esn_config.get("inclusion_required", [])
+    min_matches = esn_config.get("min_inclusion_matches", 1)
+    hits = sum(1 for inc in inclusions if inc.lower() in text)
+    return hits >= min_matches
+
+
+# ── CATEGORY ASSIGNMENT (for display/filter) ──
 
 def _best_category(text: str, categories: dict) -> tuple[str, int, list[str]]:
     """Find the best matching category for a market.
@@ -108,7 +98,7 @@ def _best_category(text: str, categories: dict) -> tuple[str, int, list[str]]:
 
     for cat_name, cat_data in categories.items():
         keywords = cat_data.get("keywords", [])
-        hits = _count_matches(text, keywords)
+        hits = sum(1 for kw in keywords if kw.lower() in text)
         if hits >= 2:
             all_cats.append(cat_name)
 
@@ -134,47 +124,160 @@ def _best_category(text: str, categories: dict) -> tuple[str, int, list[str]]:
     return best_cat, best_score, all_cats
 
 
-def score_market(market: dict, config: dict) -> dict:
-    """Score a market on a 1-5 scale with multi-category relevance.
+# ── HARINGTON MATCH SUB-CRITERIA ──
 
-    Returns dict with: score, category, categories, category_color,
-    budget, days_left, match_pct, match_detail, breakdown.
-    """
-    categories = config.get("categories", {})
-    scoring_cfg = config.get("scoring", {})
-    weights = scoring_cfg.get("weights", {})
-    idf_depts = set(config.get("departments_idf", list(IDF_DEPARTMENTS)))
+def _score_tech_stack(text: str, tech_stack: dict) -> tuple[float, list[str]]:
+    """Score tech stack match. Returns (score_1_5, matched_terms)."""
+    all_techs = []
+    for category_terms in tech_stack.values():
+        all_techs.extend(category_terms)
 
-    text = _text_from_market(market)
-    budget = _extract_budget(market)
-    departments = set(market.get("code_departement", []) or [])
+    matched = []
+    seen = set()
+    for t in all_techs:
+        tl = t.lower()
+        if tl in text and tl not in seen:
+            matched.append(t)
+            seen.add(tl)
 
-    # ── 1. Best-category relevance (35%) ──
-    best_cat, relevance_score, matching_cats = _best_category(text, categories)
-    cat_color = categories.get(best_cat, {}).get("color", "#6B7280")
-
-    # Also consider source categories from API enrichment
-    source_cats = market.get("_source_categories", [])
-    for sc in source_cats:
-        if sc not in matching_cats:
-            matching_cats.append(sc)
-
-    # ── 2. Stack/profiles match (15%) ──
-    all_harington = HARINGTON_PRODUCTS + HARINGTON_TECH + HARINGTON_EXPERTISE + HARINGTON_DELIVERY + HARINGTON_PROFILES
-    h_hits = _count_matches(text, all_harington)
-    if h_hits >= 6:
-        stack_score = 5
-    elif h_hits >= 4:
-        stack_score = 4
-    elif h_hits >= 2:
-        stack_score = 3
-    elif h_hits >= 1:
-        stack_score = 2
+    count = len(matched)
+    # Thresholds adapted for BOAMP: AOs rarely mention specific tech
+    if count >= 6:
+        score = 5
+    elif count >= 4:
+        score = 4
+    elif count >= 2:
+        score = 3
+    elif count >= 1:
+        score = 2
     else:
-        stack_score = 1
+        score = 1
 
-    # ── 3. Deadline (20%) ──
-    deadline_str = market.get("datelimitereponse", "")
+    return score, matched
+
+
+def _score_product_match(text: str, products: dict) -> tuple[float, list[dict]]:
+    """Score Harington product match. Returns (score_1_5, matched_products_info)."""
+    matched_products = []
+
+    for product_name, product_data in products.items():
+        product_keywords = product_data.get("keywords", [])
+        hits = sum(1 for kw in product_keywords if kw.lower() in text)
+        # Strong match: 2+ keywords → full confidence
+        # Partial match: 1 keyword → lower confidence but still counts
+        if hits >= 2:
+            matched_products.append({
+                "name": product_name,
+                "label": product_data.get("label", product_name),
+                "description": product_data.get("description", ""),
+                "hits": hits,
+                "confidence": round(min(hits / max(len(product_keywords), 1), 1.0), 2),
+            })
+        elif hits == 1 and len(product_keywords) <= 5:
+            matched_products.append({
+                "name": product_name,
+                "label": product_data.get("label", product_name),
+                "description": product_data.get("description", ""),
+                "hits": hits,
+                "confidence": round(1 / max(len(product_keywords), 1), 2),
+            })
+
+    matched_products.sort(key=lambda x: -x["confidence"])
+
+    # Score based on number and quality of matches
+    strong_matches = [p for p in matched_products if p["hits"] >= 2]
+    if len(strong_matches) >= 3:
+        score = 5
+    elif len(strong_matches) >= 2:
+        score = 4
+    elif len(strong_matches) >= 1:
+        score = 3
+    elif len(matched_products) >= 2:
+        score = 3
+    elif len(matched_products) >= 1:
+        score = 2
+    else:
+        # Fallback: check general IA/agentique vocabulary
+        ia_terms = ["agentique", "agent ia", "rag", "langchain", "ia générative",
+                     "intelligence artificielle", "llm", "machine learning"]
+        ia_hits = sum(1 for t in ia_terms if t in text)
+        if ia_hits >= 2:
+            score = 2
+        else:
+            score = 1
+
+    return score, matched_products
+
+
+def _score_rex_sector(text: str, rex_list: list[dict], sectors: list[str]) -> tuple[float, list[dict]]:
+    """Score REX and sector match. Returns (score_1_5, matched_rex_info)."""
+    matched_rex = []
+
+    for rex in rex_list:
+        rex_keywords = rex.get("keywords", [])
+        rex_stack = rex.get("stack", [])
+
+        kw_hits = sum(1 for kw in rex_keywords if kw.lower() in text)
+        stack_hits = sum(1 for s in rex_stack if s.lower() in text)
+        total_hits = kw_hits + stack_hits
+        total_possible = len(rex_keywords) + len(rex_stack)
+
+        if total_hits >= 2:
+            matched_rex.append({
+                "id": rex["id"],
+                "label": rex["label"],
+                "sector": rex["sector"],
+                "duration": rex["duration"],
+                "confidence": round(total_hits / max(total_possible, 1), 2),
+            })
+
+    matched_rex.sort(key=lambda x: -x["confidence"])
+
+    # Also check sector keywords
+    sector_hits = sum(1 for s in sectors if s.lower() in text)
+
+    if len(matched_rex) >= 2 and sector_hits >= 1:
+        score = 5
+    elif len(matched_rex) >= 1 and sector_hits >= 1:
+        score = 4
+    elif len(matched_rex) >= 1:
+        score = 3
+    elif sector_hits >= 2:
+        score = 3
+    elif sector_hits >= 1:
+        score = 2
+    else:
+        score = 1
+
+    return score, matched_rex
+
+
+# ── AO LEGITIMACY ──
+
+def _score_ao_legitimacy(text: str, service_types: dict) -> tuple[float, str, int]:
+    """Score AO type legitimacy. Returns (score_1_5, best_type_label, legitimacy_raw)."""
+    best_type = "Autre"
+    best_legitimacy = 1
+    best_hits = 0
+
+    for type_name, type_data in service_types.items():
+        type_keywords = type_data.get("keywords", [])
+        legitimacy = type_data.get("legitimacy", 1)
+        hits = sum(1 for kw in type_keywords if kw.lower() in text)
+
+        if hits >= 1 and (legitimacy > best_legitimacy or
+                          (legitimacy == best_legitimacy and hits > best_hits)):
+            best_type = type_name
+            best_legitimacy = legitimacy
+            best_hits = hits
+
+    return float(best_legitimacy), best_type, best_legitimacy
+
+
+# ── DEADLINE & BUDGET (kept from previous) ──
+
+def _score_deadline(deadline_str: str) -> tuple[float, int]:
+    """Score deadline urgency. Returns (score_1_5, days_left)."""
     try:
         if "T" in deadline_str:
             deadline = datetime.fromisoformat(deadline_str.replace("Z", "+00:00")).date()
@@ -182,69 +285,226 @@ def score_market(market: dict, config: dict) -> dict:
             deadline = date.fromisoformat(deadline_str)
         days_left = (deadline - date.today()).days
         if days_left <= 7:
-            dl_score = 5
+            score = 5
         elif days_left <= 14:
-            dl_score = 4
+            score = 4
         elif days_left <= 30:
-            dl_score = 3
+            score = 3
         elif days_left <= 45:
-            dl_score = 2
+            score = 2
         else:
-            dl_score = 1
+            score = 1
+        return float(score), days_left
     except (ValueError, TypeError):
-        dl_score = 1
-        days_left = 999
+        return 1.0, 999
 
-    # ── 4. Budget (15%) ──
-    budget_unknown_score = scoring_cfg.get("budget_unknown_score", 3)
+
+def _score_budget(budget: float | None, unknown_score: int = 3) -> float:
+    """Score budget attractiveness."""
     if budget is not None:
         if budget >= 200000:
-            bud_score = 5
-        elif budget >= 100000:
-            bud_score = 4
-        elif budget >= 50000:
-            bud_score = 3
-        elif budget >= 20000:
-            bud_score = 2
-        else:
-            bud_score = 1
-    else:
-        bud_score = budget_unknown_score
+            return 5
+        if budget >= 100000:
+            return 4
+        if budget >= 50000:
+            return 3
+        if budget >= 20000:
+            return 2
+        return 1
+    return float(unknown_score)
 
-    # ── 5. Geography (15%) ──
-    if departments & idf_depts:
-        geo_score = 5
-    elif not departments or len(departments) > 5:
-        geo_score = 4  # National
+
+# ── RELEVANCE SUMMARY ──
+
+def _generate_relevance_summary(
+    market: dict,
+    matched_products: list[dict],
+    matched_rex: list[dict],
+    matched_tech: list[str],
+    ao_type: str,
+    ao_legitimacy: int,
+) -> list[str]:
+    """Generate 7-10 bullet points relevance summary (deterministic, no LLM)."""
+    bullets = []
+
+    objet = market.get("objet", "")
+    buyer = market.get("nomacheteur", "")
+
+    # 1-2 bullets: understanding of AO subject
+    bullets.append(f"Objet : {objet[:150]}")
+    if buyer:
+        bullets.append(f"Acheteur : {buyer}")
+
+    # 1 bullet: AO type match
+    if ao_legitimacy >= 4:
+        bullets.append(f"Type d'AO \"{ao_type}\" : forte légitimité Harington ({ao_legitimacy}/5)")
+    elif ao_legitimacy >= 3:
+        bullets.append(f"Type d'AO \"{ao_type}\" : légitimité correcte ({ao_legitimacy}/5)")
     else:
-        geo_score = 2  # Regional hors IDF
+        bullets.append(f"Type d'AO \"{ao_type}\" : légitimité limitée ({ao_legitimacy}/5)")
+
+    # 1-2 bullets: tech stack matched
+    if matched_tech:
+        tech_display = ", ".join(t.title() for t in matched_tech[:8])
+        bullets.append(f"Stack technique matchée : {tech_display}")
+
+    # 1-2 bullets: applicable products
+    if matched_products:
+        for prod in matched_products[:2]:
+            bullets.append(f"Produit applicable : {prod['label']} — {prod['description']}")
+    else:
+        bullets.append("Aucun produit interne directement applicable")
+
+    # 1-2 bullets: REX/sector experience
+    if matched_rex:
+        for rex in matched_rex[:2]:
+            bullets.append(f"REX sectoriel : {rex['label']} ({rex['sector']}, {rex['duration']})")
+    else:
+        bullets.append("Pas de REX sectoriel directement lié")
+
+    # Pad to minimum 7 if needed
+    if len(bullets) < 7:
+        departments = market.get("code_departement", []) or []
+        if departments:
+            bullets.append(f"Géographie : département(s) {', '.join(departments)}")
+    if len(bullets) < 7:
+        deadline = market.get("datelimitereponse", "")
+        if deadline:
+            bullets.append(f"Date limite de réponse : {deadline[:10]}")
+    if len(bullets) < 7:
+        descripteurs = market.get("descripteur_libelle", [])
+        if descripteurs:
+            bullets.append(f"Descripteurs BOAMP : {', '.join(descripteurs[:4])}")
+
+    return bullets[:10]
+
+
+# ── GEO LABEL (display only, not scored) ──
+
+IDF_DEPARTMENTS = {"75", "77", "78", "91", "92", "93", "94", "95"}
+
+
+def _geo_label(departments: list, idf_depts: set | None = None) -> str:
+    """Generate geographic label for display."""
+    if idf_depts is None:
+        idf_depts = IDF_DEPARTMENTS
+    if not departments:
+        return "National"
+    dept_set = set(departments)
+    if dept_set & idf_depts:
+        return "Île-de-France"
+    if len(departments) > 3:
+        return "National"
+    return f"Dept. {', '.join(departments)}"
+
+
+# ── MAIN SCORING FUNCTION ──
+
+def score_market(market: dict, config: dict) -> dict | None:
+    """Score a market with Harington-specific matching.
+
+    Returns None if market is filtered out (not ESN-relevant).
+    """
+    text = _text_from_market(market)
+
+    # 0. ESN pre-filter
+    esn_config = config.get("esn_filter", {})
+    if not _is_esn_market(text, esn_config):
+        return None
+
+    portfolio = config.get("harington_portfolio", {})
+    scoring_cfg = config.get("scoring", {})
+    weights = scoring_cfg.get("weights", {})
+    sub_weights = scoring_cfg.get("harington_match_sub_weights", {})
+    categories = config.get("categories", {})
+    idf_depts = set(config.get("departments_idf", list(IDF_DEPARTMENTS)))
+
+    # Category for display/filter
+    best_cat, _, matching_cats = _best_category(text, categories)
+    cat_color = categories.get(best_cat, {}).get("color", "#6B7280")
+    source_cats = market.get("_source_categories", [])
+    for sc in source_cats:
+        if sc not in matching_cats:
+            matching_cats.append(sc)
+
+    # ── 1. HARINGTON MATCH (60%) ──
+    tech_score, matched_tech = _score_tech_stack(text, portfolio.get("tech_stack", {}))
+    product_score, matched_products = _score_product_match(text, portfolio.get("products", {}))
+    rex_score, matched_rex = _score_rex_sector(
+        text, portfolio.get("rex", []), portfolio.get("sectors", [])
+    )
+
+    harington_match = (
+        tech_score * sub_weights.get("tech_stack", 0.30)
+        + product_score * sub_weights.get("product_match", 0.40)
+        + rex_score * sub_weights.get("rex_sector", 0.30)
+    )
+
+    # ── 2. AO LEGITIMACY (30%) ──
+    legitimacy_score, ao_type, ao_legitimacy_raw = _score_ao_legitimacy(
+        text, portfolio.get("service_types", {})
+    )
+
+    # ── SYNERGY BONUS ──
+    # When product match + high legitimacy combine, boost the harington_match
+    # This rewards AOs where Harington has BOTH a product AND a legitimate AO type
+    synergy_bonus = 0.0
+    if product_score >= 3 and ao_legitimacy_raw >= 4:
+        synergy_bonus = 0.8  # Strong synergy
+    elif product_score >= 2 and ao_legitimacy_raw >= 4:
+        synergy_bonus = 0.4  # Moderate synergy
+    elif matched_rex and ao_legitimacy_raw >= 3:
+        synergy_bonus = 0.4  # REX + legitimate AO type
+    harington_match = min(5.0, harington_match + synergy_bonus)
+
+    # ── 3. DEADLINE (10%) ──
+    deadline_str = market.get("datelimitereponse", "")
+    dl_score, days_left = _score_deadline(deadline_str)
+
+    # ── 4. BUDGET (10%) ──
+    budget = _extract_budget(market)
+    budget_unknown = scoring_cfg.get("budget_unknown_score", 3)
+    bud_score = _score_budget(budget, budget_unknown)
 
     # ── Weighted total ──
-    w = {
-        "relevance": weights.get("relevance", 0.35),
-        "stack": weights.get("stack", 0.15),
-        "deadline": weights.get("deadline", 0.20),
-        "budget": weights.get("budget", 0.15),
-        "geo": weights.get("geo", 0.15),
-    }
     total = (
-        relevance_score * w["relevance"]
-        + stack_score * w["stack"]
-        + dl_score * w["deadline"]
-        + bud_score * w["budget"]
-        + geo_score * w["geo"]
+        harington_match * weights.get("harington_match", 0.50)
+        + legitimacy_score * weights.get("ao_legitimacy", 0.30)
+        + dl_score * weights.get("deadline", 0.10)
+        + bud_score * weights.get("budget", 0.10)
     )
     final_score = round(total * 2) / 2
 
-    # Match percentage for Harington stack
-    match_pct = min(100, int((h_hits / 8) * 100))
+    # Match percentage (Harington composite)
+    match_pct = min(100, int((harington_match / 5) * 100))
 
-    matched_products = [t for t in (HARINGTON_PRODUCTS + HARINGTON_TECH[:7]) if t.lower() in text]
-    matched_expertise = [t for t in HARINGTON_EXPERTISE if t.lower() in text]
-    matched_delivery = [t for t in HARINGTON_DELIVERY if t.lower() in text]
-    matched_profiles = [t for t in HARINGTON_PROFILES if t.lower() in text]
-    match_detail_parts = matched_products + matched_expertise + matched_delivery + matched_profiles
-    match_detail = " · ".join([m.title() for m in match_detail_parts[:5]]) if match_detail_parts else "Pertinence générale"
+    # Tier classification
+    threshold = scoring_cfg.get("pertinence_threshold", 0.80)
+    if match_pct >= threshold * 100:
+        tier = "high"
+    elif match_pct >= (threshold * 100) * 0.6:
+        tier = "medium"
+    else:
+        tier = "low"
+
+    # Match detail: prioritize products > REX > tech
+    detail_parts = []
+    for p in matched_products[:2]:
+        detail_parts.append(p["label"])
+    for r in matched_rex[:2]:
+        detail_parts.append(f"REX {r['label']}")
+    for t in matched_tech[:3]:
+        detail_parts.append(t.title())
+    match_detail = " · ".join(detail_parts[:5]) if detail_parts else "Pertinence faible"
+
+    # Relevance summary (7-10 bullets)
+    relevance_summary = _generate_relevance_summary(
+        market, matched_products, matched_rex, matched_tech, ao_type, ao_legitimacy_raw
+    )
+
+    # Geography (display only)
+    departments = market.get("code_departement", []) or []
+    geo = _geo_label(departments, idf_depts)
 
     return {
         "score": final_score,
@@ -255,21 +515,38 @@ def score_market(market: dict, config: dict) -> dict:
         "days_left": days_left,
         "match_pct": match_pct,
         "match_detail": match_detail,
+        "tier": tier,
+        "ao_type": ao_type,
+        "ao_legitimacy": ao_legitimacy_raw,
+        "matched_products": [{"label": p["label"], "description": p["description"]} for p in matched_products],
+        "matched_rex": [{"label": r["label"], "sector": r["sector"], "duration": r["duration"]} for r in matched_rex],
+        "matched_tech": matched_tech[:10],
+        "relevance_summary": relevance_summary,
+        "geo_label": geo,
         "breakdown": {
-            "relevance": relevance_score,
-            "stack": stack_score,
+            "harington_match": round(harington_match, 2),
+            "harington_sub": {
+                "tech_stack": tech_score,
+                "product_match": product_score,
+                "rex_sector": rex_score,
+            },
+            "ao_legitimacy": legitimacy_score,
             "deadline": dl_score,
             "budget": bud_score,
-            "geo": geo_score,
         },
     }
 
 
-def score_all_markets(markets: list[dict], config: dict) -> list[dict]:
-    """Score all markets and return sorted by score descending."""
+def score_all_markets(markets: list[dict], config: dict) -> tuple[list[dict], int]:
+    """Score all markets, filter non-ESN, return (sorted_scored, filtered_count)."""
     scored = []
+    filtered_count = 0
     for m in markets:
         result = score_market(m, config)
+        if result is None:
+            filtered_count += 1
+            continue
         scored.append({**m, **result})
+
     scored.sort(key=lambda x: (-x["score"], x.get("days_left", 999)))
-    return scored
+    return scored, filtered_count

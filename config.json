@@ -110,16 +110,244 @@
       ]
     }
   },
+  "harington_portfolio": {
+    "products": {
+      "OmniA": {
+        "label": "OmniA",
+        "keywords": ["modernisation", "migration", "legacy", "refonte", "monolithe"],
+        "description": "Accélérateur IA de modernisation IT"
+      },
+      "Agentic Core Lib": {
+        "label": "Agentic Core Lib",
+        "keywords": ["agent", "agentique", "rag", "langchain", "llm", "ia générative", "intelligence artificielle"],
+        "description": "Framework fondationnel d'agents IA (RAG, LangChain)"
+      },
+      "MCP Catalogue": {
+        "label": "MCP Catalogue",
+        "keywords": ["mcp", "marketplace", "serveur", "api", "orchestration", "catalogue"],
+        "description": "Hub de création et déploiement de serveurs MCP"
+      },
+      "PulseBoard": {
+        "label": "PulseBoard",
+        "keywords": ["multi-cloud", "infrastructure", "orchestration", "dashboard", "azure", "aws", "gcp", "monitoring"],
+        "description": "Orchestration infrastructure multi-cloud"
+      },
+      "Agentic Orchestrator": {
+        "label": "Agentic Orchestrator",
+        "keywords": ["multi-agent", "orchestration", "agent", "ia", "consensus", "parallélisation"],
+        "description": "Construction multi-agents (débat, consensus, hiérarchie)"
+      },
+      "PearlFlow": {
+        "label": "PearlFlow",
+        "keywords": ["pipeline", "no-code", "low-code", "workflow", "ia", "orchestration", "automatisation"],
+        "description": "Orchestrateur de pipelines IA no-code/low-code"
+      },
+      "Migratorflow": {
+        "label": "Migratorflow",
+        "keywords": ["migration", "bi", "etl", "bdd", "cloud", "plateforme", "données"],
+        "description": "Plateforme universelle de migration IA (BI, ETL, BDD, cloud)"
+      },
+      "MigratorBI": {
+        "label": "MigratorBI",
+        "keywords": ["power bi", "fabric", "migration bi", "dax", "dataset", "reporting", "tableau de bord"],
+        "description": "Migration spécialisée Power BI & Fabric"
+      },
+      "Harry Helper": {
+        "label": "Harry Helper",
+        "keywords": ["cv", "candidat", "recrutement", "esn", "consultant", "profil"],
+        "description": "Gestion IA de candidats et analyse de CV pour ESN"
+      },
+      "SlideWise": {
+        "label": "SlideWise",
+        "keywords": ["présentation", "slides", "collaboratif", "powerpoint"],
+        "description": "Génération collaborative de présentations IA"
+      },
+      "Golden Age Analytics": {
+        "label": "Golden Age Analytics",
+        "keywords": ["observabilité", "monitoring", "analytics", "centralisé", "supervision"],
+        "description": "Observabilité centralisée (monitoring, analytics)"
+      }
+    },
+    "tech_stack": {
+      "backend": [".net", ".net core", "c#", "java", "spring boot", "spring cloud", "python", "fastapi", "django", "delphi", "pascal", "c/c++", "c++", "asp.net", "vbscript", "powershell"],
+      "frontend": ["angular", "react", "typescript", "vue.js", "vue", "jquery"],
+      "data_bi": ["sql server", "postgresql", "oracle", "snowflake", "power bi", "microstrategy", "ssis", "ssrs", "cognos", "informatica", "talend", "azure data factory", "jasper", "hyperion"],
+      "ia_ml": ["gpt", "llm", "langchain", "rag", "agents ia", "agent ia", "clustering", "computer vision", "nlp", "ocr", "fine-tuning", "chain of thoughts", "genai", "ia générative", "intelligence artificielle", "machine learning", "deep learning"],
+      "cloud_devops": ["azure", "aws", "gcp", "docker", "kubernetes", "k8s", "jenkins", "azure devops", "ci/cd", "github actions"],
+      "middleware": ["webmethods", "axway", "kafka", "elk", "prometheus"]
+    },
+    "rex": [
+      {
+        "id": "logistique",
+        "label": "Logistique internationale — Modernisation legacy",
+        "sector": "Transport & Logistique",
+        "duration": "10+ ans",
+        "keywords": ["logistique", "transport", "shipping", "tracking", "edi", "booking", "middleware", "migration legacy", "modernisation", "monolithe"],
+        "stack": [".net", "webmethods", "axway", "kafka", "sql server", "ssis", "ssrs", "docker"]
+      },
+      {
+        "id": "qsr",
+        "label": "Restauration rapide — CDS applicatif & TMA",
+        "sector": "Restauration (QSR)",
+        "duration": "7+ ans",
+        "keywords": ["pos", "caisse", "restaurant", "qsr", "point de vente", "delphi", "pascal", "sox", "alertes"],
+        "stack": ["delphi", "pascal", "sql server", "azure", "powershell"]
+      },
+      {
+        "id": "banque",
+        "label": "Banque d'investissement — Transformation digitale",
+        "sector": "Banque & Finance",
+        "duration": "5+ ans",
+        "keywords": ["banque", "investissement", "trading", "onboarding", "cotation", "kyc", "mifid", "kid"],
+        "stack": ["devops", "ci/cd", "agile"]
+      },
+      {
+        "id": "paiements",
+        "label": "Monétique & Paiements — CDS par paliers",
+        "sector": "Paiements",
+        "duration": "10+ ans",
+        "keywords": ["monétique", "paiement", "compensation", "cb", "sepa", "paylib", "transaction", "temps réel"],
+        "stack": ["c/c++", "c++", "java", "spring boot", ".net", "angular", "docker", "jenkins", "microstrategy"]
+      },
+      {
+        "id": "industrie",
+        "label": "Industrie & Distribution — Microservices & BI",
+        "sector": "Industrie & Distribution",
+        "duration": "6+ ans",
+        "keywords": ["e-commerce", "industrie", "distribution", "rationalisation", "reporting", "rapport", "microservices"],
+        "stack": [".net core", "azure devops", "python", "fastapi", "react", "postgresql", "snowflake", "power bi", "microstrategy"]
+      },
+      {
+        "id": "hotellerie",
+        "label": "Hôtellerie — Refonte digitale multi-enseignes",
+        "sector": "Hôtellerie",
+        "duration": "3+ ans",
+        "keywords": ["hôtel", "hôtellerie", "multi-enseignes", "multi-marques", "e-commerce", "storefronts"],
+        "stack": ["drupal", "redis", "ia", "agentique"]
+      },
+      {
+        "id": "financier",
+        "label": "Services financiers — AI Factory & RAG",
+        "sector": "Services financiers",
+        "duration": "3+ ans",
+        "keywords": ["finance", "assurance", "extraction", "document", "cni", "passeport", "kbis", "ocr", "identité"],
+        "stack": ["gcp", "rag", "genui", "ocr"]
+      },
+      {
+        "id": "aerien",
+        "label": "Transport aérien — Migration BI par IA",
+        "sector": "Transport aérien",
+        "duration": "2+ ans",
+        "keywords": ["aérien", "compagnie aérienne", "aviation", "jasper", "migration bi"],
+        "stack": ["jasper", "llm", "agents ia"]
+      }
+    ],
+    "sectors": [
+      "transport", "logistique", "banque", "finance", "paiement", "monétique",
+      "restauration", "qsr", "industrie", "distribution", "énergie",
+      "défense", "hôtellerie", "hôtel", "média", "télécoms", "télécom",
+      "retail", "automobile", "immobilier", "assurance", "aérien", "aviation"
+    ],
+    "service_types": {
+      "CDS applicatif multi-techno": {
+        "legitimacy": 5,
+        "keywords": ["centre de services", "centres de services", "cds", "applicatif", "centre de service"]
+      },
+      "Migration legacy": {
+        "legitimacy": 5,
+        "keywords": ["migration", "legacy", "modernisation", "refonte", "delphi", "cobol", "monolithe"]
+      },
+      "Migration/Rationalisation BI": {
+        "legitimacy": 5,
+        "keywords": ["migration bi", "rationalisation", "reporting", "power bi", "microstrategy", "ssrs", "tableau de bord"]
+      },
+      "Dev IA/ML/GenAI": {
+        "legitimacy": 4,
+        "keywords": ["intelligence artificielle", "ia", "machine learning", "genai", "agent", "agentique", "llm", "rag", "ia générative"]
+      },
+      "DevOps/CI-CD": {
+        "legitimacy": 4,
+        "keywords": ["devops", "ci/cd", "pipeline", "déploiement", "azure devops", "jenkins", "intégration continue"]
+      },
+      "TMA .NET/Java": {
+        "legitimacy": 5,
+        "keywords": ["tma", "tierce maintenance", "maintenance applicative", ".net", "java", "maintenance corrective", "maintenance évolutive"]
+      },
+      "QA/Test Automation": {
+        "legitimacy": 4,
+        "keywords": ["qa", "test", "automatisation", "recette", "selenium", "tests fonctionnels", "qualité logicielle"]
+      },
+      "Architecture microservices": {
+        "legitimacy": 4,
+        "keywords": ["microservices", "architecture", "ddd", "event storming", "api", "micro-services"]
+      },
+      "Data/ETL/DataWarehouse": {
+        "legitimacy": 4,
+        "keywords": ["etl", "datawarehouse", "data warehouse", "dwh", "ssis", "data", "entrepôt", "données"]
+      },
+      "Sécurité/Conformité": {
+        "legitimacy": 3,
+        "keywords": ["sécurité informatique", "cybersécurité", "sox", "audit sécurité", "conformité", "iso 27001"]
+      },
+      "Cloud Azure": {
+        "legitimacy": 4,
+        "keywords": ["azure", "cloud", "migration cloud", "saas", "paas", "iaas"]
+      },
+      "Power Platform": {
+        "legitimacy": 3,
+        "keywords": ["power platform", "power apps", "power automate", "power bi"]
+      }
+    }
+  },
+  "esn_filter": {
+    "enabled": true,
+    "exclusion_keywords": [
+      "travaux", "construction", "btp", "bâtiment", "génie civil",
+      "nettoyage", "propreté", "entretien des locaux", "ménage",
+      "restauration collective", "cantine", "traiteur",
+      "gardiennage", "surveillance physique", "vigile",
+      "espaces verts", "paysage", "jardinage",
+      "fourniture de bureau", "papeterie",
+      "transport de personnes", "ambulance",
+      "impression", "reprographie",
+      "déménagement", "mobilier de bureau",
+      "plomberie", "chauffage", "climatisation", "hvac", "cvc",
+      "câblage électrique", "vrd",
+      "csps", "coordonnateur sps",
+      "maîtrise d'oeuvre bâtiment",
+      "géomètre", "topographe",
+      "contrôle technique bâtiment",
+      "travaux publics", "terrassement",
+      "couverture assurantielle"
+    ],
+    "inclusion_required": [
+      "informatique", "numérique", "digital", "logiciel", "développement",
+      "système d'information", "prestation intellectuelle",
+      "conseil", "consulting", "étude", "audit",
+      "maintenance applicative", "tma",
+      "centre de services", "cds", "centre de compétences",
+      "intelligence artificielle", "ia", "data",
+      "devops", "cloud", "migration", "sécurité informatique",
+      "cybersécurité", "hébergement applicatif", "infogérance",
+      "services numériques", "transformation digitale"
+    ],
+    "min_inclusion_matches": 1
+  },
   "scoring": {
     "weights": {
-      "relevance": 0.35,
-      "stack": 0.15,
-      "deadline": 0.20,
-      "budget": 0.15,
-      "geo": 0.15
+      "harington_match": 0.50,
+      "ao_legitimacy": 0.30,
+      "deadline": 0.10,
+      "budget": 0.10
+    },
+    "harington_match_sub_weights": {
+      "tech_stack": 0.30,
+      "product_match": 0.40,
+      "rex_sector": 0.30
     },
     "budget_unknown_score": 3,
-    "min_priority_display": 4
+    "min_priority_display": 4,
+    "pertinence_threshold": 0.80
   },
   "api": {
     "market_type": "SERVICES",

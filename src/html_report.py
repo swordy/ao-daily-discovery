@@ -68,44 +68,35 @@ def _extract_description(market: dict) -> str:
     return market.get("objet", "")
 
 
-def _extract_meta_tags(market: dict) -> list[str]:
-    """Generate meta tags from market data."""
+def _build_harington_tags(market: dict) -> list[dict]:
+    """Build Harington-specific tags (products, REX, tech) instead of BOAMP generic tags."""
     tags = []
-    descs = market.get("descripteur_libelle", [])
-    if descs:
-        tags.extend(descs[:2])
-    famille = market.get("famille_libelle", "")
-    if famille:
-        tags.append(famille)
-    proc = market.get("procedure_libelle", "")
-    if proc:
-        tags.append(proc)
-    return tags[:4]
-
-
-def _geo_label(departments: list[str]) -> str:
-    if not departments:
-        return "National"
-    dept_set = set(departments)
-    if dept_set & IDF_DEPARTMENTS:
-        return "Île-de-France"
-    if len(departments) > 3:
-        return "National"
-    return f"Dept. {', '.join(departments)}"
+    for p in market.get("matched_products", [])[:2]:
+        tags.append({"label": p["label"], "type": "product"})
+    for r in market.get("matched_rex", [])[:2]:
+        tags.append({"label": r["label"], "type": "rex"})
+    for t in market.get("matched_tech", [])[:3]:
+        tags.append({"label": t.title(), "type": "tech"})
+    # Fallback: BOAMP descriptors if no Harington match
+    if not tags:
+        descs = market.get("descripteur_libelle", [])
+        for d in descs[:3]:
+            tags.append({"label": d, "type": "generic"})
+    return tags[:6]
 
 
 def _enrich_market(market: dict) -> dict:
     """Add display-ready fields to a scored market."""
-    departments = market.get("code_departement", []) or []
-    dept_set = set(departments)
     return {
         **market,
         "deadline_display": _format_deadline(market.get("datelimitereponse", "")),
         "budget_display": _format_budget(market.get("budget")),
         "description_short": _extract_description(market),
-        "meta_tags": _extract_meta_tags(market),
-        "is_idf": bool(dept_set & IDF_DEPARTMENTS),
-        "geo_label": _geo_label(departments),
+        "harington_tags": _build_harington_tags(market),
+        "geo_label": market.get("geo_label", ""),
+        "relevance_summary": market.get("relevance_summary", []),
+        "tier": market.get("tier", "low"),
+        "ao_type": market.get("ao_type", ""),
     }
 
 
@@ -153,6 +144,19 @@ def generate_report(scored_markets: list[dict], output_path: str, config: dict |
             })
     category_filters.sort(key=lambda x: -x["count"])
 
+    # Relevance data for popup (keyed by idweb)
+    relevance_data = {}
+    for m in enriched:
+        idweb = m.get("idweb", "")
+        if idweb and m.get("relevance_summary"):
+            relevance_data[idweb] = {
+                "title": (m.get("objet", ""))[:80],
+                "bullets": m.get("relevance_summary", []),
+                "match_pct": m.get("match_pct", 0),
+                "tier": m.get("tier", "low"),
+                "ao_type": m.get("ao_type", ""),
+            }
+
     html = template.render(
         report_date=today.isoformat(),
         report_date_fr=_date_fr(today),
@@ -163,6 +167,7 @@ def generate_report(scored_markets: list[dict], output_path: str, config: dict |
         priority_markets=priority,
         other_markets=others,
         category_filters=category_filters,
+        relevance_data=json.dumps(relevance_data, ensure_ascii=False),
     )
 
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)

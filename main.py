@@ -20,7 +20,9 @@ def main() -> int:
     config = load_config()
     cat_count = len(config.get("categories", {}))
     query_count = sum(len(c.get("queries", [])) for c in config.get("categories", {}).values())
-    print(f"[0/4] Config loaded: {cat_count} categories, {query_count} queries")
+    product_count = len(config.get("harington_portfolio", {}).get("products", {}))
+    rex_count = len(config.get("harington_portfolio", {}).get("rex", []))
+    print(f"[0/4] Config loaded: {cat_count} categories, {query_count} queries, {product_count} products, {rex_count} REX")
 
     # 1. Fetch markets
     print("[1/4] Fetching BOAMP markets...")
@@ -31,11 +33,17 @@ def main() -> int:
         print("[WARN] No markets found. Skipping report.")
         return 0
 
-    # 2. Score markets
-    print("[2/4] Scoring markets...")
-    scored = score_all_markets(markets, config)
+    # 2. Score markets (with ESN filter)
+    print("[2/4] Scoring markets (ESN filter + Harington match)...")
+    scored, filtered_count = score_all_markets(markets, config)
     priority = [m for m in scored if m.get("score", 0) >= 4]
-    print(f"       {len(priority)} priority markets (score >= 4/5)")
+    high_tier = [m for m in scored if m.get("tier") == "high"]
+    print(f"       {len(scored)} marches ESN retenus sur {len(markets)} ({filtered_count} hors perimetre)")
+    print(f"       {len(priority)} priority (score >= 4/5), {len(high_tier)} Fit Harington")
+
+    if not scored:
+        print("[WARN] No ESN-relevant markets after filtering. Skipping report.")
+        return 0
 
     # 3. Generate HTML report (with top-4 fallback)
     print("[3/4] Generating HTML report...")

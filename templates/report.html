@@ -121,6 +121,27 @@
     letter-spacing: 0.2px;
   }
 
+  /* ── HARINGTON TAGS (typed) ── */
+  .h-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 7px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  .h-tag-product { background: rgba(124,58,237,0.1); color: #7C3AED; border: 1px solid rgba(124,58,237,0.2); }
+  .h-tag-rex     { background: rgba(5,150,105,0.1); color: #059669; border: 1px solid rgba(5,150,105,0.2); }
+  .h-tag-tech    { background: rgba(29,78,216,0.1); color: #1D4ED8; border: 1px solid rgba(29,78,216,0.2); }
+  .h-tag-generic { background: var(--bg-alt); color: var(--navy-mid); border: 1px solid var(--divider); }
+
+  /* ── TIER BADGE ── */
+  .tier-badge { font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 3px; letter-spacing: 0.3px; }
+  .tier-high   { background: #059669; color: white; }
+  .tier-medium { background: #D97706; color: white; }
+  .tier-low    { background: var(--card); color: var(--grey-text); }
+
   /* ── SECTIONS ── */
   .section { margin-bottom: 22px; }
   .section-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
@@ -169,6 +190,26 @@
   .hl-deadline-ok    { background: #3A6B4A; color: #FFFFFF; }
   .hl-promoted { background: var(--bg-alt); color: var(--grey-text); font-weight: 500; font-style: italic; }
 
+  /* ── RELEVANCE TRIGGER ── */
+  .relevance-trigger {
+    width: 22px; height: 22px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: var(--white);
+    font-size: 11px;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.15s ease;
+    flex-shrink: 0;
+    border: none;
+    font-family: inherit;
+    line-height: 1;
+  }
+  .relevance-trigger:hover { transform: scale(1.15); background: var(--navy-light); }
+
   .prio-see {
     font-size: 11px;
     font-weight: 600;
@@ -177,25 +218,114 @@
     letter-spacing: 0.6px;
     margin-left: auto;
   }
-  .prio-meta { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 0; }
-  .meta-tag {
-    font-size: 11px;
-    font-weight: 500;
-    color: var(--navy-mid);
-    background: var(--bg-alt);
-    padding: 2px 7px;
-    border-radius: 3px;
-  }
-  .prio-match {
+
+  /* ── HARINGTON TAGS ROW ── */
+  .prio-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 8px; }
+
+  /* ── MATCH + GEO FOOTER ── */
+  .prio-footer {
     margin-top: 8px;
     padding-top: 8px;
     border-top: 1px solid var(--divider);
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 10px;
   }
+  .prio-match-info { display: flex; align-items: center; gap: 10px; }
   .match-pct { font-size: 22px; font-weight: 300; color: var(--navy); letter-spacing: -0.5px; line-height: 1; }
   .match-detail { font-size: 11px; font-weight: 400; color: var(--grey-text); font-style: italic; line-height: 1.4; }
+  .prio-geo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+  .geo-label { font-size: 11px; font-weight: 500; color: var(--navy-light); white-space: nowrap; }
+
+  /* ── RELEVANCE POPUP ── */
+  .relevance-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(15,29,51,0.4);
+    z-index: 999;
+  }
+  .relevance-overlay.active { display: block; }
+  .relevance-popup {
+    display: none;
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--white);
+    border-radius: 10px;
+    padding: 24px 28px;
+    max-width: 560px;
+    width: 90%;
+    box-shadow: 0 20px 60px rgba(15,29,51,0.25);
+    z-index: 1000;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  .relevance-popup.active { display: block; }
+  .relevance-popup-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--divider);
+  }
+  .relevance-popup h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1.35;
+    flex: 1;
+    margin-right: 12px;
+  }
+  .relevance-popup-close {
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    border: 1px solid var(--divider);
+    background: var(--bg);
+    color: var(--navy);
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: inherit;
+    transition: background 0.15s;
+  }
+  .relevance-popup-close:hover { background: var(--bg-alt); }
+  .relevance-popup-meta {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+  .relevance-popup ul {
+    list-style: none;
+    padding: 0;
+  }
+  .relevance-popup li {
+    font-size: 13px;
+    color: var(--navy);
+    padding: 6px 0 6px 18px;
+    border-bottom: 1px solid var(--bg);
+    line-height: 1.5;
+    position: relative;
+  }
+  .relevance-popup li:last-child { border-bottom: none; }
+  .relevance-popup li::before {
+    content: "\2192";
+    position: absolute;
+    left: 0;
+    color: var(--navy-light);
+    font-weight: 600;
+  }
 
   /* ── TABLE ── */
   .badge {
@@ -239,8 +369,9 @@
   }
   .market-table tr:hover td { background: #F4F5F8; }
   .market-table tr:last-child td { border-bottom: none; }
-  .table-title { font-weight: 500; max-width: 300px; }
+  .table-title { font-weight: 500; max-width: 280px; }
   .table-buyer { color: var(--grey-text); font-weight: 400; }
+  .table-actions { display: flex; align-items: center; gap: 8px; white-space: nowrap; }
 
   /* ── RESPONSIVE ── */
   @media (max-width: 768px) {
@@ -274,15 +405,17 @@
     .prio-desc { font-size: 10px; margin-bottom: 8px; }
     .hl-badge { font-size: 9px; padding: 2px 7px; }
     .prio-see { font-size: 8px; }
-    .meta-tag { font-size: 8px; }
+    .h-tag { font-size: 8px; }
     .cat-badge { font-size: 8px; padding: 2px 6px; }
-    .prio-match { margin-top: 6px; padding-top: 6px; }
+    .prio-footer { margin-top: 6px; padding-top: 6px; }
     .match-pct { font-size: 18px; }
     .match-detail { font-size: 8px; }
     .market-table { break-inside: avoid; }
     .market-table th { padding: 6px 10px; font-size: 8px; }
     .market-table td { padding: 6px 10px; font-size: 10px; }
     .market-table tr { break-inside: avoid; }
+    .relevance-trigger { display: none; }
+    .relevance-overlay, .relevance-popup { display: none !important; }
   }
 </style>
 </head>
@@ -344,15 +477,17 @@
     {% for m in priority_markets %}
     <div class="prio-card{% if m.promoted %} promoted{% endif %}" data-category="{{ m.category }}">
       <div class="prio-title">{{ m.objet | truncate(90) }}</div>
-      <div class="prio-buyer">{{ m.nomacheteur }} &bull; {{ m.code_departement | join(', ') }}</div>
+      <div class="prio-buyer">{{ m.nomacheteur }}</div>
       <div class="prio-desc">{{ m.description_short }}</div>
+
       <div class="prio-actions">
         <span class="cat-badge" style="background:{{ m.category_color }}18; color:{{ m.category_color }}; border:1px solid {{ m.category_color }}30">{{ m.category }}</span>
         {% if m.promoted %}
         <span class="hl-badge hl-promoted">Top 4</span>
         {% else %}
-        <span class="hl-badge hl-score-{{ m.score | int }}">Score {{ m.score | int }}</span>
+        <span class="hl-badge hl-score-{{ m.score | int }}">{{ m.score }}/5</span>
         {% endif %}
+        <span class="tier-badge tier-{{ m.tier }}">{{ m.match_pct }}% FIT</span>
         {% if m.days_left <= 7 %}
         <span class="hl-badge hl-deadline-urgent">J-{{ m.days_left }}</span>
         {% elif m.days_left <= 20 %}
@@ -365,16 +500,25 @@
         {% else %}
         <span class="hl-badge hl-budget">Accord-cadre</span>
         {% endif %}
+        <button class="relevance-trigger" onclick="showRelevance('{{ m.idweb }}')" title="Resume de pertinence">i</button>
         <a class="prio-see" href="{{ m.url_avis }}" target="_blank">Voir &rarr;</a>
       </div>
-      <div class="prio-meta">
-        {% for tag in m.meta_tags %}
-        <span class="meta-tag">{{ tag }}</span>
+
+      <div class="prio-tags">
+        {% for tag in m.harington_tags %}
+        <span class="h-tag h-tag-{{ tag.type }}">{{ tag.label }}</span>
         {% endfor %}
       </div>
-      <div class="prio-match">
-        <div class="match-pct">{{ m.match_pct }}%</div>
-        <div class="match-detail">{{ m.match_detail }}</div>
+
+      <div class="prio-footer">
+        <div class="prio-match-info">
+          <div class="match-pct">{{ m.match_pct }}%</div>
+          <div class="match-detail">{{ m.match_detail }}</div>
+        </div>
+        <div class="prio-geo">
+          <span style="font-size:13px">&#x1F4CD;</span>
+          <span class="geo-label">{{ m.geo_label }}</span>
+        </div>
       </div>
     </div>
     {% endfor %}
@@ -396,11 +540,13 @@
     <thead>
       <tr>
         <th>Marche</th>
-        <th>Categorie</th>
+        <th>Cat.</th>
+        <th>Type AO</th>
         <th>Acheteur</th>
+        <th>Geo</th>
         <th>Deadline</th>
         <th>Score</th>
-        <th>Lien</th>
+        <th></th>
       </tr>
     </thead>
     <tbody>
@@ -408,7 +554,9 @@
       <tr data-category="{{ m.category }}">
         <td class="table-title">{{ m.objet | truncate(100) }}</td>
         <td><span class="cat-badge" style="background:{{ m.category_color }}18; color:{{ m.category_color }}; border:1px solid {{ m.category_color }}30">{{ m.category }}</span></td>
-        <td class="table-buyer">{{ m.nomacheteur }} ({{ m.code_departement | join(', ') }})</td>
+        <td style="font-size:11px; color:var(--grey-text)">{{ m.ao_type }}</td>
+        <td class="table-buyer">{{ m.nomacheteur }}</td>
+        <td><span class="geo-label">{{ m.geo_label }}</span></td>
         <td>
           {% if m.days_left <= 7 %}
           <span class="badge badge-deadline-urgent">{{ m.deadline_display }} &bull; J-{{ m.days_left }}</span>
@@ -418,8 +566,13 @@
           <span class="badge badge-deadline-ok">{{ m.deadline_display }} &bull; J-{{ m.days_left }}</span>
           {% endif %}
         </td>
-        <td><span class="badge badge-score-{{ m.score | int }}">{{ m.score | int }}</span></td>
-        <td><a href="{{ m.url_avis }}" target="_blank">Voir &rarr;</a></td>
+        <td><span class="badge badge-score-{{ m.score | int }}">{{ m.score }}</span></td>
+        <td>
+          <div class="table-actions">
+            <button class="relevance-trigger" onclick="showRelevance('{{ m.idweb }}')" title="Resume de pertinence">i</button>
+            <a href="{{ m.url_avis }}" target="_blank">Voir &rarr;</a>
+          </div>
+        </td>
       </tr>
       {% endfor %}
     </tbody>
@@ -429,37 +582,93 @@
 
 </div>
 
+<!-- RELEVANCE POPUP -->
+<div class="relevance-overlay" id="relevance-overlay" onclick="hideRelevance()"></div>
+<div class="relevance-popup" id="relevance-popup">
+  <div class="relevance-popup-header">
+    <h3 id="relevance-title">Resume de pertinence</h3>
+    <button class="relevance-popup-close" onclick="hideRelevance()">&times;</button>
+  </div>
+  <div class="relevance-popup-meta" id="relevance-meta"></div>
+  <ul id="relevance-list"></ul>
+</div>
+
 <script>
 (function() {
+  // ── FILTER BAR ──
   var pills = document.querySelectorAll('.filter-pill');
-  if (!pills.length) return;
-  pills.forEach(function(pill) {
-    pill.addEventListener('click', function() {
-      pills.forEach(function(p) { p.classList.remove('active'); });
-      this.classList.add('active');
-      var cat = this.getAttribute('data-cat');
-      // Filter priority cards
-      var cards = document.querySelectorAll('.prio-card[data-category]');
-      var visibleCards = 0;
-      cards.forEach(function(card) {
-        var show = cat === 'all' || card.getAttribute('data-category') === cat;
-        card.style.display = show ? '' : 'none';
-        if (show) visibleCards++;
+  if (pills.length) {
+    pills.forEach(function(pill) {
+      pill.addEventListener('click', function() {
+        pills.forEach(function(p) { p.classList.remove('active'); });
+        this.classList.add('active');
+        var cat = this.getAttribute('data-cat');
+        var cards = document.querySelectorAll('.prio-card[data-category]');
+        var visibleCards = 0;
+        cards.forEach(function(card) {
+          var show = cat === 'all' || card.getAttribute('data-category') === cat;
+          card.style.display = show ? '' : 'none';
+          if (show) visibleCards++;
+        });
+        var rows = document.querySelectorAll('tr[data-category]');
+        var visibleRows = 0;
+        rows.forEach(function(row) {
+          var show = cat === 'all' || row.getAttribute('data-category') === cat;
+          row.style.display = show ? '' : 'none';
+          if (show) visibleRows++;
+        });
+        var pcb = document.getElementById('priority-count-badge');
+        if (pcb) pcb.textContent = visibleCards + ' resultats';
+        var ocb = document.getElementById('others-count-badge');
+        if (ocb) ocb.textContent = visibleRows + ' resultats';
       });
-      // Filter table rows
-      var rows = document.querySelectorAll('tr[data-category]');
-      var visibleRows = 0;
-      rows.forEach(function(row) {
-        var show = cat === 'all' || row.getAttribute('data-category') === cat;
-        row.style.display = show ? '' : 'none';
-        if (show) visibleRows++;
-      });
-      // Update count badges
-      var pcb = document.getElementById('priority-count-badge');
-      if (pcb) pcb.textContent = visibleCards + ' resultats';
-      var ocb = document.getElementById('others-count-badge');
-      if (ocb) ocb.textContent = visibleRows + ' resultats';
     });
+  }
+
+  // ── RELEVANCE POPUP ──
+  var relevanceData = {{ relevance_data }};
+
+  window.showRelevance = function(idweb) {
+    var data = relevanceData[idweb];
+    if (!data) return;
+
+    document.getElementById('relevance-title').textContent = data.title || 'Resume de pertinence';
+
+    var meta = document.getElementById('relevance-meta');
+    meta.innerHTML = '';
+    if (data.match_pct !== undefined) {
+      var pctSpan = document.createElement('span');
+      pctSpan.className = 'tier-badge tier-' + (data.tier || 'low');
+      pctSpan.textContent = data.match_pct + '% FIT Harington';
+      meta.appendChild(pctSpan);
+    }
+    if (data.ao_type) {
+      var aoSpan = document.createElement('span');
+      aoSpan.className = 'badge badge-score-3';
+      aoSpan.style.textTransform = 'none';
+      aoSpan.textContent = data.ao_type;
+      meta.appendChild(aoSpan);
+    }
+
+    var list = document.getElementById('relevance-list');
+    list.innerHTML = '';
+    (data.bullets || []).forEach(function(b) {
+      var li = document.createElement('li');
+      li.textContent = b;
+      list.appendChild(li);
+    });
+
+    document.getElementById('relevance-overlay').classList.add('active');
+    document.getElementById('relevance-popup').classList.add('active');
+  };
+
+  window.hideRelevance = function() {
+    document.getElementById('relevance-overlay').classList.remove('active');
+    document.getElementById('relevance-popup').classList.remove('active');
+  };
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') hideRelevance();
   });
 })();
 </script>
