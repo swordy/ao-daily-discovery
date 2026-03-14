@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Veille BOAMP IA — {{ report_date_fr }}</title>
+<title>Veille BOAMP — {{ report_date_fr }}</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap">
 <style>
   :root {
@@ -42,36 +42,12 @@
     align-items: center;
     gap: 24px;
   }
-  .header-logo {
-    flex-shrink: 0;
-    margin-right: 8px;
-  }
-  .header-logo img {
-    height: 36px;
-    opacity: 0.92;
-    display: block;
-  }
-  .header-center {
-    flex: 1;
-    min-width: 0;
-  }
-  .header-center h1 {
-    font-size: 26px;
-    font-weight: 200;
-    letter-spacing: -0.5px;
-    color: #ECEEF2;
-    margin-bottom: 3px;
-  }
-  .header-center .subtitle {
-    color: #A0ABBD;
-    font-size: 14px;
-    font-weight: 400;
-  }
-  .header-stats {
-    display: flex;
-    gap: 8px;
-    flex-shrink: 0;
-  }
+  .header-logo { flex-shrink: 0; margin-right: 8px; }
+  .header-logo img { height: 36px; opacity: 0.92; display: block; }
+  .header-center { flex: 1; min-width: 0; }
+  .header-center h1 { font-size: 26px; font-weight: 200; letter-spacing: -0.5px; color: #ECEEF2; margin-bottom: 3px; }
+  .header-center .subtitle { color: #A0ABBD; font-size: 14px; font-weight: 400; }
+  .header-stats { display: flex; gap: 8px; flex-shrink: 0; }
   .h-stat {
     background: rgba(255,255,255,0.1);
     border: 1px solid rgba(255,255,255,0.15);
@@ -80,20 +56,69 @@
     text-align: center;
     min-width: 62px;
   }
-  .h-stat-val {
-    font-size: 22px;
-    font-weight: 200;
-    color: #ECEEF2;
-    line-height: 1;
-    margin-bottom: 3px;
+  .h-stat-val { font-size: 22px; font-weight: 200; color: #ECEEF2; line-height: 1; margin-bottom: 3px; }
+  .h-stat-lbl { font-size: 10px; font-weight: 500; color: #A0ABBD; text-transform: uppercase; letter-spacing: 0.6px; white-space: nowrap; }
+
+  /* ── FILTER BAR ── */
+  .filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    padding: 12px 16px;
+    background: var(--white);
+    border-radius: 7px;
+    border: 1px solid var(--divider);
   }
-  .h-stat-lbl {
-    font-size: 10px;
-    font-weight: 500;
-    color: #A0ABBD;
+  .filter-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--navy);
     text-transform: uppercase;
-    letter-spacing: 0.6px;
-    white-space: nowrap;
+    letter-spacing: 0.5px;
+    margin-right: 4px;
+  }
+  .filter-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--divider);
+    background: var(--bg);
+    color: var(--navy);
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    font-family: inherit;
+    user-select: none;
+  }
+  .filter-pill:hover { background: var(--bg-alt); border-color: var(--navy-light); }
+  .filter-pill.active { background: var(--navy); color: var(--white); border-color: var(--navy); }
+  .pill-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
+  .filter-pill.active .pill-dot { box-shadow: 0 0 0 1px rgba(255,255,255,0.4); }
+  .pill-count {
+    font-size: 10px;
+    font-weight: 600;
+    background: rgba(0,0,0,0.08);
+    padding: 1px 6px;
+    border-radius: 8px;
+    min-width: 18px;
+    text-align: center;
+  }
+  .filter-pill.active .pill-count { background: rgba(255,255,255,0.2); }
+
+  /* ── CATEGORY BADGE ── */
+  .cat-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
   }
 
   /* ── SECTIONS ── */
@@ -119,6 +144,7 @@
     display: flex;
     flex-direction: column;
   }
+  .prio-card.promoted { border-left: 3px solid var(--card); }
   .prio-title { font-size: 14px; font-weight: 600; color: var(--navy); line-height: 1.35; margin-bottom: 4px; }
   .prio-buyer { color: var(--navy-light); font-size: 12px; font-weight: 400; margin-bottom: 8px; }
   .prio-desc { color: var(--grey-text); font-size: 12px; font-weight: 400; line-height: 1.5; font-style: italic; margin-bottom: 10px; flex: 1; }
@@ -136,10 +162,12 @@
   .hl-score-5 { background: var(--navy); color: #ECEEF2; }
   .hl-score-4 { background: var(--navy-light); color: #ECEEF2; }
   .hl-score-3 { background: var(--card); color: var(--navy-mid); }
+  .hl-score-2 { background: var(--card); color: var(--grey-text); }
   .hl-budget { background: rgba(27,42,74,0.08); color: var(--navy); font-weight: 500; }
   .hl-deadline-urgent { background: #D44638; color: #FFFFFF; }
   .hl-deadline-soon  { background: #C9A84C; color: #FFFFFF; }
   .hl-deadline-ok    { background: #3A6B4A; color: #FFFFFF; }
+  .hl-promoted { background: var(--bg-alt); color: var(--grey-text); font-weight: 500; font-style: italic; }
 
   .prio-see {
     font-size: 11px;
@@ -211,7 +239,7 @@
   }
   .market-table tr:hover td { background: #F4F5F8; }
   .market-table tr:last-child td { border-bottom: none; }
-  .table-title { font-weight: 500; max-width: 340px; }
+  .table-title { font-weight: 500; max-width: 300px; }
   .table-buyer { color: var(--grey-text); font-weight: 400; }
 
   /* ── RESPONSIVE ── */
@@ -222,6 +250,7 @@
     .header-center { flex-basis: 100%; order: 1; }
     .header-stats { order: 2; flex-wrap: wrap; }
     .priority-grid { grid-template-columns: 1fr; }
+    .filter-bar { padding: 10px 12px; }
   }
 
   /* ── PRINT ── */
@@ -234,6 +263,7 @@
     .h-stat { padding: 6px 10px; min-width: 54px; }
     .h-stat-val { font-size: 18px; }
     .h-stat-lbl { font-size: 7px; }
+    .filter-bar { display: none; }
     .section { margin-bottom: 16px; }
     .section-header { margin-bottom: 8px; break-after: avoid; }
     .section-header h2 { font-size: 15px; break-after: avoid; }
@@ -245,6 +275,7 @@
     .hl-badge { font-size: 9px; padding: 2px 7px; }
     .prio-see { font-size: 8px; }
     .meta-tag { font-size: 8px; }
+    .cat-badge { font-size: 8px; padding: 2px 6px; }
     .prio-match { margin-top: 6px; padding-top: 6px; }
     .match-pct { font-size: 18px; }
     .match-detail { font-size: 8px; }
@@ -257,14 +288,14 @@
 </head>
 <body>
 
-<!-- HEADER : logo gauche + titre centre + stats droite -->
+<!-- HEADER -->
 <div class="header">
   <div class="header-logo">
     <img src="https://harington.fr/wp-content/uploads/2024/10/Logo-Harington-Blanc-sans-fond.png" alt="Harington">
   </div>
   <div class="header-center">
-    <h1>Veille Marches Publics IA</h1>
-    <div class="subtitle">Scan automatique BOAMP &bull; Positionnement agentique / dev factory IA</div>
+    <h1>Veille Marches Publics</h1>
+    <div class="subtitle">Scan automatique BOAMP &bull; IA &bull; Digital &bull; Impact &bull; Cyber &bull; CDS &bull; CDC</div>
   </div>
   <div class="header-stats">
     <div class="h-stat">
@@ -288,22 +319,40 @@
 
 <div class="container">
 
+<!-- FILTER BAR -->
+{% if category_filters %}
+<div class="filter-bar">
+  <span class="filter-label">Filtrer</span>
+  <button class="filter-pill active" data-cat="all">Tous<span class="pill-count">{{ total_markets }}</span></button>
+  {% for cat in category_filters %}
+  <button class="filter-pill" data-cat="{{ cat.name }}">
+    <span class="pill-dot" style="background:{{ cat.color }}"></span>{{ cat.label }}<span class="pill-count">{{ cat.count }}</span>
+  </button>
+  {% endfor %}
+</div>
+{% endif %}
+
 <!-- PRIORITAIRES -->
-<div class="section">
+<div class="section" id="section-priority">
   <div class="section-header">
     <h2>Marches Prioritaires</h2>
-    <span class="count-badge">{{ priority_count }} resultats</span>
+    <span class="count-badge" id="priority-count-badge">{{ priority_count }} resultats</span>
   </div>
 
   {% if priority_markets %}
   <div class="priority-grid">
     {% for m in priority_markets %}
-    <div class="prio-card">
+    <div class="prio-card{% if m.promoted %} promoted{% endif %}" data-category="{{ m.category }}">
       <div class="prio-title">{{ m.objet | truncate(90) }}</div>
       <div class="prio-buyer">{{ m.nomacheteur }} &bull; {{ m.code_departement | join(', ') }}</div>
       <div class="prio-desc">{{ m.description_short }}</div>
       <div class="prio-actions">
+        <span class="cat-badge" style="background:{{ m.category_color }}18; color:{{ m.category_color }}; border:1px solid {{ m.category_color }}30">{{ m.category }}</span>
+        {% if m.promoted %}
+        <span class="hl-badge hl-promoted">Top 4</span>
+        {% else %}
         <span class="hl-badge hl-score-{{ m.score | int }}">Score {{ m.score | int }}</span>
+        {% endif %}
         {% if m.days_left <= 7 %}
         <span class="hl-badge hl-deadline-urgent">J-{{ m.days_left }}</span>
         {% elif m.days_left <= 20 %}
@@ -337,16 +386,17 @@
 
 <!-- AUTRES MARCHES -->
 {% if other_markets %}
-<div class="section">
+<div class="section" id="section-others">
   <div class="section-header">
     <h2>Autres Marches</h2>
-    <span class="count-badge">{{ other_markets | length }} resultats</span>
+    <span class="count-badge" id="others-count-badge">{{ other_markets | length }} resultats</span>
   </div>
 
   <table class="market-table">
     <thead>
       <tr>
         <th>Marche</th>
+        <th>Categorie</th>
         <th>Acheteur</th>
         <th>Deadline</th>
         <th>Score</th>
@@ -355,8 +405,9 @@
     </thead>
     <tbody>
       {% for m in other_markets %}
-      <tr>
+      <tr data-category="{{ m.category }}">
         <td class="table-title">{{ m.objet | truncate(100) }}</td>
+        <td><span class="cat-badge" style="background:{{ m.category_color }}18; color:{{ m.category_color }}; border:1px solid {{ m.category_color }}30">{{ m.category }}</span></td>
         <td class="table-buyer">{{ m.nomacheteur }} ({{ m.code_departement | join(', ') }})</td>
         <td>
           {% if m.days_left <= 7 %}
@@ -377,6 +428,41 @@
 {% endif %}
 
 </div>
+
+<script>
+(function() {
+  var pills = document.querySelectorAll('.filter-pill');
+  if (!pills.length) return;
+  pills.forEach(function(pill) {
+    pill.addEventListener('click', function() {
+      pills.forEach(function(p) { p.classList.remove('active'); });
+      this.classList.add('active');
+      var cat = this.getAttribute('data-cat');
+      // Filter priority cards
+      var cards = document.querySelectorAll('.prio-card[data-category]');
+      var visibleCards = 0;
+      cards.forEach(function(card) {
+        var show = cat === 'all' || card.getAttribute('data-category') === cat;
+        card.style.display = show ? '' : 'none';
+        if (show) visibleCards++;
+      });
+      // Filter table rows
+      var rows = document.querySelectorAll('tr[data-category]');
+      var visibleRows = 0;
+      rows.forEach(function(row) {
+        var show = cat === 'all' || row.getAttribute('data-category') === cat;
+        row.style.display = show ? '' : 'none';
+        if (show) visibleRows++;
+      });
+      // Update count badges
+      var pcb = document.getElementById('priority-count-badge');
+      if (pcb) pcb.textContent = visibleCards + ' resultats';
+      var ocb = document.getElementById('others-count-badge');
+      if (ocb) ocb.textContent = visibleRows + ' resultats';
+    });
+  });
+})();
+</script>
 
 </body>
 </html>

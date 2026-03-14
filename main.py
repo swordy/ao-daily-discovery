@@ -1,10 +1,10 @@
-"""BOAMP IA Watch — Daily pipeline orchestrator."""
+"""BOAMP Watch — Daily pipeline orchestrator."""
 
 import sys
 from datetime import date
 from pathlib import Path
 
-from src.boamp_api import fetch_all_markets
+from src.boamp_api import fetch_all_markets, load_config
 from src.scorer import score_all_markets
 from src.html_report import generate_report
 from src.mailer import send_report
@@ -16,9 +16,15 @@ def main() -> int:
     output_dir.mkdir(exist_ok=True)
     output_path = str(output_dir / f"boamp-{today}.html")
 
+    # 0. Load config
+    config = load_config()
+    cat_count = len(config.get("categories", {}))
+    query_count = sum(len(c.get("queries", [])) for c in config.get("categories", {}).values())
+    print(f"[0/4] Config loaded: {cat_count} categories, {query_count} queries")
+
     # 1. Fetch markets
-    print(f"[1/4] Fetching BOAMP markets...")
-    markets = fetch_all_markets()
+    print("[1/4] Fetching BOAMP markets...")
+    markets = fetch_all_markets(config)
     print(f"       Found {len(markets)} unique markets")
 
     if not markets:
@@ -26,25 +32,26 @@ def main() -> int:
         return 0
 
     # 2. Score markets
-    print(f"[2/4] Scoring markets...")
-    scored = score_all_markets(markets)
+    print("[2/4] Scoring markets...")
+    scored = score_all_markets(markets, config)
     priority = [m for m in scored if m.get("score", 0) >= 4]
     print(f"       {len(priority)} priority markets (score >= 4/5)")
 
-    # 3. Generate HTML report
-    print(f"[3/4] Generating HTML report...")
-    report_path = generate_report(scored, output_path)
-    print(f"       Report saved to {report_path}")
+    # 3. Generate HTML report (with top-4 fallback)
+    print("[3/4] Generating HTML report...")
+    result = generate_report(scored, output_path, config)
+    print(f"       Report saved to {result['path']}")
+    print(f"       {result['priority_count']} displayed as priority (top-4 fallback)")
 
     # 4. Send email
-    print(f"[4/4] Sending email...")
+    print("[4/4] Sending email...")
     try:
-        send_report(report_path, len(priority), len(scored))
+        send_report(result["path"], result["priority_count"], result["total_count"])
     except Exception as e:
         print(f"[WARN] Email not sent: {e}")
         print("       Check GMAIL_ADDRESS and GMAIL_APP_PASSWORD secrets.")
 
-    print(f"\n[DONE] Pipeline complete. {len(priority)} priority / {len(scored)} total markets.")
+    print(f"\n[DONE] Pipeline complete. {result['priority_count']} priority / {result['total_count']} total markets.")
     return 0
 
 

@@ -1,0 +1,130 @@
+{
+  "categories": {
+    "IA": {
+      "label": "IA",
+      "color": "#7C3AED",
+      "queries": [
+        ["intelligence artificielle", "services numériques"],
+        ["IA", "agentique", "développement"],
+        ["LLM", "chatbot", "plateforme IA"],
+        ["GenAI", "IA générative"],
+        ["conseil IA", "stratégie IA", "gouvernance IA"],
+        ["factory agentique", "vibe coding"],
+        ["data science", "machine learning"],
+        ["RAG", "fine-tuning", "prompt"]
+      ],
+      "keywords": [
+        "intelligence artificielle", "ia", "machine learning", "deep learning",
+        "llm", "chatbot", "nlp", "traitement du langage", "générative",
+        "genai", "gpt", "data science", "modèle", "algorithme", "agentique",
+        "orchestration", "rag", "fine-tuning", "prompt", "vibe coding"
+      ]
+    },
+    "Digital": {
+      "label": "Digital",
+      "color": "#1D4ED8",
+      "queries": [
+        ["développement logiciel", "services numériques"],
+        ["Java", ".Net", "C#", "spring"],
+        ["React", "Angular", "Python"],
+        ["microservices", "refonte", "migration"],
+        ["usine logicielle", "dev factory"],
+        ["devops", "CI/CD"],
+        ["migration BI", "migration reporting"],
+        ["migration code", "refonte monolithe"]
+      ],
+      "keywords": [
+        "développement", "logiciel", "java", ".net", "c#", "spring",
+        "react", "angular", "python", "typescript", "node",
+        "microservices", "api", "rest", "graphql", "docker", "kubernetes",
+        "devops", "ci/cd", "usine logicielle", "factory",
+        "migration", "refonte", "monolithe", "qa", "tests fonctionnels"
+      ]
+    },
+    "Impact": {
+      "label": "Impact",
+      "color": "#059669",
+      "queries": [
+        ["RSE", "responsabilité sociétale"],
+        ["développement durable", "numérique responsable"],
+        ["audit carbone", "bilan carbone"],
+        ["éco-conception", "Green IT"],
+        ["conformité NIS2", "AI Act", "RGPD"],
+        ["PCA", "PRA", "continuité d'activité"],
+        ["achats responsables", "reporting extra-financier"],
+        ["EcoVadis", "ISO 42001"]
+      ],
+      "keywords": [
+        "rse", "responsabilité sociétale", "développement durable",
+        "bilan carbone", "audit carbone", "décarbonisation", "ecovadis",
+        "iso 42001", "éco-conception", "green it", "numérique responsable",
+        "nis2", "ai act", "rgpd", "pca", "pra",
+        "continuité d'activité", "achats responsables"
+      ]
+    },
+    "Cyber": {
+      "label": "Cyber",
+      "color": "#DC2626",
+      "queries": [
+        ["cybersécurité", "sécurité informatique"],
+        ["sécurité SI", "sécurité des systèmes"],
+        ["audit de sécurité", "pentest"],
+        ["SOC", "SIEM", "IAM"],
+        ["conformité NIS2", "ISO 27001"]
+      ],
+      "keywords": [
+        "cybersécurité", "sécurité informatique", "sécurité si",
+        "pentest", "tests d'intrusion", "soc", "siem", "iam",
+        "gestion des identités", "nis2", "iso 27001", "audit de sécurité"
+      ]
+    },
+    "CDS": {
+      "label": "CDS",
+      "color": "#D97706",
+      "queries": [
+        ["centre de services", "informatique"],
+        ["centres de services", "numérique"],
+        ["nearshore", "offshore"],
+        ["TMA", "tierce maintenance applicative"],
+        ["forfait", "régie", "prestation informatique"]
+      ],
+      "keywords": [
+        "centre de services", "centres de services", "nearshore",
+        "offshore", "onshore", "tma", "tierce maintenance",
+        "forfait", "régie"
+      ]
+    },
+    "CDC": {
+      "label": "CDC",
+      "color": "#6366F1",
+      "queries": [
+        ["centre de compétences", "informatique"],
+        ["consulting IT", "conseil informatique"],
+        ["audit SI", "urbanisation SI", "architecture SI"],
+        ["PMO", "chef de projet", "MOA"]
+      ],
+      "keywords": [
+        "centre de compétences", "consulting", "conseil informatique",
+        "audit si", "urbanisation si", "architecture si", "pmo",
+        "chef de projet", "moa", "business analyste"
+      ]
+    }
+  },
+  "scoring": {
+    "weights": {
+      "relevance": 0.35,
+      "stack": 0.15,
+      "deadline": 0.20,
+      "budget": 0.15,
+      "geo": 0.15
+    },
+    "budget_unknown_score": 3,
+    "min_priority_display": 4
+  },
+  "api": {
+    "market_type": "SERVICES",
+    "limit_per_query": 20,
+    "max_workers": 12
+  },
+  "departments_idf": ["75", "77", "78", "91", "92", "93", "94", "95"]
+}

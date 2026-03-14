@@ -1,21 +1,20 @@
-"""Client API BOAMP — OpenDataSoft public endpoint."""
+"""Client API BOAMP — OpenDataSoft public endpoint, config-driven."""
 
+import json
 import requests
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date
+from pathlib import Path
 
 BASE_URL = "https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records"
+CONFIG_PATH = Path(__file__).parent.parent / "config.json"
 
-SEARCH_QUERIES = [
-    ["intelligence artificielle", "services numériques"],
-    ["IA", "agentique", "développement"],
-    ["LLM", "chatbot", "plateforme IA"],
-    ["innovation numérique", "data", "IA"],
-    ["usine logicielle", "dev factory", "IA"],
-    ["centre de service", "centre de compétences", "développement logiciel"],
-    [".Net", "C#", "Java", "spring"],
-    ["React", "Angular", "Python"],
-]
+
+def load_config(path: str | Path | None = None) -> dict:
+    """Load configuration from JSON file."""
+    p = Path(path) if path else CONFIG_PATH
+    with open(p, encoding="utf-8") as f:
+        return json.load(f)
 
 
 def _build_where(keywords: list[str], today: str, departments: list[str] | None = None) -> str:
@@ -74,21 +73,46 @@ def get_market_details(idweb: str) -> dict | None:
         return None
 
 
-def fetch_all_markets() -> list[dict]:
-    """Run all 8 search queries in parallel, deduplicate by idweb."""
-    all_markets = []
-    with ThreadPoolExecutor(max_workers=8) as executor:
-        futures = [executor.submit(search_markets, q) for q in SEARCH_QUERIES]
-        for f in futures:
-            all_markets.extend(f.result())
+def fetch_all_markets(config: dict | None = None) -> list[dict]:
+    """Run all search queries from config in parallel, deduplicate by idweb."""
+    if config is None:
+        config = load_config()
 
-    # Deduplicate by idweb
-    seen = set()
-    unique = []
-    for m in all_markets:
-        idweb = m.get("idweb")
-        if idweb and idweb not in seen:
-            seen.add(idweb)
-            unique.append(m)
+    categories = config.get("categories", {})
+    api_cfg = config.get("api", {})
+    market_type = api_cfg.get("market_type", "SERVICES")
+    limit = api_cfg.get("limit_per_query", 20)
+    max_workers = api_cfg.get("max_workers", 12)
 
-    return unique
+    # Build list of (category_name, keywords) tasks
+    tasks = []
+    for cat_name, cat_data in categories.items():
+        for query_keywords in cat_data.get("queries", []):
+            tasks.append((cat_name, query_keywords))
+
+    # Execute all queries in parallel
+    results_by_task = []
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = [
+            (cat_name, executor.submit(search_markets, kws, market_type, limit))
+            for cat_name, kws in tasks
+        ]
+        for cat_name, future in futures:
+            for market in future.result():
+                results_by_task.append((cat_name, market))
+
+    # Deduplicate by idweb, tracking source categories
+    seen: dict[str, dict] = {}
+    for cat_name, market in results_by_task:
+        idweb = market.get("idweb")
+        if not idweb:
+            continue
+        if idweb not in seen:
+            market["_source_categories"] = [cat_name]
+            seen[idweb] = market
+        else:
+            cats = seen[idweb].get("_source_categories", [])
+            if cat_name not in cats:
+                cats.append(cat_name)
+
+    return list(seen.values())
