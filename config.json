@@ -341,8 +341,8 @@
       "budget": 0.10
     },
     "harington_match_sub_weights": {
-      "tech_stack": 0.55,
-      "product_match": 0.45
+      "tech_stack": 0.80,
+      "product_match": 0.20
     },
     "budget_unknown_score": 3,
     "min_priority_display": 4,

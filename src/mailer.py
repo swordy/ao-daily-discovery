@@ -40,10 +40,10 @@ def send_report(
 
     today = date.today()
     date_str = f"{today.day} {MONTHS_FR[today.month]} {today.year}"
-    subject = f"[Harington] Veille BOAMP — {date_str} · {priority_count} opportunités prioritaires"
+    subject = f"[Harry Veille] AO publics — {date_str} · {priority_count} opportunités prioritaires"
 
     msg = MIMEMultipart()
-    msg["From"] = f"BOAMP Watch <{sender}>"
+    msg["From"] = f"Harry Veille <{sender}>"
     msg["To"] = ", ".join(recipients)
     msg["Subject"] = subject
 
@@ -54,7 +54,7 @@ def send_report(
         f"- {priority_count} marchés prioritaires identifiés\n"
         f"- {total_count} marchés analysés au total\n\n"
         f"Bonne journée,\n"
-        f"Harington Watch"
+        f"Harry Veille"
     )
     msg.attach(MIMEText(body, "plain", "utf-8"))
 

@@ -1,4 +1,4 @@
-"""BOAMP Watch — Daily pipeline orchestrator."""
+"""Harry Veille — AO publics — Daily pipeline orchestrator."""
 
 import sys
 from datetime import date

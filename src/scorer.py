@@ -448,8 +448,8 @@ def score_market(market: dict, config: dict) -> dict | None:
     )
 
     harington_match = (
-        tech_score * sub_weights.get("tech_stack", 0.55)
-        + product_score * sub_weights.get("product_match", 0.45)
+        tech_score * sub_weights.get("tech_stack", 0.80)
+        + product_score * sub_weights.get("product_match", 0.20)
     )
 
     # ── 2. AO LEGITIMACY (30%) ──
