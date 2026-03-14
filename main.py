@@ -42,7 +42,7 @@ def main() -> int:
         send_report(report_path, len(priority), len(scored))
     except RuntimeError as e:
         print(f"[WARN] Email not sent: {e}")
-        print("       Set OUTLOOK_EMAIL and OUTLOOK_PASSWORD to enable email.")
+        print("       Set RESEND_API_KEY to enable email.")
 
     print(f"\n[DONE] Pipeline complete. {len(priority)} priority / {len(scored)} total markets.")
     return 0

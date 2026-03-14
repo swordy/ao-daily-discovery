@@ -24,8 +24,8 @@ jobs:
 
       - name: Run BOAMP scan
         env:
-          OUTLOOK_EMAIL: ${{ secrets.OUTLOOK_EMAIL }}
-          OUTLOOK_PASSWORD: ${{ secrets.OUTLOOK_PASSWORD }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_FROM: ${{ secrets.RESEND_FROM }}
         run: python main.py
 
       - name: Upload report artifact
