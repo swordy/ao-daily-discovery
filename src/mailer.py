@@ -8,7 +8,7 @@ from pathlib import Path
 import requests
 
 RESEND_API_URL = "https://api.resend.com/emails"
-RECIPIENT = "smeddeb@harington.fr"
+RECIPIENT = "seif.meddeb@gmail.com"
 
 MONTHS_FR = {1: "janvier", 2: "février", 3: "mars", 4: "avril", 5: "mai", 6: "juin",
              7: "juillet", 8: "août", 9: "septembre", 10: "octobre", 11: "novembre", 12: "décembre"}
