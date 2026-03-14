@@ -126,6 +126,16 @@ def _best_category(text: str, categories: dict) -> tuple[str, int, list[str]]:
 
 # ── HARINGTON MATCH SUB-CRITERIA ──
 
+def _term_in_text(term: str, text: str) -> bool:
+    """Check if a term appears in text as a whole word (not substring).
+    Uses word boundary matching for short terms to avoid false positives
+    like 'ssis' matching inside 'assistance'.
+    """
+    if len(term) <= 5:
+        return bool(re.search(r'(?<![a-zà-ÿ])' + re.escape(term) + r'(?![a-zà-ÿ])', text))
+    return term in text
+
+
 def _score_tech_stack(text: str, tech_stack: dict) -> tuple[float, list[str]]:
     """Score tech stack match. Returns (score_1_5, matched_terms)."""
     all_techs = []
@@ -136,20 +146,20 @@ def _score_tech_stack(text: str, tech_stack: dict) -> tuple[float, list[str]]:
     seen = set()
     for t in all_techs:
         tl = t.lower()
-        if tl in text and tl not in seen:
+        if _term_in_text(tl, text) and tl not in seen:
             matched.append(t)
             seen.add(tl)
 
     count = len(matched)
-    # Thresholds adapted for BOAMP: AOs rarely mention specific tech
-    if count >= 6:
+    # Dev/TMA is Harington's DNA — even 1 core tech (Java, .Net, Python) is a strong signal
+    if count >= 5:
         score = 5
-    elif count >= 4:
+    elif count >= 3:
         score = 4
     elif count >= 2:
-        score = 3
+        score = 3.5
     elif count >= 1:
-        score = 2
+        score = 3
     else:
         score = 1
 
@@ -427,17 +437,19 @@ def score_market(market: dict, config: dict) -> dict | None:
         if sc not in matching_cats:
             matching_cats.append(sc)
 
-    # ── 1. HARINGTON MATCH (60%) ──
+    # ── 1. HARINGTON MATCH (50%) — tech_stack + product_match only ──
+    # REX sectoriel is informational only, NOT part of scoring
     tech_score, matched_tech = _score_tech_stack(text, portfolio.get("tech_stack", {}))
     product_score, matched_products = _score_product_match(text, portfolio.get("products", {}))
-    rex_score, matched_rex = _score_rex_sector(
+
+    # REX: computed for display/relevance summary only, NOT scored
+    _, matched_rex = _score_rex_sector(
         text, portfolio.get("rex", []), portfolio.get("sectors", [])
     )
 
     harington_match = (
-        tech_score * sub_weights.get("tech_stack", 0.30)
-        + product_score * sub_weights.get("product_match", 0.40)
-        + rex_score * sub_weights.get("rex_sector", 0.30)
+        tech_score * sub_weights.get("tech_stack", 0.55)
+        + product_score * sub_weights.get("product_match", 0.45)
     )
 
     # ── 2. AO LEGITIMACY (30%) ──
@@ -447,14 +459,15 @@ def score_market(market: dict, config: dict) -> dict | None:
 
     # ── SYNERGY BONUS ──
     # When product match + high legitimacy combine, boost the harington_match
-    # This rewards AOs where Harington has BOTH a product AND a legitimate AO type
     synergy_bonus = 0.0
     if product_score >= 3 and ao_legitimacy_raw >= 4:
-        synergy_bonus = 0.8  # Strong synergy
+        synergy_bonus = 0.8  # Strong synergy: product + legit AO type
     elif product_score >= 2 and ao_legitimacy_raw >= 4:
-        synergy_bonus = 0.4  # Moderate synergy
-    elif matched_rex and ao_legitimacy_raw >= 3:
-        synergy_bonus = 0.4  # REX + legitimate AO type
+        synergy_bonus = 0.5  # Moderate synergy
+    elif tech_score >= 3 and ao_legitimacy_raw >= 5:
+        synergy_bonus = 0.6  # Core tech + top legit (TMA, CDS, Migration)
+    elif tech_score >= 3 and ao_legitimacy_raw >= 4:
+        synergy_bonus = 0.4  # Core tech + good legit
     harington_match = min(5.0, harington_match + synergy_bonus)
 
     # ── 3. DEADLINE (10%) ──
@@ -487,15 +500,15 @@ def score_market(market: dict, config: dict) -> dict | None:
     else:
         tier = "low"
 
-    # Match detail: prioritize products > REX > tech
+    # Match detail: prioritize tech > products > REX (dev is DNA)
     detail_parts = []
+    for t in matched_tech[:4]:
+        detail_parts.append(t.title())
     for p in matched_products[:2]:
         detail_parts.append(p["label"])
-    for r in matched_rex[:2]:
+    for r in matched_rex[:1]:
         detail_parts.append(f"REX {r['label']}")
-    for t in matched_tech[:3]:
-        detail_parts.append(t.title())
-    match_detail = " · ".join(detail_parts[:5]) if detail_parts else "Pertinence faible"
+    match_detail = " · ".join(detail_parts[:6]) if detail_parts else "Pertinence faible"
 
     # Relevance summary (7-10 bullets)
     relevance_summary = _generate_relevance_summary(
@@ -528,7 +541,6 @@ def score_market(market: dict, config: dict) -> dict | None:
             "harington_sub": {
                 "tech_stack": tech_score,
                 "product_match": product_score,
-                "rex_sector": rex_score,
             },
             "ao_legitimacy": legitimacy_score,
             "deadline": dl_score,
