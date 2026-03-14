@@ -626,7 +626,7 @@
   }
 
   // ── RELEVANCE POPUP ──
-  var relevanceData = {{ relevance_data }};
+  var relevanceData = {{ relevance_data | safe }};
 
   window.showRelevance = function(idweb) {
     var data = relevanceData[idweb];
