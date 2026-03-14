@@ -40,9 +40,9 @@ def main() -> int:
     print(f"[4/4] Sending email...")
     try:
         send_report(report_path, len(priority), len(scored))
-    except RuntimeError as e:
+    except Exception as e:
         print(f"[WARN] Email not sent: {e}")
-        print("       Set RESEND_API_KEY to enable email.")
+        print("       Check RESEND_API_KEY and RESEND_FROM secrets.")
 
     print(f"\n[DONE] Pipeline complete. {len(priority)} priority / {len(scored)} total markets.")
     return 0

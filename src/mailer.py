@@ -72,5 +72,4 @@ def send_report(
     if resp.status_code == 200:
         print(f"[OK] Email sent to {RECIPIENT} via Resend")
     else:
-        print(f"[ERROR] Resend API returned {resp.status_code}: {resp.text}")
-        resp.raise_for_status()
+        raise RuntimeError(f"Resend API {resp.status_code}: {resp.text}")
