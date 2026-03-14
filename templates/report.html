@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veille BOAMP IA — {{ report_date }}</title>
+<style>
+  :root {
+    --bg:        #EFF1F5;
+    --bg-alt:    #E4E6EC;
+    --card:      #D8DCE3;
+    --navy:      #0F1D33;
+    --navy-mid:  #1B2A4A;
+    --navy-light:#354A6B;
+    --grey-text: #4A5568;
+    --divider:   #D5D8DE;
+    --white:     #FFFFFF;
+    --green:     #0B7A3E;
+    --green-bg:  #E6F4EE;
+    --orange:    #B45309;
+    --orange-bg: #FEF3C7;
+    --red:       #B91C1C;
+    --red-bg:    #FEE2E2;
+    --blue:      #1D4ED8;
+    --blue-bg:   #EFF6FF;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    background: var(--bg);
+    color: var(--navy);
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .header {
+    background: var(--navy);
+    color: var(--white);
+    padding: 18px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .header-left { display: flex; align-items: center; gap: 16px; flex-shrink: 0; }
+  .header-left img { display: block; }
+  .header-title { font-size: 16px; font-weight: 600; }
+  .header-date { font-size: 11px; font-weight: 400; opacity: 0.7; margin-top: 2px; }
+  .header-stats { display: flex; gap: 10px; }
+  .stat-box {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 6px;
+    padding: 10px 16px;
+    text-align: center;
+    min-width: 72px;
+  }
+  .stat-num { font-size: 22px; font-weight: 700; line-height: 1; }
+  .stat-lbl { font-size: 10px; font-weight: 500; opacity: 0.7; margin-top: 3px; text-transform: uppercase; letter-spacing: 0.04em; }
+
+  .main { padding: 24px 28px; }
+  h2 {
+    font-size: 20px; font-weight: 400; color: var(--navy);
+    margin-bottom: 14px; padding-bottom: 8px; border-bottom: 2px solid var(--navy);
+  }
+  h2 span { font-size: 12px; font-weight: 500; color: var(--grey-text); margin-left: 10px; vertical-align: middle; }
+
+  .priority-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-bottom: 32px; }
+  .prio-card {
+    background: var(--white); border-radius: 8px; border: 1px solid var(--divider);
+    padding: 16px 18px; display: flex; flex-direction: column; gap: 8px;
+  }
+  .prio-card-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+  .prio-card-title { font-size: 14px; font-weight: 600; color: var(--navy); line-height: 1.35; flex: 1; }
+  .score-badge {
+    flex-shrink: 0; width: 40px; height: 40px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px; font-weight: 700; color: var(--white);
+  }
+  .score-5 { background: #0B7A3E; }
+  .score-4 { background: #1D6FA4; }
+  .score-3 { background: #B45309; }
+  .score-2 { background: #6B7280; }
+
+  .acheteur { font-size: 12px; font-weight: 400; color: var(--grey-text); }
+  .description { font-size: 12px; font-weight: 400; color: var(--navy); line-height: 1.5; }
+  .badges-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 2px; }
+  .hl-badge { font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 4px; }
+  .hl-urgent   { background: var(--red-bg);    color: var(--red); }
+  .hl-deadline { background: var(--orange-bg);  color: var(--orange); }
+  .hl-budget   { background: var(--green-bg);   color: var(--green); }
+  .hl-idf      { background: var(--blue-bg);    color: var(--blue); }
+  .hl-region   { background: var(--bg-alt);     color: var(--navy); }
+  .voir-link { font-size: 11px; font-weight: 600; color: var(--blue); text-decoration: none; margin-left: auto; }
+  .voir-link:hover { text-decoration: underline; }
+  .divider { border: none; border-top: 1px solid var(--divider); margin: 2px 0; }
+  .meta-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+  .meta-tag { background: var(--bg-alt); color: var(--navy); font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 3px; }
+  .match-row { display: flex; align-items: center; gap: 6px; margin-top: 2px; }
+  .match-bar-wrap { flex: 1; height: 5px; background: var(--bg-alt); border-radius: 3px; overflow: hidden; }
+  .match-bar { height: 100%; border-radius: 3px; background: var(--navy); }
+  .match-pct { font-size: 11px; font-weight: 600; color: var(--navy); min-width: 32px; text-align: right; }
+  .match-detail { font-size: 11px; font-weight: 400; color: var(--grey-text); flex: 1; }
+  .count-badge { background: var(--card); color: var(--navy); font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 10px; }
+
+  .table-wrap { background: var(--white); border-radius: 8px; border: 1px solid var(--divider); overflow: hidden; margin-bottom: 16px; }
+  table { width: 100%; border-collapse: collapse; }
+  thead tr { background: var(--navy); color: var(--white); }
+  th { font-size: 11px; font-weight: 600; padding: 10px 12px; text-align: left; text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; }
+  td { font-size: 13px; font-weight: 400; padding: 10px 12px; border-bottom: 1px solid var(--divider); color: var(--navy); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  td.objet { max-width: 280px; }
+  td a { color: var(--blue); text-decoration: none; font-size: 11px; font-weight: 600; }
+  td a:hover { text-decoration: underline; }
+  .tbl-badge { font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 3px; white-space: nowrap; display: inline-block; }
+  .tbl-score-high { background: var(--orange-bg); color: var(--orange); }
+  .tbl-score-low  { background: var(--bg-alt);    color: var(--grey-text); }
+  .deadline-near { color: var(--red); font-weight: 600; }
+  .deadline-ok   { color: var(--green); }
+
+  @media print {
+    body { background: white; }
+    .priority-grid { display: grid; grid-template-columns: repeat(2, 1fr); }
+    .prio-card { break-inside: avoid; page-break-inside: avoid; }
+    .market-table { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-left">
+    <img src="https://harington.fr/wp-content/uploads/2024/10/Logo-Harington-Blanc-sans-fond.png" height="22" alt="Harington">
+    <div>
+      <div class="header-title">Veille BOAMP — Marchés Publics IA</div>
+      <div class="header-date">Rapport du {{ report_date_fr }} · Généré automatiquement</div>
+    </div>
+  </div>
+  <div class="header-stats">
+    <div class="stat-box">
+      <div class="stat-num">{{ total_markets }}</div>
+      <div class="stat-lbl">Marchés</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num">{{ priority_count }}</div>
+      <div class="stat-lbl">Prioritaires</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num">{{ urgent_count }}</div>
+      <div class="stat-lbl">Urgent &lt;7j</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num">{{ total_budget_display }}</div>
+      <div class="stat-lbl">Budget total</div>
+    </div>
+  </div>
+</header>
+
+<main class="main">
+
+  <h2>Marchés Prioritaires <span><span class="count-badge">{{ priority_count }} opportunités score ≥ 4/5</span></span></h2>
+
+  {% if priority_markets %}
+  <div class="priority-grid">
+    {% for m in priority_markets %}
+    <div class="prio-card">
+      <div class="prio-card-header">
+        <div class="prio-card-title">{{ m.objet | truncate(80) }}</div>
+        <div class="score-badge score-{{ m.score | int }}">{{ m.score }}</div>
+      </div>
+      <div class="acheteur">{{ m.nomacheteur }} · {{ m.code_departement | join(', ') }}</div>
+      <hr class="divider">
+      <div class="description">{{ m.description_short }}</div>
+      <div class="badges-row">
+        {% if m.days_left <= 7 %}
+        <span class="hl-badge hl-urgent">⚡ URGENT — {{ m.deadline_display }}</span>
+        {% else %}
+        <span class="hl-badge hl-deadline">⏳ {{ m.deadline_display }}</span>
+        {% endif %}
+        {% if m.is_idf %}
+        <span class="hl-badge hl-idf">Île-de-France</span>
+        {% else %}
+        <span class="hl-badge hl-region">{{ m.geo_label }}</span>
+        {% endif %}
+        {% if m.budget %}
+        <span class="hl-badge hl-budget">{{ m.budget_display }}</span>
+        {% else %}
+        <span class="hl-badge hl-budget">Budget NC</span>
+        {% endif %}
+        <a href="{{ m.url_avis }}" class="voir-link" target="_blank">Voir →</a>
+      </div>
+      <hr class="divider">
+      <div class="meta-row">
+        {% for tag in m.meta_tags %}
+        <span class="meta-tag">{{ tag }}</span>
+        {% endfor %}
+        <span class="meta-tag">Réf. {{ m.idweb }}</span>
+      </div>
+      <div class="match-row">
+        <span class="match-detail">{{ m.match_detail }}</span>
+        <div class="match-bar-wrap"><div class="match-bar" style="width:{{ m.match_pct }}%"></div></div>
+        <span class="match-pct">{{ m.match_pct }}%</span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p style="color: var(--grey-text); margin-bottom: 32px;">Aucun marché prioritaire identifié aujourd'hui.</p>
+  {% endif %}
+
+  {% if other_markets %}
+  <h2>Autres Marchés Identifiés <span><span class="count-badge">{{ other_markets | length }} marchés score &lt; 4/5</span></span></h2>
+
+  <div class="table-wrap market-table">
+    <table>
+      <thead>
+        <tr>
+          <th>Référence</th>
+          <th>Objet</th>
+          <th>Acheteur</th>
+          <th>Deadline</th>
+          <th>Budget</th>
+          <th>Score</th>
+          <th>Lien</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for m in other_markets %}
+        <tr>
+          <td><code>{{ m.idweb }}</code></td>
+          <td class="objet">{{ m.objet | truncate(90) }}</td>
+          <td>{{ m.nomacheteur }}</td>
+          <td class="{{ 'deadline-near' if m.days_left <= 14 else 'deadline-ok' }}">{{ m.deadline_display }}</td>
+          <td>{{ m.budget_display if m.budget else 'NC' }}</td>
+          <td><span class="tbl-badge tbl-score-high">{{ m.score }}/5</span></td>
+          <td><a href="{{ m.url_avis }}" target="_blank">Voir →</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+
+</main>
+</body>
+</html>
