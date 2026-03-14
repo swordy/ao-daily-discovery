@@ -26,6 +26,7 @@ jobs:
         env:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RECIPIENTS: ${{ vars.RECIPIENTS }}
         run: python main.py
 
       - name: Upload report artifact

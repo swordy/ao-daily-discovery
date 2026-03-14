@@ -120,18 +120,16 @@ def generate_report(scored_markets: list[dict], output_path: str) -> str:
     priority = [m for m in enriched if m.get("score", 0) >= 4]
     others = [m for m in enriched if m.get("score", 0) < 4 and m.get("score", 0) >= 2]
 
-    urgent = sum(1 for m in enriched if m.get("days_left", 999) <= 7)
-
-    budgets = [m.get("budget", 0) or 0 for m in enriched if m.get("budget")]
-    total_budget = sum(budgets)
+    urgent_15j = sum(1 for m in enriched if m.get("days_left", 999) <= 15)
+    urgent_30j = sum(1 for m in enriched if m.get("days_left", 999) <= 30)
 
     html = template.render(
         report_date=today.isoformat(),
         report_date_fr=_date_fr(today),
         total_markets=len(enriched),
         priority_count=len(priority),
-        urgent_count=urgent,
-        total_budget_display=_format_budget(total_budget) if total_budget else "NC",
+        urgent_15j=urgent_15j,
+        urgent_30j=urgent_30j,
         priority_markets=priority,
         other_markets=others,
     )

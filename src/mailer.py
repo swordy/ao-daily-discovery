@@ -1,4 +1,4 @@
-"""Email sender via Gmail SMTP (App Password)."""
+"""Email sender via Gmail SMTP (App Password) — multi-recipient support."""
 
 import os
 import smtplib
@@ -11,10 +11,18 @@ from pathlib import Path
 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-RECIPIENT = "smeddeb@harington.fr"
+DEFAULT_RECIPIENT = "smeddeb@harington.fr"
 
 MONTHS_FR = {1: "janvier", 2: "février", 3: "mars", 4: "avril", 5: "mai", 6: "juin",
              7: "juillet", 8: "août", 9: "septembre", 10: "octobre", 11: "novembre", 12: "décembre"}
+
+
+def _get_recipients() -> list[str]:
+    """Get recipient list from RECIPIENTS env var (comma-separated) or default."""
+    raw = os.environ.get("RECIPIENTS", "").strip()
+    if raw:
+        return [r.strip() for r in raw.split(",") if r.strip()]
+    return [DEFAULT_RECIPIENT]
 
 
 def send_report(
@@ -28,13 +36,15 @@ def send_report(
     if not sender or not app_password:
         raise RuntimeError("GMAIL_ADDRESS and GMAIL_APP_PASSWORD must be set")
 
+    recipients = _get_recipients()
+
     today = date.today()
     date_str = f"{today.day} {MONTHS_FR[today.month]} {today.year}"
     subject = f"[Harington] Veille BOAMP IA — {date_str} · {priority_count} opportunités prioritaires"
 
     msg = MIMEMultipart()
     msg["From"] = f"BOAMP Watch <{sender}>"
-    msg["To"] = RECIPIENT
+    msg["To"] = ", ".join(recipients)
     msg["Subject"] = subject
 
     body = (
@@ -62,4 +72,4 @@ def send_report(
         server.login(sender, app_password)
         server.send_message(msg)
 
-    print(f"[OK] Email sent to {RECIPIENT} via Gmail SMTP")
+    print(f"[OK] Email sent to {', '.join(recipients)} via Gmail SMTP")
