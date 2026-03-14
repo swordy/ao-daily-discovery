@@ -1,14 +1,17 @@
-"""Email sender via Resend API."""
+"""Email sender via Gmail SMTP (App Password)."""
 
-import base64
 import os
+import smtplib
 from datetime import date
+from email import encoders
+from email.mime.base import MIMEBase
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 from pathlib import Path
 
-import requests
-
-RESEND_API_URL = "https://api.resend.com/emails"
-RECIPIENT = "seif.meddeb@gmail.com"
+SMTP_SERVER = "smtp.gmail.com"
+SMTP_PORT = 587
+RECIPIENT = "smeddeb@harington.fr"
 
 MONTHS_FR = {1: "janvier", 2: "février", 3: "mars", 4: "avril", 5: "mai", 6: "juin",
              7: "juillet", 8: "août", 9: "septembre", 10: "octobre", 11: "novembre", 12: "décembre"}
@@ -19,15 +22,20 @@ def send_report(
     priority_count: int,
     total_count: int,
 ) -> None:
-    """Send the HTML report via Resend API."""
-    api_key = os.environ.get("RESEND_API_KEY")
-    sender = os.environ.get("RESEND_FROM", "BOAMP Watch <onboarding@resend.dev>")
-    if not api_key:
-        raise RuntimeError("RESEND_API_KEY must be set")
+    """Send the HTML report via Gmail SMTP with App Password."""
+    sender = os.environ.get("GMAIL_ADDRESS")
+    app_password = os.environ.get("GMAIL_APP_PASSWORD")
+    if not sender or not app_password:
+        raise RuntimeError("GMAIL_ADDRESS and GMAIL_APP_PASSWORD must be set")
 
     today = date.today()
     date_str = f"{today.day} {MONTHS_FR[today.month]} {today.year}"
     subject = f"[Harington] Veille BOAMP IA — {date_str} · {priority_count} opportunités prioritaires"
+
+    msg = MIMEMultipart()
+    msg["From"] = f"BOAMP Watch <{sender}>"
+    msg["To"] = RECIPIENT
+    msg["Subject"] = subject
 
     body = (
         f"Bonjour,\n\n"
@@ -38,38 +46,20 @@ def send_report(
         f"Bonne journée,\n"
         f"Harington IA Watch"
     )
-
-    # Build payload
-    payload = {
-        "from": sender,
-        "to": [RECIPIENT],
-        "subject": subject,
-        "text": body,
-    }
+    msg.attach(MIMEText(body, "plain", "utf-8"))
 
     # Attach HTML file
     html_file = Path(html_path)
     if html_file.exists():
-        content_b64 = base64.b64encode(html_file.read_bytes()).decode("utf-8")
-        payload["attachments"] = [
-            {
-                "filename": html_file.name,
-                "content": content_b64,
-                "type": "text/html",
-            }
-        ]
+        part = MIMEBase("text", "html")
+        part.set_payload(html_file.read_bytes())
+        encoders.encode_base64(part)
+        part.add_header("Content-Disposition", f"attachment; filename={html_file.name}")
+        msg.attach(part)
 
-    resp = requests.post(
-        RESEND_API_URL,
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-        },
-        json=payload,
-        timeout=30,
-    )
+    with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
+        server.starttls()
+        server.login(sender, app_password)
+        server.send_message(msg)
 
-    if resp.status_code == 200:
-        print(f"[OK] Email sent to {RECIPIENT} via Resend")
-    else:
-        raise RuntimeError(f"Resend API {resp.status_code}: {resp.text}")
+    print(f"[OK] Email sent to {RECIPIENT} via Gmail SMTP")
