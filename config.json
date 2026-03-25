@@ -112,69 +112,75 @@
   },
   "harington_portfolio": {
     "products": {
-      "OmniA": {
-        "label": "OmniA",
-        "keywords": ["modernisation", "migration", "legacy", "refonte", "monolithe"],
-        "description": "Accélérateur IA de modernisation IT"
+      "OmniaFactory": {
+        "label": "OmniaFactory",
+        "keywords": ["modernisation", "migration", "legacy", "refonte", "monolithe", "usine logicielle", "factory", "dev factory", "usine de développement", "industrialisation"],
+        "description": "Factory de développement IA — modernisation & industrialisation IT"
       },
-      "Agentic Core Lib": {
-        "label": "Agentic Core Lib",
-        "keywords": ["agent", "agentique", "rag", "langchain", "llm", "ia générative", "intelligence artificielle"],
-        "description": "Framework fondationnel d'agents IA (RAG, LangChain)"
+      "Pearlflow": {
+        "label": "Pearlflow",
+        "keywords": ["orchestration", "pipeline", "workflow", "automatisation", "no-code", "low-code", "bpm", "processus métier"],
+        "description": "Orchestrateur de pipelines et workflows IA"
       },
-      "MCP Catalogue": {
-        "label": "MCP Catalogue",
-        "keywords": ["mcp", "marketplace", "serveur", "api", "orchestration", "catalogue"],
-        "description": "Hub de création et déploiement de serveurs MCP"
-      },
-      "PulseBoard": {
-        "label": "PulseBoard",
-        "keywords": ["multi-cloud", "infrastructure", "orchestration", "dashboard", "azure", "aws", "gcp", "monitoring"],
-        "description": "Orchestration infrastructure multi-cloud"
-      },
-      "Agentic Orchestrator": {
-        "label": "Agentic Orchestrator",
-        "keywords": ["multi-agent", "orchestration", "agent", "ia", "consensus", "parallélisation"],
-        "description": "Construction multi-agents (débat, consensus, hiérarchie)"
-      },
-      "PearlFlow": {
-        "label": "PearlFlow",
-        "keywords": ["pipeline", "no-code", "low-code", "workflow", "ia", "orchestration", "automatisation"],
-        "description": "Orchestrateur de pipelines IA no-code/low-code"
-      },
-      "Migratorflow": {
-        "label": "Migratorflow",
-        "keywords": ["migration", "bi", "etl", "bdd", "cloud", "plateforme", "données"],
-        "description": "Plateforme universelle de migration IA (BI, ETL, BDD, cloud)"
+      "MigratorFlow": {
+        "label": "MigratorFlow",
+        "keywords": ["migration", "etl", "bdd", "base de données", "données", "plateforme", "cloud", "data migration", "migration de données"],
+        "description": "Plateforme universelle de migration IA (Data, ETL, BDD, Cloud)"
       },
       "MigratorBI": {
         "label": "MigratorBI",
-        "keywords": ["power bi", "fabric", "migration bi", "dax", "dataset", "reporting", "tableau de bord"],
-        "description": "Migration spécialisée Power BI & Fabric"
+        "keywords": ["power bi", "fabric", "migration bi", "dax", "dataset", "reporting", "tableau de bord", "business objects", "cognos", "microstrategy", "ssrs", "jasper", "migration reporting"],
+        "description": "Migration spécialisée BI — Power BI, Fabric, Business Objects, Cognos"
       },
-      "Harry Helper": {
-        "label": "Harry Helper",
-        "keywords": ["cv", "candidat", "recrutement", "esn", "consultant", "profil"],
-        "description": "Gestion IA de candidats et analyse de CV pour ESN"
+      "Dev Brain": {
+        "label": "Dev Brain",
+        "keywords": ["ia générative", "intelligence artificielle", "genai", "llm", "gpt", "claude", "copilot", "github copilot", "vibe coding", "code generation", "pair programming", "assistant développeur"],
+        "description": "Assistant IA de développement — Copilot, GenAI, vibe coding"
       },
-      "SlideWise": {
-        "label": "SlideWise",
-        "keywords": ["présentation", "slides", "collaboratif", "powerpoint"],
-        "description": "Génération collaborative de présentations IA"
+      "PO/Techlead Assistant": {
+        "label": "PO/Techlead Assistant",
+        "keywords": ["product owner", "tech lead", "backlog", "user story", "spécification", "cadrage", "expression de besoin", "cahier des charges"],
+        "description": "Assistant IA pour PO & Tech Leads — cadrage, spécifications, backlog"
       },
-      "Golden Age Analytics": {
-        "label": "Golden Age Analytics",
-        "keywords": ["observabilité", "monitoring", "analytics", "centralisé", "supervision"],
-        "description": "Observabilité centralisée (monitoring, analytics)"
+      "Code Migrator": {
+        "label": "Code Migrator",
+        "keywords": ["migration code", "migration applicative", "portage", "réécriture", "conversion", "transformation de code", "reverse engineering"],
+        "description": "Migration automatisée de code inter-technologies"
       }
     },
     "tech_stack": {
-      "backend": [".net", ".net core", "c#", "java", "spring boot", "spring cloud", "python", "fastapi", "django", "delphi", "pascal", "c/c++", "c++", "asp.net", "vbscript", "powershell"],
-      "frontend": ["angular", "react", "typescript", "vue.js", "vue", "jquery"],
-      "data_bi": ["sql server", "postgresql", "oracle", "snowflake", "power bi", "microstrategy", "ssis", "ssrs", "cognos", "informatica", "talend", "azure data factory", "jasper", "hyperion"],
-      "ia_ml": ["gpt", "llm", "langchain", "rag", "agents ia", "agent ia", "clustering", "computer vision", "nlp", "ocr", "fine-tuning", "chain of thoughts", "genai", "ia générative", "intelligence artificielle", "machine learning", "deep learning"],
-      "cloud_devops": ["azure", "aws", "gcp", "docker", "kubernetes", "k8s", "jenkins", "azure devops", "ci/cd", "github actions"],
-      "middleware": ["webmethods", "axway", "kafka", "elk", "prometheus"]
+      "backend": [".net", ".net core", "c#", "java", "jee", "j2ee", "spring", "spring boot", "spring cloud", "python", "fastapi", "django", "flask", "php", "symfony", "laravel", "delphi", "pascal", "cobol", "c/c++", "c++", "asp.net", "vb.net", "vbscript", "vb6", "visual basic", "powershell", "node.js", "nodejs", "go", "golang", "rust", "kotlin", "scala", "ruby"],
+      "frontend": ["angular", "react", "react.js", "reactjs", "typescript", "javascript", "vue.js", "vue", "vuejs", "jquery", "next.js", "nextjs", "nuxt", "svelte", "html5", "css3", "sass", "tailwind"],
+      "data_bi": ["sql server", "postgresql", "postgres", "oracle", "mysql", "mariadb", "mongodb", "snowflake", "databricks", "power bi", "powerbi", "business objects", "bo xi", "sap bo", "webi", "crystal reports", "microstrategy", "ssis", "ssrs", "ssas", "cognos", "informatica", "talend", "azure data factory", "adf", "jasper", "jaspersoft", "hyperion", "qlik", "qlikview", "qliksense", "tableau software", "looker", "datastudio", "fabric", "microsoft fabric", "dax", "mdx", "datawarehouse", "data warehouse", "dwh", "data lake", "datalake", "data lakehouse", "entrepôt de données", "décisionnel", "olap"],
+      "ia_ml": ["intelligence artificielle", "ia", "gpt", "llm", "langchain", "rag", "agents ia", "agent ia", "agentique", "factory agentique", "plateforme agentique", "clustering", "computer vision", "nlp", "ocr", "fine-tuning", "prompt engineering", "genai", "ia générative", "machine learning", "deep learning", "tensorflow", "pytorch", "scikit-learn", "hugging face", "vertexai", "vertex ai", "claude", "github copilot", "copilot", "vibe coding", "chatbot", "assistant virtuel", "openai", "anthropic", "data science", "data scientist"],
+      "cloud_devops": ["azure", "aws", "gcp", "google cloud", "docker", "kubernetes", "k8s", "openshift", "jenkins", "azure devops", "ci/cd", "github actions", "gitlab ci", "terraform", "ansible", "helm", "argo cd", "argocd", "devops", "devsecops", "sre", "iaas", "paas", "saas", "serverless", "lambda", "azure functions"],
+      "middleware": ["webmethods", "axway", "kafka", "rabbitmq", "elk", "elasticsearch", "logstash", "kibana", "prometheus", "grafana", "api management", "api gateway", "esb", "bus de services", "mulesoft", "tibco", "apigee"]
+    },
+    "expertises": {
+      "audit_urbanisation": ["audit", "audit si", "audit informatique", "audit applicatif", "audit de code", "urbanisation", "urbanisation si", "cartographie", "cartographie applicative", "schéma directeur", "sdsi", "schéma directeur informatique", "plan de transformation", "architecture", "architecture si", "architecture technique", "architecture fonctionnelle", "architecture d'entreprise", "togaf"],
+      "migration_bi_data": ["migration bi", "migration reporting", "migration données", "migration data", "migration etl", "rationalisation bi", "rationalisation reporting", "rationalisation outils", "consolidation bi", "refonte décisionnel", "modernisation bi", "modernisation data", "transformation data", "data engineering", "data engineer", "ingénierie des données"],
+      "microservices_archi": ["microservices", "micro-services", "architecture microservices", "ddd", "domain driven design", "event sourcing", "cqrs", "event storming", "api rest", "api restful", "graphql", "api first", "swagger", "openapi"],
+      "iam_securite": ["iam", "gestion des identités", "identity", "access management", "sso", "single sign-on", "oauth", "openid", "ldap", "active directory", "keycloak", "sécurité applicative", "sécurité informatique", "cybersécurité", "pentest", "tests d'intrusion", "soc", "siem", "iso 27001", "nis2", "audit de sécurité", "devsecops", "sécurité des si"],
+      "rse_impact": ["rse", "responsabilité sociétale", "développement durable", "numérique responsable", "éco-conception", "green it", "bilan carbone", "audit carbone", "ecovadis", "iso 14001", "accessibilité numérique", "rgaa", "sobriété numérique"],
+      "qa_tests": ["qa", "qualité logicielle", "assurance qualité", "tests fonctionnels", "tests automatisés", "recette", "recette fonctionnelle", "recette applicative", "selenium", "cypress", "playwright", "test automation", "stratégie de tests", "plan de tests", "tests de non-régression", "tnr", "vabf", "vsr", "homologation"],
+      "paiements_monetique": ["monétique", "paiement", "paiements", "moyens de paiement", "compensation", "sepa", "swift", "carte bancaire", "cb", "tpe", "transaction", "paiement en ligne", "psp", "acquiring", "issuing", "pci-dss"],
+      "ia_generative": ["ia générative", "intelligence artificielle", "genai", "llm", "large language model", "rag", "retrieval augmented generation", "agentique", "agent ia", "agents ia", "factory agentique", "plateforme agentique", "prompt engineering", "fine-tuning", "vibe coding", "copilot", "assistant ia", "chatbot ia"]
+    },
+    "delivery": {
+      "centre_competences": ["centre de compétences", "centres de compétences", "cdc", "pôle de compétences", "pôle d'expertise", "cellule d'expertise", "practice"],
+      "centre_services": ["centre de services", "centres de services", "cds", "centre de service", "service center", "delivery center", "centre de delivery"],
+      "nearshore_onshore": ["nearshore", "onshore", "offshore", "best shore", "équipe délocalisée", "centre nearshore", "centre offshore"],
+      "forfait": ["forfait", "engagement de résultat", "clé en main", "projet au forfait", "mode forfait", "obligation de résultat"],
+      "regie": ["régie", "assistance technique", "at", "mise à disposition", "prestation en régie", "time & material", "staffing"],
+      "tma": ["tma", "tierce maintenance applicative", "maintenance applicative", "maintenance corrective", "maintenance évolutive", "mco", "maintien en conditions opérationnelles", "run applicatif", "support applicatif", "support niveau 2", "support niveau 3", "support n2", "support n3"]
+    },
+    "profils": {
+      "business_analyse": ["business analyste", "business analyst", "analyste fonctionnel", "analyste métier", "consultant fonctionnel", "consultant métier", "ba"],
+      "gestion_projet": ["pmo", "project management officer", "chef de projet", "chef de projets", "directeur de projet", "responsable de projet", "pilotage de projet", "gestion de projet", "conduite de projet", "coordination projet"],
+      "moa": ["moa", "maîtrise d'ouvrage", "maitrise d'ouvrage", "assistance à maîtrise d'ouvrage", "amoa", "amoe"],
+      "product_owner": ["product owner", "po", "scrum master", "coach agile", "agile coach", "release train engineer", "rte", "safe", "agiliste"],
+      "architecte": ["architecte technique", "architecte solution", "architecte logiciel", "architecte si", "architecte fonctionnel", "tech lead", "lead tech", "lead développeur", "lead dev", "référent technique"],
+      "consultant_it": ["consultant", "consultant informatique", "consultant it", "consultant technique", "consultant digital", "consultant numérique", "ingénieur d'études", "ingénieur de développement", "développeur", "concepteur développeur"]
     },
     "rex": [
       {
@@ -246,56 +252,69 @@
       "transport", "logistique", "banque", "finance", "paiement", "monétique",
       "restauration", "qsr", "industrie", "distribution", "énergie",
       "défense", "hôtellerie", "hôtel", "média", "télécoms", "télécom",
-      "retail", "automobile", "immobilier", "assurance", "aérien", "aviation"
+      "retail", "automobile", "immobilier", "assurance", "aérien", "aviation",
+      "santé", "pharma", "pharmaceutique", "luxe", "cosmétique", "agroalimentaire"
     ],
     "service_types": {
       "CDS applicatif multi-techno": {
         "legitimacy": 5,
-        "keywords": ["centre de services", "centres de services", "cds", "applicatif", "centre de service"]
+        "keywords": ["centre de services", "centres de services", "cds", "applicatif", "centre de service", "service center", "delivery center", "centre de delivery"]
+      },
+      "Centre de compétences": {
+        "legitimacy": 5,
+        "keywords": ["centre de compétences", "centres de compétences", "cdc", "pôle de compétences", "pôle d'expertise", "cellule d'expertise"]
+      },
+      "TMA / Maintenance applicative": {
+        "legitimacy": 5,
+        "keywords": ["tma", "tierce maintenance", "maintenance applicative", "maintenance corrective", "maintenance évolutive", "mco", "maintien en conditions opérationnelles", "run applicatif", "support applicatif"]
+      },
+      "Forfait développement": {
+        "legitimacy": 5,
+        "keywords": ["forfait", "engagement de résultat", "projet au forfait", "développement au forfait", "clé en main", "obligation de résultat"]
       },
       "Migration legacy": {
         "legitimacy": 5,
-        "keywords": ["migration", "legacy", "modernisation", "refonte", "delphi", "cobol", "monolithe"]
+        "keywords": ["migration", "legacy", "modernisation", "refonte", "delphi", "cobol", "monolithe", "réécriture", "portage applicatif", "migration applicative"]
       },
       "Migration/Rationalisation BI": {
         "legitimacy": 5,
-        "keywords": ["migration bi", "rationalisation", "reporting", "power bi", "microstrategy", "ssrs", "tableau de bord"]
+        "keywords": ["migration bi", "rationalisation", "reporting", "power bi", "microstrategy", "ssrs", "tableau de bord", "business objects", "cognos", "rationalisation bi", "consolidation bi"]
       },
       "Dev IA/ML/GenAI": {
-        "legitimacy": 4,
-        "keywords": ["intelligence artificielle", "ia", "machine learning", "genai", "agent", "agentique", "llm", "rag", "ia générative"]
+        "legitimacy": 5,
+        "keywords": ["intelligence artificielle", "ia", "machine learning", "genai", "agent", "agentique", "llm", "rag", "ia générative", "factory agentique", "plateforme agentique", "vibe coding", "data science"]
       },
       "DevOps/CI-CD": {
         "legitimacy": 4,
-        "keywords": ["devops", "ci/cd", "pipeline", "déploiement", "azure devops", "jenkins", "intégration continue"]
-      },
-      "TMA .NET/Java": {
-        "legitimacy": 5,
-        "keywords": ["tma", "tierce maintenance", "maintenance applicative", ".net", "java", "maintenance corrective", "maintenance évolutive"]
+        "keywords": ["devops", "ci/cd", "pipeline", "déploiement", "azure devops", "jenkins", "intégration continue", "livraison continue", "gitlab ci", "github actions"]
       },
       "QA/Test Automation": {
         "legitimacy": 4,
-        "keywords": ["qa", "test", "automatisation", "recette", "selenium", "tests fonctionnels", "qualité logicielle"]
+        "keywords": ["qa", "test", "automatisation", "recette", "selenium", "tests fonctionnels", "qualité logicielle", "recette fonctionnelle", "tests automatisés", "tnr", "homologation"]
       },
       "Architecture microservices": {
         "legitimacy": 4,
-        "keywords": ["microservices", "architecture", "ddd", "event storming", "api", "micro-services"]
+        "keywords": ["microservices", "micro-services", "architecture", "ddd", "event storming", "api", "architecture logicielle", "architecture technique"]
       },
       "Data/ETL/DataWarehouse": {
         "legitimacy": 4,
-        "keywords": ["etl", "datawarehouse", "data warehouse", "dwh", "ssis", "data", "entrepôt", "données"]
+        "keywords": ["etl", "datawarehouse", "data warehouse", "dwh", "ssis", "data engineering", "entrepôt de données", "data lake", "databricks", "data engineer", "ingénierie des données"]
+      },
+      "Consulting / AMOA": {
+        "legitimacy": 4,
+        "keywords": ["consulting", "conseil informatique", "amoa", "assistance à maîtrise d'ouvrage", "audit si", "urbanisation", "schéma directeur", "cadrage", "expression de besoin", "étude d'opportunité"]
       },
       "Sécurité/Conformité": {
         "legitimacy": 3,
-        "keywords": ["sécurité informatique", "cybersécurité", "sox", "audit sécurité", "conformité", "iso 27001"]
+        "keywords": ["sécurité informatique", "cybersécurité", "sox", "audit sécurité", "conformité", "iso 27001", "nis2", "iam", "gestion des identités"]
       },
       "Cloud Azure": {
         "legitimacy": 4,
-        "keywords": ["azure", "cloud", "migration cloud", "saas", "paas", "iaas"]
+        "keywords": ["azure", "cloud", "migration cloud", "saas", "paas", "iaas", "aws", "gcp"]
       },
-      "Power Platform": {
-        "legitimacy": 3,
-        "keywords": ["power platform", "power apps", "power automate", "power bi"]
+      "Assistance technique / Régie": {
+        "legitimacy": 4,
+        "keywords": ["assistance technique", "régie", "mise à disposition", "staffing", "prestation intellectuelle", "ingénieur", "consultant", "développeur"]
       }
     }
   },
@@ -318,35 +337,69 @@
       "géomètre", "topographe",
       "contrôle technique bâtiment",
       "travaux publics", "terrassement",
-      "couverture assurantielle"
+      "couverture assurantielle",
+      "fourniture alimentaire", "denrées alimentaires",
+      "matériel médical", "dispositifs médicaux",
+      "véhicules", "automobile", "carburant", "engins",
+      "vêtements", "uniformes", "linge",
+      "assurances", "couverture assurance",
+      "téléphonie mobile", "abonnement téléphonique",
+      "matériel de bureau", "mobilier",
+      "travaux d'électricité", "génie climatique",
+      "contrôle d'accès physique", "sûreté",
+      "signalisation", "voirie",
+      "diagnostics immobiliers", "amiante",
+      "huissier", "recouvrement",
+      "formation professionnelle continue",
+      "médecine du travail", "prévention des risques"
     ],
     "inclusion_required": [
       "informatique", "numérique", "digital", "logiciel", "développement",
-      "système d'information", "prestation intellectuelle",
-      "conseil", "consulting", "étude", "audit",
-      "maintenance applicative", "tma",
-      "centre de services", "cds", "centre de compétences",
-      "intelligence artificielle", "ia", "data",
-      "devops", "cloud", "migration", "sécurité informatique",
-      "cybersécurité", "hébergement applicatif", "infogérance",
-      "services numériques", "transformation digitale"
+      "système d'information", "systèmes d'information",
+      "prestation intellectuelle", "prestations intellectuelles",
+      "conseil", "consulting", "consultant", "consultants",
+      "étude", "études", "audit", "audit informatique",
+      "maintenance applicative", "tma", "tierce maintenance",
+      "centre de services", "centres de services", "cds",
+      "centre de compétences", "centres de compétences",
+      "intelligence artificielle", "ia",
+      "data", "données", "décisionnel",
+      "devops", "cloud", "migration",
+      "sécurité informatique", "cybersécurité",
+      "hébergement applicatif", "infogérance",
+      "services numériques", "transformation digitale",
+      "business analyst", "business analyste",
+      "chef de projet", "pmo", "moa", "amoa",
+      "product owner", "scrum master",
+      "architecte", "urbanisation",
+      "forfait", "régie", "assistance technique",
+      "ingénieur", "développeur",
+      "exploitation", "production informatique",
+      "editeur", "éditeur", "progiciel", "erp", "crm",
+      "intégrateur", "intégration",
+      "dématérialisation", "ged", "workflow",
+      "bi", "reporting", "décisionnel",
+      "microservices", "api", "web services"
     ],
     "min_inclusion_matches": 1
   },
   "scoring": {
     "weights": {
-      "harington_match": 0.50,
-      "ao_legitimacy": 0.30,
-      "deadline": 0.10,
-      "budget": 0.10
+      "stack_match": 0.50,
+      "deadline": 0.20,
+      "budget": 0.20,
+      "geo": 0.10
     },
-    "harington_match_sub_weights": {
-      "tech_stack": 0.80,
-      "product_match": 0.20
+    "stack_match_sub_weights": {
+      "tech_stack": 0.30,
+      "products": 0.15,
+      "expertises": 0.20,
+      "delivery": 0.20,
+      "profils": 0.15
     },
     "budget_unknown_score": 3,
     "min_priority_display": 4,
-    "pertinence_threshold": 0.80
+    "pertinence_threshold": 0.70
   },
   "api": {
     "market_type": "SERVICES",

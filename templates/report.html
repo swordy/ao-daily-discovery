@@ -1,596 +1,357 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html class="light" lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Harry Veille — AO publics — {{ report_date_fr }}</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Harington Sovereign — Harry Veille AO publics — {{ report_date_fr }}</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 <style>
-  :root {
-    --bg:        #EFF1F5;
-    --bg-alt:    #E4E6EC;
-    --card:      #D8DCE3;
-    --navy:      #0F1D33;
-    --navy-mid:  #1B2A4A;
-    --navy-light:#354A6B;
-    --grey-text: #4A5568;
-    --divider:   #D5D8DE;
-    --white:     #FFFFFF;
+  body { font-family: 'Inter', sans-serif; }
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
   }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
-    background: var(--bg);
-    color: var(--navy);
-    padding: 30px;
-    line-height: 1.55;
-    -webkit-font-smoothing: antialiased;
-    font-weight: 400;
+  .glass-header {
+    background: linear-gradient(135deg, #021433 0%, #182948 50%, #0c629b 100%);
   }
-  a { color: var(--navy); text-decoration: none; font-weight: 500; }
-  a:hover { text-decoration: underline; }
-
-  .container { max-width: 1100px; margin: 0 auto; }
-
-  /* ── HEADER ── */
-  .header {
-    background: var(--navy);
-    color: var(--white);
-    padding: 24px 30px;
-    margin: -30px -30px 26px;
-    display: flex;
-    align-items: center;
-    gap: 24px;
-  }
-  .header-logo { flex-shrink: 0; margin-right: 8px; }
-  .header-logo img { height: 36px; opacity: 0.92; display: block; }
-  .header-center { flex: 1; min-width: 0; }
-  .header-center h1 { font-size: 26px; font-weight: 200; letter-spacing: -0.5px; color: #ECEEF2; margin-bottom: 3px; }
-  .header-center .subtitle { color: #A0ABBD; font-size: 14px; font-weight: 400; }
-  .header-stats { display: flex; gap: 8px; flex-shrink: 0; }
-  .h-stat {
-    background: rgba(255,255,255,0.1);
-    border: 1px solid rgba(255,255,255,0.15);
-    border-radius: 6px;
-    padding: 8px 12px;
-    text-align: center;
-    min-width: 62px;
-  }
-  .h-stat-val { font-size: 22px; font-weight: 200; color: #ECEEF2; line-height: 1; margin-bottom: 3px; }
-  .h-stat-lbl { font-size: 10px; font-weight: 500; color: #A0ABBD; text-transform: uppercase; letter-spacing: 0.6px; white-space: nowrap; }
-
-  /* ── FILTER BAR ── */
-  .filter-bar {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
-    padding: 12px 16px;
-    background: var(--white);
-    border-radius: 7px;
-    border: 1px solid var(--divider);
-  }
-  .filter-label {
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--navy);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-right: 4px;
-  }
-  .filter-pill {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    padding: 6px 14px;
-    border-radius: 20px;
-    border: 1px solid var(--divider);
-    background: var(--bg);
-    color: var(--navy);
-    font-size: 12px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.15s ease;
-    font-family: inherit;
-    user-select: none;
-  }
-  .filter-pill:hover { background: var(--bg-alt); border-color: var(--navy-light); }
-  .filter-pill.active { background: var(--navy); color: var(--white); border-color: var(--navy); }
-  .pill-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
-  .filter-pill.active .pill-dot { box-shadow: 0 0 0 1px rgba(255,255,255,0.4); }
-  .pill-count {
-    font-size: 10px;
-    font-weight: 600;
-    background: rgba(0,0,0,0.08);
-    padding: 1px 6px;
-    border-radius: 8px;
-    min-width: 18px;
-    text-align: center;
-  }
-  .filter-pill.active .pill-count { background: rgba(255,255,255,0.2); }
-
-  /* ── CATEGORY BADGE ── */
-  .cat-badge {
-    display: inline-flex;
-    align-items: center;
-    padding: 3px 8px;
-    border-radius: 4px;
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.2px;
+  .ghost-border {
+    border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  /* ── HARINGTON TAGS (typed) ── */
-  .h-tag {
-    display: inline-flex;
-    align-items: center;
-    padding: 2px 7px;
-    border-radius: 3px;
-    font-size: 11px;
-    font-weight: 500;
-    line-height: 1.4;
-  }
-  .h-tag-product { background: rgba(124,58,237,0.1); color: #7C3AED; border: 1px solid rgba(124,58,237,0.2); }
-  .h-tag-rex     { background: rgba(5,150,105,0.1); color: #059669; border: 1px solid rgba(5,150,105,0.2); }
-  .h-tag-tech    { background: rgba(29,78,216,0.1); color: #1D4ED8; border: 1px solid rgba(29,78,216,0.2); }
-  .h-tag-generic { background: var(--bg-alt); color: var(--navy-mid); border: 1px solid var(--divider); }
-
-  /* ── TIER BADGE ── */
-  .tier-badge { font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 3px; letter-spacing: 0.3px; }
-  .tier-high   { background: #059669; color: white; }
-  .tier-medium { background: #D97706; color: white; }
-  .tier-low    { background: var(--card); color: var(--grey-text); }
-
-  /* ── SECTIONS ── */
-  .section { margin-bottom: 22px; }
-  .section-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
-  .section-header h2 { font-size: 20px; font-weight: 400; color: var(--navy); letter-spacing: -0.3px; }
-  .count-badge {
-    background: var(--card);
-    color: var(--navy-mid);
-    font-size: 11px;
-    font-weight: 600;
-    padding: 2px 8px;
-    border-radius: 3px;
-    letter-spacing: 0.3px;
-  }
-
-  /* ── PRIORITY CARDS ── */
-  .priority-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 11px; }
-  .prio-card {
-    background: var(--white);
-    border-radius: 7px;
-    padding: 16px 18px;
-    display: flex;
-    flex-direction: column;
-  }
-  .prio-card.promoted { border-left: 3px solid var(--card); }
-  .prio-title { font-size: 14px; font-weight: 600; color: var(--navy); line-height: 1.35; margin-bottom: 4px; }
-  .prio-buyer { color: var(--navy-light); font-size: 12px; font-weight: 400; margin-bottom: 8px; }
-  .prio-desc { color: var(--grey-text); font-size: 12px; font-weight: 400; line-height: 1.5; font-style: italic; margin-bottom: 10px; flex: 1; }
-  .prio-actions { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
-
-  .hl-badge {
-    display: inline-flex;
-    align-items: center;
-    padding: 4px 10px;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.2px;
-  }
-  .hl-score-5 { background: var(--navy); color: #ECEEF2; }
-  .hl-score-4 { background: var(--navy-light); color: #ECEEF2; }
-  .hl-score-3 { background: var(--card); color: var(--navy-mid); }
-  .hl-score-2 { background: var(--card); color: var(--grey-text); }
-  .hl-budget { background: rgba(27,42,74,0.08); color: var(--navy); font-weight: 500; }
-  .hl-deadline-urgent { background: #D44638; color: #FFFFFF; }
-  .hl-deadline-soon  { background: #C9A84C; color: #FFFFFF; }
-  .hl-deadline-ok    { background: #3A6B4A; color: #FFFFFF; }
-  .hl-promoted { background: var(--bg-alt); color: var(--grey-text); font-weight: 500; font-style: italic; }
-
-  /* ── RELEVANCE TRIGGER ── */
-  .relevance-trigger {
-    width: 22px; height: 22px;
-    border-radius: 50%;
-    background: var(--navy);
-    color: var(--white);
-    font-size: 11px;
-    font-weight: 700;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: transform 0.15s ease, background 0.15s ease;
-    flex-shrink: 0;
-    border: none;
-    font-family: inherit;
-    line-height: 1;
-  }
-  .relevance-trigger:hover { transform: scale(1.15); background: var(--navy-light); }
-
-  .prio-see {
-    font-size: 11px;
-    font-weight: 600;
-    color: var(--navy-light);
-    text-transform: uppercase;
-    letter-spacing: 0.6px;
-    margin-left: auto;
-  }
-
-  /* ── HARINGTON TAGS ROW ── */
-  .prio-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 8px; }
-
-  /* ── MATCH + GEO FOOTER ── */
-  .prio-footer {
-    margin-top: 8px;
-    padding-top: 8px;
-    border-top: 1px solid var(--divider);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-  }
-  .prio-match-info { display: flex; align-items: center; gap: 10px; }
-  .match-pct { font-size: 22px; font-weight: 300; color: var(--navy); letter-spacing: -0.5px; line-height: 1; }
-  .match-detail { font-size: 11px; font-weight: 400; color: var(--grey-text); font-style: italic; line-height: 1.4; }
-  .prio-geo {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    flex-shrink: 0;
-  }
-  .geo-label { font-size: 11px; font-weight: 500; color: var(--navy-light); white-space: nowrap; }
-
-  /* ── RELEVANCE POPUP ── */
+  /* Relevance popup */
   .relevance-overlay {
-    display: none;
-    position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(15,29,51,0.4);
-    z-index: 999;
+    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(15,29,51,0.4); z-index: 999;
   }
   .relevance-overlay.active { display: block; }
   .relevance-popup {
-    display: none;
-    position: fixed;
-    top: 50%; left: 50%;
+    display: none; position: fixed; top: 50%; left: 50%;
     transform: translate(-50%, -50%);
-    background: var(--white);
-    border-radius: 10px;
-    padding: 24px 28px;
-    max-width: 560px;
-    width: 90%;
+    background: #fff; border-radius: 12px; padding: 24px 28px;
+    max-width: 560px; width: 90%;
     box-shadow: 0 20px 60px rgba(15,29,51,0.25);
-    z-index: 1000;
-    max-height: 80vh;
-    overflow-y: auto;
+    z-index: 1000; max-height: 80vh; overflow-y: auto;
   }
   .relevance-popup.active { display: block; }
-  .relevance-popup-header {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-bottom: 14px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--divider);
-  }
-  .relevance-popup h3 {
-    font-size: 15px;
-    font-weight: 600;
-    color: var(--navy);
-    line-height: 1.35;
-    flex: 1;
-    margin-right: 12px;
-  }
-  .relevance-popup-close {
-    width: 28px; height: 28px;
-    border-radius: 50%;
-    border: 1px solid var(--divider);
-    background: var(--bg);
-    color: var(--navy);
-    font-size: 14px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    font-family: inherit;
-    transition: background 0.15s;
-  }
-  .relevance-popup-close:hover { background: var(--bg-alt); }
-  .relevance-popup-meta {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 12px;
-    flex-wrap: wrap;
-  }
-  .relevance-popup ul {
-    list-style: none;
-    padding: 0;
-  }
-  .relevance-popup li {
-    font-size: 13px;
-    color: var(--navy);
-    padding: 6px 0 6px 18px;
-    border-bottom: 1px solid var(--bg);
-    line-height: 1.5;
-    position: relative;
-  }
-  .relevance-popup li:last-child { border-bottom: none; }
-  .relevance-popup li::before {
-    content: "\2192";
-    position: absolute;
-    left: 0;
-    color: var(--navy-light);
-    font-weight: 600;
-  }
 
-  /* ── TABLE ── */
-  .badge {
-    display: inline-flex;
-    align-items: center;
-    font-size: 11px;
-    font-weight: 600;
-    padding: 3px 8px;
-    border-radius: 3px;
-    white-space: nowrap;
-    letter-spacing: 0.3px;
-    text-transform: uppercase;
-  }
-  .badge-score-5 { background: var(--navy); color: var(--white); }
-  .badge-score-4 { background: var(--navy-light); color: var(--white); }
-  .badge-score-3 { background: var(--card); color: var(--navy-mid); }
-  .badge-score-2 { background: var(--card); color: var(--grey-text); }
-
-  .badge-deadline-urgent { background: #E8D5D5; color: #8B3A3A; }
-  .badge-deadline-soon   { background: #E8E0D0; color: #8B6B2A; }
-  .badge-deadline-ok     { background: #D5E0D8; color: #3A6B4A; }
-
-  .market-table { width: 100%; border-collapse: collapse; background: var(--white); border-radius: 5px; overflow: hidden; }
-  .market-table th {
-    text-align: left;
-    font-size: 11px;
-    font-weight: 600;
-    color: var(--white);
-    background: var(--navy);
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
-    padding: 8px 12px;
-  }
-  .market-table td {
-    padding: 9px 12px;
-    font-size: 13px;
-    font-weight: 400;
-    border-bottom: 1px solid var(--divider);
-    vertical-align: top;
-    color: var(--navy);
-  }
-  .market-table tr:hover td { background: #F4F5F8; }
-  .market-table tr:last-child td { border-bottom: none; }
-  .table-title { font-weight: 500; max-width: 280px; }
-  .table-buyer { color: var(--grey-text); font-weight: 400; }
-  .table-actions { display: flex; align-items: center; gap: 8px; white-space: nowrap; }
-
-  /* ── RESPONSIVE ── */
-  @media (max-width: 768px) {
-    body { padding: 16px; }
-    .header { margin: -16px -16px 20px; padding: 20px; flex-wrap: wrap; }
-    .header-logo { order: -1; }
-    .header-center { flex-basis: 100%; order: 1; }
-    .header-stats { order: 2; flex-wrap: wrap; }
-    .priority-grid { grid-template-columns: 1fr; }
-    .filter-bar { padding: 10px 12px; }
-  }
-
-  /* ── PRINT ── */
   @media print {
-    body { padding: 18px; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
-    .header { margin: -18px -18px 20px; padding: 20px 24px; }
-    .header-center h1 { font-size: 22px; }
-    .header-center .subtitle { font-size: 11px; }
-    .header-logo img { height: 28px; }
-    .h-stat { padding: 6px 10px; min-width: 54px; }
-    .h-stat-val { font-size: 18px; }
-    .h-stat-lbl { font-size: 7px; }
-    .filter-bar { display: none; }
-    .section { margin-bottom: 16px; }
-    .section-header { margin-bottom: 8px; break-after: avoid; }
-    .section-header h2 { font-size: 15px; break-after: avoid; }
-    .priority-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
-    .prio-card { padding: 12px 14px; break-inside: avoid; }
-    .prio-title { font-size: 11px; }
-    .prio-buyer { font-size: 10px; margin-bottom: 6px; }
-    .prio-desc { font-size: 10px; margin-bottom: 8px; }
-    .hl-badge { font-size: 9px; padding: 2px 7px; }
-    .prio-see { font-size: 8px; }
-    .h-tag { font-size: 8px; }
-    .cat-badge { font-size: 8px; padding: 2px 6px; }
-    .prio-footer { margin-top: 6px; padding-top: 6px; }
-    .match-pct { font-size: 18px; }
-    .match-detail { font-size: 8px; }
-    .market-table { break-inside: avoid; }
-    .market-table th { padding: 6px 10px; font-size: 8px; }
-    .market-table td { padding: 6px 10px; font-size: 10px; }
-    .market-table tr { break-inside: avoid; }
-    .relevance-trigger { display: none; }
+    body { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+    .no-print { display: none !important; }
     .relevance-overlay, .relevance-popup { display: none !important; }
   }
 </style>
+<script>
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        colors: {
+          "navy": "#021433",
+          "navy-light": "#182948",
+          "navy-mid": "#1B2A4A",
+          "grey": "#44474e",
+          "soft-green": "#d4edda",
+          "on-soft-green": "#155724",
+          "soft-orange": "#fff3cd",
+          "on-soft-orange": "#856404",
+          "soft-red": "#f8d7da",
+          "on-soft-red": "#721c24",
+          "gold": "#ffdea5",
+          "on-gold": "#5d4200",
+          "surface-tint": "#4e5e80",
+          "on-secondary-fixed": "#1a1c1a",
+          "tertiary-fixed-dim": "#e9c176",
+          "tertiary-fixed": "#ffdea5",
+          "surface-container-lowest": "#ffffff",
+          "primary": "#021433",
+          "error-container": "#ffdad6",
+          "on-error": "#ffffff",
+          "on-background": "#1a1c1c",
+          "secondary-container": "#e2e3df",
+          "background": "#f9f9f9",
+          "outline": "#75777e",
+          "outline-variant": "#c5c6cf",
+          "on-primary-fixed": "#081b39",
+          "error": "#ba1a1a",
+          "primary-container": "#021433",
+          "on-error-container": "#93000a",
+          "secondary-fixed-dim": "#c6c7c3",
+          "secondary-fixed": "#e2e3df",
+          "surface-variant": "#e2e2e2",
+          "surface-container-low": "#f3f3f4",
+          "on-primary": "#ffffff",
+          "on-surface-variant": "#44474e",
+          "on-secondary-container": "#636562",
+          "on-primary-fixed-variant": "#3a475f",
+          "surface-container-high": "#e8e8e8",
+          "on-primary-container": "#8091b5",
+          "surface": "#f9f9f9",
+          "surface-container-highest": "#e2e2e2",
+          "on-surface": "#1a1c1c",
+          "on-secondary": "#ffffff",
+          "surface-bright": "#f9f9f9",
+          "surface-dim": "#dadada",
+          "surface-container": "#eeeeee",
+          "primary-fixed": "#d8e2ff",
+          "primary-fixed-dim": "#b6c6ee",
+          "secondary": "#5d5f5c",
+          "inverse-surface": "#2f3131",
+          "inverse-on-surface": "#f0f1f1",
+          "inverse-primary": "#b6c6ee",
+          "accent-blue": "#0c629b",
+          "accent-teal": "#059669",
+          "accent-purple": "#7C3AED",
+          "accent-amber": "#D97706",
+          "on-secondary-fixed": "#1a1c1a",
+          "on-secondary-fixed-variant": "#454745"
+        },
+        fontFamily: {
+          "headline": ["Inter"],
+          "body": ["Inter"],
+          "label": ["Inter"]
+        },
+        borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+      },
+    },
+  }
+</script>
 </head>
-<body>
+<body class="bg-surface text-on-surface min-h-screen">
 
-<!-- HEADER -->
-<div class="header">
-  <div class="header-logo">
-    <img src="https://harington.fr/wp-content/uploads/2024/10/Logo-Harington-Blanc-sans-fond.png" alt="Harington">
-  </div>
-  <div class="header-center">
-    <h1>Harry Veille — AO publics</h1>
-    <div class="subtitle">Scan automatique BOAMP &bull; IA &bull; Digital &bull; Impact &bull; Cyber &bull; CDS &bull; CDC</div>
-  </div>
-  <div class="header-stats">
-    <div class="h-stat">
-      <div class="h-stat-val">{{ total_markets }}</div>
-      <div class="h-stat-lbl">Marches</div>
-    </div>
-    <div class="h-stat">
-      <div class="h-stat-val">{{ priority_count }}</div>
-      <div class="h-stat-lbl">Hot deals</div>
-    </div>
-    <div class="h-stat">
-      <div class="h-stat-val">{{ urgent_15j }}</div>
-      <div class="h-stat-lbl">&lt; 15j</div>
-    </div>
-    <div class="h-stat">
-      <div class="h-stat-val">{{ urgent_30j }}</div>
-      <div class="h-stat-lbl">&lt; 30j</div>
-    </div>
-  </div>
-</div>
-
-<div class="container">
-
-<!-- FILTER BAR -->
-{% if category_filters %}
-<div class="filter-bar">
-  <span class="filter-label">Filtrer</span>
-  <button class="filter-pill active" data-cat="all">Tous<span class="pill-count">{{ total_markets }}</span></button>
-  {% for cat in category_filters %}
-  <button class="filter-pill" data-cat="{{ cat.name }}">
-    <span class="pill-dot" style="background:{{ cat.color }}"></span>{{ cat.label }}<span class="pill-count">{{ cat.count }}</span>
-  </button>
-  {% endfor %}
-</div>
-{% endif %}
-
-<!-- PRIORITAIRES -->
-<div class="section" id="section-priority">
-  <div class="section-header">
-    <h2>Marches Prioritaires</h2>
-    <span class="count-badge" id="priority-count-badge">{{ priority_count }} resultats</span>
-  </div>
-
-  {% if priority_markets %}
-  <div class="priority-grid">
-    {% for m in priority_markets %}
-    <div class="prio-card{% if m.promoted %} promoted{% endif %}" data-category="{{ m.category }}">
-      <div class="prio-title">{{ m.objet | truncate(90) }}</div>
-      <div class="prio-buyer">{{ m.nomacheteur }}</div>
-      <div class="prio-desc">{{ m.description_short }}</div>
-
-      <div class="prio-actions">
-        <span class="cat-badge" style="background:{{ m.category_color }}18; color:{{ m.category_color }}; border:1px solid {{ m.category_color }}30">{{ m.category }}</span>
-        {% if m.promoted %}
-        <span class="hl-badge hl-promoted">Top 4</span>
-        {% else %}
-        <span class="hl-badge hl-score-{{ m.score | int }}">{{ m.score }}/5</span>
-        {% endif %}
-        <span class="tier-badge tier-{{ m.tier }}">{{ m.match_pct }}% FIT</span>
-        {% if m.days_left <= 7 %}
-        <span class="hl-badge hl-deadline-urgent">J-{{ m.days_left }}</span>
-        {% elif m.days_left <= 20 %}
-        <span class="hl-badge hl-deadline-soon">J-{{ m.days_left }}</span>
-        {% else %}
-        <span class="hl-badge hl-deadline-ok">J-{{ m.days_left }}</span>
-        {% endif %}
-        {% if m.budget %}
-        <span class="hl-badge hl-budget">{{ m.budget_display }}</span>
-        {% else %}
-        <span class="hl-badge hl-budget">Accord-cadre</span>
-        {% endif %}
-        <button class="relevance-trigger" onclick="showRelevance('{{ m.idweb }}')" title="Resume de pertinence">i</button>
-        <a class="prio-see" href="{{ m.url_avis }}" target="_blank">Voir &rarr;</a>
+<!-- TopAppBar -->
+<header class="glass-header text-white sticky top-0 z-50 shadow-none">
+  <div class="max-w-full px-6 md:px-28 py-5 flex justify-between items-center">
+    <!-- Brand Identity -->
+    <div class="flex flex-col">
+      <div class="flex items-center gap-3">
+        <span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">security</span>
+        <h1 class="text-[22px] font-black tracking-tight leading-none uppercase">Harington Sovereign</h1>
       </div>
-
-      <div class="prio-tags">
-        {% for tag in m.harington_tags %}
-        <span class="h-tag h-tag-{{ tag.type }}">{{ tag.label }}</span>
-        {% endfor %}
+      <p class="text-[12px] font-light mt-1 text-white/80">Harry Veille — AO publics &bull; Scan automatique BOAMP &bull; IA &bull; Digital &bull; Impact &bull; Cyber &bull; CDS &bull; CDC</p>
+    </div>
+    <!-- StatBoxes -->
+    <div class="hidden lg:flex items-center gap-6">
+      <div class="flex flex-col items-end px-4 py-2 ghost-border rounded-lg">
+        <span class="text-xs font-bold uppercase tracking-widest text-white/60">Marchés</span>
+        <span class="text-xl font-light">{{ total_markets }}</span>
       </div>
-
-      <div class="prio-footer">
-        <div class="prio-match-info">
-          <div class="match-pct">{{ m.match_pct }}%</div>
-          <div class="match-detail">{{ m.match_detail }}</div>
-        </div>
-        <div class="prio-geo">
-          <span style="font-size:13px">&#x1F4CD;</span>
-          <span class="geo-label">{{ m.geo_label }}</span>
-        </div>
+      <div class="flex flex-col items-end px-4 py-2 ghost-border rounded-lg bg-white/5">
+        <span class="text-xs font-bold uppercase tracking-widest text-white/60">Hot Deals</span>
+        <span class="text-xl font-light text-gold">{{ priority_count }}</span>
+      </div>
+      <div class="flex flex-col items-end px-4 py-2 ghost-border rounded-lg">
+        <span class="text-xs font-bold uppercase tracking-widest text-white/60">&lt; 15j</span>
+        <span class="text-xl font-light text-[#ff9b71]">{{ urgent_15j }}</span>
+      </div>
+      <div class="flex flex-col items-end px-4 py-2 ghost-border rounded-lg">
+        <span class="text-xs font-bold uppercase tracking-widest text-white/60">&lt; 30j</span>
+        <span class="text-xl font-light">{{ urgent_30j }}</span>
       </div>
     </div>
-    {% endfor %}
   </div>
-  {% else %}
-  <p style="color: var(--grey-text); margin-bottom: 32px;">Aucun marche prioritaire identifie aujourd'hui.</p>
-  {% endif %}
-</div>
+</header>
 
-<!-- AUTRES MARCHES -->
-{% if other_markets %}
-<div class="section" id="section-others">
-  <div class="section-header">
-    <h2>Autres Marches</h2>
-    <span class="count-badge" id="others-count-badge">{{ other_markets | length }} resultats</span>
-  </div>
+<main class="max-w-full px-6 md:px-28 py-8 space-y-10">
 
-  <table class="market-table">
-    <thead>
-      <tr>
-        <th>Marche</th>
-        <th>Cat.</th>
-        <th>Type AO</th>
-        <th>Acheteur</th>
-        <th>Geo</th>
-        <th>Deadline</th>
-        <th>Score</th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for m in other_markets %}
-      <tr data-category="{{ m.category }}">
-        <td class="table-title">{{ m.objet | truncate(100) }}</td>
-        <td><span class="cat-badge" style="background:{{ m.category_color }}18; color:{{ m.category_color }}; border:1px solid {{ m.category_color }}30">{{ m.category }}</span></td>
-        <td style="font-size:11px; color:var(--grey-text)">{{ m.ao_type }}</td>
-        <td class="table-buyer">{{ m.nomacheteur }}</td>
-        <td><span class="geo-label">{{ m.geo_label }}</span></td>
-        <td>
-          {% if m.days_left <= 7 %}
-          <span class="badge badge-deadline-urgent">{{ m.deadline_display }} &bull; J-{{ m.days_left }}</span>
-          {% elif m.days_left <= 20 %}
-          <span class="badge badge-deadline-soon">{{ m.deadline_display }} &bull; J-{{ m.days_left }}</span>
-          {% else %}
-          <span class="badge badge-deadline-ok">{{ m.deadline_display }} &bull; J-{{ m.days_left }}</span>
-          {% endif %}
-        </td>
-        <td><span class="badge badge-score-{{ m.score | int }}">{{ m.score }}</span></td>
-        <td>
-          <div class="table-actions">
-            <button class="relevance-trigger" onclick="showRelevance('{{ m.idweb }}')" title="Resume de pertinence">i</button>
-            <a href="{{ m.url_avis }}" target="_blank">Voir &rarr;</a>
-          </div>
-        </td>
-      </tr>
+  <!-- Filters & Navigation -->
+  <section class="flex flex-wrap items-center justify-between gap-4 no-print">
+    <nav class="bg-surface-container-low p-1.5 rounded-[10px] flex gap-1 shadow-sm flex-wrap">
+      <button class="filter-pill px-6 py-2 rounded-[8px] text-sm font-bold bg-primary-container text-white transition-all" data-cat="all">Tous</button>
+      {% for cat in category_filters %}
+      <button class="filter-pill px-6 py-2 rounded-[8px] text-sm font-medium text-on-surface-variant hover:bg-surface-container-high transition-all" data-cat="{{ cat.name }}">{{ cat.label }}</button>
       {% endfor %}
-    </tbody>
-  </table>
-</div>
-{% endif %}
+    </nav>
+    <div class="flex items-center gap-3">
+      <div class="relative">
+        <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-sm">search</span>
+        <input id="search-input" class="bg-surface-container-low border-none rounded-lg pl-10 pr-4 py-2 text-sm w-64 focus:ring-1 focus:ring-primary-container transition-all" placeholder="Rechercher un marché..." type="text"/>
+      </div>
+    </div>
+  </section>
 
-</div>
+  <!-- Marchés Prioritaires (Grid) -->
+  <section id="section-priority">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-xl font-bold text-primary-container tracking-tight">Marchés Prioritaires</h2>
+      <span class="text-xs font-bold uppercase tracking-widest text-on-surface-variant" id="priority-count-badge">{{ priority_count }} Sélections IA</span>
+    </div>
 
-<!-- RELEVANCE POPUP -->
+    {% if priority_markets %}
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="priority-grid">
+      {% for m in priority_markets %}
+      <div class="prio-card bg-surface-container-lowest rounded-xl shadow-[0_10px_40px_-10px_rgba(15,29,51,0.08)] border-l-4 {% if m.promoted %}border-outline-variant{% else %}border-navy{% endif %} relative overflow-hidden p-5 flex flex-col gap-4" data-category="{{ m.category }}" data-searchable="{{ m.objet | lower }} {{ m.nomacheteur | lower }}">
+        <button class="absolute top-4 right-4 text-on-surface-variant/40 hover:text-navy transition-colors" onclick="showRelevance('{{ m.idweb }}')" title="Résumé de pertinence">
+          <span class="material-symbols-outlined text-lg">info</span>
+        </button>
+        <div class="pr-8">
+          <p class="text-[11px] font-normal text-on-surface-variant mb-1">{{ m.nomacheteur | upper }}</p>
+          <h3 class="text-[13px] font-bold text-navy leading-tight uppercase">{{ m.objet | truncate(120) }}</h3>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          {% for tag in m.harington_tags %}
+          {% if tag.type == 'product' %}
+          <span class="bg-accent-purple text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase">{{ tag.label }}</span>
+          {% elif tag.type == 'delivery' %}
+          <span class="bg-navy text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase">{{ tag.label }}</span>
+          {% elif tag.type == 'expertise' %}
+          <span class="bg-accent-blue text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase">{{ tag.label }}</span>
+          {% elif tag.type == 'profil' %}
+          <span class="bg-accent-teal text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase">{{ tag.label }}</span>
+          {% else %}
+          <span class="bg-surface-container-high text-navy text-[10px] font-bold px-2.5 py-1 rounded-full uppercase">{{ tag.label }}</span>
+          {% endif %}
+          {% endfor %}
+        </div>
+        <div class="mt-auto pt-4 border-t border-outline-variant/15 flex items-center justify-between">
+          <div class="flex items-center gap-4 w-full">
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-on-surface-variant text-sm">euro</span>
+              {% if m.budget %}
+              <span class="text-xs font-bold whitespace-nowrap">{{ m.budget_display }}</span>
+              {% else %}
+              <span class="text-xs font-bold whitespace-nowrap uppercase">Accord-cadre</span>
+              {% endif %}
+            </div>
+            <div class="flex items-center gap-2 flex-grow">
+              {% if m.match_pct >= 70 %}
+              <span class="bg-accent-teal text-white text-[9px] font-bold px-1.5 py-0.5 rounded uppercase">{{ m.match_pct }}% FIT</span>
+              {% elif m.match_pct >= 40 %}
+              <span class="bg-accent-blue text-white text-[9px] font-bold px-1.5 py-0.5 rounded uppercase">{{ m.match_pct }}% FIT</span>
+              {% else %}
+              <span class="bg-secondary text-white text-[9px] font-bold px-1.5 py-0.5 rounded uppercase">{{ m.match_pct }}% FIT</span>
+              {% endif %}
+              {% if m.days_left <= 7 %}
+              <span class="bg-error text-white text-[9px] font-bold px-1.5 py-0.5 rounded uppercase">J-{{ m.days_left }}</span>
+              {% elif m.days_left <= 30 %}
+              <span class="bg-accent-amber text-white text-[9px] font-bold px-1.5 py-0.5 rounded uppercase">J-{{ m.days_left }}</span>
+              {% else %}
+              <span class="bg-surface-container-high text-on-surface-variant text-[9px] font-bold px-1.5 py-0.5 rounded">J-{{ m.days_left }}</span>
+              {% endif %}
+            </div>
+            <div class="flex items-center gap-2 flex-shrink-0">
+              <span class="material-symbols-outlined text-on-surface-variant text-sm">location_on</span>
+              <span class="text-[10px] font-medium text-on-surface-variant whitespace-nowrap">{{ m.geo_label }}</span>
+            </div>
+            {% if m.url_avis %}
+            <a href="{{ m.url_avis }}" target="_blank" class="flex-shrink-0 text-on-primary-container opacity-40 hover:opacity-100 transition-opacity">
+              <span class="material-symbols-outlined text-lg">open_in_new</span>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="text-on-surface-variant">Aucun marché prioritaire identifié aujourd'hui.</p>
+    {% endif %}
+  </section>
+
+  <!-- Flux de Veille (Tableau) -->
+  {% if other_markets %}
+  <section id="section-others">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-xl font-bold text-primary-container tracking-tight">Flux de Veille</h2>
+      <span class="text-xs font-bold uppercase tracking-widest text-on-surface-variant" id="others-count-badge">{{ other_markets | length }} marchés</span>
+    </div>
+
+    <div class="overflow-hidden rounded-xl bg-surface-container-lowest shadow-sm">
+      <table class="w-full border-collapse text-left">
+        <thead>
+          <tr class="bg-primary-container text-white">
+            <th class="px-6 py-4 text-[10px] font-bold uppercase tracking-widest">Acheteur</th>
+            <th class="px-6 py-4 text-[10px] font-bold uppercase tracking-widest">Objet du Marché</th>
+            <th class="px-6 py-4 text-[10px] font-bold uppercase tracking-widest">Budget Est.</th>
+            <th class="px-6 py-4 text-[10px] font-bold uppercase tracking-widest text-center">Fit Score</th>
+            <th class="px-6 py-4 text-[10px] font-bold uppercase tracking-widest text-center">Deadline</th>
+            <th class="px-6 py-4 text-[10px] font-bold uppercase tracking-widest text-center">Geo</th>
+            <th class="px-6 py-4 text-[10px] font-bold uppercase tracking-widest text-right">Actions</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-outline-variant/10">
+          {% for m in other_markets %}
+          <tr class="{% if loop.index is odd %}{% else %}bg-surface-container-low/30{% endif %} hover:bg-surface-container-low transition-colors group" data-category="{{ m.category }}" data-searchable="{{ m.objet | lower }} {{ m.nomacheteur | lower }}">
+            <td class="px-6 py-4">
+              <span class="text-xs font-bold text-primary-container">{{ m.nomacheteur | truncate(30) }}</span>
+            </td>
+            <td class="px-6 py-4">
+              <p class="text-xs font-medium text-on-surface line-clamp-1">{{ m.objet | truncate(100) }}</p>
+            </td>
+            <td class="px-6 py-4">
+              {% if m.budget %}
+              <span class="text-xs font-bold text-on-surface-variant">{{ m.budget_display }}</span>
+              {% else %}
+              <span class="text-xs font-bold text-on-surface-variant">Non communiqué</span>
+              {% endif %}
+            </td>
+            <td class="px-6 py-4 text-center">
+              {% if m.match_pct >= 70 %}
+              <span class="bg-accent-teal text-white text-[10px] font-bold px-2 py-0.5 rounded-full">{{ m.match_pct }}%</span>
+              {% elif m.match_pct >= 40 %}
+              <span class="bg-accent-blue text-white text-[10px] font-bold px-2 py-0.5 rounded-full">{{ m.match_pct }}%</span>
+              {% else %}
+              <span class="bg-surface-container-high text-on-surface-variant text-[10px] font-bold px-2 py-0.5 rounded-full">{{ m.match_pct }}%</span>
+              {% endif %}
+            </td>
+            <td class="px-6 py-4 text-center">
+              {% if m.days_left <= 7 %}
+              <span class="text-xs font-bold text-white bg-error px-1.5 py-0.5 rounded">J-{{ m.days_left }}</span>
+              {% elif m.days_left <= 30 %}
+              <span class="text-xs font-bold text-white bg-accent-amber px-1.5 py-0.5 rounded">J-{{ m.days_left }}</span>
+              {% else %}
+              <span class="text-xs font-medium text-on-surface-variant">J-{{ m.days_left }}</span>
+              {% endif %}
+            </td>
+            <td class="px-6 py-4 text-center">
+              <span class="text-[10px] font-medium text-on-surface-variant">{{ m.geo_label }}</span>
+            </td>
+            <td class="px-6 py-4 text-right">
+              <div class="flex items-center justify-end gap-2">
+                <button class="text-on-primary-container opacity-40 group-hover:opacity-100 transition-opacity" onclick="showRelevance('{{ m.idweb }}')" title="Résumé de pertinence">
+                  <span class="material-symbols-outlined text-lg">info</span>
+                </button>
+                {% if m.url_avis %}
+                <a href="{{ m.url_avis }}" target="_blank" class="text-on-primary-container opacity-40 group-hover:opacity-100 transition-opacity">
+                  <span class="material-symbols-outlined text-lg">open_in_new</span>
+                </a>
+                {% endif %}
+              </div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+  {% endif %}
+
+</main>
+
+<!-- Footer -->
+<footer class="bg-surface-container-low text-on-surface-variant mt-20 border-t border-outline-variant/10">
+  <div class="max-w-full px-6 md:px-28 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
+    <div class="flex items-center gap-4">
+      <span class="text-[10px] font-bold uppercase tracking-widest">&copy; 2025 Harington Sovereign.</span>
+      <span class="text-[10px] font-medium opacity-50">Intelligence Stratégique AO &bull; {{ report_date_fr }}</span>
+    </div>
+    <div class="flex gap-8">
+      <span class="text-[10px] font-bold uppercase tracking-widest opacity-50">Scan BOAMP automatique</span>
+      <span class="text-[10px] font-bold uppercase tracking-widest opacity-50">Scoring IA Harington</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Relevance Popup -->
 <div class="relevance-overlay" id="relevance-overlay" onclick="hideRelevance()"></div>
 <div class="relevance-popup" id="relevance-popup">
-  <div class="relevance-popup-header">
-    <h3 id="relevance-title">Resume de pertinence</h3>
-    <button class="relevance-popup-close" onclick="hideRelevance()">&times;</button>
+  <div class="flex items-start justify-between mb-4 pb-3 border-b border-outline-variant/30">
+    <h3 id="relevance-title" class="text-[15px] font-bold text-navy leading-tight flex-1 mr-3">Résumé de pertinence</h3>
+    <button class="w-7 h-7 rounded-full border border-outline-variant bg-surface flex items-center justify-center text-navy text-sm cursor-pointer hover:bg-surface-container-high transition-colors" onclick="hideRelevance()">&times;</button>
   </div>
-  <div class="relevance-popup-meta" id="relevance-meta"></div>
-  <ul id="relevance-list"></ul>
+  <div class="flex flex-wrap gap-2 mb-4" id="relevance-meta"></div>
+  <ul id="relevance-list" class="space-y-0"></ul>
 </div>
 
 <script>
@@ -600,29 +361,54 @@
   if (pills.length) {
     pills.forEach(function(pill) {
       pill.addEventListener('click', function() {
-        pills.forEach(function(p) { p.classList.remove('active'); });
-        this.classList.add('active');
+        pills.forEach(function(p) {
+          p.classList.remove('bg-primary-container', 'text-white', 'font-bold');
+          p.classList.add('font-medium', 'text-on-surface-variant');
+        });
+        this.classList.add('bg-primary-container', 'text-white', 'font-bold');
+        this.classList.remove('font-medium', 'text-on-surface-variant');
+
         var cat = this.getAttribute('data-cat');
-        var cards = document.querySelectorAll('.prio-card[data-category]');
-        var visibleCards = 0;
-        cards.forEach(function(card) {
-          var show = cat === 'all' || card.getAttribute('data-category') === cat;
-          card.style.display = show ? '' : 'none';
-          if (show) visibleCards++;
-        });
-        var rows = document.querySelectorAll('tr[data-category]');
-        var visibleRows = 0;
-        rows.forEach(function(row) {
-          var show = cat === 'all' || row.getAttribute('data-category') === cat;
-          row.style.display = show ? '' : 'none';
-          if (show) visibleRows++;
-        });
-        var pcb = document.getElementById('priority-count-badge');
-        if (pcb) pcb.textContent = visibleCards + ' resultats';
-        var ocb = document.getElementById('others-count-badge');
-        if (ocb) ocb.textContent = visibleRows + ' resultats';
+        filterContent(cat, '');
       });
     });
+  }
+
+  // ── SEARCH ──
+  var searchInput = document.getElementById('search-input');
+  if (searchInput) {
+    searchInput.addEventListener('input', function() {
+      var activePill = document.querySelector('.filter-pill.bg-primary-container');
+      var cat = activePill ? activePill.getAttribute('data-cat') : 'all';
+      filterContent(cat, this.value.toLowerCase());
+    });
+  }
+
+  function filterContent(cat, search) {
+    var cards = document.querySelectorAll('.prio-card');
+    var visibleCards = 0;
+    cards.forEach(function(card) {
+      var catMatch = cat === 'all' || card.getAttribute('data-category') === cat;
+      var searchMatch = !search || (card.getAttribute('data-searchable') || '').indexOf(search) !== -1;
+      var show = catMatch && searchMatch;
+      card.style.display = show ? '' : 'none';
+      if (show) visibleCards++;
+    });
+
+    var rows = document.querySelectorAll('tr[data-category]');
+    var visibleRows = 0;
+    rows.forEach(function(row) {
+      var catMatch = cat === 'all' || row.getAttribute('data-category') === cat;
+      var searchMatch = !search || (row.getAttribute('data-searchable') || '').indexOf(search) !== -1;
+      var show = catMatch && searchMatch;
+      row.style.display = show ? '' : 'none';
+      if (show) visibleRows++;
+    });
+
+    var pcb = document.getElementById('priority-count-badge');
+    if (pcb) pcb.textContent = visibleCards + ' Sélections IA';
+    var ocb = document.getElementById('others-count-badge');
+    if (ocb) ocb.textContent = visibleRows + ' marchés';
   }
 
   // ── RELEVANCE POPUP ──
@@ -632,29 +418,28 @@
     var data = relevanceData[idweb];
     if (!data) return;
 
-    document.getElementById('relevance-title').textContent = data.title || 'Resume de pertinence';
+    document.getElementById('relevance-title').textContent = data.title || 'Résumé de pertinence';
 
     var meta = document.getElementById('relevance-meta');
     meta.innerHTML = '';
     if (data.match_pct !== undefined) {
-      var pctSpan = document.createElement('span');
-      pctSpan.className = 'tier-badge tier-' + (data.tier || 'low');
-      pctSpan.textContent = data.match_pct + '% FIT Harington';
-      meta.appendChild(pctSpan);
+      var pctClass = data.match_pct >= 70
+        ? 'bg-accent-teal text-white'
+        : data.match_pct >= 40
+          ? 'bg-accent-blue text-white'
+          : 'bg-secondary text-white';
+      meta.innerHTML += '<span class="' + pctClass + ' text-[10px] font-bold px-2 py-0.5 rounded-full">' + data.match_pct + '% FIT</span>';
     }
     if (data.ao_type) {
-      var aoSpan = document.createElement('span');
-      aoSpan.className = 'badge badge-score-3';
-      aoSpan.style.textTransform = 'none';
-      aoSpan.textContent = data.ao_type;
-      meta.appendChild(aoSpan);
+      meta.innerHTML += '<span class="bg-navy text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase">' + data.ao_type + '</span>';
     }
 
     var list = document.getElementById('relevance-list');
     list.innerHTML = '';
     (data.bullets || []).forEach(function(b) {
       var li = document.createElement('li');
-      li.textContent = b;
+      li.className = 'text-[13px] text-on-surface py-2 pl-5 border-b border-surface-container-low relative';
+      li.innerHTML = '<span class="absolute left-0 text-navy-light font-semibold">&rarr;</span> ' + b;
       list.appendChild(li);
     });
 

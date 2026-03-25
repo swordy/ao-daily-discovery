@@ -69,14 +69,20 @@ def _extract_description(market: dict) -> str:
 
 
 def _build_harington_tags(market: dict) -> list[dict]:
-    """Build Harington-specific tags (products, REX, tech) instead of BOAMP generic tags."""
+    """Build Harington-specific tags (delivery, expertises, products, profils, tech, REX)."""
     tags = []
-    for p in market.get("matched_products", [])[:2]:
+    for d in market.get("matched_delivery", [])[:2]:
+        tags.append({"label": d, "type": "delivery"})
+    for e in market.get("matched_expertises", [])[:2]:
+        tags.append({"label": e, "type": "expertise"})
+    for p in market.get("matched_products", [])[:1]:
         tags.append({"label": p["label"], "type": "product"})
-    for r in market.get("matched_rex", [])[:2]:
-        tags.append({"label": r["label"], "type": "rex"})
-    for t in market.get("matched_tech", [])[:3]:
+    for pr in market.get("matched_profils", [])[:1]:
+        tags.append({"label": pr, "type": "profil"})
+    for t in market.get("matched_tech", [])[:2]:
         tags.append({"label": t.title(), "type": "tech"})
+    for r in market.get("matched_rex", [])[:1]:
+        tags.append({"label": r["label"], "type": "rex"})
     # Fallback: BOAMP descriptors if no Harington match
     if not tags:
         descs = market.get("descripteur_libelle", [])

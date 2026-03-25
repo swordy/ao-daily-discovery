@@ -20,9 +20,13 @@ def main() -> int:
     config = load_config()
     cat_count = len(config.get("categories", {}))
     query_count = sum(len(c.get("queries", [])) for c in config.get("categories", {}).values())
-    product_count = len(config.get("harington_portfolio", {}).get("products", {}))
-    rex_count = len(config.get("harington_portfolio", {}).get("rex", []))
-    print(f"[0/4] Config loaded: {cat_count} categories, {query_count} queries, {product_count} products, {rex_count} REX")
+    portfolio = config.get("harington_portfolio", {})
+    product_count = len(portfolio.get("products", {}))
+    expertise_count = len(portfolio.get("expertises", {}))
+    delivery_count = len(portfolio.get("delivery", {}))
+    profil_count = len(portfolio.get("profils", {}))
+    rex_count = len(portfolio.get("rex", []))
+    print(f"[0/4] Config loaded: {cat_count} categories, {query_count} queries, {product_count} products, {expertise_count} expertises, {delivery_count} delivery, {profil_count} profils, {rex_count} REX")
 
     # 1. Fetch markets
     print("[1/4] Fetching BOAMP markets...")
