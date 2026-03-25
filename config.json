@@ -157,14 +157,14 @@
       "middleware": ["webmethods", "axway", "kafka", "rabbitmq", "elk", "elasticsearch", "logstash", "kibana", "prometheus", "grafana", "api management", "api gateway", "esb", "bus de services", "mulesoft", "tibco", "apigee"]
     },
     "expertises": {
-      "audit_urbanisation": ["audit", "audit si", "audit informatique", "audit applicatif", "audit de code", "urbanisation", "urbanisation si", "cartographie", "cartographie applicative", "schéma directeur", "sdsi", "schéma directeur informatique", "plan de transformation", "architecture", "architecture si", "architecture technique", "architecture fonctionnelle", "architecture d'entreprise", "togaf"],
+      "audit_urbanisation": ["audit", "audit si", "audit informatique", "audit applicatif", "audit de code", "urbanisation", "urbanisation si", "cartographie", "cartographie applicative", "schéma directeur", "sdsi", "schéma directeur informatique", "plan de transformation", "plan d'actions", "feuille de route", "architecture", "architecture si", "architecture technique", "architecture fonctionnelle", "architecture d'entreprise", "togaf"],
       "migration_bi_data": ["migration bi", "migration reporting", "migration données", "migration data", "migration etl", "rationalisation bi", "rationalisation reporting", "rationalisation outils", "consolidation bi", "refonte décisionnel", "modernisation bi", "modernisation data", "transformation data", "data engineering", "data engineer", "ingénierie des données"],
       "microservices_archi": ["microservices", "micro-services", "architecture microservices", "ddd", "domain driven design", "event sourcing", "cqrs", "event storming", "api rest", "api restful", "graphql", "api first", "swagger", "openapi"],
       "iam_securite": ["iam", "gestion des identités", "identity", "access management", "sso", "single sign-on", "oauth", "openid", "ldap", "active directory", "keycloak", "sécurité applicative", "sécurité informatique", "cybersécurité", "pentest", "tests d'intrusion", "soc", "siem", "iso 27001", "nis2", "audit de sécurité", "devsecops", "sécurité des si"],
       "rse_impact": ["rse", "responsabilité sociétale", "développement durable", "numérique responsable", "éco-conception", "green it", "bilan carbone", "audit carbone", "ecovadis", "iso 14001", "accessibilité numérique", "rgaa", "sobriété numérique"],
       "qa_tests": ["qa", "qualité logicielle", "assurance qualité", "tests fonctionnels", "tests automatisés", "recette", "recette fonctionnelle", "recette applicative", "selenium", "cypress", "playwright", "test automation", "stratégie de tests", "plan de tests", "tests de non-régression", "tnr", "vabf", "vsr", "homologation"],
       "paiements_monetique": ["monétique", "paiement", "paiements", "moyens de paiement", "compensation", "sepa", "swift", "carte bancaire", "cb", "tpe", "transaction", "paiement en ligne", "psp", "acquiring", "issuing", "pci-dss"],
-      "ia_generative": ["ia générative", "intelligence artificielle", "genai", "llm", "large language model", "rag", "retrieval augmented generation", "agentique", "agent ia", "agents ia", "factory agentique", "plateforme agentique", "prompt engineering", "fine-tuning", "vibe coding", "copilot", "assistant ia", "chatbot ia"]
+      "ia_generative": ["ia générative", "intelligence artificielle", "genai", "llm", "large language model", "rag", "retrieval augmented generation", "agentique", "agent ia", "agents ia", "factory agentique", "plateforme agentique", "prompt engineering", "fine-tuning", "vibe coding", "copilot", "assistant ia", "chatbot ia", "plan d'actions ia", "stratégie ia", "feuille de route ia", "schéma directeur ia", "transformation ia"]
     },
     "delivery": {
       "centre_competences": ["centre de compétences", "centres de compétences", "cdc", "pôle de compétences", "pôle d'expertise", "cellule d'expertise", "practice"],
@@ -175,12 +175,12 @@
       "tma": ["tma", "tierce maintenance applicative", "maintenance applicative", "maintenance corrective", "maintenance évolutive", "mco", "maintien en conditions opérationnelles", "run applicatif", "support applicatif", "support niveau 2", "support niveau 3", "support n2", "support n3"]
     },
     "profils": {
-      "business_analyse": ["business analyste", "business analyst", "analyste fonctionnel", "analyste métier", "consultant fonctionnel", "consultant métier", "ba"],
+      "business_analyse": ["business analyste", "business analyst", "analyste fonctionnel", "analyste métier", "consultant fonctionnel", "consultant métier"],
       "gestion_projet": ["pmo", "project management officer", "chef de projet", "chef de projets", "directeur de projet", "responsable de projet", "pilotage de projet", "gestion de projet", "conduite de projet", "coordination projet"],
       "moa": ["moa", "maîtrise d'ouvrage", "maitrise d'ouvrage", "assistance à maîtrise d'ouvrage", "amoa", "amoe"],
-      "product_owner": ["product owner", "po", "scrum master", "coach agile", "agile coach", "release train engineer", "rte", "safe", "agiliste"],
+      "product_owner": ["product owner", "scrum master", "coach agile", "agile coach", "release train engineer", "safe", "agiliste"],
       "architecte": ["architecte technique", "architecte solution", "architecte logiciel", "architecte si", "architecte fonctionnel", "tech lead", "lead tech", "lead développeur", "lead dev", "référent technique"],
-      "consultant_it": ["consultant", "consultant informatique", "consultant it", "consultant technique", "consultant digital", "consultant numérique", "ingénieur d'études", "ingénieur de développement", "développeur", "concepteur développeur"]
+      "consultant_it": ["consultant", "consultant informatique", "consultant it", "consultant technique", "consultant digital", "consultant numérique", "ingénieur d'études", "ingénieur de développement", "développeur", "concepteur développeur", "prestations informatiques", "prestations de services informatiques"]
     },
     "rex": [
       {
@@ -351,7 +351,22 @@
       "diagnostics immobiliers", "amiante",
       "huissier", "recouvrement",
       "formation professionnelle continue",
-      "médecine du travail", "prévention des risques"
+      "médecine du travail", "prévention des risques",
+      "autoconsommation", "photovoltaïque", "panneaux solaires",
+      "énergie renouvelable", "éolien", "réseau électrique",
+      "génie électrique", "ingénierie civile", "maîtrise d'oeuvre",
+      "maître d'oeuvre", "architecte bâtiment", "architecte dplg",
+      "bureau d'études techniques", "bet structure",
+      "assainissement", "eau potable", "adduction d'eau",
+      "voirie et réseaux", "aménagement urbain",
+      "études hydrauliques", "études thermiques",
+      "isolation thermique", "performance énergétique",
+      "diagnostic énergétique", "audit énergétique",
+      "commissionnement", "fluides", "calorifuge",
+      "biodiversité", "faune", "flore", "écologie",
+      "archéologie", "fouilles", "patrimoine bâti",
+      "acoustique", "études acoustiques",
+      "commissaire aux comptes", "expertise comptable"
     ],
     "inclusion_required": [
       "informatique", "numérique", "digital", "logiciel", "développement",

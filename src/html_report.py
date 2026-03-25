@@ -15,7 +15,7 @@ DAYS_FR = {0: "lundi", 1: "mardi", 2: "mercredi", 3: "jeudi", 4: "vendredi", 5: 
 MONTHS_FR = {1: "janvier", 2: "février", 3: "mars", 4: "avril", 5: "mai", 6: "juin",
              7: "juillet", 8: "août", 9: "septembre", 10: "octobre", 11: "novembre", 12: "décembre"}
 
-MIN_PRIORITY = 4  # Minimum number of markets in priority section
+MIN_PRIORITY = 6  # Minimum number of markets in priority section (2 rows × 3 cols)
 
 
 def _date_fr(d: date) -> str:
@@ -128,9 +128,12 @@ def generate_report(scored_markets: list[dict], output_path: str, config: dict |
             m["promoted"] = True
             priority.append(m)
 
-    # Others: everything not in priority, score >= 1.5
+    # Others: everything not in priority, score >= 1.5, sorted by score desc then deadline asc
     priority_ids = {m.get("idweb") for m in priority}
-    others = [m for m in enriched if m.get("idweb") not in priority_ids and m.get("score", 0) >= 1.5]
+    others = sorted(
+        [m for m in enriched if m.get("idweb") not in priority_ids and m.get("score", 0) >= 1.5],
+        key=lambda x: (-x.get("score", 0), x.get("days_left", 999)),
+    )
 
     urgent_15j = sum(1 for m in enriched if m.get("days_left", 999) <= 15)
     urgent_30j = sum(1 for m in enriched if m.get("days_left", 999) <= 30)

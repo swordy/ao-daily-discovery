@@ -219,12 +219,20 @@ def _score_products(text: str, products: dict) -> tuple[float, list[dict]]:
 
 
 def _score_expertises(text: str, expertises: dict) -> tuple[float, list[str]]:
-    """Score expertise domains match. Returns (score_1_5, matched_expertise_names)."""
+    """Score expertise domains match. Returns (score_1_5, matched_expertise_names).
+
+    A domain matches with 2+ keyword hits, OR 1 hit if the keyword is a
+    specific compound term (>= 12 chars) — handles short BOAMP descriptions.
+    """
     matched_domains = []
 
     for domain_name, domain_keywords in expertises.items():
-        hits = sum(1 for kw in domain_keywords if kw.lower() in text)
+        matched_kws = [kw for kw in domain_keywords if kw.lower() in text]
+        hits = len(matched_kws)
         if hits >= 2:
+            matched_domains.append(domain_name)
+        elif hits == 1 and len(matched_kws[0]) >= 12:
+            # Single hit on a specific compound term (e.g. "plan d'actions ia")
             matched_domains.append(domain_name)
 
     count = len(matched_domains)
@@ -253,7 +261,7 @@ def _score_delivery(text: str, delivery: dict) -> tuple[float, list[str]]:
     matched_types = []
 
     for delivery_name, delivery_keywords in delivery.items():
-        hits = sum(1 for kw in delivery_keywords if kw.lower() in text)
+        hits = sum(1 for kw in delivery_keywords if _term_in_text(kw.lower(), text))
         if hits >= 1:
             matched_types.append(delivery_name)
 
@@ -277,7 +285,7 @@ def _score_profils(text: str, profils: dict) -> tuple[float, list[str]]:
     matched_types = []
 
     for profil_name, profil_keywords in profils.items():
-        hits = sum(1 for kw in profil_keywords if kw.lower() in text)
+        hits = sum(1 for kw in profil_keywords if _term_in_text(kw.lower(), text))
         if hits >= 1:
             matched_types.append(profil_name)
 
@@ -572,6 +580,11 @@ def score_market(market: dict, config: dict) -> dict | None:
     delivery_score, matched_delivery = _score_delivery(text, portfolio.get("delivery", {}))
     profil_score, matched_profils = _score_profils(text, portfolio.get("profils", {}))
 
+    # ── IMPLICIT IT STAFFING ──
+    # BOAMP texts often just say "informatique + prestations de services" without
+    # naming profiles or delivery modes. This IS IT staffing — Harington can source.
+    is_it_services = ("informatique" in text and "prestations" in text) or "services numériques" in text
+
     stack_match = (
         tech_score * sub_weights.get("tech_stack", 0.30)
         + product_score * sub_weights.get("products", 0.15)
@@ -579,6 +592,37 @@ def score_market(market: dict, config: dict) -> dict | None:
         + delivery_score * sub_weights.get("delivery", 0.20)
         + profil_score * sub_weights.get("profils", 0.15)
     )
+
+    # ── AT/RÉGIE FAST-TRACK ──
+    # Explicit AT/régie delivery + profile match → Harington can source any
+    # consultant regardless of domain → floor at 4.5/5.
+    _AT_DELIVERY_KEYS = {"regie", "centre_competences", "nearshore_onshore"}
+    is_explicit_staffing = bool(_AT_DELIVERY_KEYS & set(matched_delivery))
+
+    if is_explicit_staffing and profil_score >= 3:
+        stack_match = max(4.5, stack_match)
+
+    # ── IT SERVICES STAFFING BOOST ──
+    # "informatique + prestations de services" = IT staffing request.
+    # Harington can source any IT profile → floor based on natural matches.
+    elif is_it_services:
+        # Count naturally matching dimensions (>= 3 score, before any boost)
+        natural_strong = sum(1 for s in [tech_score, expertise_score, delivery_score, profil_score] if s >= 3)
+        if natural_strong >= 2:
+            stack_match = max(4.5, stack_match)  # 2+ natural matches + IT services
+        elif natural_strong >= 1:
+            stack_match = max(3.5, stack_match)  # 1 natural match + IT services
+        else:
+            stack_match = max(3.0, stack_match)  # IT services but nothing specific
+
+    # ── ESN BASELINE BOOST ──
+    # Non-IT-services markets with strong dimensions
+    elif delivery_score >= 3 and profil_score >= 3:
+        strong_dims = sum(1 for s in [tech_score, expertise_score, delivery_score, profil_score] if s >= 3)
+        if strong_dims >= 3:
+            stack_match = max(4.0, stack_match)
+        elif strong_dims >= 2:
+            stack_match = max(3.5, stack_match)
 
     # ── SYNERGY BONUS ──
     # Core ESN combos that must score high
@@ -594,6 +638,10 @@ def score_market(market: dict, config: dict) -> dict | None:
         stack_match += 0.5  # Delivery forte + expertise reconnue
     elif delivery_score >= 3 and profil_score >= 3:
         stack_match += 0.5  # Delivery + profils ESN
+
+    # IA strategic bonus: IA tech + delivery + expertise IA
+    if expertise_score >= 3 and delivery_score >= 3 and tech_score >= 3:
+        stack_match += 0.7  # Triple combo: expertise + delivery + tech
 
     stack_match = min(5.0, stack_match)
 

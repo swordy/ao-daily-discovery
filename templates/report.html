@@ -179,7 +179,7 @@
     </div>
 
     {% if priority_markets %}
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="priority-grid">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="priority-grid">
       {% for m in priority_markets %}
       <div class="prio-card bg-surface-container-lowest rounded-xl shadow-[0_10px_40px_-10px_rgba(15,29,51,0.08)] border-l-4 {% if m.promoted %}border-outline-variant{% else %}border-navy{% endif %} relative overflow-hidden p-5 flex flex-col gap-4" data-category="{{ m.category }}" data-searchable="{{ m.objet | lower }} {{ m.nomacheteur | lower }}">
         <button class="absolute top-4 right-4 text-on-surface-variant/40 hover:text-navy transition-colors" onclick="showRelevance('{{ m.idweb }}')" title="Résumé de pertinence">
@@ -192,15 +192,15 @@
         <div class="flex flex-wrap gap-2">
           {% for tag in m.harington_tags %}
           {% if tag.type == 'product' %}
-          <span class="bg-accent-purple text-white text-[10px] font-normal px-2.5 py-1 rounded-full uppercase">{{ tag.label }}</span>
+          <span class="bg-primary-fixed/40 text-navy border border-navy/20 text-xs font-normal px-3 py-1.5 rounded-full">{{ tag.label }}</span>
           {% elif tag.type == 'delivery' %}
-          <span class="bg-navy text-white text-[10px] font-normal px-2.5 py-1 rounded-full uppercase">{{ tag.label }}</span>
+          <span class="bg-navy/10 text-navy border border-navy/25 text-xs font-normal px-3 py-1.5 rounded-full">{{ tag.label }}</span>
           {% elif tag.type == 'expertise' %}
-          <span class="bg-accent-blue text-white text-[10px] font-normal px-2.5 py-1 rounded-full uppercase">{{ tag.label }}</span>
+          <span class="bg-[#e8f0fe] text-accent-blue border border-accent-blue/25 text-xs font-normal px-3 py-1.5 rounded-full">{{ tag.label }}</span>
           {% elif tag.type == 'profil' %}
-          <span class="bg-accent-teal text-white text-[10px] font-normal px-2.5 py-1 rounded-full uppercase">{{ tag.label }}</span>
+          <span class="bg-[#e0f2fe] text-[#0369a1] border border-[#0369a1]/20 text-xs font-normal px-3 py-1.5 rounded-full">{{ tag.label }}</span>
           {% else %}
-          <span class="bg-surface-container-high text-navy text-[10px] font-normal px-2.5 py-1 rounded-full uppercase">{{ tag.label }}</span>
+          <span class="bg-surface-container-high text-grey border border-outline-variant text-xs font-normal px-3 py-1.5 rounded-full">{{ tag.label }}</span>
           {% endif %}
           {% endfor %}
         </div>
@@ -216,18 +216,18 @@
             </div>
             <div class="flex items-center gap-2 flex-grow">
               {% if m.match_pct >= 70 %}
-              <span class="bg-accent-teal text-white text-[9px] font-normal px-1.5 py-0.5 rounded uppercase">{{ m.match_pct }}% FIT</span>
+              <span class="bg-navy/10 text-navy border border-navy/25 text-xs font-normal px-3 py-1 rounded-full">{{ m.match_pct }}%</span>
               {% elif m.match_pct >= 40 %}
-              <span class="bg-accent-blue text-white text-[9px] font-normal px-1.5 py-0.5 rounded uppercase">{{ m.match_pct }}% FIT</span>
+              <span class="bg-[#e8f0fe] text-accent-blue border border-accent-blue/25 text-xs font-normal px-3 py-1 rounded-full">{{ m.match_pct }}%</span>
               {% else %}
-              <span class="bg-secondary text-white text-[9px] font-normal px-1.5 py-0.5 rounded uppercase">{{ m.match_pct }}% FIT</span>
+              <span class="bg-surface-container-high text-grey border border-outline-variant text-xs font-normal px-3 py-1 rounded-full">{{ m.match_pct }}%</span>
               {% endif %}
               {% if m.days_left <= 7 %}
-              <span class="bg-error text-white text-[9px] font-normal px-1.5 py-0.5 rounded uppercase">J-{{ m.days_left }}</span>
+              <span class="bg-error/10 text-error border border-error/25 text-xs font-normal px-3 py-1 rounded-full">J-{{ m.days_left }}</span>
               {% elif m.days_left <= 30 %}
-              <span class="bg-accent-amber text-white text-[9px] font-normal px-1.5 py-0.5 rounded uppercase">J-{{ m.days_left }}</span>
+              <span class="bg-[#fef3c7] text-[#92400e] border border-[#92400e]/20 text-xs font-normal px-3 py-1 rounded-full">J-{{ m.days_left }}</span>
               {% else %}
-              <span class="bg-surface-container-high text-on-surface-variant text-[9px] font-normal px-1.5 py-0.5 rounded">J-{{ m.days_left }}</span>
+              <span class="bg-surface-container-high text-grey border border-outline-variant text-xs font-normal px-3 py-1 rounded-full">J-{{ m.days_left }}</span>
               {% endif %}
             </div>
             <div class="flex items-center gap-2 flex-shrink-0">
@@ -288,20 +288,20 @@
             </td>
             <td class="px-6 py-4 text-center">
               {% if m.match_pct >= 70 %}
-              <span class="bg-accent-teal text-white text-[10px] font-normal px-2 py-0.5 rounded-full">{{ m.match_pct }}%</span>
+              <span class="bg-navy/10 text-navy border border-navy/25 text-xs font-normal px-3 py-1 rounded-full">{{ m.match_pct }}%</span>
               {% elif m.match_pct >= 40 %}
-              <span class="bg-accent-blue text-white text-[10px] font-normal px-2 py-0.5 rounded-full">{{ m.match_pct }}%</span>
+              <span class="bg-[#e8f0fe] text-accent-blue border border-accent-blue/25 text-xs font-normal px-3 py-1 rounded-full">{{ m.match_pct }}%</span>
               {% else %}
-              <span class="bg-surface-container-high text-on-surface-variant text-[10px] font-normal px-2 py-0.5 rounded-full">{{ m.match_pct }}%</span>
+              <span class="bg-surface-container-high text-grey border border-outline-variant text-xs font-normal px-3 py-1 rounded-full">{{ m.match_pct }}%</span>
               {% endif %}
             </td>
             <td class="px-6 py-4 text-center">
               {% if m.days_left <= 7 %}
-              <span class="text-xs font-normal text-white bg-error px-1.5 py-0.5 rounded">J-{{ m.days_left }}</span>
+              <span class="bg-error/10 text-error border border-error/25 text-xs font-normal px-3 py-1 rounded-full">J-{{ m.days_left }}</span>
               {% elif m.days_left <= 30 %}
-              <span class="text-xs font-normal text-white bg-accent-amber px-1.5 py-0.5 rounded">J-{{ m.days_left }}</span>
+              <span class="bg-[#fef3c7] text-[#92400e] border border-[#92400e]/20 text-xs font-normal px-3 py-1 rounded-full">J-{{ m.days_left }}</span>
               {% else %}
-              <span class="text-xs font-medium text-on-surface-variant">J-{{ m.days_left }}</span>
+              <span class="text-xs font-normal text-grey">J-{{ m.days_left }}</span>
               {% endif %}
             </td>
             <td class="px-6 py-4 text-center">
@@ -424,14 +424,14 @@
     meta.innerHTML = '';
     if (data.match_pct !== undefined) {
       var pctClass = data.match_pct >= 70
-        ? 'bg-accent-teal text-white'
+        ? 'bg-navy/10 text-navy border border-navy/25'
         : data.match_pct >= 40
-          ? 'bg-accent-blue text-white'
-          : 'bg-secondary text-white';
-      meta.innerHTML += '<span class="' + pctClass + ' text-[10px] font-normal px-2 py-0.5 rounded-full">' + data.match_pct + '% FIT</span>';
+          ? 'bg-[#e8f0fe] text-[#0c629b] border border-[#0c629b]/25'
+          : 'bg-[#e8e8e8] text-[#44474e] border border-[#c5c6cf]';
+      meta.innerHTML += '<span class="' + pctClass + ' text-xs font-normal px-3 py-1 rounded-full">' + data.match_pct + '%</span>';
     }
     if (data.ao_type) {
-      meta.innerHTML += '<span class="bg-navy text-white text-[10px] font-normal px-2.5 py-1 rounded-full uppercase">' + data.ao_type + '</span>';
+      meta.innerHTML += '<span class="bg-navy/10 text-navy border border-navy/25 text-xs font-normal px-3 py-1.5 rounded-full">' + data.ao_type + '</span>';
     }
 
     var list = document.getElementById('relevance-list');
