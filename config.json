@@ -114,146 +114,230 @@
     "products": {
       "OmniaFactory": {
         "label": "OmniaFactory",
+        "type": "accelerator",
         "keywords": ["modernisation", "migration", "legacy", "refonte", "monolithe", "usine logicielle", "factory", "dev factory", "usine de développement", "industrialisation"],
-        "description": "Factory de développement IA — modernisation & industrialisation IT"
+        "description": "Factory de dév IA interne — accélérateur de modernisation & industrialisation, transférable au client"
       },
       "Pearlflow": {
         "label": "Pearlflow",
+        "type": "accelerator",
         "keywords": ["orchestration", "pipeline", "workflow", "automatisation", "no-code", "low-code", "bpm", "processus métier"],
-        "description": "Orchestrateur de pipelines et workflows IA"
+        "description": "Orchestrateur de pipelines IA — outil interne transférable pour autonomisation client"
       },
       "MigratorFlow": {
         "label": "MigratorFlow",
+        "type": "accelerator",
         "keywords": ["migration", "etl", "bdd", "base de données", "données", "plateforme", "cloud", "data migration", "migration de données"],
-        "description": "Plateforme universelle de migration IA (Data, ETL, BDD, Cloud)"
+        "description": "Plateforme de migration IA (Data, ETL, BDD, Cloud) — accélérateur interne transférable"
       },
       "MigratorBI": {
         "label": "MigratorBI",
+        "type": "accelerator",
         "keywords": ["power bi", "fabric", "migration bi", "dax", "dataset", "reporting", "tableau de bord", "business objects", "cognos", "microstrategy", "ssrs", "jasper", "migration reporting"],
-        "description": "Migration spécialisée BI — Power BI, Fabric, Business Objects, Cognos"
+        "description": "Accélérateur migration BI — Power BI, Fabric, BO, Cognos — transférable au client"
       },
       "Dev Brain": {
         "label": "Dev Brain",
+        "type": "accelerator",
         "keywords": ["ia générative", "intelligence artificielle", "genai", "llm", "gpt", "claude", "copilot", "github copilot", "vibe coding", "code generation", "pair programming", "assistant développeur"],
-        "description": "Assistant IA de développement — Copilot, GenAI, vibe coding"
+        "description": "Assistant IA de développement — accélérateur vibe coding, formation & autonomisation équipes"
       },
       "PO/Techlead Assistant": {
         "label": "PO/Techlead Assistant",
+        "type": "accelerator",
         "keywords": ["product owner", "tech lead", "backlog", "user story", "spécification", "cadrage", "expression de besoin", "cahier des charges"],
-        "description": "Assistant IA pour PO & Tech Leads — cadrage, spécifications, backlog"
+        "description": "Assistant IA PO & Tech Leads — accélérateur cadrage & spécifications, transférable"
       },
       "Code Migrator": {
         "label": "Code Migrator",
+        "type": "accelerator",
         "keywords": ["migration code", "migration applicative", "portage", "réécriture", "conversion", "transformation de code", "reverse engineering"],
-        "description": "Migration automatisée de code inter-technologies"
+        "description": "Accélérateur de migration de code inter-technologies — outil IA interne transférable"
       }
     },
     "tech_stack": {
-      "backend": [".net", ".net core", "c#", "java", "jee", "j2ee", "spring", "spring boot", "spring cloud", "python", "fastapi", "django", "flask", "php", "symfony", "laravel", "delphi", "pascal", "cobol", "c/c++", "c++", "asp.net", "vb.net", "vbscript", "vb6", "visual basic", "powershell", "node.js", "nodejs", "go", "golang", "rust", "kotlin", "scala", "ruby"],
-      "frontend": ["angular", "react", "react.js", "reactjs", "typescript", "javascript", "vue.js", "vue", "vuejs", "jquery", "next.js", "nextjs", "nuxt", "svelte", "html5", "css3", "sass", "tailwind"],
-      "data_bi": ["sql server", "postgresql", "postgres", "oracle", "mysql", "mariadb", "mongodb", "snowflake", "databricks", "power bi", "powerbi", "business objects", "bo xi", "sap bo", "webi", "crystal reports", "microstrategy", "ssis", "ssrs", "ssas", "cognos", "informatica", "talend", "azure data factory", "adf", "jasper", "jaspersoft", "hyperion", "qlik", "qlikview", "qliksense", "tableau software", "looker", "datastudio", "fabric", "microsoft fabric", "dax", "mdx", "datawarehouse", "data warehouse", "dwh", "data lake", "datalake", "data lakehouse", "entrepôt de données", "décisionnel", "olap"],
-      "ia_ml": ["intelligence artificielle", "ia", "gpt", "llm", "langchain", "rag", "agents ia", "agent ia", "agentique", "factory agentique", "plateforme agentique", "clustering", "computer vision", "nlp", "ocr", "fine-tuning", "prompt engineering", "genai", "ia générative", "machine learning", "deep learning", "tensorflow", "pytorch", "scikit-learn", "hugging face", "vertexai", "vertex ai", "claude", "github copilot", "copilot", "vibe coding", "chatbot", "assistant virtuel", "openai", "anthropic", "data science", "data scientist"],
-      "cloud_devops": ["azure", "aws", "gcp", "google cloud", "docker", "kubernetes", "k8s", "openshift", "jenkins", "azure devops", "ci/cd", "github actions", "gitlab ci", "terraform", "ansible", "helm", "argo cd", "argocd", "devops", "devsecops", "sre", "iaas", "paas", "saas", "serverless", "lambda", "azure functions"],
-      "middleware": ["webmethods", "axway", "kafka", "rabbitmq", "elk", "elasticsearch", "logstash", "kibana", "prometheus", "grafana", "api management", "api gateway", "esb", "bus de services", "mulesoft", "tibco", "apigee"]
+      "backend": [".net", ".net core", "c#", "java", "jee", "j2ee", "spring", "spring boot", "spring cloud", "python", "fastapi", "django", "flask", "php", "symfony", "laravel", "drupal", "delphi", "pascal", "cobol", "c/c++", "c++", "asp.net", "vb.net", "vbscript", "vb6", "visual basic", "powershell", "node.js", "nodejs", "go", "golang", "rust", "kotlin", "scala", "ruby"],
+      "frontend": ["angular", "react", "react.js", "reactjs", "react native", "typescript", "javascript", "vue.js", "vue", "vuejs", "jquery", "next.js", "nextjs", "nuxt", "svelte", "flutter", "html5", "css3", "sass", "tailwind"],
+      "data_bi": ["sql server", "postgresql", "postgres", "oracle", "mysql", "mariadb", "mongodb", "snowflake", "databricks", "bigquery", "dataiku", "power bi", "powerbi", "business objects", "bo xi", "sap bo", "webi", "crystal reports", "microstrategy", "ssis", "ssrs", "ssas", "cognos", "informatica", "talend", "datastage", "azure data factory", "adf", "jasper", "jaspersoft", "hyperion", "qlik", "qlikview", "qliksense", "tableau software", "looker", "datastudio", "fabric", "microsoft fabric", "dax", "mdx", "datawarehouse", "data warehouse", "dwh", "data lake", "datalake", "data lakehouse", "entrepôt de données", "décisionnel", "olap", "spark"],
+      "ia_ml": ["intelligence artificielle", "ia", "gpt", "llm", "langchain", "langgraph", "rag", "agents ia", "agent ia", "agentique", "factory agentique", "plateforme agentique", "clustering", "computer vision", "nlp", "ocr", "fine-tuning", "prompt engineering", "genai", "ia générative", "machine learning", "deep learning", "tensorflow", "pytorch", "scikit-learn", "hugging face", "vertexai", "vertex ai", "claude", "mistral", "gemini", "github copilot", "copilot", "vibe coding", "chatbot", "assistant virtuel", "openai", "anthropic", "data science", "data scientist"],
+      "cloud_devops": ["azure", "aws", "gcp", "google cloud", "docker", "kubernetes", "k8s", "openshift", "rancher", "jenkins", "azure devops", "ci/cd", "github actions", "gitlab ci", "terraform", "ansible", "cloudformation", "helm", "argo cd", "argocd", "devops", "devsecops", "sre", "iaas", "paas", "saas", "serverless", "lambda", "azure functions", "ecs fargate"],
+      "middleware": ["webmethods", "axway", "kafka", "rabbitmq", "elk", "elasticsearch", "logstash", "kibana", "prometheus", "grafana", "datadog", "dynatrace", "splunk", "zabbix", "api management", "api gateway", "esb", "bus de services", "mulesoft", "tibco", "apigee", "kong", "sonarqube"],
+      "qa_testing": ["selenium", "cypress", "playwright", "katalon", "ranorex", "appium", "cucumber", "gherkin", "postman", "soapui", "rest assured", "jmeter", "gatling"]
     },
     "expertises": {
-      "audit_urbanisation": ["audit", "audit si", "audit informatique", "audit applicatif", "audit de code", "urbanisation", "urbanisation si", "cartographie", "cartographie applicative", "schéma directeur", "sdsi", "schéma directeur informatique", "plan de transformation", "plan d'actions", "feuille de route", "architecture", "architecture si", "architecture technique", "architecture fonctionnelle", "architecture d'entreprise", "togaf"],
-      "migration_bi_data": ["migration bi", "migration reporting", "migration données", "migration data", "migration etl", "rationalisation bi", "rationalisation reporting", "rationalisation outils", "consolidation bi", "refonte décisionnel", "modernisation bi", "modernisation data", "transformation data", "data engineering", "data engineer", "ingénierie des données"],
-      "microservices_archi": ["microservices", "micro-services", "architecture microservices", "ddd", "domain driven design", "event sourcing", "cqrs", "event storming", "api rest", "api restful", "graphql", "api first", "swagger", "openapi"],
-      "iam_securite": ["iam", "gestion des identités", "identity", "access management", "sso", "single sign-on", "oauth", "openid", "ldap", "active directory", "keycloak", "sécurité applicative", "sécurité informatique", "cybersécurité", "pentest", "tests d'intrusion", "soc", "siem", "iso 27001", "nis2", "audit de sécurité", "devsecops", "sécurité des si"],
+      "audit_urbanisation": ["audit", "audit si", "audit informatique", "audit applicatif", "audit de code", "audit qualité", "urbanisation", "urbanisation si", "cartographie", "cartographie applicative", "schéma directeur", "sdsi", "schéma directeur informatique", "schéma directeur numérique", "plan de transformation", "plan d'actions", "feuille de route", "architecture", "architecture si", "architecture technique", "architecture fonctionnelle", "architecture d'entreprise", "togaf", "benchmark", "étude d'opportunité"],
+      "migration_bi_data": ["migration bi", "migration reporting", "migration données", "migration data", "migration etl", "rationalisation bi", "rationalisation reporting", "rationalisation outils", "consolidation bi", "refonte décisionnel", "modernisation bi", "modernisation data", "transformation data", "data engineering", "data engineer", "ingénierie des données", "data governance", "gouvernance des données", "master data management"],
+      "microservices_archi": ["microservices", "micro-services", "architecture microservices", "ddd", "domain driven design", "event sourcing", "cqrs", "event storming", "api rest", "api restful", "graphql", "api first", "swagger", "openapi", "architecture hexagonale", "strangler fig"],
+      "iam_securite": ["iam", "gestion des identités", "identity", "access management", "sso", "single sign-on", "oauth", "openid", "ldap", "active directory", "keycloak", "sécurité applicative", "sécurité informatique", "cybersécurité", "pentest", "tests d'intrusion", "soc", "siem", "iso 27001", "nis2", "audit de sécurité", "devsecops", "sécurité des si", "zero trust", "authentification forte", "dsp2", "dora", "pci-dss", "owasp"],
       "rse_impact": ["rse", "responsabilité sociétale", "développement durable", "numérique responsable", "éco-conception", "green it", "bilan carbone", "audit carbone", "ecovadis", "iso 14001", "accessibilité numérique", "rgaa", "sobriété numérique"],
-      "qa_tests": ["qa", "qualité logicielle", "assurance qualité", "tests fonctionnels", "tests automatisés", "recette", "recette fonctionnelle", "recette applicative", "selenium", "cypress", "playwright", "test automation", "stratégie de tests", "plan de tests", "tests de non-régression", "tnr", "vabf", "vsr", "homologation"],
-      "paiements_monetique": ["monétique", "paiement", "paiements", "moyens de paiement", "compensation", "sepa", "swift", "carte bancaire", "cb", "tpe", "transaction", "paiement en ligne", "psp", "acquiring", "issuing", "pci-dss"],
-      "ia_generative": ["ia générative", "intelligence artificielle", "genai", "llm", "large language model", "rag", "retrieval augmented generation", "agentique", "agent ia", "agents ia", "factory agentique", "plateforme agentique", "prompt engineering", "fine-tuning", "vibe coding", "copilot", "assistant ia", "chatbot ia", "plan d'actions ia", "stratégie ia", "feuille de route ia", "schéma directeur ia", "transformation ia"]
+      "qa_tests": ["qa", "qualité logicielle", "assurance qualité", "tests fonctionnels", "tests automatisés", "recette", "recette fonctionnelle", "recette applicative", "selenium", "cypress", "playwright", "test automation", "stratégie de tests", "plan de tests", "tests de non-régression", "tnr", "vabf", "vsr", "homologation", "shift-left", "qa factory"],
+      "paiements_monetique": ["monétique", "paiement", "paiements", "moyens de paiement", "compensation", "sepa", "swift", "carte bancaire", "cb", "tpe", "transaction", "paiement en ligne", "psp", "acquiring", "issuing", "pci-dss", "tokenisation", "3ds", "instant payment"],
+      "ia_generative": ["ia générative", "intelligence artificielle", "genai", "llm", "large language model", "rag", "retrieval augmented generation", "agentique", "agent ia", "agents ia", "factory agentique", "plateforme agentique", "prompt engineering", "fine-tuning", "vibe coding", "copilot", "assistant ia", "chatbot ia", "plan d'actions ia", "stratégie ia", "feuille de route ia", "schéma directeur ia", "transformation ia"],
+      "ecommerce_digital": ["e-commerce", "site web", "plateforme web", "portail", "intranet", "extranet", "cms", "drupal", "wordpress", "application web", "application mobile", "responsive", "ux", "ui", "design", "front-end", "expérience utilisateur", "interface utilisateur", "transformation digitale", "transformation numérique"],
+      "modernisation_legacy": ["modernisation", "legacy", "refonte", "migration applicative", "migration cloud", "conteneurisation", "containerisation", "monolithe", "dette technique", "portage applicatif", "réécriture", "reverse engineering"]
     },
     "delivery": {
-      "centre_competences": ["centre de compétences", "centres de compétences", "cdc", "pôle de compétences", "pôle d'expertise", "cellule d'expertise", "practice"],
-      "centre_services": ["centre de services", "centres de services", "cds", "centre de service", "service center", "delivery center", "centre de delivery"],
+      "centre_competences": ["centre de compétences", "centres de compétences", "pôle de compétences", "pôle d'expertise", "cellule d'expertise", "practice", "équipe dédiée", "équipe projet dédiée"],
+      "centre_services": ["centre de services", "centres de services", "cds", "centre de service", "service center", "delivery center", "centre de delivery", "unité de production applicative"],
       "nearshore_onshore": ["nearshore", "onshore", "offshore", "best shore", "équipe délocalisée", "centre nearshore", "centre offshore"],
-      "forfait": ["forfait", "engagement de résultat", "clé en main", "projet au forfait", "mode forfait", "obligation de résultat"],
-      "regie": ["régie", "assistance technique", "at", "mise à disposition", "prestation en régie", "time & material", "staffing"],
-      "tma": ["tma", "tierce maintenance applicative", "maintenance applicative", "maintenance corrective", "maintenance évolutive", "mco", "maintien en conditions opérationnelles", "run applicatif", "support applicatif", "support niveau 2", "support niveau 3", "support n2", "support n3"]
+      "forfait": ["forfait", "engagement de résultat", "clé en main", "projet au forfait", "mode forfait", "obligation de résultat", "développement au forfait", "réalisation au forfait", "conception et réalisation"],
+      "regie": ["régie", "assistance technique", "mise à disposition", "prestation en régie", "time & material", "staffing", "mise à disposition de compétences", "renfort d'équipe", "prestation d'assistance technique"],
+      "tma": ["tma", "tierce maintenance applicative", "maintenance applicative", "maintenance corrective", "maintenance évolutive", "mco", "maintien en conditions opérationnelles", "run applicatif", "support applicatif", "support niveau 2", "support niveau 3", "support n2", "support n3", "exploitation applicative", "mcs", "maintien en condition de sécurité"]
     },
     "profils": {
-      "business_analyse": ["business analyste", "business analyst", "analyste fonctionnel", "analyste métier", "consultant fonctionnel", "consultant métier"],
-      "gestion_projet": ["pmo", "project management officer", "chef de projet", "chef de projets", "directeur de projet", "responsable de projet", "pilotage de projet", "gestion de projet", "conduite de projet", "coordination projet"],
-      "moa": ["moa", "maîtrise d'ouvrage", "maitrise d'ouvrage", "assistance à maîtrise d'ouvrage", "amoa", "amoe"],
-      "product_owner": ["product owner", "scrum master", "coach agile", "agile coach", "release train engineer", "safe", "agiliste"],
-      "architecte": ["architecte technique", "architecte solution", "architecte logiciel", "architecte si", "architecte fonctionnel", "tech lead", "lead tech", "lead développeur", "lead dev", "référent technique"],
-      "consultant_it": ["consultant", "consultant informatique", "consultant it", "consultant technique", "consultant digital", "consultant numérique", "ingénieur d'études", "ingénieur de développement", "développeur", "concepteur développeur", "prestations informatiques", "prestations de services informatiques"]
+      "business_analyse": ["business analyste", "business analyst", "analyste fonctionnel", "analyste métier", "consultant fonctionnel", "consultant métier", "analyse fonctionnelle", "analyse des besoins", "recueil des besoins", "expression de besoin"],
+      "gestion_projet": ["pmo", "project management officer", "chef de projet", "chef de projets", "directeur de projet", "responsable de projet", "pilotage de projet", "gestion de projet", "conduite de projet", "coordination projet", "management de projet", "gouvernance projet", "pilotage informatique", "pilotage si"],
+      "moa": ["moa", "maîtrise d'ouvrage", "maitrise d'ouvrage", "assistance à maîtrise d'ouvrage", "amoa", "amoe", "accompagnement à la transformation", "accompagnement au changement", "conduite du changement", "accompagnement à la transformation numérique", "accompagnement à la transformation digitale", "assistance au pilotage"],
+      "product_owner": ["product owner", "scrum master", "coach agile", "agile coach", "release train engineer", "scaled agile", "agiliste", "méthode agile", "méthodes agiles", "framework agile"],
+      "architecte": ["architecte technique", "architecte solution", "architecte logiciel", "architecte si", "architecte fonctionnel", "tech lead", "lead tech", "lead développeur", "lead dev", "référent technique", "expert technique", "expertise technique"],
+      "consultant_it": ["consultant", "consultant informatique", "consultant it", "consultant technique", "consultant digital", "consultant numérique", "ingénieur d'études", "ingénieur de développement", "développeur", "concepteur développeur", "prestations informatiques", "prestations de services informatiques", "prestations intellectuelles", "prestation intellectuelle", "ressources spécialisées", "compétences spécialisées"]
     },
     "rex": [
       {
-        "id": "logistique",
-        "label": "Logistique internationale — Modernisation legacy",
-        "sector": "Transport & Logistique",
-        "duration": "10+ ans",
-        "keywords": ["logistique", "transport", "shipping", "tracking", "edi", "booking", "middleware", "migration legacy", "modernisation", "monolithe"],
-        "stack": [".net", "webmethods", "axway", "kafka", "sql server", "ssis", "ssrs", "docker"]
-      },
-      {
-        "id": "qsr",
-        "label": "Restauration rapide — CDS applicatif & TMA",
+        "id": "mcdonalds",
+        "label": "McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
         "sector": "Restauration (QSR)",
         "duration": "7+ ans",
-        "keywords": ["pos", "caisse", "restaurant", "qsr", "point de vente", "delphi", "pascal", "sox", "alertes"],
-        "stack": ["delphi", "pascal", "sql server", "azure", "powershell"]
+        "keywords": ["pos", "caisse", "restaurant", "qsr", "point de vente", "restauration", "franchise", "multi-sites", "tma"],
+        "stack": [".net", "sql server", "talend", "microstrategy", "azure", "powershell", "bi"]
       },
       {
-        "id": "banque",
-        "label": "Banque d'investissement — Transformation digitale",
-        "sector": "Banque & Finance",
-        "duration": "5+ ans",
-        "keywords": ["banque", "investissement", "trading", "onboarding", "cotation", "kyc", "mifid", "kid"],
-        "stack": ["devops", "ci/cd", "agile"]
-      },
-      {
-        "id": "paiements",
-        "label": "Monétique & Paiements — CDS par paliers",
+        "id": "stet",
+        "label": "STET — Paiements critiques, 100% continuité sur 5+ ans",
         "sector": "Paiements",
-        "duration": "10+ ans",
-        "keywords": ["monétique", "paiement", "compensation", "cb", "sepa", "paylib", "transaction", "temps réel"],
-        "stack": ["c/c++", "c++", "java", "spring boot", ".net", "angular", "docker", "jenkins", "microstrategy"]
+        "duration": "5+ ans",
+        "keywords": ["monétique", "paiement", "compensation", "cb", "sepa", "paylib", "transaction", "temps réel", "tokenisation", "3ds", "dsp2", "dora", "pci-dss", "instant payment"],
+        "stack": ["java", "spring boot", "microservices", "docker", "jenkins"]
       },
       {
-        "id": "industrie",
-        "label": "Industrie & Distribution — Microservices & BI",
+        "id": "europ_assistance",
+        "label": "Europ Assistance — 80+ apps React/Java/AWS, 25-30 consultants",
+        "sector": "Assurance",
+        "duration": "5+ ans",
+        "keywords": ["assurance", "assistance", "sinistre", "digital", "multi-pays"],
+        "stack": ["react", "java", "aws", "docker", "kubernetes"]
+      },
+      {
+        "id": "saint_gobain",
+        "label": "Saint-Gobain — Migration Snowflake + e-commerce Next.js, 12 sites",
         "sector": "Industrie & Distribution",
-        "duration": "6+ ans",
-        "keywords": ["e-commerce", "industrie", "distribution", "rationalisation", "reporting", "rapport", "microservices"],
-        "stack": [".net core", "azure devops", "python", "fastapi", "react", "postgresql", "snowflake", "power bi", "microstrategy"]
+        "duration": "3+ ans",
+        "keywords": ["e-commerce", "industrie", "distribution", "migration", "reporting", "data warehouse", "microservices"],
+        "stack": ["next.js", "java", "spring boot", "mongodb", "snowflake", "power bi", "microstrategy"]
       },
       {
-        "id": "hotellerie",
-        "label": "Hôtellerie — Refonte digitale multi-enseignes",
+        "id": "volkswagen",
+        "label": "Volkswagen FS — Panel IT 430 consultants, 5 practices",
+        "sector": "Automobile & Finance",
+        "duration": "4+ ans",
+        "keywords": ["automobile", "leasing", "crédit", "financement", "panel", "référencement"],
+        "stack": ["java", ".net", "devops", "qa", "data"]
+      },
+      {
+        "id": "dior",
+        "label": "Dior Couture — TMA Talend/DataStage 24/7 CDS Casablanca",
+        "sector": "Luxe",
+        "duration": "3+ ans",
+        "keywords": ["luxe", "mode", "couture", "etl", "data", "24/7"],
+        "stack": ["talend", "datastage", "sql server", "itil"]
+      },
+      {
+        "id": "kering",
+        "label": "Kering (Gucci, Saint Laurent) — Test Automation Nearshore",
+        "sector": "Luxe & Retail",
+        "duration": "3+ ans",
+        "keywords": ["luxe", "retail", "test automation", "nearshore", "e-commerce"],
+        "stack": ["selenium", "appium", "cucumber", "ci/cd"]
+      },
+      {
+        "id": "sephora",
+        "label": "Sephora — Agent IA multi-agents, compliance-first",
+        "sector": "Luxe & Retail",
+        "duration": "1+ an",
+        "keywords": ["retail", "luxe", "cosmétique", "agent ia", "ia", "compliance", "rgpd"],
+        "stack": ["langchain", "langgraph", "ia", "blockchain"]
+      },
+      {
+        "id": "bb_hotels",
+        "label": "B&B Hotels — Plateforme Web & Mobile AI-native, 4.2M€",
         "sector": "Hôtellerie",
-        "duration": "3+ ans",
-        "keywords": ["hôtel", "hôtellerie", "multi-enseignes", "multi-marques", "e-commerce", "storefronts"],
-        "stack": ["drupal", "redis", "ia", "agentique"]
+        "duration": "2+ ans",
+        "keywords": ["hôtel", "hôtellerie", "multi-enseignes", "e-commerce", "plateforme web", "mobile"],
+        "stack": ["react", "next.js", "ia", "agentique"]
       },
       {
-        "id": "financier",
-        "label": "Services financiers — AI Factory & RAG",
-        "sector": "Services financiers",
+        "id": "bollore",
+        "label": "Bolloré Transport — Power Platform + Azure, 30-35 apps",
+        "sector": "Transport & Logistique",
         "duration": "3+ ans",
-        "keywords": ["finance", "assurance", "extraction", "document", "cni", "passeport", "kbis", "ocr", "identité"],
-        "stack": ["gcp", "rag", "genui", "ocr"]
+        "keywords": ["logistique", "transport", "power platform", "power apps", "power automate", "transformation digitale"],
+        "stack": ["power platform", "azure", "dynamics"]
       },
       {
-        "id": "aerien",
-        "label": "Transport aérien — Migration BI par IA",
+        "id": "societe_generale",
+        "label": "Société G��nérale — Microservices + Academy DevOps",
+        "sector": "Banque & Finance",
+        "duration": "3+ ans",
+        "keywords": ["banque", "finance", "microservices", "devops", "formation"],
+        "stack": ["java", "spring", "docker", "devops", "ci/cd"]
+      },
+      {
+        "id": "groupe_up",
+        "label": "Groupe UP — Solutions de paiement .NET/Azure, 2.6M€/an",
+        "sector": "Paiements",
+        "duration": "4+ ans",
+        "keywords": ["paiement", "titre restaurant", "avantage", "carte"],
+        "stack": [".net", "azure", "sql server"]
+      },
+      {
+        "id": "corsair",
+        "label": "Corsair — Migration JasperReports → Power BI",
         "sector": "Transport aérien",
         "duration": "2+ ans",
         "keywords": ["aérien", "compagnie aérienne", "aviation", "jasper", "migration bi"],
-        "stack": ["jasper", "llm", "agents ia"]
+        "stack": ["jasper", "power bi", "llm", "agents ia"]
+      },
+      {
+        "id": "edf",
+        "label": "EDF — Plateforme digitale énergie, consortium 4 ESN",
+        "sector": "Énergie",
+        "duration": "2+ ans",
+        "keywords": ["énergie", "électricit��", "plateforme", "consortium"],
+        "stack": ["cloud", "devops", "data", "ia"]
+      },
+      {
+        "id": "secteur_public",
+        "label": "Secteur Public — RATP, CNAM, DGFIP, DINUM, Ministères",
+        "sector": "Secteur Public",
+        "duration": "5+ ans",
+        "keywords": ["secteur public", "ministère", "administration", "collectivité", "établissement public", "opérateur public", "service public"],
+        "stack": ["java", ".net", "devops", "agile"]
+      },
+      {
+        "id": "assurance_qa",
+        "label": "Assurance — Transformation QA Factory, 200 → 20 testeurs",
+        "sector": "Assurance",
+        "duration": "3+ ans",
+        "keywords": ["assurance", "test", "automatisation", "qa factory", "shift-left", "transformation"],
+        "stack": ["selenium", "cucumber", "ci/cd"]
+      },
+      {
+        "id": "pandat_omnia",
+        "label": "Pandat Finance — OmniA Stack documentaire IA",
+        "sector": "Services financiers",
+        "duration": "3+ ans",
+        "keywords": ["finance", "assurance", "extraction", "document", "cni", "passeport", "kbis", "ocr", "identité", "classification"],
+        "stack": ["gcp", "rag", "ocr", "langchain"]
       }
     ],
     "sectors": [
       "transport", "logistique", "banque", "finance", "paiement", "monétique",
-      "restauration", "qsr", "industrie", "distribution", "énergie",
+      "restauration", "qsr", "industrie", "distribution", "énergie", "électricité",
       "défense", "hôtellerie", "hôtel", "média", "télécoms", "télécom",
       "retail", "automobile", "immobilier", "assurance", "aérien", "aviation",
-      "santé", "pharma", "pharmaceutique", "luxe", "cosmétique", "agroalimentaire"
+      "santé", "pharma", "pharmaceutique", "luxe", "cosmétique", "agroalimentaire",
+      "e-commerce", "secteur public", "administration", "collectivité",
+      "leasing", "crédit", "franchise"
     ],
     "service_types": {
       "CDS applicatif multi-techno": {
@@ -317,6 +401,43 @@
         "keywords": ["assistance technique", "régie", "mise à disposition", "staffing", "prestation intellectuelle", "ingénieur", "consultant", "développeur"]
       }
     }
+  },
+  "soft_exclusions": {
+    "enabled": true,
+    "max_match_pct": 30,
+    "comment": "Domaines clairement hors périmètre Harington (infra, hardware, réseau, ERP propriétaires). Match sur l'objet du marché et la description uniquement, pas les descripteurs BOAMP.",
+    "keywords_objet": [
+      "infogérance des infrastructures", "infogérance infrastructure",
+      "infogérance de l'infrastructure", "infogérance réseau",
+      "hébergement des infrastructures", "hébergement physique",
+      "stockage centralisé", "baie de stockage", "stockage san", "stockage nas",
+      "virtualisation vmware",
+      "serveurs physiques", "fourniture de serveurs",
+      "maintenance matérielle", "maintenance hardware",
+      "routeur", "commutateur réseau", "pare-feu",
+      "câblage réseau", "câblage informatique", "fibre optique",
+      "téléphonie ip", "supervision réseau", "supervision serveur",
+      "fourniture de matériel informatique", "postes de travail",
+      "gestion de parc matériel", "parc informatique matériel",
+      "progiciel de gestion intégré",
+      "gpao", "gmao",
+      "impression", "reprographie", "multifonction"
+    ],
+    "keywords_erp_proprietary": [
+      "sap s/4hana", "sap hana", "sap erp", "sap fi", "sap mm", "sap sd",
+      "sap hr", "sap abap", "logiciels sap", "oracle ebs", "oracle e-business suite",
+      "jd edwards", "peoplesoft",
+      "as400", "ibm as/400", "rpg/400",
+      "cegid", "sage x3", "sage 100", "sage erp",
+      "vmware", "hr access"
+    ],
+    "vendor_infra": ["netapp", "dell emc", "hpe proliant", "lenovo thinksystem", "veeam"]
+  },
+  "harington_stack_whitelist": {
+    "comment": "Stacks/plateformes sur lesquelles Harington a une expertise réelle",
+    "platforms": ["drupal", "wordpress", "dynamics", "dynamics 365", "dynamics crm",
+                  "power platform", "powerplatform", "power apps", "power automate",
+                  "power bi", "salesforce", "force.com"]
   },
   "esn_filter": {
     "enabled": true,

@@ -91,8 +91,9 @@ def _build_harington_tags(market: dict) -> list[dict]:
     return tags[:6]
 
 
-def _enrich_market(market: dict) -> dict:
+def _enrich_market(market: dict, cat_color_map: dict | None = None) -> dict:
     """Add display-ready fields to a scored market."""
+    cat = market.get("category", "Autre")
     return {
         **market,
         "deadline_display": _format_deadline(market.get("datelimitereponse", "")),
@@ -103,6 +104,7 @@ def _enrich_market(market: dict) -> dict:
         "relevance_summary": market.get("relevance_summary", []),
         "tier": market.get("tier", "low"),
         "ao_type": market.get("ao_type", ""),
+        "cat_color": (cat_color_map or {}).get(cat, "#6B7280"),
     }
 
 
@@ -115,7 +117,11 @@ def generate_report(scored_markets: list[dict], output_path: str, config: dict |
     template = env.get_template("report.html")
 
     today = date.today()
-    enriched = [_enrich_market(m) for m in scored_markets]
+    # Build category → color lookup
+    categories_config = config.get("categories", {}) if config else {}
+    cat_color_map = {name: data.get("color", "#6B7280") for name, data in categories_config.items()}
+
+    enriched = [_enrich_market(m, cat_color_map) for m in scored_markets]
 
     # Priority: score >= 4, with TOP 4 fallback
     priority = [m for m in enriched if m.get("score", 0) >= 4]
@@ -139,7 +145,6 @@ def generate_report(scored_markets: list[dict], output_path: str, config: dict |
     urgent_30j = sum(1 for m in enriched if m.get("days_left", 999) <= 30)
 
     # Category filters with counts
-    categories_config = config.get("categories", {}) if config else {}
     cat_counts = Counter(m.get("category", "Autre") for m in enriched)
     category_filters = []
     for cat_name, cat_data in categories_config.items():
@@ -158,13 +163,16 @@ def generate_report(scored_markets: list[dict], output_path: str, config: dict |
     for m in enriched:
         idweb = m.get("idweb", "")
         if idweb and m.get("relevance_summary"):
-            relevance_data[idweb] = {
+            entry = {
                 "title": (m.get("objet", ""))[:80],
                 "bullets": m.get("relevance_summary", []),
                 "match_pct": m.get("match_pct", 0),
                 "tier": m.get("tier", "low"),
                 "ao_type": m.get("ao_type", ""),
             }
+            if m.get("deep_analysis"):
+                entry["deep"] = m["deep_analysis"]
+            relevance_data[idweb] = entry
 
     html = template.render(
         report_date=today.isoformat(),

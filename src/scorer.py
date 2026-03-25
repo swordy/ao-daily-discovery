@@ -76,6 +76,32 @@ def _extract_budget(market: dict) -> float | None:
     return None
 
 
+def _extract_description_text(market: dict) -> str:
+    """Extract description text from market data (without BOAMP descriptors)."""
+    parts = []
+    donnees_raw = market.get("donnees", "")
+    if isinstance(donnees_raw, str) and donnees_raw:
+        try:
+            donnees = json.loads(donnees_raw)
+            fn = donnees.get("FNSimple", {})
+            if fn:
+                nm = fn.get("initial", {}).get("natureMarche", {})
+                parts.append(nm.get("description", ""))
+                parts.append(nm.get("intitule", ""))
+            ef = donnees.get("EFORMS", {})
+            if ef:
+                cn = ef.get("ContractNotice", {})
+                pp = cn.get("cac:ProcurementProject", {})
+                desc = pp.get("cbc:Description", {})
+                if isinstance(desc, dict):
+                    parts.append(desc.get("#text", ""))
+                elif isinstance(desc, str):
+                    parts.append(desc)
+        except (json.JSONDecodeError, AttributeError):
+            pass
+    return " ".join(parts).lower()
+
+
 # ── ESN PRE-FILTER ──
 
 def _is_esn_market(text: str, esn_config: dict) -> bool:
@@ -460,6 +486,8 @@ _EXPERTISE_LABELS = {
     "qa_tests": "QA & Tests",
     "paiements_monetique": "Moyens de paiement",
     "ia_generative": "IA Générative & Agentique",
+    "ecommerce_digital": "E-commerce & Digital",
+    "modernisation_legacy": "Modernisation & Legacy",
 }
 
 
@@ -539,6 +567,235 @@ def _generate_relevance_summary(
     return bullets[:10]
 
 
+# ── DEEP ANALYSIS (90%+ markets) ──
+
+_DIM_LABELS = {
+    "tech_stack": "Stack Technique",
+    "products": "Accélérateurs & Offres",
+    "expertises": "Expertises",
+    "delivery": "Modes de Delivery",
+    "profils": "Profils Consultants",
+}
+
+_DIM_WEIGHT_LABELS = {
+    "tech_stack": 30,
+    "products": 15,
+    "expertises": 20,
+    "delivery": 20,
+    "profils": 15,
+}
+
+_SCORE_LABELS = {
+    5: "Excellent",
+    4.5: "Très fort",
+    4: "Fort",
+    3.5: "Bon",
+    3: "Correct",
+    2.5: "Partiel",
+    2: "Faible",
+    1.5: "Marginal",
+    1: "Non couvert",
+}
+
+
+def _score_label(score: float) -> str:
+    """Human-readable label for a score value."""
+    rounded = round(score * 2) / 2
+    return _SCORE_LABELS.get(rounded, _SCORE_LABELS.get(int(rounded), "—"))
+
+
+def _build_deep_analysis(
+    market: dict,
+    stack_match: float,
+    breakdown_sub: dict,
+    dl_score: float,
+    bud_score: float,
+    geo_score: float,
+    match_pct: int,
+    ao_type: str,
+    ao_legitimacy: int,
+    matched_tech: list[str],
+    matched_products: list[dict],
+    matched_expertises: list[str],
+    matched_delivery: list[str],
+    matched_profils: list[str],
+    matched_rex: list[dict],
+    geo_label: str,
+    budget: float | None,
+    days_left: int,
+) -> dict:
+    """Build structured deep analysis for high-confidence markets (90%+).
+
+    Follows scientific evaluation norms:
+    - Multi-criteria weighted scoring (AHP-inspired)
+    - Dimension-level granularity with item traceability
+    - Synergy detection (cross-dimension reinforcement)
+    - Gap analysis (missing dimensions)
+    - Confidence reasoning (why this score)
+    """
+    # ── 1. Dimension breakdown ──
+    dimensions = []
+    for dim_key in ["tech_stack", "products", "expertises", "delivery", "profils"]:
+        score = breakdown_sub.get(dim_key, 1)
+        weight = _DIM_WEIGHT_LABELS.get(dim_key, 0)
+        label = _DIM_LABELS.get(dim_key, dim_key)
+
+        # Collect matched items per dimension
+        if dim_key == "tech_stack":
+            items = [t.title() for t in matched_tech[:8]]
+        elif dim_key == "products":
+            items = [f"{p['label']} — {p['description']}" for p in matched_products[:3]]
+        elif dim_key == "expertises":
+            items = list(matched_expertises[:4])
+        elif dim_key == "delivery":
+            items = list(matched_delivery[:4])
+        elif dim_key == "profils":
+            items = list(matched_profils[:4])
+        else:
+            items = []
+
+        dimensions.append({
+            "key": dim_key,
+            "label": label,
+            "score": round(score, 1),
+            "score_label": _score_label(score),
+            "weight_pct": weight,
+            "contribution": round(score * weight / 100, 2),
+            "items": items,
+            "status": "strong" if score >= 4 else ("good" if score >= 3 else ("weak" if score >= 2 else "gap")),
+        })
+
+    # ── 2. Global dimensions (deadline, budget, geo) ──
+    context_dims = [
+        {
+            "label": "Échéance",
+            "score": round(dl_score, 1),
+            "score_label": _score_label(dl_score),
+            "detail": f"J-{days_left}" if days_left < 999 else "Non communiquée",
+            "weight_pct": 20,
+        },
+        {
+            "label": "Budget",
+            "score": round(bud_score, 1),
+            "score_label": _score_label(bud_score),
+            "detail": f"{int(budget / 1000)}k€" if budget and budget >= 1000 else ("Non communiqué" if not budget else f"{int(budget)}€"),
+            "weight_pct": 20,
+        },
+        {
+            "label": "Géographie",
+            "score": round(geo_score, 1),
+            "score_label": _score_label(geo_score),
+            "detail": geo_label,
+            "weight_pct": 10,
+        },
+    ]
+
+    # ── 3. Strengths (score >= 4) ──
+    strengths = []
+    for d in dimensions:
+        if d["score"] >= 4 and d["items"]:
+            strengths.append({
+                "dimension": d["label"],
+                "score": d["score"],
+                "detail": ", ".join(d["items"][:3]),
+            })
+
+    # ── 4. Gaps / weaknesses (score < 3) ──
+    _GAP_RECOMMENDATIONS = {
+        "tech_stack": "Stack non explicitement mentionnée dans l'AO — vérifier le CCTP pour identifier les technos requises",
+        "products": "Aucun accélérateur Harington directement applicable — positionner les outils internes comme avantage concurrentiel dans le mémoire technique",
+        "expertises": "Domaine d'expertise non détecté — identifier l'angle métier dans le CCTP et mapper vers les REX Harington",
+        "delivery": "Mode de delivery non précisé dans l'AO — proposer le modèle le plus adapté (CDS/forfait/régie) dans la réponse",
+        "profils": "Profils requis non explicitement mentionnés — vérifier les compétences demandées dans le RC/CCTP",
+    }
+    gaps = []
+    for d in dimensions:
+        if d["score"] < 3:
+            gaps.append({
+                "dimension": d["label"],
+                "score": d["score"],
+                "recommendation": _GAP_RECOMMENDATIONS.get(d["key"], f"Dimension \"{d['label']}\" à approfondir dans le DCE"),
+            })
+
+    # ── 5. Synergy flags ──
+    synergies = []
+    tech_s = breakdown_sub.get("tech_stack", 1)
+    delivery_s = breakdown_sub.get("delivery", 1)
+    expertise_s = breakdown_sub.get("expertises", 1)
+    profil_s = breakdown_sub.get("profils", 1)
+    product_s = breakdown_sub.get("products", 1)
+
+    if delivery_s >= 4 and tech_s >= 3:
+        synergies.append("Delivery + Stack : cœur de métier ESN couvert (CDS/TMA + techno maîtrisée)")
+    if profil_s >= 3 and expertise_s >= 3:
+        synergies.append("Profils + Expertises : consulting ESN pur (consultants qualifiés + domaine d'expertise)")
+    if product_s >= 3 and tech_s >= 3:
+        synergies.append("Produit Harington + Stack : offre packagée applicable (time-to-value accéléré)")
+    if delivery_s >= 3 and profil_s >= 3:
+        synergies.append("Delivery + Profils : capacité de staffing confirmée (mise à disposition de ressources)")
+    if expertise_s >= 3 and delivery_s >= 3 and tech_s >= 3:
+        synergies.append("Triple convergence : expertise + delivery + stack → fit stratégique majeur")
+
+    # ── 6. AO type assessment ──
+    if ao_legitimacy >= 4:
+        ao_assessment = f"Type d'AO \"{ao_type}\" — forte légitimité Harington, historique de succès sur ce segment"
+    elif ao_legitimacy >= 3:
+        ao_assessment = f"Type d'AO \"{ao_type}\" — légitimité correcte, positionnement crédible"
+    else:
+        ao_assessment = f"Type d'AO \"{ao_type}\" — légitimité limitée, nécessite un angle différenciant"
+
+    # ── 7. Fit summary ──
+    strong_count = sum(1 for d in dimensions if d["status"] == "strong")
+    good_count = sum(1 for d in dimensions if d["status"] == "good")
+
+    if strong_count >= 3:
+        fit_summary = "Adéquation excellente — alignement fort sur 3+ dimensions clés. Dossier prioritaire."
+    elif strong_count >= 2:
+        fit_summary = "Très bonne adéquation — 2 dimensions fortes. Positionnement solide."
+    elif strong_count >= 1 and good_count >= 2:
+        fit_summary = "Bonne adéquation — 1 dimension forte + couverture correcte. À creuser."
+    else:
+        fit_summary = "Adéquation partielle — score élevé grâce aux synergies. Valider le positionnement."
+
+    # ── 8. Confidence reasoning ──
+    reasons = []
+    if strong_count >= 2:
+        reasons.append(f"{strong_count} sous-dimensions ≥ 4/5")
+    if synergies:
+        reasons.append(f"{len(synergies)} synergies détectées")
+    if ao_legitimacy >= 4:
+        reasons.append("type d'AO à forte légitimité")
+    if matched_products:
+        reasons.append(f"{len(matched_products)} produit(s) Harington applicable(s)")
+    if matched_rex:
+        reasons.append(f"{len(matched_rex)} REX sectoriel(s) pertinent(s)")
+
+    # ── 9. Strategic recommendation ──
+    if match_pct >= 90 and days_left <= 14:
+        recommendation = "GO IMMÉDIAT — Forte adéquation + échéance proche. Mobiliser l'équipe AO."
+    elif match_pct >= 90:
+        recommendation = "GO — Forte adéquation. Préparer le dossier en anticipation."
+    elif match_pct >= 70 and days_left <= 14:
+        recommendation = "GO/NO-GO à arbitrer — Adéquation correcte mais échéance serrée."
+    else:
+        recommendation = "À QUALIFIER — Analyser les exigences détaillées avant engagement."
+
+    return {
+        "fit_summary": fit_summary,
+        "ao_assessment": ao_assessment,
+        "recommendation": recommendation,
+        "stack_match_score": round(stack_match, 2),
+        "dimensions": dimensions,
+        "context_dims": context_dims,
+        "strengths": strengths,
+        "gaps": gaps,
+        "synergies": synergies,
+        "confidence": ", ".join(reasons) if reasons else "Score composite élevé",
+        "rex": [{"label": r["label"], "sector": r["sector"], "duration": r["duration"]} for r in matched_rex[:3]],
+        "products_applicable": [{"label": p["label"], "description": p["description"]} for p in matched_products[:3]],
+    }
+
+
 # ── MAIN SCORING FUNCTION ──
 
 def score_market(market: dict, config: dict) -> dict | None:
@@ -572,6 +829,23 @@ def score_market(market: dict, config: dict) -> dict | None:
     for sc in source_cats:
         if sc not in matching_cats:
             matching_cats.append(sc)
+
+    # ── SOFT EXCLUSION: hardware/infra/ERP propriétaire/réseau ──
+    # Match on objet + description only (NOT BOAMP descriptors which tag everything as "maintenance serveurs")
+    soft_excl = config.get("soft_exclusions", {})
+    soft_cap = None
+    if soft_excl.get("enabled", False):
+        objet_text = market.get("objet", "").lower()
+        desc_text = _extract_description_text(market)
+        check_text = f"{objet_text} {desc_text}"
+
+        max_pct = soft_excl.get("max_match_pct", 30)
+        hit_objet = [kw for kw in soft_excl.get("keywords_objet", []) if kw.lower() in check_text]
+        hit_erp = [kw for kw in soft_excl.get("keywords_erp_proprietary", []) if _term_in_text(kw.lower(), check_text)]
+        hit_vendor = [kw for kw in soft_excl.get("vendor_infra", []) if _term_in_text(kw.lower(), check_text)]
+
+        if hit_objet or hit_erp or hit_vendor:
+            soft_cap = (max_pct / 100) * 5  # e.g. 30% → 1.5/5
 
     # ── 1. STACK MATCH (50%) — composite of 5 sub-dimensions ──
     tech_score, matched_tech = _score_tech_stack(text, portfolio.get("tech_stack", {}))
@@ -645,6 +919,11 @@ def score_market(market: dict, config: dict) -> dict | None:
 
     stack_match = min(5.0, stack_match)
 
+    # ── SOFT EXCLUSION CAP ──
+    # Hardware/infra/réseau/ERP propriétaire → cap stack_match at 30%
+    if soft_cap is not None:
+        stack_match = min(soft_cap, stack_match)
+
     # REX: computed for display/relevance summary only, NOT scored
     _, matched_rex = _score_rex_sector(
         text, portfolio.get("rex", []), portfolio.get("sectors", [])
@@ -710,6 +989,36 @@ def score_market(market: dict, config: dict) -> dict | None:
         ao_type, ao_legitimacy_raw, geo_label,
     )
 
+    # Deep analysis for 90%+ markets
+    deep_analysis = None
+    if match_pct >= 90:
+        deep_analysis = _build_deep_analysis(
+            market=market,
+            stack_match=stack_match,
+            breakdown_sub={
+                "tech_stack": tech_score,
+                "products": product_score,
+                "expertises": expertise_score,
+                "delivery": delivery_score,
+                "profils": profil_score,
+            },
+            dl_score=dl_score,
+            bud_score=bud_score,
+            geo_score=geo_score,
+            match_pct=match_pct,
+            ao_type=ao_type,
+            ao_legitimacy=ao_legitimacy_raw,
+            matched_tech=matched_tech,
+            matched_products=matched_products,
+            matched_expertises=[_EXPERTISE_LABELS.get(e, e) for e in matched_expertises],
+            matched_delivery=[_DELIVERY_LABELS.get(d, d) for d in matched_delivery],
+            matched_profils=[_PROFIL_LABELS.get(p, p) for p in matched_profils],
+            matched_rex=matched_rex,
+            geo_label=geo_label,
+            budget=budget,
+            days_left=days_left,
+        )
+
     return {
         "score": final_score,
         "category": best_cat,
@@ -730,6 +1039,7 @@ def score_market(market: dict, config: dict) -> dict | None:
         "matched_profils": [_PROFIL_LABELS.get(p, p) for p in matched_profils],
         "relevance_summary": relevance_summary,
         "geo_label": geo_label,
+        "deep_analysis": deep_analysis,
         "breakdown": {
             "stack_match": round(stack_match, 2),
             "stack_sub": {
