@@ -2,8 +2,11 @@ name: Harry Veille — AO publics
 
 on:
   schedule:
-    - cron: '9 7 * * 1-5'  # 8h09 heure Paris (UTC+1) / 9h09 (UTC+2 été)
-  workflow_dispatch:  # Déclenchement manuel
+    - cron: '9 7 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   scan:
