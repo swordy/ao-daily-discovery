@@ -1,5 +1,6 @@
 """Harry Veille — AO publics — Daily pipeline orchestrator."""
 
+import json
 import sys
 from datetime import date
 from pathlib import Path
@@ -48,6 +49,22 @@ def main() -> int:
     if not scored:
         print("[WARN] No ESN-relevant markets after filtering. Skipping report.")
         return 0
+
+    # 2b. Export scored markets as JSON for downstream consumers (Claude routine)
+    data_dir = Path("data")
+    data_dir.mkdir(exist_ok=True)
+    json_path = data_dir / "markets-latest.json"
+    export_data = {
+        "date": today,
+        "total_fetched": len(markets),
+        "total_scored": len(scored),
+        "filtered_count": filtered_count,
+        "priority_count": len(priority),
+        "markets": scored,
+    }
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(export_data, f, ensure_ascii=False, indent=2, default=str)
+    print(f"       JSON export → {json_path} ({len(scored)} markets)")
 
     # 3. Generate HTML report (with top-4 fallback)
     print("[3/4] Generating HTML report...")
