@@ -29,6 +29,14 @@ jobs:
           RECIPIENTS: ${{ vars.RECIPIENTS }}
         run: python main.py
 
+      - name: Commit market data for downstream consumers
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/markets-latest.json
+          git diff --cached --quiet || git commit -m "data: update markets $(date +%Y-%m-%d)"
+          git push
+
       - name: Upload report artifact
         if: always()
         uses: actions/upload-artifact@v4
