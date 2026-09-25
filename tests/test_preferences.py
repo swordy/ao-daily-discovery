@@ -15,6 +15,7 @@ from src.preferences import (
     adjust_market,
     apply_preferences,
     load_preferences,
+    part_des_poids,
     normalize_tokens,
 )
 
@@ -112,8 +113,8 @@ def test_mots_courts_ignores_et_jeton_distinct_compte_une_fois() -> None:
     prefs = Preferences(mots={"si": 1.0, "tma": 0.9, "maintenance": 0.3, "applicative": 0.6})
     m = _marche(objet="TMA du SI : maintenance, maintenance applicative", score=3.0)
     assert adjust_market(m, prefs)
-    # « si » (2 lettres) ignoré ; « tma » compte ; « maintenance » une seule fois : (0.9 + 0.3 + 0.6) / 3
-    assert m["preference_ajustement"] == round(0.6 * 0.75, 2)
+    # « si » (2 lettres) ignoré ; « tma » compte ; « maintenance » une seule fois : (0.9 + 0.3 + 0.6) / (3 + 1)
+    assert m["preference_ajustement"] == round(0.45 * 0.75, 2)
 
 
 def test_acheteur() -> None:
@@ -136,7 +137,15 @@ def test_type() -> None:
 
 # ── Ajustement ──
 
-def test_moyenne_et_facteur() -> None:
+def test_part_des_poids() -> None:
+    assert part_des_poids([]) == 0.0
+    assert part_des_poids([-0.6]) == -0.6  # un rejet net pèse entier
+    assert part_des_poids([0.6]) == 0.3  # un goût seul pèse à moitié
+    assert round(part_des_poids([0.6, 0.6, 0.6]), 2) == 0.45
+    assert part_des_poids([-0.9, -0.8, -0.2]) == -0.9
+
+
+def test_part_et_facteur() -> None:
     prefs = Preferences(
         mots={"infogerance": -0.75},
         acheteurs={"asnr fontenay": -0.5},
@@ -144,7 +153,7 @@ def test_moyenne_et_facteur() -> None:
     )
     m = _marche(objet="Infogérance IA", acheteur="ASNR FONTENAY", ao_type="Autre", score=3.5)
     assert adjust_market(m, prefs)
-    delta = (-0.75 - 0.5 + 0.1) / 3 * 0.75  # -0.2875
+    delta = part_des_poids([-0.75, -0.5, 0.1]) * 0.75  # (0.1 / 2 − 0.75) × 0.75 = −0.525
     assert m["score_brut"] == 3.5
     assert m["preference_ajustement"] == round(delta, 2)
     assert m["score"] == round((3.5 + delta) * 2) / 2 == 3.0
@@ -170,7 +179,7 @@ def test_score_borne(score: float, poids: float, attendu: float) -> None:
     m = _marche(objet="infogerance", score=score)
     assert adjust_market(m, Preferences(mots={"infogerance": poids}))
     assert m["score"] == attendu
-    assert m["preference_ajustement"] == round(poids * 0.75, 2)
+    assert m["preference_ajustement"] == round(part_des_poids([poids]) * 0.75, 2)
 
 
 def test_marche_sans_trait_inchange() -> None:

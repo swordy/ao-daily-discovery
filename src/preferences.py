@@ -141,6 +141,19 @@ def _raison(famille: str, cle: str, poids: float) -> str:
     return f"{famille} « {cle} » {signe}{abs(poids):.2f}"
 
 
+def part_des_poids(poids: list[float]) -> float:
+    """Entre -1 et +1 : les goûts corroborés (somme / (nombre + 1)), plus le rejet le plus net, entier.
+
+    « Pas important » est un geste explicite : un seul trait nettement écarté suffit à faire descendre.
+    « Lu » est le geste courant : un goût doit être corroboré par d'autres traits pour faire monter.
+    Même règle côté cockpit (`partDesPoids`, src/domain/veille/Preferences.ts).
+    """
+    aimes = [w for w in poids if w > 0]
+    ecartes = [w for w in poids if w < 0]
+    part = (sum(aimes) / (len(aimes) + 1) if aimes else 0.0) + (min(ecartes) if ecartes else 0.0)
+    return max(-1.0, min(1.0, part))
+
+
 def adjust_market(market: dict, prefs: Preferences) -> bool:
     """Ajuste le score d'un marché sur place. Renvoie True si un trait a été retrouvé."""
     score = _nombre(market.get("score"))
@@ -150,7 +163,7 @@ def adjust_market(market: dict, prefs: Preferences) -> bool:
     if not traits:
         return False
 
-    delta = sum(p for _, _, p in traits) / len(traits) * FACTEUR
+    delta = part_des_poids([p for _, _, p in traits]) * FACTEUR
     # Même arrondi que le score final du scorer. Attention : round() de Python arrondit
     # les demi-valeurs au pair (6.5 → 6), là où Math.round de JS monte (6.5 → 7).
     ajuste = round((score + delta) * 2) / 2
