@@ -109,10 +109,10 @@ def test_mot_avec_accent() -> None:
 
 
 def test_mots_courts_ignores_et_jeton_distinct_compte_une_fois() -> None:
-    prefs = Preferences(mots={"tma": 1.0, "maintenance": 0.4, "applicative": 0.8})
-    m = _marche(objet="TMA : maintenance, maintenance applicative", score=3.0)
+    prefs = Preferences(mots={"si": 1.0, "tma": 0.9, "maintenance": 0.3, "applicative": 0.6})
+    m = _marche(objet="TMA du SI : maintenance, maintenance applicative", score=3.0)
     assert adjust_market(m, prefs)
-    # « tma » (3 lettres) ignoré ; « maintenance » compté une seule fois : (0.4 + 0.8) / 2
+    # « si » (2 lettres) ignoré ; « tma » compte ; « maintenance » une seule fois : (0.9 + 0.3 + 0.6) / 3
     assert m["preference_ajustement"] == round(0.6 * 0.75, 2)
 
 

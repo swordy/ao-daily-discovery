@@ -18,7 +18,7 @@ from pathlib import Path
 
 VERSION_ATTENDUE = 1
 FACTEUR = 0.75          # part de la moyenne des poids reportée sur le score
-LONGUEUR_MIN_MOT = 4    # jetons plus courts ignorés (« de », « des », « lot »…)
+LONGUEUR_MIN_MOT = 3    # « TMA », « ERP » comptent ; « de », « la » non. Les mots vides, c'est le cockpit qui ne les exporte pas.
 MAX_RAISONS = 3
 SCORE_MIN, SCORE_MAX = 0.0, 5.0
 

@@ -2,9 +2,10 @@ name: Harry Veille — AO publics
 
 on:
   schedule:
-    # 3h23 UTC = 5h23 Paris l'été, 4h23 l'hiver. Marge voulue : le cron GitHub peut
-    # prendre plus de 2 h de retard, et la routine « Harry Veille — AO » lit
-    # data/markets-latest.json à 9h40 Paris (7h40 UTC l'été).
+    # 3h23 UTC = 5h23 Paris l'été, 4h23 l'hiver. Le cron GitHub prend souvent plusieurs
+    # heures de retard (constaté : 5 h 30 en septembre 2026) : le cockpit lit
+    # data/markets-latest.json dès qu'il est commis, et déclenche lui-même le workflow
+    # (workflow_dispatch) s'il n'a pas tourné à 7h30 un jour ouvré.
     - cron: '23 3 * * 1-5'
   workflow_dispatch:
 
