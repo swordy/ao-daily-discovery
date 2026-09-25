@@ -1,6 +1,7 @@
 """Harry Veille — AO publics — Daily pipeline orchestrator."""
 
 import json
+import os
 import sys
 from datetime import date
 from pathlib import Path
@@ -72,13 +73,16 @@ def main() -> int:
     print(f"       Report saved to {result['path']}")
     print(f"       {result['priority_count']} displayed as priority (top-4 fallback)")
 
-    # 4. Send email
-    print("[4/4] Sending email...")
-    try:
-        send_report(result["path"], result["priority_count"], result["total_count"])
-    except Exception as e:
-        print(f"[WARN] Email not sent: {e}")
-        print("       Check GMAIL_ADDRESS and GMAIL_APP_PASSWORD secrets.")
+    # 4. Send email (désactivable : ENVOYER_MAIL=0 en CI, le cockpit est la seule sortie)
+    if os.environ.get("ENVOYER_MAIL", "1") == "1":
+        print("[4/4] Sending email...")
+        try:
+            send_report(result["path"], result["priority_count"], result["total_count"])
+        except Exception as e:
+            print(f"[WARN] Email not sent: {e}")
+            print("       Check GMAIL_ADDRESS and GMAIL_APP_PASSWORD secrets.")
+    else:
+        print("[4/4] Email désactivé (ENVOYER_MAIL != 1).")
 
     print(f"\n[DONE] Pipeline complete. {result['priority_count']} priority / {result['total_count']} total markets.")
     return 0
