@@ -2,7 +2,10 @@ name: Harry Veille — AO publics
 
 on:
   schedule:
-    - cron: '9 7 * * 1-5'
+    # 3h23 UTC = 5h23 Paris l'été, 4h23 l'hiver. Marge voulue : le cron GitHub peut
+    # prendre plus de 2 h de retard, et la routine « Harry Veille — AO » lit
+    # data/markets-latest.json à 9h40 Paris (7h40 UTC l'été).
+    - cron: '23 3 * * 1-5'
   workflow_dispatch:
 
 permissions:
@@ -27,6 +30,8 @@ jobs:
 
       - name: Run BOAMP scan
         env:
+          # Le cockpit est désormais la seule sortie ; mettre '1' pour réactiver le mail.
+          ENVOYER_MAIL: '0'
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           RECIPIENTS: ${{ vars.RECIPIENTS }}
@@ -38,6 +43,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/markets-latest.json
           git diff --cached --quiet || git commit -m "data: update markets $(date +%Y-%m-%d)"
+          # Le cockpit peut pousser data/preferences.json pendant le job : on se rebase avant.
+          git pull --rebase origin main
           git push
 
       - name: Upload report artifact
