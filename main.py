@@ -7,6 +7,7 @@ from datetime import date
 from pathlib import Path
 
 from src.boamp_api import fetch_all_markets, load_config
+from src.preferences import load_preferences
 from src.scorer import score_all_markets
 from src.html_report import generate_report
 from src.mailer import send_report
@@ -30,6 +31,13 @@ def main() -> int:
     rex_count = len(portfolio.get("rex", []))
     print(f"[0/4] Config loaded: {cat_count} categories, {query_count} queries, {product_count} products, {expertise_count} expertises, {delivery_count} delivery, {profil_count} profils, {rex_count} REX")
 
+    # Préférences apprises (poussées par le cockpit) — absentes ou invalides : aucun effet
+    preferences = load_preferences(Path("data") / "preferences.json")
+    if preferences is None:
+        print("       Préférences : aucune")
+    else:
+        print(f"       Préférences : {preferences.marques} marques, {preferences.traits} traits")
+
     # 1. Fetch markets
     print("[1/4] Fetching BOAMP markets...")
     markets = fetch_all_markets(config)
@@ -41,7 +49,7 @@ def main() -> int:
 
     # 2. Score markets (with ESN filter)
     print("[2/4] Scoring markets (ESN filter + Harington match)...")
-    scored, filtered_count = score_all_markets(markets, config)
+    scored, filtered_count = score_all_markets(markets, config, preferences)
     priority = [m for m in scored if m.get("score", 0) >= 4]
     high_tier = [m for m in scored if m.get("tier") == "high"]
     print(f"       {len(scored)} marches ESN retenus sur {len(markets)} ({filtered_count} hors perimetre)")
@@ -61,6 +69,11 @@ def main() -> int:
         "total_scored": len(scored),
         "filtered_count": filtered_count,
         "priority_count": len(priority),
+        "preferences": None if preferences is None else {
+            "genere_le": preferences.genere_le,
+            "traits": preferences.traits,
+            "ajustes": sum(1 for m in scored if "score_brut" in m),
+        },
         "markets": scored,
     }
     with open(json_path, "w", encoding="utf-8") as f:

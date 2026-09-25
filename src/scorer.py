@@ -15,6 +15,8 @@ import json
 import re
 from datetime import date, datetime
 
+from .preferences import Preferences, apply_preferences
+
 
 def _text_from_market(market: dict) -> str:
     """Extract searchable text from market data."""
@@ -1056,8 +1058,14 @@ def score_market(market: dict, config: dict) -> dict | None:
     }
 
 
-def score_all_markets(markets: list[dict], config: dict) -> tuple[list[dict], int]:
-    """Score all markets, filter non-ESN, return (sorted_scored, filtered_count)."""
+def score_all_markets(
+    markets: list[dict], config: dict, preferences: Preferences | None = None
+) -> tuple[list[dict], int]:
+    """Score all markets, filter non-ESN, return (sorted_scored, filtered_count).
+
+    Si des préférences apprises (cockpit) sont fournies, elles ajustent le score
+    avant le tri ; le score d'origine reste dans `score_brut`.
+    """
     scored = []
     filtered_count = 0
     for m in markets:
@@ -1067,5 +1075,6 @@ def score_all_markets(markets: list[dict], config: dict) -> tuple[list[dict], in
             continue
         scored.append({**m, **result})
 
+    apply_preferences(scored, preferences)
     scored.sort(key=lambda x: (-x["score"], x.get("days_left", 999)))
     return scored, filtered_count
