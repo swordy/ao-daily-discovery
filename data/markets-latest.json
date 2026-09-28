@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-26",
-  "total_fetched": 131,
-  "total_scored": 80,
-  "filtered_count": 51,
-  "priority_count": 19,
+  "date": "2026-09-28",
+  "total_fetched": 135,
+  "total_scored": 82,
+  "filtered_count": 53,
+  "priority_count": 20,
   "preferences": null,
   "markets": [
     {
@@ -79,7 +79,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 2,
+      "days_left": 0,
       "match_pct": 90,
       "match_detail": "Régie / AT · Ia · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -177,7 +177,7 @@
             "label": "Échéance",
             "score": 5.0,
             "score_label": "Excellent",
-            "detail": "J-2",
+            "detail": "J-0",
             "weight_pct": 20
           },
           {
@@ -310,7 +310,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 2,
+      "days_left": 0,
       "match_pct": 100,
       "match_detail": "Régie / AT · E-commerce & Digital · Dax · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -412,7 +412,7 @@
             "label": "Échéance",
             "score": 5.0,
             "score_label": "Excellent",
-            "detail": "J-2",
+            "detail": "J-0",
             "weight_pct": 20
           },
           {
@@ -541,7 +541,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 6,
+      "days_left": 4,
       "match_pct": 100,
       "match_detail": "Régie / AT · Consultant IT · REX EDF — Plateforme digitale énergie, consortium 4 ESN",
       "tier": "high",
@@ -644,7 +644,7 @@
             "label": "Échéance",
             "score": 5.0,
             "score_label": "Excellent",
-            "detail": "J-6",
+            "detail": "J-4",
             "weight_pct": 20
           },
           {
@@ -783,7 +783,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 6,
+      "days_left": 4,
       "match_pct": 100,
       "match_detail": "Régie / AT · MOA / AMOA",
       "tier": "high",
@@ -875,7 +875,7 @@
             "label": "Échéance",
             "score": 5.0,
             "score_label": "Excellent",
-            "detail": "J-6",
+            "detail": "J-4",
             "weight_pct": 20
           },
           {
@@ -930,6 +930,237 @@
         "deadline": 5.0,
         "budget": 3.0,
         "geo": 2.0
+      }
+    },
+    {
+      "idweb": "26-87600",
+      "id": "26_87600",
+      "contractfolderid": "9fa358be-5721-4687-b27d-78a4612b382c",
+      "objet": "Infogérance IA",
+      "filename": "26-87600",
+      "famille": "JOUE",
+      "code_departement": [
+        "92"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés européens",
+      "dateparution": "2026-09-11",
+      "datefindiffusion": "2026-09-28",
+      "datelimitereponse": "2026-10-05T16:00:00+00:00",
+      "nomacheteur": "ASNR FONTENAY",
+      "titulaire": null,
+      "perimetre": "DIRECTIVE-24",
+      "type_procedure": "OUVERT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Ouverte",
+      "procedure_categorise": "OUVERT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": "STANDARD",
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": [
+        "sociaux",
+        "environnementaux"
+      ],
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "163"
+      ],
+      "dc": [
+        "163"
+      ],
+      "descripteur_libelle": [
+        "Informatique (prestations de services)"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": [
+        "26-74041"
+      ],
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-87600\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"ANNONCE_ANTERIEUR\": {\"IDWEB\": \"26-74041\"}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"ASNR FONTENAY\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-09-11\", \"DATE_LIMITE_REPONSE\": \"2026-10-05T16:00:00.000+02:00\", \"DATE_FIN_DIFFUSION\": \"2026-09-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"92\", \"RESUME_OBJET\": \"Infogérance IA\"}}",
+      "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:Changes\": {\"efbc:ChangedNoticeIdentifier\": \"8a955a01-60f3-498e-9a65-2a588700a4cd-01\", \"efac:ChangeReason\": {\"cbc:ReasonCode\": {\"@listName\": \"change-corrig-justification\", \"#text\": \"update-add\"}, \"efbc:ReasonDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Mise à jour du DCE (AE, AF, CCAP et RC)\"}}}, \"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"16\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efbc:AwardingCPBIndicator\": \"false\", \"efac:Company\": {\"cbc:WebsiteURI\": \"https://www.asnr.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"ASNR FONTENAY\"}}, \"cac:PostalAddress\": {\"cbc:CityName\": \"Fontenay-aux-Roses\", \"cbc:PostalZone\": \"92260\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR105\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"13000180300035\"}, \"cac:Contact\": {\"cbc:Name\": \"Morgane MARGUENDA\", \"cbc:Telephone\": \"+33158358011\", \"cbc:ElectronicMail\": \"morgane.marguenda@asnr.fr\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"http://cergy-pontoise.tribunal-administratif.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal administratif de Cergy-Pontoise\"}}, \"cac:PostalAddress\": {\"cbc:CityName\": \"Cergy-Pontoise\", \"cbc:PostalZone\": \"95\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR105\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"13000180300035\"}, \"cac:Contact\": {\"cbc:Telephone\": \"+33130173400\", \"cbc:ElectronicMail\": \"greffe.ta-cergy-pontoise@juradm.fr\"}}}]}}}}}, \"cbc:UBLVersionID\": {\"@schemeName\": \"notice-id\", \"#text\": \"2.3\"}, \"cbc:CustomizationID\": {\"@schemeName\": \"notice-id\", \"#text\": \"eforms-sdk-1.13\"}, \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"307b9e70-7197-4896-9f8b-09feb9fb6c22\"}, \"cbc:ContractFolderID\": \"9fa358be-5721-4687-b27d-78a4612b382c\", \"cbc:IssueDate\": \"2026-09-09+02:00\", \"cbc:IssueTime\": \"19:43:19.000+02:00\", \"cbc:VersionID\": \"02\", \"cbc:RegulatoryDomain\": \"32014L0024\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": {\"@listName\": \"language\", \"#text\": \"FRA\"}, \"cac:ContractingParty\": {\"cbc:BuyerProfileURI\": \"https://www.marches-publics.gouv.fr/entreprise\", \"cac:ContractingPartyType\": {\"cbc:PartyTypeCode\": {\"@listName\": \"buyer-legal-type\", \"#text\": \"cga\"}}, \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"authority-activity\", \"#text\": \"health\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}}, \"cac:TenderingTerms\": {\"cac:ProcurementLegislationDocumentReference\": [{\"cbc:ID\": \"LocalLegalBasis\", \"cbc:DocumentDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Sans objet\"}}, {\"cbc:ID\": \"CrossBorderLaw\", \"cbc:DocumentDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Sans objet\"}}], \"cac:TendererQualificationRequest\": {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-procurement-document\"}}}}, \"cac:TenderingProcess\": {\"cbc:ProcedureCode\": {\"@listName\": \"procurement-procedure-type\", \"#text\": \"open\"}, \"cac:ProcessJustification\": {\"cbc:ProcessReasonCode\": {\"@listName\": \"accelerated-procedure\", \"#text\": \"false\"}}}, \"cac:ProcurementProject\": {\"cbc:ID\": \"ASNR-2026-202-INFOGERANCE-IA\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Infogérance IA\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"ACCORD CADRE RELATIF A L’ASSISTANCE TECHNIQUE POUR L’EXPLOITATION DES ENVIRONNEMENTS « IA » DE L’ASNR\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72500000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:StreetName\": \"31 AVENUE DE LA DIVISION LECLERC\", \"cbc:CityName\": \"Fontenay-aux-Roses\", \"cbc:PostalZone\": \"92260\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR105\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0001\"}, \"cac:TenderingTerms\": {\"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"Cahier des charges et Questions Réponses\", \"cbc:DocumentType\": \"restricted-document\", \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.marches-publics.gouv.fr\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-procurement-document\"}}}, {\"cac:SpecificTendererRequirement\": [{\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}, {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}]}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"conditions\", \"#text\": \"performance\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}], \"cac:AdditionalInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}, \"cac:DocumentProviderParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.marches-publics.gouv.fr/entreprise/consultation/3044574?orgAcronyme=d4t\"}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"6\"}}, \"cac:AppealTerms\": {\"cac:AppealInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"false\", \"cbc:ElectronicPaymentUsageIndicator\": \"false\"}}, \"cac:TenderingProcess\": {\"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"false\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-10-05+02:00\", \"cbc:EndTime\": \"16:00:00.000+02:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:FrameworkAgreement\": {\"cbc:MaximumOperatorQuantity\": \"100\", \"cac:SubsequentProcessTenderRequirement\": {\"cbc:Name\": \"buyer-categories\"}}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"fa-wo-rc\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": \"ASNR-2026-202-INFOGERANCE-IA\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"ACCORD CADRE RELATIF A L’ASSISTANCE TECHNIQUE POUR L’EXPLOITATION DES ENVIRONNEMENTS « IA » DE L’ASNR\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Le présent marché constitue un accord-cadre composite comprenant une partie marché ordinaire et une partie accord-cadre à bons de commande. Les prestations relevant de la partie marché ordinaire (forfaitaire) sont : -\\tLa phase de prise en charge, -\\tLa phase de production, o\\tPrestations d’administrations,  o\\tPrestations d’expertises,  -\\tLa phase de réversibilité. Les prestations relevant de la partie accord-cadre à bons de commande sont :  -\\tPhase de production o\\tPrestations liées aux activités complémentaires (Dans le cadre de projets de transformation ou de jouvence majeurs, l’ASNR peut être amenée à mobiliser des renforts ponctuels pour contribuer aux opérations d’intégration (jouvence des clusters de calcul, intégration de codes de calcul très complexes, conteneurisation complexe…) Durée 12 mois reconductible 3 fois 12 mois. Options : S’agissant d’un marché de services, l’ASNR peut recourir ultérieurement à un marché passé sans publicité ni mise en concurrence préalable ayant pour objet des prestations complémentaires exécutées par le Titulaire au sens de l’article R. 2122-7 du CCP.   Montant maximum de l'accord-cadre : 2 500 000 € HT - IMPORTANT : le Cahier des charges est soumis à un accord de confidentialité à signer des candidats et à envoyer sur PLACE à l'ASNR. Une fois reçu l'accord de confidentialité signé, l'ASNR transmettra le cahier des charges aux candidats.\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:RequestedTenderTotal\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:FrameworkMaximumAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"2500000\"}}}}}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72500000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR105\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:StartDate\": \"2026-01-01+01:00\", \"cbc:EndDate\": \"2029-12-31+01:00\"}}}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-87600",
+      "_source_categories": [
+        "IA"
+      ],
+      "score": 4.5,
+      "category": "IA",
+      "categories": [
+        "IA"
+      ],
+      "category_color": "#7C3AED",
+      "budget": null,
+      "days_left": 7,
+      "match_pct": 90,
+      "match_detail": "Régie / AT · Ia · REX Sephora — Agent IA multi-agents, compliance-first",
+      "tier": "high",
+      "ao_type": "Dev IA/ML/GenAI",
+      "ao_legitimacy": 5,
+      "matched_products": [],
+      "matched_rex": [
+        {
+          "label": "Sephora — Agent IA multi-agents, compliance-first",
+          "sector": "Luxe & Retail",
+          "duration": "1+ an"
+        }
+      ],
+      "matched_tech": [
+        "ia"
+      ],
+      "matched_expertises": [],
+      "matched_delivery": [
+        "Régie / AT"
+      ],
+      "matched_profils": [],
+      "relevance_summary": [
+        "Objet : Infogérance IA",
+        "Acheteur : ASNR FONTENAY",
+        "Type d'AO \"Dev IA/ML/GenAI\" : forte légitimité Harington",
+        "Mode de delivery : Régie / AT",
+        "Stack technique : Ia",
+        "REX sectoriel : Sephora — Agent IA multi-agents, compliance-first (Luxe & Retail, 1+ an)",
+        "Zone géographique : Île-de-France"
+      ],
+      "geo_label": "Île-de-France",
+      "deep_analysis": {
+        "fit_summary": "Adéquation partielle — score élevé grâce aux synergies. Valider le positionnement.",
+        "ao_assessment": "Type d'AO \"Dev IA/ML/GenAI\" — forte légitimité Harington, historique de succès sur ce segment",
+        "recommendation": "GO IMMÉDIAT — Forte adéquation + échéance proche. Mobiliser l'équipe AO.",
+        "stack_match_score": 4.5,
+        "dimensions": [
+          {
+            "key": "tech_stack",
+            "label": "Stack Technique",
+            "score": 3,
+            "score_label": "Correct",
+            "weight_pct": 30,
+            "contribution": 0.9,
+            "items": [
+              "Ia"
+            ],
+            "status": "good"
+          },
+          {
+            "key": "products",
+            "label": "Accélérateurs & Offres",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 15,
+            "contribution": 0.15,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "expertises",
+            "label": "Expertises",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 20,
+            "contribution": 0.2,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "delivery",
+            "label": "Modes de Delivery",
+            "score": 3,
+            "score_label": "Correct",
+            "weight_pct": 20,
+            "contribution": 0.6,
+            "items": [
+              "Régie / AT"
+            ],
+            "status": "good"
+          },
+          {
+            "key": "profils",
+            "label": "Profils Consultants",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 15,
+            "contribution": 0.15,
+            "items": [],
+            "status": "gap"
+          }
+        ],
+        "context_dims": [
+          {
+            "label": "Échéance",
+            "score": 5.0,
+            "score_label": "Excellent",
+            "detail": "J-7",
+            "weight_pct": 20
+          },
+          {
+            "label": "Budget",
+            "score": 3.0,
+            "score_label": "Correct",
+            "detail": "Non communiqué",
+            "weight_pct": 20
+          },
+          {
+            "label": "Géographie",
+            "score": 5.0,
+            "score_label": "Excellent",
+            "detail": "Île-de-France",
+            "weight_pct": 10
+          }
+        ],
+        "strengths": [],
+        "gaps": [
+          {
+            "dimension": "Accélérateurs & Offres",
+            "score": 1,
+            "recommendation": "Aucun accélérateur Harington directement applicable — positionner les outils internes comme avantage concurrentiel dans le mémoire technique"
+          },
+          {
+            "dimension": "Expertises",
+            "score": 1,
+            "recommendation": "Domaine d'expertise non détecté — identifier l'angle métier dans le CCTP et mapper vers les REX Harington"
+          },
+          {
+            "dimension": "Profils Consultants",
+            "score": 1,
+            "recommendation": "Profils requis non explicitement mentionnés — vérifier les compétences demandées dans le RC/CCTP"
+          }
+        ],
+        "synergies": [],
+        "confidence": "type d'AO à forte légitimité, 1 REX sectoriel(s) pertinent(s)",
+        "rex": [
+          {
+            "label": "Sephora — Agent IA multi-agents, compliance-first",
+            "sector": "Luxe & Retail",
+            "duration": "1+ an"
+          }
+        ],
+        "products_applicable": []
+      },
+      "breakdown": {
+        "stack_match": 4.5,
+        "stack_sub": {
+          "tech_stack": 3,
+          "products": 1,
+          "expertises": 1,
+          "delivery": 3,
+          "profils": 1
+        },
+        "deadline": 5.0,
+        "budget": 3.0,
+        "geo": 5.0
       }
     },
     {
@@ -1011,7 +1242,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 2,
+      "days_left": 0,
       "match_pct": 70,
       "match_detail": "Audit & Urbanisation SI · MigratorFlow · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -1138,7 +1369,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 2,
+      "days_left": 0,
       "match_pct": 70,
       "match_detail": "E-commerce & Digital",
       "tier": "high",
@@ -1254,7 +1485,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 2,
+      "days_left": 0,
       "match_pct": 70,
       "match_detail": "Audit & Urbanisation SI · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -1374,7 +1605,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 2,
+      "days_left": 0,
       "match_pct": 70,
       "match_detail": "Audit & Urbanisation SI · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -1489,7 +1720,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 2,
+      "days_left": 0,
       "match_pct": 90,
       "match_detail": "TMA / Maintenance applicative · IAM & Sécurité",
       "tier": "high",
@@ -1581,7 +1812,7 @@
             "label": "Échéance",
             "score": 5.0,
             "score_label": "Excellent",
-            "detail": "J-2",
+            "detail": "J-0",
             "weight_pct": 20
           },
           {
@@ -1710,7 +1941,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 4,
+      "days_left": 2,
       "match_pct": 90,
       "match_detail": "Régie / AT · E-commerce & Digital · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -1808,7 +2039,7 @@
             "label": "Échéance",
             "score": 5.0,
             "score_label": "Excellent",
-            "detail": "J-4",
+            "detail": "J-2",
             "weight_pct": 20
           },
           {
@@ -1944,7 +2175,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 4,
+      "days_left": 2,
       "match_pct": 90,
       "match_detail": "IAM & Sécurité · Saas",
       "tier": "high",
@@ -2036,7 +2267,7 @@
             "label": "Échéance",
             "score": 5.0,
             "score_label": "Excellent",
-            "detail": "J-4",
+            "detail": "J-2",
             "weight_pct": 20
           },
           {
@@ -2165,7 +2396,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 4,
+      "days_left": 2,
       "match_pct": 70,
       "match_detail": "MOA / AMOA · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -2206,237 +2437,6 @@
           "profils": 3
         },
         "deadline": 5.0,
-        "budget": 3.0,
-        "geo": 5.0
-      }
-    },
-    {
-      "idweb": "26-87600",
-      "id": "26_87600",
-      "contractfolderid": "9fa358be-5721-4687-b27d-78a4612b382c",
-      "objet": "Infogérance IA",
-      "filename": "26-87600",
-      "famille": "JOUE",
-      "code_departement": [
-        "92"
-      ],
-      "code_departement_prestation": null,
-      "famille_libelle": "Marchés européens",
-      "dateparution": "2026-09-11",
-      "datefindiffusion": "2026-09-28",
-      "datelimitereponse": "2026-10-05T16:00:00+00:00",
-      "nomacheteur": "ASNR FONTENAY",
-      "titulaire": null,
-      "perimetre": "DIRECTIVE-24",
-      "type_procedure": "OUVERT",
-      "soustype_procedure": null,
-      "procedure_libelle": "Procédure Ouverte",
-      "procedure_categorise": "OUVERT/",
-      "nature": "APPEL_OFFRE",
-      "sousnature": "STANDARD",
-      "nature_libelle": "Avis de marché",
-      "sousnature_libelle": null,
-      "nature_categorise": "appeloffre/standard",
-      "nature_categorise_libelle": "Avis de marché/",
-      "criteres": [
-        "sociaux",
-        "environnementaux"
-      ],
-      "marche_public_simplifie": null,
-      "marche_public_simplifie_label": null,
-      "etat": "INITIAL",
-      "descripteur_code": [
-        "163"
-      ],
-      "dc": [
-        "163"
-      ],
-      "descripteur_libelle": [
-        "Informatique (prestations de services)"
-      ],
-      "type_marche": [
-        "SERVICES"
-      ],
-      "type_marche_facette": [
-        "Services"
-      ],
-      "type_avis": [
-        "5",
-        "1"
-      ],
-      "annonce_lie": [
-        "26-74041"
-      ],
-      "annonces_anterieures": null,
-      "source_schema": "3.2.5",
-      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-87600\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"ANNONCE_ANTERIEUR\": {\"IDWEB\": \"26-74041\"}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"ASNR FONTENAY\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-09-11\", \"DATE_LIMITE_REPONSE\": \"2026-10-05T16:00:00.000+02:00\", \"DATE_FIN_DIFFUSION\": \"2026-09-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"92\", \"RESUME_OBJET\": \"Infogérance IA\"}}",
-      "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:Changes\": {\"efbc:ChangedNoticeIdentifier\": \"8a955a01-60f3-498e-9a65-2a588700a4cd-01\", \"efac:ChangeReason\": {\"cbc:ReasonCode\": {\"@listName\": \"change-corrig-justification\", \"#text\": \"update-add\"}, \"efbc:ReasonDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Mise à jour du DCE (AE, AF, CCAP et RC)\"}}}, \"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"16\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efbc:AwardingCPBIndicator\": \"false\", \"efac:Company\": {\"cbc:WebsiteURI\": \"https://www.asnr.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"ASNR FONTENAY\"}}, \"cac:PostalAddress\": {\"cbc:CityName\": \"Fontenay-aux-Roses\", \"cbc:PostalZone\": \"92260\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR105\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"13000180300035\"}, \"cac:Contact\": {\"cbc:Name\": \"Morgane MARGUENDA\", \"cbc:Telephone\": \"+33158358011\", \"cbc:ElectronicMail\": \"morgane.marguenda@asnr.fr\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"http://cergy-pontoise.tribunal-administratif.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal administratif de Cergy-Pontoise\"}}, \"cac:PostalAddress\": {\"cbc:CityName\": \"Cergy-Pontoise\", \"cbc:PostalZone\": \"95\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR105\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"13000180300035\"}, \"cac:Contact\": {\"cbc:Telephone\": \"+33130173400\", \"cbc:ElectronicMail\": \"greffe.ta-cergy-pontoise@juradm.fr\"}}}]}}}}}, \"cbc:UBLVersionID\": {\"@schemeName\": \"notice-id\", \"#text\": \"2.3\"}, \"cbc:CustomizationID\": {\"@schemeName\": \"notice-id\", \"#text\": \"eforms-sdk-1.13\"}, \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"307b9e70-7197-4896-9f8b-09feb9fb6c22\"}, \"cbc:ContractFolderID\": \"9fa358be-5721-4687-b27d-78a4612b382c\", \"cbc:IssueDate\": \"2026-09-09+02:00\", \"cbc:IssueTime\": \"19:43:19.000+02:00\", \"cbc:VersionID\": \"02\", \"cbc:RegulatoryDomain\": \"32014L0024\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": {\"@listName\": \"language\", \"#text\": \"FRA\"}, \"cac:ContractingParty\": {\"cbc:BuyerProfileURI\": \"https://www.marches-publics.gouv.fr/entreprise\", \"cac:ContractingPartyType\": {\"cbc:PartyTypeCode\": {\"@listName\": \"buyer-legal-type\", \"#text\": \"cga\"}}, \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"authority-activity\", \"#text\": \"health\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}}, \"cac:TenderingTerms\": {\"cac:ProcurementLegislationDocumentReference\": [{\"cbc:ID\": \"LocalLegalBasis\", \"cbc:DocumentDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Sans objet\"}}, {\"cbc:ID\": \"CrossBorderLaw\", \"cbc:DocumentDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Sans objet\"}}], \"cac:TendererQualificationRequest\": {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-procurement-document\"}}}}, \"cac:TenderingProcess\": {\"cbc:ProcedureCode\": {\"@listName\": \"procurement-procedure-type\", \"#text\": \"open\"}, \"cac:ProcessJustification\": {\"cbc:ProcessReasonCode\": {\"@listName\": \"accelerated-procedure\", \"#text\": \"false\"}}}, \"cac:ProcurementProject\": {\"cbc:ID\": \"ASNR-2026-202-INFOGERANCE-IA\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Infogérance IA\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"ACCORD CADRE RELATIF A L’ASSISTANCE TECHNIQUE POUR L’EXPLOITATION DES ENVIRONNEMENTS « IA » DE L’ASNR\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72500000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:StreetName\": \"31 AVENUE DE LA DIVISION LECLERC\", \"cbc:CityName\": \"Fontenay-aux-Roses\", \"cbc:PostalZone\": \"92260\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR105\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0001\"}, \"cac:TenderingTerms\": {\"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"Cahier des charges et Questions Réponses\", \"cbc:DocumentType\": \"restricted-document\", \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.marches-publics.gouv.fr\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-procurement-document\"}}}, {\"cac:SpecificTendererRequirement\": [{\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}, {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}]}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"conditions\", \"#text\": \"performance\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}], \"cac:AdditionalInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}, \"cac:DocumentProviderParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.marches-publics.gouv.fr/entreprise/consultation/3044574?orgAcronyme=d4t\"}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"6\"}}, \"cac:AppealTerms\": {\"cac:AppealInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"false\", \"cbc:ElectronicPaymentUsageIndicator\": \"false\"}}, \"cac:TenderingProcess\": {\"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"false\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-10-05+02:00\", \"cbc:EndTime\": \"16:00:00.000+02:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:FrameworkAgreement\": {\"cbc:MaximumOperatorQuantity\": \"100\", \"cac:SubsequentProcessTenderRequirement\": {\"cbc:Name\": \"buyer-categories\"}}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"fa-wo-rc\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": \"ASNR-2026-202-INFOGERANCE-IA\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"ACCORD CADRE RELATIF A L’ASSISTANCE TECHNIQUE POUR L’EXPLOITATION DES ENVIRONNEMENTS « IA » DE L’ASNR\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Le présent marché constitue un accord-cadre composite comprenant une partie marché ordinaire et une partie accord-cadre à bons de commande. Les prestations relevant de la partie marché ordinaire (forfaitaire) sont : -\\tLa phase de prise en charge, -\\tLa phase de production, o\\tPrestations d’administrations,  o\\tPrestations d’expertises,  -\\tLa phase de réversibilité. Les prestations relevant de la partie accord-cadre à bons de commande sont :  -\\tPhase de production o\\tPrestations liées aux activités complémentaires (Dans le cadre de projets de transformation ou de jouvence majeurs, l’ASNR peut être amenée à mobiliser des renforts ponctuels pour contribuer aux opérations d’intégration (jouvence des clusters de calcul, intégration de codes de calcul très complexes, conteneurisation complexe…) Durée 12 mois reconductible 3 fois 12 mois. Options : S’agissant d’un marché de services, l’ASNR peut recourir ultérieurement à un marché passé sans publicité ni mise en concurrence préalable ayant pour objet des prestations complémentaires exécutées par le Titulaire au sens de l’article R. 2122-7 du CCP.   Montant maximum de l'accord-cadre : 2 500 000 € HT - IMPORTANT : le Cahier des charges est soumis à un accord de confidentialité à signer des candidats et à envoyer sur PLACE à l'ASNR. Une fois reçu l'accord de confidentialité signé, l'ASNR transmettra le cahier des charges aux candidats.\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:RequestedTenderTotal\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:FrameworkMaximumAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"2500000\"}}}}}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72500000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR105\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:StartDate\": \"2026-01-01+01:00\", \"cbc:EndDate\": \"2029-12-31+01:00\"}}}}}}",
-      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-87600",
-      "_source_categories": [
-        "IA"
-      ],
-      "score": 4.0,
-      "category": "IA",
-      "categories": [
-        "IA"
-      ],
-      "category_color": "#7C3AED",
-      "budget": null,
-      "days_left": 9,
-      "match_pct": 90,
-      "match_detail": "Régie / AT · Ia · REX Sephora — Agent IA multi-agents, compliance-first",
-      "tier": "high",
-      "ao_type": "Dev IA/ML/GenAI",
-      "ao_legitimacy": 5,
-      "matched_products": [],
-      "matched_rex": [
-        {
-          "label": "Sephora — Agent IA multi-agents, compliance-first",
-          "sector": "Luxe & Retail",
-          "duration": "1+ an"
-        }
-      ],
-      "matched_tech": [
-        "ia"
-      ],
-      "matched_expertises": [],
-      "matched_delivery": [
-        "Régie / AT"
-      ],
-      "matched_profils": [],
-      "relevance_summary": [
-        "Objet : Infogérance IA",
-        "Acheteur : ASNR FONTENAY",
-        "Type d'AO \"Dev IA/ML/GenAI\" : forte légitimité Harington",
-        "Mode de delivery : Régie / AT",
-        "Stack technique : Ia",
-        "REX sectoriel : Sephora — Agent IA multi-agents, compliance-first (Luxe & Retail, 1+ an)",
-        "Zone géographique : Île-de-France"
-      ],
-      "geo_label": "Île-de-France",
-      "deep_analysis": {
-        "fit_summary": "Adéquation partielle — score élevé grâce aux synergies. Valider le positionnement.",
-        "ao_assessment": "Type d'AO \"Dev IA/ML/GenAI\" — forte légitimité Harington, historique de succès sur ce segment",
-        "recommendation": "GO IMMÉDIAT — Forte adéquation + échéance proche. Mobiliser l'équipe AO.",
-        "stack_match_score": 4.5,
-        "dimensions": [
-          {
-            "key": "tech_stack",
-            "label": "Stack Technique",
-            "score": 3,
-            "score_label": "Correct",
-            "weight_pct": 30,
-            "contribution": 0.9,
-            "items": [
-              "Ia"
-            ],
-            "status": "good"
-          },
-          {
-            "key": "products",
-            "label": "Accélérateurs & Offres",
-            "score": 1,
-            "score_label": "Non couvert",
-            "weight_pct": 15,
-            "contribution": 0.15,
-            "items": [],
-            "status": "gap"
-          },
-          {
-            "key": "expertises",
-            "label": "Expertises",
-            "score": 1,
-            "score_label": "Non couvert",
-            "weight_pct": 20,
-            "contribution": 0.2,
-            "items": [],
-            "status": "gap"
-          },
-          {
-            "key": "delivery",
-            "label": "Modes de Delivery",
-            "score": 3,
-            "score_label": "Correct",
-            "weight_pct": 20,
-            "contribution": 0.6,
-            "items": [
-              "Régie / AT"
-            ],
-            "status": "good"
-          },
-          {
-            "key": "profils",
-            "label": "Profils Consultants",
-            "score": 1,
-            "score_label": "Non couvert",
-            "weight_pct": 15,
-            "contribution": 0.15,
-            "items": [],
-            "status": "gap"
-          }
-        ],
-        "context_dims": [
-          {
-            "label": "Échéance",
-            "score": 4.5,
-            "score_label": "Très fort",
-            "detail": "J-9",
-            "weight_pct": 20
-          },
-          {
-            "label": "Budget",
-            "score": 3.0,
-            "score_label": "Correct",
-            "detail": "Non communiqué",
-            "weight_pct": 20
-          },
-          {
-            "label": "Géographie",
-            "score": 5.0,
-            "score_label": "Excellent",
-            "detail": "Île-de-France",
-            "weight_pct": 10
-          }
-        ],
-        "strengths": [],
-        "gaps": [
-          {
-            "dimension": "Accélérateurs & Offres",
-            "score": 1,
-            "recommendation": "Aucun accélérateur Harington directement applicable — positionner les outils internes comme avantage concurrentiel dans le mémoire technique"
-          },
-          {
-            "dimension": "Expertises",
-            "score": 1,
-            "recommendation": "Domaine d'expertise non détecté — identifier l'angle métier dans le CCTP et mapper vers les REX Harington"
-          },
-          {
-            "dimension": "Profils Consultants",
-            "score": 1,
-            "recommendation": "Profils requis non explicitement mentionnés — vérifier les compétences demandées dans le RC/CCTP"
-          }
-        ],
-        "synergies": [],
-        "confidence": "type d'AO à forte légitimité, 1 REX sectoriel(s) pertinent(s)",
-        "rex": [
-          {
-            "label": "Sephora — Agent IA multi-agents, compliance-first",
-            "sector": "Luxe & Retail",
-            "duration": "1+ an"
-          }
-        ],
-        "products_applicable": []
-      },
-      "breakdown": {
-        "stack_match": 4.5,
-        "stack_sub": {
-          "tech_stack": 3,
-          "products": 1,
-          "expertises": 1,
-          "delivery": 3,
-          "profils": 1
-        },
-        "deadline": 4.5,
         "budget": 3.0,
         "geo": 5.0
       }
@@ -2513,7 +2513,7 @@
       ],
       "category_color": "#D97706",
       "budget": null,
-      "days_left": 12,
+      "days_left": 10,
       "match_pct": 70,
       "match_detail": "TMA / Maintenance applicative",
       "tier": "high",
@@ -2625,7 +2625,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 13,
+      "days_left": 11,
       "match_pct": 70,
       "match_detail": "TMA / Maintenance applicative · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -2742,7 +2742,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 16,
+      "days_left": 14,
       "match_pct": 90,
       "match_detail": "TMA / Maintenance applicative · E-commerce & Digital",
       "tier": "high",
@@ -2771,7 +2771,7 @@
       "deep_analysis": {
         "fit_summary": "Adéquation partielle — score élevé grâce aux synergies. Valider le positionnement.",
         "ao_assessment": "Type d'AO \"TMA / Maintenance applicative\" — forte légitimité Harington, historique de succès sur ce segment",
-        "recommendation": "GO — Forte adéquation. Préparer le dossier en anticipation.",
+        "recommendation": "GO IMMÉDIAT — Forte adéquation + échéance proche. Mobiliser l'équipe AO.",
         "stack_match_score": 4.5,
         "dimensions": [
           {
@@ -2832,9 +2832,9 @@
         "context_dims": [
           {
             "label": "Échéance",
-            "score": 4.0,
-            "score_label": "Fort",
-            "detail": "J-16",
+            "score": 4.5,
+            "score_label": "Très fort",
+            "detail": "J-14",
             "weight_pct": 20
           },
           {
@@ -2884,7 +2884,7 @@
           "delivery": 3,
           "profils": 1
         },
-        "deadline": 4.0,
+        "deadline": 4.5,
         "budget": 3.0,
         "geo": 2.0
       }
@@ -2963,7 +2963,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": 17300000.0,
-      "days_left": 16,
+      "days_left": 14,
       "match_pct": 70,
       "match_detail": "TMA / Maintenance applicative",
       "tier": "high",
@@ -2997,8 +2997,241 @@
           "delivery": 3,
           "profils": 1
         },
-        "deadline": 4.0,
+        "deadline": 4.5,
         "budget": 5,
+        "geo": 2.0
+      }
+    },
+    {
+      "idweb": "26-92578",
+      "id": "26_92578",
+      "contractfolderid": "00280154-376b-40e3-951a-60cc3023a686",
+      "objet": "ACQUISITION ET MAINTENANCE D'UNE INFRASTRUCTURE SIEM/SOC POUR LE COMPTE DE LA SOCIETE AEROPORTUAIRE GUADELOUPE POLE CARAÏBES",
+      "filename": "26-92578",
+      "famille": "JOUE",
+      "code_departement": [
+        "971"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés européens",
+      "dateparution": "2026-09-26",
+      "datefindiffusion": "2026-10-14",
+      "datelimitereponse": "2026-10-14T16:00:00+00:00",
+      "nomacheteur": "Société Aéroportuaire Guadeloupe Pôle Caraibes (SAGPC)",
+      "titulaire": null,
+      "perimetre": "DIRECTIVE-25",
+      "type_procedure": "NEGOCIE",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Négociée",
+      "procedure_categorise": "NEGOCIE/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": "STANDARD",
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": [
+        "environnementaux"
+      ],
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "163",
+        "454"
+      ],
+      "dc": [
+        "163",
+        "454"
+      ],
+      "descripteur_libelle": [
+        "Informatique (prestations de services)",
+        "Informatique (maintenance serveurs et réseaux)"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-92578\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-25\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Société Aéroportuaire Guadeloupe Pôle Caraibes (SAGPC)\", \"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"DATE_PUBLICATION\": \"2026-09-26\", \"DATE_LIMITE_REPONSE\": \"2026-10-14T18:00:00+02:00\", \"DATE_FIN_DIFFUSION\": \"2026-10-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}, {\"CODE\": \"454\", \"LIBELLE\": \"Informatique (maintenance serveurs et réseaux)\"}]}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"971\", \"RESUME_OBJET\": \"ACQUISITION ET MAINTENANCE D'UNE INFRASTRUCTURE SIEM/SOC POUR LE COMPTE DE LA SOCIETE AEROPORTUAIRE GUADELOUPE POLE CARAÏBES\"}}",
+      "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"17\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efac:Company\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0001\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Avenue-Web Systèmes\"}}, \"cac:PostalAddress\": {\"cbc:CityName\": \"Seyssinet-Pariset\", \"cbc:PostalZone\": \"38170\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK24\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"4BF4EFCD-9E3C-7EFA-2843C7CF1953B973\"}}, \"cac:Contact\": {\"cbc:Telephone\": \"+33480041260\", \"cbc:ElectronicMail\": \"publications-joue@aws-france.com\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"http://www.sagpc.fr\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0002\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Société Aéroportuaire Guadeloupe Pôle Caraibes (SAGPC)\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"Morne Mamiel\", \"cbc:CityName\": \"Les Abymes\", \"cbc:PostalZone\": \"97139\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRY10\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"57414\"}}, \"cac:Contact\": {\"cbc:Name\": \"BIEVRE Alain\", \"cbc:JobTitle\": \"Président du Directoire\", \"cbc:Telephone\": \"0590217171\", \"cbc:ElectronicMail\": \"correspondre@aws-france.com\"}}}, {\"efac:Company\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0003\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Société Aéroportuaire Guadeloupe Pôle Caraïbes\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"Morne Mamiel\", \"cbc:CityName\": \"Les Abymes\", \"cbc:PostalZone\": \"97139\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRY10\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"4BF4EFEC-DCEE-F55C-659A64608AF96757\"}}, \"cac:Contact\": {\"cbc:Name\": \"Service Achats\", \"cbc:Telephone\": \"0590211431\", \"cbc:ElectronicMail\": \"correspondre@aws-france.com\"}}}, {\"efac:Company\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0004\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal judiciaire de Fort-de-FRance\"}}, \"cac:PostalAddress\": {\"cbc:Postbox\": \"633\", \"cbc:StreetName\": \"Palais de Justice\", \"cbc:AdditionalStreetName\": \"35 Bd du Gal de Gaulle\", \"cbc:CityName\": \"Fort de France\", \"cbc:PostalZone\": \"97200\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRY20\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"4BF4EFFB-D635-CF5D-3F2A573EC7493CD8\"}}, \"cac:Contact\": {\"cbc:Telephone\": \"0596484141\", \"cbc:Telefax\": \"0596484332\", \"cbc:ElectronicMail\": \"accueil-fort-de-france@justice.fr\"}}}, {\"efac:Company\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0005\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal judiciaire de Fort-de-FRance\"}}, \"cac:PostalAddress\": {\"cbc:Postbox\": \"633\", \"cbc:StreetName\": \"Palais de Justice\", \"cbc:AdditionalStreetName\": \"35 Bd du Gal de Gaulle\", \"cbc:CityName\": \"Fort de France\", \"cbc:PostalZone\": \"97200\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRY20\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"4BF4F00B-0333-BCE6-7E19E1C35221FC23\"}}, \"cac:Contact\": {\"cbc:Telephone\": \"0596484141\", \"cbc:Telefax\": \"0596484332\", \"cbc:ElectronicMail\": \"accueil-fort-de-france@justice.fr\"}}}]}}}}}, \"cbc:UBLVersionID\": \"2.3\", \"cbc:CustomizationID\": \"eforms-sdk-1.12\", \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"86483c6e-d2fd-44b2-ba94-5db81e466e77\"}, \"cbc:ContractFolderID\": \"00280154-376b-40e3-951a-60cc3023a686\", \"cbc:IssueDate\": \"2026-09-24+02:00\", \"cbc:IssueTime\": \"19:10:03+02:00\", \"cbc:VersionID\": \"01\", \"cbc:RegulatoryDomain\": \"32014L0025\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": \"FRA\", \"cac:ContractingParty\": {\"cbc:BuyerProfileURI\": \"http://www.agysoft.marches-publics.info\", \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"entity-activity\", \"#text\": \"airport\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0002\"}}, \"cac:ServiceProviderParty\": {\"cbc:ServiceTypeCode\": {\"@listName\": \"organisation-role\", \"#text\": \"ted-esen\"}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0001\"}}}}}}, \"cac:TenderingTerms\": {\"cac:TendererQualificationRequest\": {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-procurement-document\"}}}}, \"cac:TenderingProcess\": {\"cbc:ProcedureCode\": {\"@languageID\": \"FRA\", \"@listName\": \"procurement-procedure-type\", \"#text\": \"neg-w-call\"}, \"cac:ProcessJustification\": {\"cbc:ProcessReasonCode\": {\"@listName\": \"accelerated-procedure\", \"#text\": \"false\"}}}, \"cac:ProcurementProject\": {\"cbc:ID\": \"26SIT07\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"ACQUISITION ET MAINTENANCE D'UNE INFRASTRUCTURE SIEM/SOC POUR LE COMPTE DE LA SOCIETE AEROPORTUAIRE GUADELOUPE POLE CARAÏBES\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Installation sur une infrastructure virtualisée d'une solution SIEM (Security Information &amp;amp; Event Management) et des outils SOC (Sécurity Operation Center). Gestion du SIEM et des alarmes SOC, avec maintenance associée à l'ensemble des infrastructures. Les solutions citées correspondent à l'infrastructure existante de la SAGPC. Fourniture de Licence EDR basé sur les leaders du Gartner et gestion des alarmes. Elles sont mentionnées à titre de référence, conformément à l'article R.2111-7 du CCP. Les candidats peuvent proposer des solutions équivalentes sous réserve d'apporter la preuve de leur compatibilité totale avec l'existant, sans surcoût ni perte de performance.\\nLe contrat comporte des tranches optionnelles définies au cahier des charges.\\nLes prestations sont réglées par des prix unitaires et forfaitaires\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72700000\"}}, \"cac:AdditionalCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72700000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRY10\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0000\"}, \"cac:TenderingTerms\": {\"cbc:VariantConstraintCode\": {\"@listName\": \"permission\", \"#text\": \"not-allowed\"}, \"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"eu-funds\"}, \"cbc:FundingProgram\": {\"@languageID\": \"FRA\", \"#text\": \"Feder\"}, \"cbc:RequiredCurriculaCode\": {\"@listName\": \"requirement-stage\", \"#text\": \"not-requ\"}, \"cbc:RecurringProcurementIndicator\": \"true\", \"cac:RequiredFinancialGuarantee\": {\"cbc:GuaranteeTypeCode\": {\"@listName\": \"tender-guarantee-required\", \"#text\": \"true\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Aucune clause de garantie financière prévue.\\nLe contrat prévoit le versement d'une avance, sans obligation de constituer une garantie financière pour en bénéficier\"}}, \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"1879859\", \"cbc:DocumentType\": \"non-restricted-document\", \"cbc:LanguageID\": \"FRA\", \"cbc:DocumentStatusCode\": {\"@listName\": \"linguistic-status\", \"#text\": \"official\"}, \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1879859\"}}}, \"cac:PaymentTerms\": {\"cbc:Note\": {\"@languageID\": \"FRA\", \"#text\": \"Les prix sont actualisables.\\nLe paiement des prestations se fera dans le respect du délai global de paiement applicable à l'acheteur\"}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-procurement-document\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}}, {\"cbc:CompanyLegalFormCode\": {\"@listName\": \"required\", \"#text\": \"true\"}, \"cbc:CompanyLegalForm\": {\"@languageID\": \"FRA\", \"#text\": \"Forme juridique imposée au groupement attributaire : Aucune forme de groupement imposée à l'attributaire\"}}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"esignature-submission\", \"#text\": \"false\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"conditions\", \"#text\": \"performance\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"L'exécution des prestations débute à compter de la date fixée par ordre de service.\\nLes candidats peuvent proposer un délai d'exécution/de livraison sans dépasser le délai maximum fixé par l'acheteur.\\nLa consultation comporte des conditions d'exécution à caractère environnemental détaillées au cahier des charges\"}}], \"cac:AdditionalInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"touchpoint\", \"#text\": \"ORG-0003\"}}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;IDM=1879859\"}, \"cac:AppealTerms\": {\"cac:AppealInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0005\"}}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0004\"}}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"false\", \"cbc:ElectronicPaymentUsageIndicator\": \"false\"}}, \"cac:TenderingProcess\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:AccessToolName\": \"AW Solutions\"}}}}, \"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"true\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-10-14+02:00\", \"cbc:EndTime\": \"18:00:00+02:00\"}, \"cac:EconomicOperatorShortList\": {\"cbc:LimitationDescription\": \"false\", \"cbc:MinimumQuantity\": \"1\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"none\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": {\"@schemeName\": \"InternalID\", \"#text\": \"S-PF-1879859\"}, \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"ACQUISITION ET MAINTENANCE D'UNE INFRASTRUCTURE SIEM/SOC POUR LE COMPTE DE LA SOCIETE AEROPORTUAIRE GUADELOUPE POLE CARAÏBES\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Installation sur une infrastructure virtualisée d'une solution SIEM (Security Information &amp;amp; Event Management) et des outils SOC (Sécurity Operation Center). Gestion du SIEM et des alarmes SOC, avec maintenance associée à l'ensemble des infrastructures. Les solutions citées correspondent à l'infrastructure existante de la SAGPC. Fourniture de Licence EDR basé sur les leaders du Gartner et gestion des alarmes. Elles sont mentionnées à titre de référence, conformément à l'article R.2111-7 du CCP. Les candidats peuvent proposer des solutions équivalentes sous réserve d'apporter la preuve de leur compatibilité totale avec l'existant, sans surcoût ni perte de performance.\\nLe contrat comporte des tranches optionnelles définies au cahier des charges.\\nLes prestations sont réglées par des prix unitaires et forfaitaires\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:ProcurementAdditionalType\": {\"cbc:ProcurementTypeCode\": {\"@listName\": \"environmental-impact\", \"#text\": \"other\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72700000\"}}, \"cac:AdditionalCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72700000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:StreetName\": \"Aéroport Guadeloupe Maryse Condé - Morne Mamiel\", \"cbc:CityName\": \"Les Abymes\", \"cbc:PostalZone\": \"97139\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRY10\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:StartDate\": \"2026-12-13-04:00\", \"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"54\"}}, \"cac:ContractExtension\": {\"cbc:OptionsDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Le contrat comporte des tranches optionnelles définies au cahier des charges.\\nLe contrat prévoit la possibilité de confier ultérieurement au titulaire du marché un ou plusieurs marchés ayant pour objet la réalisation de prestations similaires\"}, \"cbc:MaximumNumberNumeric\": \"0\"}}}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-92578",
+      "_source_categories": [
+        "Cyber"
+      ],
+      "score": 4.0,
+      "category": "Cyber",
+      "categories": [
+        "Cyber"
+      ],
+      "category_color": "#DC2626",
+      "budget": null,
+      "days_left": 16,
+      "match_pct": 90,
+      "match_detail": "Forfait · IAM & Sécurité · E-commerce & Digital · REX McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
+      "tier": "high",
+      "ao_type": "Forfait développement",
+      "ao_legitimacy": 5,
+      "matched_products": [],
+      "matched_rex": [
+        {
+          "label": "McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
+          "sector": "Restauration (QSR)",
+          "duration": "7+ ans"
+        }
+      ],
+      "matched_tech": [],
+      "matched_expertises": [
+        "IAM & Sécurité",
+        "E-commerce & Digital"
+      ],
+      "matched_delivery": [
+        "Forfait"
+      ],
+      "matched_profils": [],
+      "relevance_summary": [
+        "Objet : ACQUISITION ET MAINTENANCE D'UNE INFRASTRUCTURE SIEM/SOC POUR LE COMPTE DE LA SOCIETE AEROPORTUAIRE GUADELOUPE POLE CARAÏBES",
+        "Acheteur : Société Aéroportuaire Guadeloupe Pôle Caraibes (SAGPC)",
+        "Type d'AO \"Forfait développement\" : forte légitimité Harington",
+        "Mode de delivery : Forfait",
+        "Expertises matchées : IAM & Sécurité, E-commerce & Digital",
+        "REX sectoriel : McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA (Restauration (QSR), 7+ ans)",
+        "Zone géographique : Dept. 971"
+      ],
+      "geo_label": "Dept. 971",
+      "deep_analysis": {
+        "fit_summary": "Adéquation partielle — score élevé grâce aux synergies. Valider le positionnement.",
+        "ao_assessment": "Type d'AO \"Forfait développement\" — forte légitimité Harington, historique de succès sur ce segment",
+        "recommendation": "GO — Forte adéquation. Préparer le dossier en anticipation.",
+        "stack_match_score": 4.5,
+        "dimensions": [
+          {
+            "key": "tech_stack",
+            "label": "Stack Technique",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 30,
+            "contribution": 0.3,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "products",
+            "label": "Accélérateurs & Offres",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 15,
+            "contribution": 0.15,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "expertises",
+            "label": "Expertises",
+            "score": 3.5,
+            "score_label": "Bon",
+            "weight_pct": 20,
+            "contribution": 0.7,
+            "items": [
+              "IAM & Sécurité",
+              "E-commerce & Digital"
+            ],
+            "status": "good"
+          },
+          {
+            "key": "delivery",
+            "label": "Modes de Delivery",
+            "score": 3,
+            "score_label": "Correct",
+            "weight_pct": 20,
+            "contribution": 0.6,
+            "items": [
+              "Forfait"
+            ],
+            "status": "good"
+          },
+          {
+            "key": "profils",
+            "label": "Profils Consultants",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 15,
+            "contribution": 0.15,
+            "items": [],
+            "status": "gap"
+          }
+        ],
+        "context_dims": [
+          {
+            "label": "Échéance",
+            "score": 4.0,
+            "score_label": "Fort",
+            "detail": "J-16",
+            "weight_pct": 20
+          },
+          {
+            "label": "Budget",
+            "score": 3.0,
+            "score_label": "Correct",
+            "detail": "Non communiqué",
+            "weight_pct": 20
+          },
+          {
+            "label": "Géographie",
+            "score": 2.0,
+            "score_label": "Faible",
+            "detail": "Dept. 971",
+            "weight_pct": 10
+          }
+        ],
+        "strengths": [],
+        "gaps": [
+          {
+            "dimension": "Stack Technique",
+            "score": 1,
+            "recommendation": "Stack non explicitement mentionnée dans l'AO — vérifier le CCTP pour identifier les technos requises"
+          },
+          {
+            "dimension": "Accélérateurs & Offres",
+            "score": 1,
+            "recommendation": "Aucun accélérateur Harington directement applicable — positionner les outils internes comme avantage concurrentiel dans le mémoire technique"
+          },
+          {
+            "dimension": "Profils Consultants",
+            "score": 1,
+            "recommendation": "Profils requis non explicitement mentionnés — vérifier les compétences demandées dans le RC/CCTP"
+          }
+        ],
+        "synergies": [],
+        "confidence": "type d'AO à forte légitimité, 1 REX sectoriel(s) pertinent(s)",
+        "rex": [
+          {
+            "label": "McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
+            "sector": "Restauration (QSR)",
+            "duration": "7+ ans"
+          }
+        ],
+        "products_applicable": []
+      },
+      "breakdown": {
+        "stack_match": 4.5,
+        "stack_sub": {
+          "tech_stack": 1,
+          "products": 1,
+          "expertises": 3.5,
+          "delivery": 3,
+          "profils": 1
+        },
+        "deadline": 4.0,
+        "budget": 3.0,
         "geo": 2.0
       }
     },
@@ -3076,7 +3309,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 24,
+      "days_left": 22,
       "match_pct": 100,
       "match_detail": "Régie / AT · TMA / Maintenance applicative · E-commerce & Digital · REX McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
       "tier": "high",
@@ -3181,7 +3414,7 @@
             "label": "Échéance",
             "score": 3.5,
             "score_label": "Bon",
-            "detail": "J-24",
+            "detail": "J-22",
             "weight_pct": 20
           },
           {
@@ -3327,7 +3560,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 27,
+      "days_left": 25,
       "match_pct": 90,
       "match_detail": "Forfait · E-commerce & Digital",
       "tier": "high",
@@ -3419,7 +3652,7 @@
             "label": "Échéance",
             "score": 3.5,
             "score_label": "Bon",
-            "detail": "J-27",
+            "detail": "J-25",
             "weight_pct": 20
           },
           {
@@ -3553,7 +3786,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 2,
+      "days_left": 0,
       "match_pct": 60,
       "match_detail": "REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "medium",
@@ -3670,7 +3903,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": 11000000.0,
-      "days_left": 2,
+      "days_left": 0,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -3778,7 +4011,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": 11000000.0,
-      "days_left": 2,
+      "days_left": 0,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -3889,7 +4122,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 3,
+      "days_left": 1,
       "match_pct": 70,
       "match_detail": "RSE & Impact · E-commerce & Digital",
       "tier": "high",
@@ -3999,7 +4232,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 4,
+      "days_left": 2,
       "match_pct": 70,
       "match_detail": "Saas · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -4117,7 +4350,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 4,
+      "days_left": 2,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -4227,7 +4460,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 5,
+      "days_left": 3,
       "match_pct": 70,
       "match_detail": "Forfait",
       "tier": "high",
@@ -4346,7 +4579,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 6,
+      "days_left": 4,
       "match_pct": 70,
       "match_detail": "Audit & Urbanisation SI · IAM & Sécurité",
       "tier": "high",
@@ -4458,7 +4691,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 13,
+      "days_left": 11,
       "match_pct": 70,
       "match_detail": "Modernisation & Legacy",
       "tier": "high",
@@ -4567,7 +4800,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 16,
+      "days_left": 14,
       "match_pct": 70,
       "match_detail": "Saas · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -4607,7 +4840,7 @@
           "delivery": 1,
           "profils": 1
         },
-        "deadline": 4.0,
+        "deadline": 4.5,
         "budget": 3.0,
         "geo": 2.0
       }
@@ -4680,7 +4913,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 19,
+      "days_left": 17,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -4784,7 +5017,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 23,
+      "days_left": 21,
       "match_pct": 70,
       "match_detail": "Audit & Urbanisation SI · E-commerce & Digital · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -4830,7 +5063,7 @@
           "delivery": 1,
           "profils": 1
         },
-        "deadline": 3.5,
+        "deadline": 4.0,
         "budget": 3.0,
         "geo": 2.0
       }
@@ -4906,7 +5139,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 26,
+      "days_left": 24,
       "match_pct": 70,
       "match_detail": "TMA / Maintenance applicative · REX McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
       "tier": "high",
@@ -4944,6 +5177,119 @@
           "products": 1,
           "expertises": 1,
           "delivery": 3,
+          "profils": 1
+        },
+        "deadline": 3.5,
+        "budget": 3.0,
+        "geo": 5.0
+      }
+    },
+    {
+      "idweb": "26-92726",
+      "id": "26_92726",
+      "contractfolderid": "19c95c55-87ab-477d-a5f9-1a453624c59d",
+      "objet": "Refonte du socle technique de l'application Salsa (système d'alerte sanitaire de l'Anses) - et maintenance applicative\n(Composants actuels : Alfresco community, Angular JS, Jquery, Bootstrap, Fr",
+      "filename": "26-92726",
+      "famille": "JOUE",
+      "code_departement": [
+        "94"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés européens",
+      "dateparution": "2026-09-27",
+      "datefindiffusion": "2026-10-26",
+      "datelimitereponse": "2026-10-26T16:00:00+00:00",
+      "nomacheteur": "ANSES",
+      "titulaire": null,
+      "perimetre": "DIRECTIVE-24",
+      "type_procedure": "OUVERT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Ouverte",
+      "procedure_categorise": "OUVERT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": "STANDARD",
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": [
+        "sociaux",
+        "environnementaux"
+      ],
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "186"
+      ],
+      "dc": [
+        "186"
+      ],
+      "descripteur_libelle": [
+        "Logiciel"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-92726\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"ANSES\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-09-27\", \"DATE_LIMITE_REPONSE\": \"2026-10-26T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2026-10-26\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"186\", \"LIBELLE\": \"Logiciel\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"94\", \"RESUME_OBJET\": \"Refonte du socle technique de l'application Salsa (système d'alerte sanitaire de l'Anses) - et maintenance applicative\\n(Composants actuels : Alfresco community, Angular JS, Jquery, Bootstrap, Fr\"}}",
+      "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"16\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efac:Company\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0001\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Avenue-Web Systèmes\"}}, \"cac:PostalAddress\": {\"cbc:CityName\": \"Seyssinet-Pariset\", \"cbc:PostalZone\": \"38170\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK24\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"6E4AC8FF-9DD6-AA18-0C8C4F311284C802\"}}, \"cac:Contact\": {\"cbc:Telephone\": \"+33480041260\", \"cbc:ElectronicMail\": \"publications-joue@aws-france.com\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"http://www.anses.fr\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0002\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"ANSES\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"14 rue Pierre et Marie Curie\", \"cbc:CityName\": \"Maisons Alfort\", \"cbc:PostalZone\": \"94701\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR107\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"88610\"}}, \"cac:Contact\": {\"cbc:Name\": \"Claverie de Saint Martin Élisabeth\", \"cbc:JobTitle\": \"Directrice générale\", \"cbc:Telephone\": \"0149771300\", \"cbc:ElectronicMail\": \"gregory.van-looke@anses.fr\"}}}, {\"efac:Company\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0003\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"ANSES\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"14 rue Pierre et Marie Curie\", \"cbc:CityName\": \"Maisons Alfort\", \"cbc:PostalZone\": \"94701\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR107\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"6E4AC950-DF72-F8A5-CD7D4BECA03A667A\"}}, \"cac:Contact\": {\"cbc:Telephone\": \"0149773830\", \"cbc:ElectronicMail\": \"jean-luc.mellet@anses.fr\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"https://melun.tribunal-administratif.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0004\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal Administratif de Melun\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"43 rue du général de Gaulle\", \"cbc:AdditionalStreetName\": \"case postale 8630\", \"cbc:CityName\": \"Melun\", \"cbc:PostalZone\": \"77008\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR102\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"6E4AC96C-AF65-1750-34CD4D17E371BF63\"}}, \"cac:Contact\": {\"cbc:Name\": \"Le greffe du tribunal administratif de Melun\", \"cbc:Telephone\": \"0160566630\", \"cbc:ElectronicMail\": \"greffe.ta-melun@juradm.fr\"}}}]}}}}}, \"cbc:UBLVersionID\": \"2.3\", \"cbc:CustomizationID\": \"eforms-sdk-1.12\", \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"566d0e4b-73fb-4c6d-9311-0ba84a114af1\"}, \"cbc:ContractFolderID\": \"19c95c55-87ab-477d-a5f9-1a453624c59d\", \"cbc:IssueDate\": \"2026-09-25+02:00\", \"cbc:IssueTime\": \"11:10:08+02:00\", \"cbc:VersionID\": \"01\", \"cbc:RegulatoryDomain\": \"32014L0024\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": \"FRA\", \"cac:ContractingParty\": {\"cbc:BuyerProfileURI\": \"https://www.marches-publics.info/\", \"cac:ContractingPartyType\": {\"cbc:PartyTypeCode\": {\"@listName\": \"buyer-legal-type\", \"#text\": \"body-pl\"}}, \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"authority-activity\", \"#text\": \"health\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0002\"}}, \"cac:ServiceProviderParty\": {\"cbc:ServiceTypeCode\": {\"@listName\": \"organisation-role\", \"#text\": \"ted-esen\"}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0001\"}}}}}}, \"cac:TenderingTerms\": {\"cac:TendererQualificationRequest\": {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-procurement-document\"}}}}, \"cac:TenderingProcess\": {\"cbc:ProcedureCode\": {\"@languageID\": \"FRA\", \"@listName\": \"procurement-procedure-type\", \"#text\": \"open\"}, \"cac:ProcessJustification\": {\"cbc:ProcessReasonCode\": {\"@listName\": \"accelerated-procedure\", \"#text\": \"false\"}}}, \"cac:ProcurementProject\": {\"cbc:ID\": \"26FCS022\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Refonte du socle technique de l'application Salsa (système d'alerte sanitaire de l'Anses) - et maintenance applicative\\n(Composants actuels : Alfresco community, Angular JS, Jquery, Bootstrap, FreeeMaarker, PostgreSQL, Java SDK...)\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Contrat cadre individuel qui s'exécute sous la forme d'un marché à bons de commande comprenant une partie forfaitaire (refonte et maintenance corrective)\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:RequestedTenderTotal\": {\"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"300000\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72267100\"}}, \"cac:AdditionalCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72267100\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR107\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0000\"}, \"cac:TenderingTerms\": {\"cbc:VariantConstraintCode\": {\"@listName\": \"permission\", \"#text\": \"allowed\"}, \"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cbc:RequiredCurriculaCode\": {\"@listName\": \"requirement-stage\", \"#text\": \"t-requ\"}, \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"1879952\", \"cbc:DocumentType\": \"non-restricted-document\", \"cbc:LanguageID\": \"FRA\", \"cbc:DocumentStatusCode\": {\"@listName\": \"linguistic-status\", \"#text\": \"official\"}, \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1879952\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-procurement-document\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"esignature-submission\", \"#text\": \"false\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}], \"cac:AdditionalInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"touchpoint\", \"#text\": \"ORG-0003\"}}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;IDM=1879952\"}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"6\"}}, \"cac:AppealTerms\": {\"cac:PresentationPeriod\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Précisions concernant le(s) délai(s) d'introduction des recours :\\n- Référé précontractuel (articles L.551-1 et suivant du code de justice administrative) avant la signature du contrat ;\\n- Recours en contestation de validité du marché conclu dans un délai de deux mois à compter des mesures de publicité appropriées ;\\n- Référé contractuel (articles L. 551-13 et suivants) dans un délai de trente et un jours à compter de la parution de l'avis d'attribution ou, à défaut de parution, six mois à compter du lendemain de la conclusion du marché\"}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0004\"}}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"false\", \"cbc:ElectronicPaymentUsageIndicator\": \"false\"}}, \"cac:TenderingProcess\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:AccessToolName\": \"AW Solutions\"}}}}, \"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"true\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-10-26+01:00\", \"cbc:EndTime\": \"17:00:00+01:00\"}, \"cac:OpenTenderEvent\": {\"cbc:OccurrenceDate\": \"2026-10-27+01:00\", \"cbc:OccurrenceTime\": \"11:00:00+01:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"none\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": {\"@schemeName\": \"InternalID\", \"#text\": \"S-PF-1879952\"}, \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Refonte du socle technique de l'application Salsa (système d'alerte sanitaire de l'Anses) - et maintenance applicative\\n(Composants actuels : Alfresco community, Angular JS, Jquery, Bootstrap, FreeeMaarker, PostgreSQL, Java SDK...)\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Contrat cadre individuel qui s'exécute sous la forme d'un marché à bons de commande comprenant une partie forfaitaire (refonte et maintenance corrective)\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:ProcurementAdditionalType\": [{\"cbc:ProcurementTypeCode\": {\"@listName\": \"environmental-impact\", \"#text\": \"other\"}}, {\"cbc:ProcurementTypeCode\": {\"@listName\": \"social-objective\", \"#text\": \"other\"}}], \"cac:RequestedTenderTotal\": {\"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"300000\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72267100\"}}, \"cac:AdditionalCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72267100\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:StreetName\": \"14 rue Pierre et Marie Curie\", \"cbc:CityName\": \"Maisons Alfort\", \"cbc:PostalZone\": \"94701\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR107\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:StartDate\": \"2027-06-01+02:00\", \"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"36\"}}, \"cac:ContractExtension\": {\"cbc:MaximumNumberNumeric\": \"3\", \"cac:Renewal\": {\"cac:Period\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Le marché est conclu à la date de sa notification jusqu'à la mise en production. à l'issue de cette période initiale, le marché est reconduit expressément 3 fois notamment au titre de la Tma pour des périodes successives de 12 mois supplémentaires. Le titulaire ne peut s'opposer à la reconduction sauf accord amiable avec l'Anses.\\nLa date de décompte de la durée des reconductions indiquée au 01/06/2027 est estimative\"}}}}}}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-92726",
+      "_source_categories": [
+        "Digital"
+      ],
+      "score": 3.5,
+      "category": "Digital",
+      "categories": [
+        "Digital"
+      ],
+      "category_color": "#1D4ED8",
+      "budget": null,
+      "days_left": 28,
+      "match_pct": 65,
+      "match_detail": "Forfait · TMA / Maintenance applicative · Angular · Jquery",
+      "tier": "medium",
+      "ao_type": "TMA / Maintenance applicative",
+      "ao_legitimacy": 5,
+      "matched_products": [],
+      "matched_rex": [],
+      "matched_tech": [
+        "angular",
+        "jquery"
+      ],
+      "matched_expertises": [],
+      "matched_delivery": [
+        "Forfait",
+        "TMA / Maintenance applicative"
+      ],
+      "matched_profils": [],
+      "relevance_summary": [
+        "Objet : Refonte du socle technique de l'application Salsa (système d'alerte sanitaire de l'Anses) - et maintenance applicative\n(Composants actuels : Alfresco ",
+        "Acheteur : ANSES",
+        "Type d'AO \"TMA / Maintenance applicative\" : forte légitimité Harington",
+        "Mode de delivery : Forfait, TMA / Maintenance applicative",
+        "Stack technique : Angular, Jquery",
+        "Zone géographique : Île-de-France",
+        "Date limite de réponse : 2026-10-26"
+      ],
+      "geo_label": "Île-de-France",
+      "deep_analysis": null,
+      "breakdown": {
+        "stack_match": 3.25,
+        "stack_sub": {
+          "tech_stack": 3.5,
+          "products": 1,
+          "expertises": 1.5,
+          "delivery": 4,
           "profils": 1
         },
         "deadline": 3.5,
@@ -5037,7 +5383,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 30,
+      "days_left": 28,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -5144,7 +5490,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 4,
+      "days_left": 2,
       "match_pct": 43,
       "match_detail": "IAM & Sécurité · Ia · Azure · REX EDF — Plateforme digitale énergie, consortium 4 ESN",
       "tier": "medium",
@@ -5194,6 +5540,110 @@
         },
         "deadline": 5.0,
         "budget": 3.0,
+        "geo": 5.0
+      }
+    },
+    {
+      "idweb": "26-85510",
+      "id": "26_85510",
+      "contractfolderid": null,
+      "objet": "Etude de la demande relative au développement des emballages de transport réemployable",
+      "filename": "26-85510",
+      "famille": "FNS",
+      "code_departement": [
+        "92"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+      "dateparution": "2026-09-03",
+      "datefindiffusion": "2026-12-07",
+      "datelimitereponse": "2026-10-05T14:00:00+00:00",
+      "nomacheteur": "DGITM",
+      "titulaire": null,
+      "perimetre": "FNSimple",
+      "type_procedure": "OUVERT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Ouverte",
+      "procedure_categorise": "OUVERT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": null,
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": null,
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "347"
+      ],
+      "dc": [
+        "347"
+      ],
+      "descripteur_libelle": [
+        "Transport"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-85510\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"DGITM\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-09-03\", \"DATE_LIMITE_REPONSE\": \"2026-10-05T14:00:00\", \"DATE_FIN_DIFFUSION\": \"2026-12-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"347\", \"LIBELLE\": \"Transport\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"DEP_PUBLICATION\": \"92\", \"RESUME_OBJET\": \"Etude de la demande relative au développement des emballages de transport réemployable\"}}",
+      "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"Ministère des transports – Direction générale des infrastructures, des transports et des mobilités\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"12000018700027\", \"ville\": \"PUTEAUX\", \"cp\": \"92800\", \"grpCommandes\": {\"oui\": {\"grpCoordonnateur\": \"L'Agence de l'Environnement et de la Maîtrise de l'Energie - 20 Avenue du Grésillé – BP 90406 – 49004 ANGERS Cédex 01 \"}}}, \"initial\": {\"communication\": {\"urlProfilAch\": \"https://www.marches-publics.gouv.fr\", \"identifiantInterne\": \"DGITM-SPIN-SP-15-2026\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"oui\": {\"mesuresConfurlConfidentialite\": \"https://www.marches-publics.gouv.fr/\"}}, \"nomContact\": \"Tainturier François\", \"adresseMailContact\": \"francois.tainturier@developpement-durable.gouv.fr\"}, \"procedure\": {\"procedureAdapteeO\": \"\", \"capaciteExercice\": \"L'acheteur n'impose pas aux candidats de niveaux minimums de capacité.\", \"capaciteEcoFin\": \"L'acheteur n'impose pas aux candidats de niveaux minimums de capacité.\", \"capaciteTech\": \"L'acheteur n'impose pas aux candidats de niveaux minimums de capacité.\", \"techAchat\": {\"autres\": \"\"}, \"dateReceptionOffres\": \"2026-10-05T14:00:00\", \"presOffres\": {\"interdite\": \"\"}, \"nbCandidatReduit\": {\"non\": \"\"}, \"attributionSansNegociation\": {\"oui\": {\"@ns2:type\": \"ns4:boolean\", \"#text\": \"true\"}}, \"variantes\": {\"non\": {\"@ns2:type\": \"ns4:boolean\", \"#text\": \"true\"}}, \"criteresAttrib\": \"Critère n°1 : Valeur technique de l’offre\\t60% (Sous-critère n°1 : compréhension générale du besoin et bonne adéquation dans le niveau d'analyse proposé (20%) - Sous-critère n°2 : mobilisation et leur appropriation de l’étude, en particulier sur les modalités de travail avec les filières (nombre et périmètre des filières ou regroupements de filières proposés), et pertinence de la méthode et des outils proposés pour construire et caractériser les scénarios (20%) - Sous-critère n°3 : compétences, les qualifications et l’expérience du personnel assigné à l’exécution de l’étude (20%)) ; Critère n°2 : Prix des prestations : 30% ; Critère n°3 : Valeur environnementale : 10%\"}, \"natureMarche\": {\"intitule\": \"Le présent marché a pour objet l’étude de la demande relative au développement des emballages de transport réemployables.\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"73000000\"}}, \"natureMarche\": {\"services\": \"\"}, \"description\": \"Le présent marché a pour objet l’étude de la demande relative au développement des emballages de transport réemployables.\", \"lieuExecution\": \"France\", \"valeurEstimee\": {\"@devise\": \"EUR\", \"valeur\": \"108833\"}, \"tranches\": {\"non\": {\"@ns2:type\": \"ns4:boolean\", \"#text\": \"true\"}}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"non\": {\"@ns2:type\": \"ns4:boolean\", \"#text\": \"true\"}}}, \"informComplementaire\": {\"non\": \"\", \"autresInformComplementaire\": \"Le présent marché est conclu a prix forfaitaire. Il ne comprend ni montant minimum ni montant maximum. Le montant indiqué de 108 333,33 € est un montant estimatif HT.\"}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-85510",
+      "_source_categories": [
+        "IA"
+      ],
+      "score": 3.0,
+      "category": "Digital",
+      "categories": [
+        "Digital",
+        "IA"
+      ],
+      "category_color": "#1D4ED8",
+      "budget": 108833.0,
+      "days_left": 7,
+      "match_pct": 20,
+      "match_detail": "Pertinence faible",
+      "tier": "low",
+      "ao_type": "Autre",
+      "ao_legitimacy": 1,
+      "matched_products": [],
+      "matched_rex": [],
+      "matched_tech": [],
+      "matched_expertises": [],
+      "matched_delivery": [],
+      "matched_profils": [],
+      "relevance_summary": [
+        "Objet : Etude de la demande relative au développement des emballages de transport réemployable",
+        "Acheteur : DGITM",
+        "Type d'AO \"Autre\" : légitimité limitée",
+        "Zone géographique : Île-de-France",
+        "Date limite de réponse : 2026-10-05",
+        "Descripteurs BOAMP : Transport"
+      ],
+      "geo_label": "Île-de-France",
+      "deep_analysis": null,
+      "breakdown": {
+        "stack_match": 1.0,
+        "stack_sub": {
+          "tech_stack": 1,
+          "products": 1,
+          "expertises": 1,
+          "delivery": 1,
+          "profils": 1
+        },
+        "deadline": 5.0,
+        "budget": 4,
         "geo": 5.0
       }
     },
@@ -5264,7 +5714,7 @@
       ],
       "category_color": "#D97706",
       "budget": null,
-      "days_left": 9,
+      "days_left": 7,
       "match_pct": 36,
       "match_detail": "TMA / Maintenance applicative · E-commerce & Digital",
       "tier": "low",
@@ -5300,7 +5750,7 @@
           "delivery": 3,
           "profils": 1
         },
-        "deadline": 4.5,
+        "deadline": 5.0,
         "budget": 3.0,
         "geo": 5.0
       }
@@ -5372,7 +5822,7 @@
       ],
       "category_color": "#D97706",
       "budget": null,
-      "days_left": 10,
+      "days_left": 8,
       "match_pct": 34,
       "match_detail": "Forfait · Régie / AT",
       "tier": "low",
@@ -5483,7 +5933,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 11,
+      "days_left": 9,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -5590,7 +6040,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 25,
+      "days_left": 23,
       "match_pct": 65,
       "match_detail": "Régie / AT · IA Générative & Agentique · Intelligence Artificielle · Ia · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "medium",
@@ -5716,7 +6166,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 27,
+      "days_left": 25,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -5823,7 +6273,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 33,
+      "days_left": 31,
       "match_pct": 70,
       "match_detail": "TMA / Maintenance applicative",
       "tier": "high",
@@ -5929,7 +6379,7 @@
       ],
       "category_color": "#D97706",
       "budget": null,
-      "days_left": 34,
+      "days_left": 32,
       "match_pct": 70,
       "match_detail": "TMA / Maintenance applicative",
       "tier": "high",
@@ -6036,7 +6486,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 2,
+      "days_left": 0,
       "match_pct": 20,
       "match_detail": "Pertinence faible",
       "tier": "low",
@@ -6145,7 +6595,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 2,
+      "days_left": 0,
       "match_pct": 21,
       "match_detail": "Pertinence faible",
       "tier": "low",
@@ -6249,7 +6699,7 @@
       ],
       "category_color": "#DC2626",
       "budget": null,
-      "days_left": 2,
+      "days_left": 0,
       "match_pct": 27,
       "match_detail": "IAM & Sécurité",
       "tier": "low",
@@ -6360,7 +6810,7 @@
       ],
       "category_color": "#6B7280",
       "budget": null,
-      "days_left": 2,
+      "days_left": 0,
       "match_pct": 27,
       "match_detail": "E-commerce & Digital",
       "tier": "low",
@@ -6472,7 +6922,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 2,
+      "days_left": 0,
       "match_pct": 21,
       "match_detail": "REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -6595,7 +7045,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 2,
+      "days_left": 0,
       "match_pct": 20,
       "match_detail": "REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -6717,7 +7167,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 3,
+      "days_left": 1,
       "match_pct": 30,
       "match_detail": "Pertinence faible",
       "tier": "low",
@@ -6822,7 +7272,7 @@
       ],
       "category_color": "#6B7280",
       "budget": null,
-      "days_left": 3,
+      "days_left": 1,
       "match_pct": 29,
       "match_detail": "Audit & Urbanisation SI · E-commerce & Digital",
       "tier": "low",
@@ -6935,7 +7385,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 4,
+      "days_left": 2,
       "match_pct": 21,
       "match_detail": "REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -7059,7 +7509,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 4,
+      "days_left": 2,
       "match_pct": 20,
       "match_detail": "REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -7174,7 +7624,7 @@
       ],
       "category_color": "#D97706",
       "budget": null,
-      "days_left": 4,
+      "days_left": 2,
       "match_pct": 34,
       "match_detail": "Forfait · Régie / AT · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -7288,7 +7738,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 6,
+      "days_left": 4,
       "match_pct": 20,
       "match_detail": "REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -7329,110 +7779,6 @@
         "deadline": 5.0,
         "budget": 3.0,
         "geo": 2.0
-      }
-    },
-    {
-      "idweb": "26-85510",
-      "id": "26_85510",
-      "contractfolderid": null,
-      "objet": "Etude de la demande relative au développement des emballages de transport réemployable",
-      "filename": "26-85510",
-      "famille": "FNS",
-      "code_departement": [
-        "92"
-      ],
-      "code_departement_prestation": null,
-      "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-      "dateparution": "2026-09-03",
-      "datefindiffusion": "2026-12-07",
-      "datelimitereponse": "2026-10-05T14:00:00+00:00",
-      "nomacheteur": "DGITM",
-      "titulaire": null,
-      "perimetre": "FNSimple",
-      "type_procedure": "OUVERT",
-      "soustype_procedure": null,
-      "procedure_libelle": "Procédure Ouverte",
-      "procedure_categorise": "OUVERT/",
-      "nature": "APPEL_OFFRE",
-      "sousnature": null,
-      "nature_libelle": "Avis de marché",
-      "sousnature_libelle": null,
-      "nature_categorise": "appeloffre/standard",
-      "nature_categorise_libelle": "Avis de marché/",
-      "criteres": null,
-      "marche_public_simplifie": null,
-      "marche_public_simplifie_label": null,
-      "etat": "INITIAL",
-      "descripteur_code": [
-        "347"
-      ],
-      "dc": [
-        "347"
-      ],
-      "descripteur_libelle": [
-        "Transport"
-      ],
-      "type_marche": [
-        "SERVICES"
-      ],
-      "type_marche_facette": [
-        "Services"
-      ],
-      "type_avis": [
-        "5",
-        "1"
-      ],
-      "annonce_lie": null,
-      "annonces_anterieures": null,
-      "source_schema": "3.2.5",
-      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-85510\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"DGITM\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-09-03\", \"DATE_LIMITE_REPONSE\": \"2026-10-05T14:00:00\", \"DATE_FIN_DIFFUSION\": \"2026-12-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"347\", \"LIBELLE\": \"Transport\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"DEP_PUBLICATION\": \"92\", \"RESUME_OBJET\": \"Etude de la demande relative au développement des emballages de transport réemployable\"}}",
-      "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"Ministère des transports – Direction générale des infrastructures, des transports et des mobilités\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"12000018700027\", \"ville\": \"PUTEAUX\", \"cp\": \"92800\", \"grpCommandes\": {\"oui\": {\"grpCoordonnateur\": \"L'Agence de l'Environnement et de la Maîtrise de l'Energie - 20 Avenue du Grésillé – BP 90406 – 49004 ANGERS Cédex 01 \"}}}, \"initial\": {\"communication\": {\"urlProfilAch\": \"https://www.marches-publics.gouv.fr\", \"identifiantInterne\": \"DGITM-SPIN-SP-15-2026\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"oui\": {\"mesuresConfurlConfidentialite\": \"https://www.marches-publics.gouv.fr/\"}}, \"nomContact\": \"Tainturier François\", \"adresseMailContact\": \"francois.tainturier@developpement-durable.gouv.fr\"}, \"procedure\": {\"procedureAdapteeO\": \"\", \"capaciteExercice\": \"L'acheteur n'impose pas aux candidats de niveaux minimums de capacité.\", \"capaciteEcoFin\": \"L'acheteur n'impose pas aux candidats de niveaux minimums de capacité.\", \"capaciteTech\": \"L'acheteur n'impose pas aux candidats de niveaux minimums de capacité.\", \"techAchat\": {\"autres\": \"\"}, \"dateReceptionOffres\": \"2026-10-05T14:00:00\", \"presOffres\": {\"interdite\": \"\"}, \"nbCandidatReduit\": {\"non\": \"\"}, \"attributionSansNegociation\": {\"oui\": {\"@ns2:type\": \"ns4:boolean\", \"#text\": \"true\"}}, \"variantes\": {\"non\": {\"@ns2:type\": \"ns4:boolean\", \"#text\": \"true\"}}, \"criteresAttrib\": \"Critère n°1 : Valeur technique de l’offre\\t60% (Sous-critère n°1 : compréhension générale du besoin et bonne adéquation dans le niveau d'analyse proposé (20%) - Sous-critère n°2 : mobilisation et leur appropriation de l’étude, en particulier sur les modalités de travail avec les filières (nombre et périmètre des filières ou regroupements de filières proposés), et pertinence de la méthode et des outils proposés pour construire et caractériser les scénarios (20%) - Sous-critère n°3 : compétences, les qualifications et l’expérience du personnel assigné à l’exécution de l’étude (20%)) ; Critère n°2 : Prix des prestations : 30% ; Critère n°3 : Valeur environnementale : 10%\"}, \"natureMarche\": {\"intitule\": \"Le présent marché a pour objet l’étude de la demande relative au développement des emballages de transport réemployables.\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"73000000\"}}, \"natureMarche\": {\"services\": \"\"}, \"description\": \"Le présent marché a pour objet l’étude de la demande relative au développement des emballages de transport réemployables.\", \"lieuExecution\": \"France\", \"valeurEstimee\": {\"@devise\": \"EUR\", \"valeur\": \"108833\"}, \"tranches\": {\"non\": {\"@ns2:type\": \"ns4:boolean\", \"#text\": \"true\"}}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"non\": {\"@ns2:type\": \"ns4:boolean\", \"#text\": \"true\"}}}, \"informComplementaire\": {\"non\": \"\", \"autresInformComplementaire\": \"Le présent marché est conclu a prix forfaitaire. Il ne comprend ni montant minimum ni montant maximum. Le montant indiqué de 108 333,33 € est un montant estimatif HT.\"}}}}",
-      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-85510",
-      "_source_categories": [
-        "IA"
-      ],
-      "score": 2.5,
-      "category": "Digital",
-      "categories": [
-        "Digital",
-        "IA"
-      ],
-      "category_color": "#1D4ED8",
-      "budget": 108833.0,
-      "days_left": 9,
-      "match_pct": 20,
-      "match_detail": "Pertinence faible",
-      "tier": "low",
-      "ao_type": "Autre",
-      "ao_legitimacy": 1,
-      "matched_products": [],
-      "matched_rex": [],
-      "matched_tech": [],
-      "matched_expertises": [],
-      "matched_delivery": [],
-      "matched_profils": [],
-      "relevance_summary": [
-        "Objet : Etude de la demande relative au développement des emballages de transport réemployable",
-        "Acheteur : DGITM",
-        "Type d'AO \"Autre\" : légitimité limitée",
-        "Zone géographique : Île-de-France",
-        "Date limite de réponse : 2026-10-05",
-        "Descripteurs BOAMP : Transport"
-      ],
-      "geo_label": "Île-de-France",
-      "deep_analysis": null,
-      "breakdown": {
-        "stack_match": 1.0,
-        "stack_sub": {
-          "tech_stack": 1,
-          "products": 1,
-          "expertises": 1,
-          "delivery": 1,
-          "profils": 1
-        },
-        "deadline": 4.5,
-        "budget": 4,
-        "geo": 5.0
       }
     },
     {
@@ -7505,7 +7851,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 10,
+      "days_left": 8,
       "match_pct": 21,
       "match_detail": "REX Pandat Finance — OmniA Stack documentaire IA",
       "tier": "low",
@@ -7618,7 +7964,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 10,
+      "days_left": 8,
       "match_pct": 27,
       "match_detail": "Régie / AT · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -7731,7 +8077,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": 140000.0,
-      "days_left": 13,
+      "days_left": 11,
       "match_pct": 21,
       "match_detail": "REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -7842,7 +8188,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": 108333.33,
-      "days_left": 16,
+      "days_left": 14,
       "match_pct": 20,
       "match_detail": "Pertinence faible",
       "tier": "low",
@@ -7873,7 +8219,7 @@
           "delivery": 1,
           "profils": 1
         },
-        "deadline": 4.0,
+        "deadline": 4.5,
         "budget": 4,
         "geo": 5.0
       }
@@ -7947,7 +8293,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 16,
+      "days_left": 14,
       "match_pct": 30,
       "match_detail": "Forfait",
       "tier": "low",
@@ -7981,7 +8327,7 @@
           "delivery": 3,
           "profils": 1
         },
-        "deadline": 4.0,
+        "deadline": 4.5,
         "budget": 3.0,
         "geo": 2.0
       }
@@ -8054,7 +8400,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 16,
+      "days_left": 14,
       "match_pct": 27,
       "match_detail": "E-commerce & Digital · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -8094,7 +8440,7 @@
           "delivery": 1,
           "profils": 1
         },
-        "deadline": 4.0,
+        "deadline": 4.5,
         "budget": 3.0,
         "geo": 2.0
       }
@@ -8170,7 +8516,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 18,
+      "days_left": 16,
       "match_pct": 21,
       "match_detail": "REX McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
       "tier": "low",
@@ -8283,7 +8629,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 19,
+      "days_left": 17,
       "match_pct": 27,
       "match_detail": "E-commerce & Digital",
       "tier": "low",
@@ -8390,7 +8736,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 20,
+      "days_left": 18,
       "match_pct": 36,
       "match_detail": "Régie / AT · IAM & Sécurité",
       "tier": "low",
@@ -8506,7 +8852,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 20,
+      "days_left": 18,
       "match_pct": 27,
       "match_detail": "Régie / AT · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -8626,7 +8972,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 20,
+      "days_left": 18,
       "match_pct": 27,
       "match_detail": "Régie / AT · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -8743,7 +9089,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 20,
+      "days_left": 18,
       "match_pct": 27,
       "match_detail": "Régie / AT · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -8857,7 +9203,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 23,
+      "days_left": 21,
       "match_pct": 21,
       "match_detail": "REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -8895,7 +9241,7 @@
           "delivery": 1,
           "profils": 1
         },
-        "deadline": 3.5,
+        "deadline": 4.0,
         "budget": 3.0,
         "geo": 5.0
       }
@@ -8974,7 +9320,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 23,
+      "days_left": 21,
       "match_pct": 30,
       "match_detail": "Forfait",
       "tier": "low",
@@ -9008,7 +9354,7 @@
           "delivery": 3,
           "profils": 1
         },
-        "deadline": 3.5,
+        "deadline": 4.0,
         "budget": 3.0,
         "geo": 3.5
       }
@@ -9083,7 +9429,7 @@
       ],
       "category_color": "#D97706",
       "budget": null,
-      "days_left": 23,
+      "days_left": 21,
       "match_pct": 30,
       "match_detail": "TMA / Maintenance applicative · REX McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
       "tier": "low",
@@ -9123,7 +9469,7 @@
           "delivery": 3,
           "profils": 1
         },
-        "deadline": 3.5,
+        "deadline": 4.0,
         "budget": 3.0,
         "geo": 5.0
       }
@@ -9199,7 +9545,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 24,
+      "days_left": 22,
       "match_pct": 30,
       "match_detail": "Régie / AT",
       "tier": "low",
@@ -9307,7 +9653,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 30,
+      "days_left": 28,
       "match_pct": 36,
       "match_detail": "Forfait · E-commerce & Digital · REX McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
       "tier": "low",
@@ -9422,7 +9768,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 244,
+      "days_left": 242,
       "match_pct": 60,
       "match_detail": "MigratorFlow",
       "tier": "medium",
@@ -9534,7 +9880,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 16,
+      "days_left": 14,
       "match_pct": 21,
       "match_detail": "REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -9572,7 +9918,7 @@
           "delivery": 1,
           "profils": 1
         },
-        "deadline": 4.0,
+        "deadline": 4.5,
         "budget": 3.0,
         "geo": 2.0
       }
@@ -9646,7 +9992,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 17,
+      "days_left": 15,
       "match_pct": 20,
       "match_detail": "Pertinence faible",
       "tier": "low",
@@ -9750,7 +10096,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 20,
+      "days_left": 18,
       "match_pct": 20,
       "match_detail": "REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -9860,7 +10206,7 @@
       ],
       "category_color": "#6B7280",
       "budget": null,
-      "days_left": 27,
+      "days_left": 25,
       "match_pct": 20,
       "match_detail": "Pertinence faible",
       "tier": "low",
@@ -9971,7 +10317,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 30,
+      "days_left": 28,
       "match_pct": 27,
       "match_detail": "E-commerce & Digital · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -10097,7 +10443,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": 40000.0,
-      "days_left": 30,
+      "days_left": 28,
       "match_pct": 27,
       "match_detail": "E-commerce & Digital · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -10217,7 +10563,7 @@
       ],
       "category_color": "#D97706",
       "budget": null,
-      "days_left": 39,
+      "days_left": 37,
       "match_pct": 27,
       "match_detail": "TMA / Maintenance applicative",
       "tier": "low",
@@ -10328,7 +10674,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": 80000.0,
-      "days_left": 61,
+      "days_left": 59,
       "match_pct": 38,
       "match_detail": "TMA / Maintenance applicative · IAM & Sécurité · E-commerce & Digital",
       "tier": "low",
