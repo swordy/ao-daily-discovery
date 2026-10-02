@@ -8680,6 +8680,120 @@
       }
     },
     {
+      "idweb": "26-95203",
+      "id": "26_95203",
+      "contractfolderid": null,
+      "objet": "Développement d’un observatoire touristique et fourniture de données de conjoncture touristique et de chiffres clés",
+      "filename": "26-95203",
+      "famille": "FNS",
+      "code_departement": [
+        "73"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+      "dateparution": "2026-10-02",
+      "datefindiffusion": "2026-11-01",
+      "datelimitereponse": "2026-10-30T12:00:00+00:00",
+      "nomacheteur": "Comité Départemental du Tourisme de la Savoie (73)",
+      "titulaire": null,
+      "perimetre": "FNSimple",
+      "type_procedure": "OUVERT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Ouverte",
+      "procedure_categorise": "OUVERT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": null,
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": [
+        "environnementaux"
+      ],
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "471"
+      ],
+      "dc": [
+        "471"
+      ],
+      "descripteur_libelle": [
+        "Sondage, enquête"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-95203\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Comité Départemental du Tourisme de la Savoie (73)\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-10-02\", \"DATE_LIMITE_REPONSE\": \"2026-10-30T12:00:00\", \"DATE_FIN_DIFFUSION\": \"2026-11-01\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"471\", \"LIBELLE\": \"Sondage, enquête\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"73\", \"RESUME_OBJET\": \"Développement d’un observatoire touristique et fourniture de données de conjoncture touristique et de chiffres clés\\n\"}}",
+      "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"Comité Départemental du Tourisme de la Savoie (73)\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"93776051000019\", \"ville\": \"Chambéry\", \"cp\": \"73025\", \"grpCommandes\": {\"non\": \"\"}}, \"initial\": {\"communication\": {\"urlProfilAch\": \"https://www.marches-securises.fr\", \"identifiantInterne\": \"26-CDT73-006\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"non\": \"\"}, \"nomContact\": \"Stéphanie LEROY\", \"adresseMailContact\": \"marches.publics@cdtsavoie.fr\"}, \"procedure\": {\"procedureAdapteeO\": \"\", \"capaciteExercice\": \"Se référer au règlement de la consultation\", \"capaciteEcoFin\": \"Se référer au règlement de la consultation\", \"capaciteTech\": \"Se référer au règlement de la consultation\", \"techAchat\": {\"autres\": \"\"}, \"dateReceptionOffres\": \"2026-10-30T12:00:00\", \"presOffres\": {\"interdite\": \"\"}, \"nbCandidatReduit\": {\"non\": \"\"}, \"attributionSansNegociation\": {\"oui\": \"\"}, \"variantes\": {\"non\": \"\"}, \"criteresAttrib\": \"Se référer au règlement de la consultation\"}, \"natureMarche\": {\"intitule\": \"26-CDT73-006 - Développement d’un observatoire touristique et fourniture de données de conjoncture touristique et de chiffres clés\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"79330000\"}}, \"natureMarche\": {\"services\": \"\"}, \"description\": \"Production de données de conjoncture et de chiffres clés annuels, à l’échelle de la Savoie et de ses sept territoires touristiques. Mise à disposition d’une plateforme interactive de restitution  et accompagnement continu du CDT 73.\\n\", \"lieuExecution\": \"Savoie\", \"valeurEstimee\": {\"@devise\": \"EUR\", \"valeur\": \"150000\"}, \"tranches\": {\"non\": \"\"}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"non\": \"\"}}, \"informComplementaire\": {\"non\": \"\"}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-95203",
+      "_source_categories": [
+        "IA"
+      ],
+      "score": 2.5,
+      "category": "Digital",
+      "categories": [
+        "Digital",
+        "IA"
+      ],
+      "category_color": "#1D4ED8",
+      "budget": 150000.0,
+      "days_left": 28,
+      "match_pct": 34,
+      "match_detail": "Régie / AT · MigratorFlow",
+      "tier": "low",
+      "ao_type": "Assistance technique / Régie",
+      "ao_legitimacy": 4,
+      "matched_products": [
+        {
+          "label": "MigratorFlow",
+          "description": "Plateforme de migration IA (Data, ETL, BDD, Cloud) — accélérateur interne transférable"
+        }
+      ],
+      "matched_rex": [],
+      "matched_tech": [],
+      "matched_expertises": [],
+      "matched_delivery": [
+        "Régie / AT"
+      ],
+      "matched_profils": [],
+      "relevance_summary": [
+        "Objet : Développement d’un observatoire touristique et fourniture de données de conjoncture touristique et de chiffres clés",
+        "Acheteur : Comité Départemental du Tourisme de la Savoie (73)",
+        "Type d'AO \"Assistance technique / Régie\" : forte légitimité Harington",
+        "Mode de delivery : Régie / AT",
+        "Produit applicable : MigratorFlow — Plateforme de migration IA (Data, ETL, BDD, Cloud) — accélérateur interne transférable",
+        "Zone géographique : Dept. 73",
+        "Date limite de réponse : 2026-10-30"
+      ],
+      "geo_label": "Dept. 73",
+      "deep_analysis": null,
+      "breakdown": {
+        "stack_match": 1.7,
+        "stack_sub": {
+          "tech_stack": 1,
+          "products": 3,
+          "expertises": 1,
+          "delivery": 3,
+          "profils": 1
+        },
+        "deadline": 3.5,
+        "budget": 4,
+        "geo": 2.0
+      }
+    },
+    {
       "idweb": "26-94114",
       "id": "26_94114",
       "contractfolderid": "e8f0c27c-b4f5-4c5f-acdc-584f38bee506",
@@ -8796,116 +8910,6 @@
         "deadline": 3.5,
         "budget": 3.0,
         "geo": 5.0
-      }
-    },
-    {
-      "idweb": "26-44179",
-      "id": "26_44179",
-      "contractfolderid": null,
-      "objet": "Services de Développement",
-      "filename": "26-44179",
-      "famille": "FNS",
-      "code_departement": [
-        "80"
-      ],
-      "code_departement_prestation": null,
-      "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-      "dateparution": "2026-04-30",
-      "datefindiffusion": "2027-05-28",
-      "datelimitereponse": "2027-05-28T10:00:00+00:00",
-      "nomacheteur": "Somme Numérique",
-      "titulaire": null,
-      "perimetre": "FNSimple",
-      "type_procedure": "OUVERT",
-      "soustype_procedure": null,
-      "procedure_libelle": "Procédure Ouverte",
-      "procedure_categorise": "OUVERT/",
-      "nature": "APPEL_OFFRE",
-      "sousnature": null,
-      "nature_libelle": "Avis de marché",
-      "sousnature_libelle": null,
-      "nature_categorise": "appeloffre/standard",
-      "nature_categorise_libelle": "Avis de marché/",
-      "criteres": null,
-      "marche_public_simplifie": null,
-      "marche_public_simplifie_label": null,
-      "etat": "INITIAL",
-      "descripteur_code": [
-        "186"
-      ],
-      "dc": [
-        "186"
-      ],
-      "descripteur_libelle": [
-        "Logiciel"
-      ],
-      "type_marche": [
-        "SERVICES"
-      ],
-      "type_marche_facette": [
-        "Services"
-      ],
-      "type_avis": [
-        "5",
-        "1"
-      ],
-      "annonce_lie": null,
-      "annonces_anterieures": null,
-      "source_schema": "3.2.5",
-      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-44179\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Somme Numérique\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-04-30\", \"DATE_LIMITE_REPONSE\": \"2027-05-28T10:00:00.000+02:00\", \"DATE_FIN_DIFFUSION\": \"2027-05-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"186\", \"LIBELLE\": \"Logiciel\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"DEP_PUBLICATION\": \"80\", \"RESUME_OBJET\": \"Services de Développement\"}}",
-      "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"Somme Numérique\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"25800436500049\", \"ville\": \"Amiens\", \"cp\": \"80090\", \"grpCommandes\": {\"non\": \"\"}}, \"initial\": {\"communication\": {\"urlDocConsul\": \"https://marchespublics596280.fr/entreprise/consultation/584473?orgAcronyme=SNUM\", \"identifiantInterne\": \"SN_PA_26_11\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"non\": \"\"}, \"nomContact\": \"Monsieur BAZIZ Sabri\", \"adresseMailContact\": \"courrier@sommenumerique.fr\", \"telContact\": \"+33 322222727\"}, \"procedure\": {\"procedureAdapteeO\": \"\", \"capaciteExercice\": \"Conditions énoncées dans les documents de la consultation\", \"capaciteEcoFin\": \"Conditions énoncées dans les documents de la consultation\", \"capaciteTech\": \"Conditions énoncées dans les documents de la consultation\", \"techAchat\": {\"accordCadre\": \"\"}, \"dateReceptionOffres\": \"2027-05-28T10:00:00.000+02:00\", \"presOffres\": {\"autorisee\": \"\"}, \"nbCandidatReduit\": {\"non\": \"\"}, \"attributionSansNegociation\": {\"oui\": {\"@xsi:type\": \"xs:string\"}}, \"variantes\": {\"non\": {\"@xsi:type\": \"xs:string\"}}, \"categorieAcheteur\": \"Syndicat mixte ouvert Somme Numérique\", \"criteresAttrib\": \"Critères énoncés dans les documents de la consultation\"}, \"natureMarche\": {\"intitule\": \"Services de Développement\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"72000000\"}}, \"natureMarche\": {\"services\": \"\"}, \"description\": \"Le présent marché a pour objet la mise en oeuvre de prestations de développements à partir de diverses plateformes web, pour l’évolution de la base de données et du site web de Somme Numérique, mais également pour des besoins spécifiques liés à son activité de déploiement de réseau très haut débit et de services numériques.\", \"lieuExecution\": \"(80) Somme\", \"dureeMois\": \"48\", \"tranches\": {\"non\": {\"@xsi:type\": \"xs:string\"}}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"non\": {\"@xsi:type\": \"xs:string\"}}}, \"informComplementaire\": {\"non\": \"\"}}}}",
-      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-44179",
-      "_source_categories": [
-        "IA"
-      ],
-      "score": 2.5,
-      "category": "Digital",
-      "categories": [
-        "Digital",
-        "IA"
-      ],
-      "category_color": "#1D4ED8",
-      "budget": null,
-      "days_left": 238,
-      "match_pct": 60,
-      "match_detail": "MigratorFlow",
-      "tier": "medium",
-      "ao_type": "DevOps/CI-CD",
-      "ao_legitimacy": 4,
-      "matched_products": [
-        {
-          "label": "MigratorFlow",
-          "description": "Plateforme de migration IA (Data, ETL, BDD, Cloud) — accélérateur interne transférable"
-        }
-      ],
-      "matched_rex": [],
-      "matched_tech": [],
-      "matched_expertises": [],
-      "matched_delivery": [],
-      "matched_profils": [],
-      "relevance_summary": [
-        "Objet : Services de Développement",
-        "Acheteur : Somme Numérique",
-        "Type d'AO \"DevOps/CI-CD\" : forte légitimité Harington",
-        "Produit applicable : MigratorFlow — Plateforme de migration IA (Data, ETL, BDD, Cloud) — accélérateur interne transférable",
-        "Zone géographique : Dept. 80",
-        "Date limite de réponse : 2027-05-28",
-        "Descripteurs BOAMP : Logiciel"
-      ],
-      "geo_label": "Dept. 80",
-      "deep_analysis": null,
-      "breakdown": {
-        "stack_match": 3.0,
-        "stack_sub": {
-          "tech_stack": 1,
-          "products": 3,
-          "expertises": 1.5,
-          "delivery": 1,
-          "profils": 1
-        },
-        "deadline": 1.0,
-        "budget": 3.0,
-        "geo": 2.0
       }
     },
     {
