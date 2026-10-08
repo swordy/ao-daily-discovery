@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-07",
-  "total_fetched": 131,
-  "total_scored": 79,
-  "filtered_count": 52,
-  "priority_count": 14,
+  "date": "2026-10-08",
+  "total_fetched": 133,
+  "total_scored": 80,
+  "filtered_count": 53,
+  "priority_count": 15,
   "preferences": null,
   "markets": [
     {
@@ -79,7 +79,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 2,
+      "days_left": 1,
       "match_pct": 100,
       "match_detail": "Audit & Urbanisation SI · IAM & Sécurité · Architecte / Tech Lead · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -179,7 +179,7 @@
             "label": "Échéance",
             "score": 5.0,
             "score_label": "Excellent",
-            "detail": "J-2",
+            "detail": "J-1",
             "weight_pct": 20
           },
           {
@@ -316,7 +316,7 @@
       ],
       "category_color": "#D97706",
       "budget": null,
-      "days_left": 1,
+      "days_left": 0,
       "match_pct": 70,
       "match_detail": "TMA / Maintenance applicative",
       "tier": "high",
@@ -430,7 +430,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 2,
+      "days_left": 1,
       "match_pct": 70,
       "match_detail": "TMA / Maintenance applicative · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -561,7 +561,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 2,
+      "days_left": 1,
       "match_pct": 90,
       "match_detail": "Forfait · Décisionnel",
       "tier": "high",
@@ -653,7 +653,7 @@
             "label": "Échéance",
             "score": 5.0,
             "score_label": "Excellent",
-            "detail": "J-2",
+            "detail": "J-1",
             "weight_pct": 20
           },
           {
@@ -778,7 +778,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": 160000.0,
-      "days_left": 3,
+      "days_left": 2,
       "match_pct": 70,
       "match_detail": "E-commerce & Digital",
       "tier": "high",
@@ -889,7 +889,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 5,
+      "days_left": 4,
       "match_pct": 90,
       "match_detail": "TMA / Maintenance applicative · E-commerce & Digital",
       "tier": "high",
@@ -981,7 +981,7 @@
             "label": "Échéance",
             "score": 5.0,
             "score_label": "Excellent",
-            "detail": "J-5",
+            "detail": "J-4",
             "weight_pct": 20
           },
           {
@@ -1112,7 +1112,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": 17300000.0,
-      "days_left": 5,
+      "days_left": 4,
       "match_pct": 70,
       "match_detail": "TMA / Maintenance applicative",
       "tier": "high",
@@ -1223,7 +1223,7 @@
       ],
       "category_color": "#DC2626",
       "budget": null,
-      "days_left": 7,
+      "days_left": 6,
       "match_pct": 90,
       "match_detail": "Forfait · IAM & Sécurité · E-commerce & Digital · REX McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
       "tier": "high",
@@ -1323,7 +1323,7 @@
             "label": "Échéance",
             "score": 5.0,
             "score_label": "Excellent",
-            "detail": "J-7",
+            "detail": "J-6",
             "weight_pct": 20
           },
           {
@@ -1456,7 +1456,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 12,
+      "days_left": 11,
       "match_pct": 90,
       "match_detail": "Régie / AT · Ia · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -1554,7 +1554,7 @@
             "label": "Échéance",
             "score": 4.5,
             "score_label": "Très fort",
-            "detail": "J-12",
+            "detail": "J-11",
             "weight_pct": 20
           },
           {
@@ -1689,7 +1689,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 13,
+      "days_left": 12,
       "match_pct": 100,
       "match_detail": "Régie / AT · TMA / Maintenance applicative · E-commerce & Digital · REX McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
       "tier": "high",
@@ -1794,7 +1794,7 @@
             "label": "Échéance",
             "score": 4.5,
             "score_label": "Très fort",
-            "detail": "J-13",
+            "detail": "J-12",
             "weight_pct": 20
           },
           {
@@ -1940,7 +1940,7 @@
       ],
       "category_color": "#DC2626",
       "budget": null,
-      "days_left": 14,
+      "days_left": 13,
       "match_pct": 90,
       "match_detail": "Forfait · IAM & Sécurité · E-commerce & Digital · REX McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
       "tier": "high",
@@ -2040,7 +2040,7 @@
             "label": "Échéance",
             "score": 4.5,
             "score_label": "Très fort",
-            "detail": "J-14",
+            "detail": "J-13",
             "weight_pct": 20
           },
           {
@@ -2099,6 +2099,122 @@
         "deadline": 4.5,
         "budget": 3.0,
         "geo": 2.0
+      }
+    },
+    {
+      "idweb": "26-89705",
+      "id": "26_89705",
+      "contractfolderid": "ae75af59-80a9-462c-83c4-7d259a4033f9",
+      "objet": "Infogérance (MCO, TMA) et hébergement du site et des applications mobiles SYTADIN",
+      "filename": "26-89705",
+      "famille": "JOUE",
+      "code_departement": [
+        "75",
+        "94"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés européens",
+      "dateparution": "2026-09-18",
+      "datefindiffusion": "2026-10-30",
+      "datelimitereponse": "2026-10-22T12:00:00+00:00",
+      "nomacheteur": "Direction régionale et interdépartementale de l'Environnement, de l’Aménagement et des Transports d’Île-de-France (DRIEAT IF)",
+      "titulaire": null,
+      "perimetre": "DIRECTIVE-24",
+      "type_procedure": "OUVERT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Ouverte",
+      "procedure_categorise": "OUVERT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": "STANDARD",
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": [
+        "environnementaux"
+      ],
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "163"
+      ],
+      "dc": [
+        "163"
+      ],
+      "descripteur_libelle": [
+        "Informatique (prestations de services)"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-89705\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Direction régionale et interdépartementale de l'Environnement, de l’Aménagement et des Transports d’Île-de-France (DRIEAT IF)\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-09-18\", \"DATE_LIMITE_REPONSE\": \"2026-10-22T12:00:00.000+02:00\", \"DATE_FIN_DIFFUSION\": \"2026-10-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"75\", \"94\"], \"RESUME_OBJET\": \"Infogérance (MCO, TMA) et hébergement du site et des applications mobiles SYTADIN\"}}",
+      "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"16\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efac:Company\": {\"cbc:WebsiteURI\": \"https://www.drieat.ile-de-france.developpement-durable.gouv.fr/\", \"cbc:EndpointID\": \"https://www.drieat.ile-de-france.developpement-durable.gouv.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Direction régionale et interdépartementale de l'Environnement, de l’Aménagement et des Transports d’Île-de-France\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"21/23 Rue Miollis\", \"cbc:CityName\": \"PARIS\", \"cbc:PostalZone\": \"75015\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR101\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"13002932500011\"}, \"cac:Contact\": {\"cbc:Name\": \"DCPPA\", \"cbc:Telephone\": \"01 40 61 86 30\", \"cbc:ElectronicMail\": \"dcppa.sg.drieat-if@developpement-durable.gouv.fr\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"https://paris.tribunal-administratif.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal administratif de Paris\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"7 rue de Jouy\", \"cbc:CityName\": \"Paris cedex 04\", \"cbc:PostalZone\": \"75181\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR101\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"17750005500013\"}, \"cac:Contact\": {\"cbc:Telephone\": \"0144594400\", \"cbc:ElectronicMail\": \"greffe.ta-paris@juradm.fr\"}}}]}}}}}, \"cbc:UBLVersionID\": {\"@schemeName\": \"notice-id\", \"#text\": \"2.3\"}, \"cbc:CustomizationID\": {\"@schemeName\": \"notice-id\", \"#text\": \"eforms-sdk-1.13\"}, \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"fcaa4ba5-dd33-47b0-a9f5-fbcbad2b6ac0\"}, \"cbc:ContractFolderID\": \"ae75af59-80a9-462c-83c4-7d259a4033f9\", \"cbc:IssueDate\": \"2026-09-16+02:00\", \"cbc:IssueTime\": \"15:16:03.000+02:00\", \"cbc:VersionID\": \"01\", \"cbc:RegulatoryDomain\": \"32014L0024\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": {\"@listName\": \"language\", \"#text\": \"FRA\"}, \"cac:ContractingParty\": {\"cbc:BuyerProfileURI\": \"https://www.marches-publics.gouv.fr/entreprise\", \"cac:ContractingPartyType\": {\"cbc:PartyTypeCode\": {\"@listName\": \"buyer-legal-type\", \"#text\": \"body-pl\"}}, \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"authority-activity\", \"#text\": \"env-pro\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}}, \"cac:TenderingTerms\": {\"cac:ProcurementLegislationDocumentReference\": [{\"cbc:ID\": \"LocalLegalBasis\", \"cbc:DocumentDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Sans objet\"}}, {\"cbc:ID\": \"CrossBorderLaw\", \"cbc:DocumentDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Sans objet\"}}], \"cac:TendererQualificationRequest\": {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-procurement-document\"}}}}, \"cac:TenderingProcess\": {\"cbc:ProcedureCode\": {\"@listName\": \"procurement-procedure-type\", \"#text\": \"open\"}, \"cac:ProcessJustification\": {\"cbc:ProcessReasonCode\": {\"@listName\": \"accelerated-procedure\", \"#text\": \"false\"}}}, \"cac:ProcurementProject\": {\"cbc:ID\": \"DRIEAT-DIRIF-STT-AOO-26-066\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Infogérance (MCO, TMA) et hébergement du site et des applications mobiles SYTADIN\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Infogérance (MCO, TMA) et hébergement du site et des applications mobiles SYTADIN\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72267100\"}}, \"cac:RealizedLocation\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Les prestations du marché auront lieu dans les locaux du titulaire et/ou ceux de ses sous-traitants\"}, \"cac:Address\": {\"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR101\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0001\"}, \"cac:TenderingTerms\": {\"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"DRIEAT-DIRIF-STT-AOO-26-066\", \"cbc:DocumentTypeCode\": {\"@listName\": \"communication-justification\", \"#text\": \"sen-info\"}, \"cbc:DocumentType\": \"restricted-document\", \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.dir.ile-de-france.developpement-durable.gouv.fr/\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-procurement-document\"}}}, {\"cac:SpecificTendererRequirement\": [{\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}, {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}]}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"conditions\", \"#text\": \"performance\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"not-allowed\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"esignature-submission\", \"#text\": \"true\"}}], \"cac:AwardingTerms\": {\"cac:AwardingCriterion\": {\"cac:SubordinateAwardingCriterion\": [{\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"60\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"price\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Le prix, apprécié au regard du montant total indiqué dans le détail estimatif (DE)\"}}, {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"30\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"La valeur technique de l'offre, appréciée au regard du mémoire technique\"}}, {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"10\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"La valeur environnementale de l’offre, appréciée au regard du mémoire technique\"}}]}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.marches-publics.gouv.fr/?page=Entreprise.EntrepriseAdvancedSearch&AllCons&id=3045559&orgAcronyme=d4t\"}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"6\"}}, \"cac:AppealTerms\": {\"cac:PresentationPeriod\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Durant le délai de suspension susvisé, et jusqu’à la signature du contrat, le concurrent évincé pourra contester la décision d’attribution par la voie du référé précontractuel prévu aux articles L.551-1 à L.551-12 et R.551-1 à R.551-6 du Code de justice administrative. Postérieurement à la signature du contrat, et dans un délai de 31 jours suivant la publication au Journal officiel de l’Union européenne de l’avis d’attribution du contrat, le concurrent évincé pourra former un référé contractuel en contestation de la décision d’attribution, conformément aux articles L.551-13 à L.551-23 et R.551-7 à R.551-10 du Code de justice administrative. De plus, à partir de la conclusion du contrat et dans un délai de 2 mois à compter de la date à laquelle sont rendues publiques la conclusion du contrat et les modalités de sa consultation, le concurrent évincé peut introduire un recours de plein contentieux contestant la validité du contrat ou de certaines de ses clauses qui en sont divisibles assorti, le cas échéant, de demandes indemnitaires. Toutefois, à partir de la conclusion du contrat, et dès lors qu’il dispose du recours ci-dessus défini, un concurrent évincé n’est plus recevable à demander l’annulation pour excès de pouvoir des actes préalables qui en sont détachables. Le cas échéant, l’ensemble des voies de recours susmentionnées devront être introduites devant le tribunal administratif territorialement compétent.\"}}, \"cac:AppealInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"true\", \"cbc:ElectronicPaymentUsageIndicator\": \"true\"}}, \"cac:TenderingProcess\": {\"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"true\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-10-22+02:00\", \"cbc:EndTime\": \"12:00:00.000+02:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:FrameworkAgreement\": {\"cbc:MaximumOperatorQuantity\": \"0\", \"cac:SubsequentProcessTenderRequirement\": {\"cbc:Name\": \"buyer-categories\"}}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"fa-wo-rc\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": \"DRIEAT-DIRIF-STT-AOO-26-066\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Infogérance (MCO, TMA) et hébergement du site et des applications mobiles SYTADIN\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Infogérance (MCO, TMA) et hébergement du site et des applications mobiles SYTADIN\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cbc:Note\": {\"@languageID\": \"FRA\", \"#text\": \"Conformément à l’article R.2132-5 du Code de la commande publique, l’acheteur protège la confidentialité de certains documents et informations techniques qu’il met à disposition des candidats (Code source, DAT, spécifications, conception). Le candidat peut les obtenir selon les modalités suivantes : remise sur un support physique à récupérer sur demande sur le site de Créteil (79B avenue du maréchal de Lattre de Tassigny). Les candidats seront invités à signer une décharge stipulant qu’ils s’engagent à ne pas divulguer les informations et à ne pas les utiliser dans un cadre autre que celui de cette consultation. Pour les demandes, les opérateurs économiques sont invités à prendre rendez-vous auprès d’un agent UIRC en téléphonant au 01.41.78.74.14 ou en écrivant à uirc.dett.stt.dirif.driea-if@developpement-durable.gouv.fr\"}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72267100\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:CityName\": \"Paris\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR101\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"48\"}}}}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-89705",
+      "_source_categories": [
+        "CDS"
+      ],
+      "score": 4.0,
+      "category": "Digital",
+      "categories": [
+        "Digital",
+        "CDS"
+      ],
+      "category_color": "#1D4ED8",
+      "budget": null,
+      "days_left": 14,
+      "match_pct": 70,
+      "match_detail": "TMA / Maintenance applicative · REX McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
+      "tier": "high",
+      "ao_type": "TMA / Maintenance applicative",
+      "ao_legitimacy": 5,
+      "matched_products": [],
+      "matched_rex": [
+        {
+          "label": "McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
+          "sector": "Restauration (QSR)",
+          "duration": "7+ ans"
+        }
+      ],
+      "matched_tech": [],
+      "matched_expertises": [],
+      "matched_delivery": [
+        "TMA / Maintenance applicative"
+      ],
+      "matched_profils": [],
+      "relevance_summary": [
+        "Objet : Infogérance (MCO, TMA) et hébergement du site et des applications mobiles SYTADIN",
+        "Acheteur : Direction régionale et interdépartementale de l'Environnement, de l’Aménagement et des Transports d’Île-de-France (DRIEAT IF)",
+        "Type d'AO \"TMA / Maintenance applicative\" : forte légitimité Harington",
+        "Mode de delivery : TMA / Maintenance applicative",
+        "REX sectoriel : McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA (Restauration (QSR), 7+ ans)",
+        "Zone géographique : Île-de-France",
+        "Date limite de réponse : 2026-10-22"
+      ],
+      "geo_label": "Île-de-France",
+      "deep_analysis": null,
+      "breakdown": {
+        "stack_match": 3.5,
+        "stack_sub": {
+          "tech_stack": 1,
+          "products": 1,
+          "expertises": 1,
+          "delivery": 3,
+          "profils": 1
+        },
+        "deadline": 4.5,
+        "budget": 3.0,
+        "geo": 5.0
       }
     },
     {
@@ -2175,7 +2291,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 16,
+      "days_left": 15,
       "match_pct": 90,
       "match_detail": "Forfait · E-commerce & Digital",
       "tier": "high",
@@ -2267,7 +2383,7 @@
             "label": "Échéance",
             "score": 4.0,
             "score_label": "Fort",
-            "detail": "J-16",
+            "detail": "J-15",
             "weight_pct": 20
           },
           {
@@ -2393,7 +2509,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": 180000.0,
-      "days_left": 19,
+      "days_left": 18,
       "match_pct": 90,
       "match_detail": "IAM & Sécurité · IA Générative & Agentique · Intelligence Artificielle · Llm · Rag · Dev Brain",
       "tier": "high",
@@ -2510,7 +2626,7 @@
             "label": "Échéance",
             "score": 4.0,
             "score_label": "Fort",
-            "detail": "J-19",
+            "detail": "J-18",
             "weight_pct": 20
           },
           {
@@ -2662,7 +2778,7 @@
       ],
       "category_color": "#DC2626",
       "budget": null,
-      "days_left": 40,
+      "days_left": 39,
       "match_pct": 90,
       "match_detail": "TMA / Maintenance applicative · IAM & Sécurité · E-commerce & Digital",
       "tier": "high",
@@ -2756,7 +2872,7 @@
             "label": "Échéance",
             "score": 2.0,
             "score_label": "Faible",
-            "detail": "J-40",
+            "detail": "J-39",
             "weight_pct": 20
           },
           {
@@ -2809,115 +2925,6 @@
         "deadline": 2.0,
         "budget": 3.0,
         "geo": 5.0
-      }
-    },
-    {
-      "idweb": "26-85267",
-      "id": "26_85267",
-      "contractfolderid": "16871cec-682c-491d-8f35-bd3c8b94d7fe",
-      "objet": "Prestations d'infogérance de l'environnement numérique utilisateur (lot 1)",
-      "filename": "26-85267",
-      "famille": "JOUE",
-      "code_departement": [
-        "69"
-      ],
-      "code_departement_prestation": null,
-      "famille_libelle": "Marchés européens",
-      "dateparution": "2026-09-03",
-      "datefindiffusion": "2026-10-07",
-      "datelimitereponse": "2026-10-07T14:00:00+00:00",
-      "nomacheteur": "Ville de Lyon",
-      "titulaire": null,
-      "perimetre": "DIRECTIVE-24",
-      "type_procedure": "NEGOCIE",
-      "soustype_procedure": null,
-      "procedure_libelle": "Procédure Négociée",
-      "procedure_categorise": "NEGOCIE/",
-      "nature": "APPEL_OFFRE",
-      "sousnature": "STANDARD",
-      "nature_libelle": "Avis de marché",
-      "sousnature_libelle": null,
-      "nature_categorise": "appeloffre/standard",
-      "nature_categorise_libelle": "Avis de marché/",
-      "criteres": [
-        "sociaux",
-        "environnementaux"
-      ],
-      "marche_public_simplifie": null,
-      "marche_public_simplifie_label": null,
-      "etat": "INITIAL",
-      "descripteur_code": [
-        "163"
-      ],
-      "dc": [
-        "163"
-      ],
-      "descripteur_libelle": [
-        "Informatique (prestations de services)"
-      ],
-      "type_marche": [
-        "SERVICES"
-      ],
-      "type_marche_facette": [
-        "Services"
-      ],
-      "type_avis": [
-        "5",
-        "1"
-      ],
-      "annonce_lie": null,
-      "annonces_anterieures": null,
-      "source_schema": "3.2.5",
-      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-85267\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Ville de Lyon\", \"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"DATE_PUBLICATION\": \"2026-09-03\", \"DATE_LIMITE_REPONSE\": \"2026-10-07T16:00:00+02:00\", \"DATE_FIN_DIFFUSION\": \"2026-10-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"69\", \"RESUME_OBJET\": \"Prestations d'infogérance de l'environnement numérique utilisateur (lot 1)\"}}",
-      "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"16\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efac:Company\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0001\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Avenue-Web Systèmes\"}}, \"cac:PostalAddress\": {\"cbc:CityName\": \"Seyssinet-Pariset\", \"cbc:PostalZone\": \"38170\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK24\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"D02E89D3-AEE0-0758-9A5F672161562888\"}}, \"cac:Contact\": {\"cbc:Telephone\": \"+33480041260\", \"cbc:ElectronicMail\": \"publications-joue@aws-france.com\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"http://marches2.lyon.fr\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0002\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Ville de Lyon\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"Direction de la Commande publique\", \"cbc:AdditionalStreetName\": \"10 quai Jean Moulin\", \"cbc:CityName\": \"Lyon cedex 01\", \"cbc:PostalZone\": \"69205\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK26\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"10805\"}}, \"cac:Contact\": {\"cbc:Name\": \"Le Maire\", \"cbc:Telephone\": \"0472103030\", \"cbc:ElectronicMail\": \"dcp.marches@mairie-lyon.fr\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"http://lyon.tribunal-administratif.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0003\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal administratif de Lyon\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"184 rue Duguesclin\", \"cbc:CityName\": \"Lyon\", \"cbc:PostalZone\": \"69433\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK26\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"D02E89F2-ACE2-FA82-9EE95385255FD8FA\"}}, \"cac:Contact\": {\"cbc:Telephone\": \"0487635000\", \"cbc:Telefax\": \"0487635250\", \"cbc:ElectronicMail\": \"greffe.ta-lyon@juradm.fr\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"http://lyon.tribunal-administratif.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0004\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Greffe du Tribunal administratif de Lyon\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"184, rue Duguesclin\", \"cbc:CityName\": \"Lyon\", \"cbc:PostalZone\": \"69433\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK26\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"D02E8A1B-EA75-EB9A-DE61B84490A0E010\"}}, \"cac:Contact\": {\"cbc:Telephone\": \"0487635200\", \"cbc:Telefax\": \"0487635250\", \"cbc:ElectronicMail\": \"greffe.ta-lyon@juradm.fr\"}}}]}}}}}, \"cbc:UBLVersionID\": \"2.3\", \"cbc:CustomizationID\": \"eforms-sdk-1.12\", \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"9fba97b5-47bc-4618-b624-792264a01168\"}, \"cbc:ContractFolderID\": \"16871cec-682c-491d-8f35-bd3c8b94d7fe\", \"cbc:IssueDate\": \"2026-09-02+02:00\", \"cbc:IssueTime\": \"12:15:57+02:00\", \"cbc:VersionID\": \"01\", \"cbc:RegulatoryDomain\": \"32014L0024\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": \"FRA\", \"cac:ContractingParty\": {\"cbc:BuyerProfileURI\": \"http://marches2.lyon.fr\", \"cac:ContractingPartyType\": {\"cbc:PartyTypeCode\": {\"@listName\": \"buyer-legal-type\", \"#text\": \"la\"}}, \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"authority-activity\", \"#text\": \"gen-pub\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0002\"}}, \"cac:ServiceProviderParty\": {\"cbc:ServiceTypeCode\": {\"@listName\": \"organisation-role\", \"#text\": \"ted-esen\"}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0001\"}}}}}}, \"cac:TenderingTerms\": {\"cac:TendererQualificationRequest\": {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-procurement-document\"}}}}, \"cac:TenderingProcess\": {\"cbc:ProcedureCode\": {\"@languageID\": \"FRA\", \"@listName\": \"procurement-procedure-type\", \"#text\": \"neg-w-call\"}, \"cac:ProcessJustification\": {\"cbc:ProcessReasonCode\": {\"@listName\": \"accelerated-procedure\", \"#text\": \"false\"}}}, \"cac:ProcurementProject\": {\"cbc:ID\": \"A6IT11733\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Prestations d'infogérance de l'environnement numérique utilisateur (lot 1)\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"La présente consultation vise la mise en place d'accords-cadres portant sur l'infogérance de l'environnement numérique utilisateur (lot 1) et l'infogérance sur le système d'information de la Ville de Lyon (lot 2). Le lot 2 &amp;quot;Prestation d'infogérance du système d'information de la Ville de Lyon&amp;quot; sera relancé ultérieurement.\\nLot 1 : accord-cadre mixte avec un montant minimum de 3 000 000  euro(s)  HT et un montant maximum de 12 000 000  euro(s)  HT pour toute la durée du marché.\\nPériode de prise en charge de 4 mois après la notification de l'accord-cadre\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cbc:Note\": {\"@languageID\": \"FRA\", \"#text\": \"Procédure avec négociation\\nLes dates de début et de fin du marché sont des dates prévisionnelles\"}, \"cac:RequestedTenderTotal\": {\"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"4000000\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72500000\"}}, \"cac:AdditionalCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72500000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK26\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0000\"}, \"cac:TenderingTerms\": {\"cbc:VariantConstraintCode\": {\"@listName\": \"permission\", \"#text\": \"not-allowed\"}, \"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cbc:RequiredCurriculaCode\": {\"@listName\": \"requirement-stage\", \"#text\": \"not-requ\"}, \"cbc:RecurringProcurementIndicator\": \"true\", \"cbc:RecurringProcurementDescription\": {\"@languageID\": \"FRA\", \"#text\": \"A l'issue de l'accord-cadre\"}, \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"1867201\", \"cbc:DocumentType\": \"non-restricted-document\", \"cbc:LanguageID\": \"FRA\", \"cbc:DocumentStatusCode\": {\"@listName\": \"linguistic-status\", \"#text\": \"official\"}, \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1867201\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-procurement-document\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"esignature-submission\", \"#text\": \"false\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"conditions\", \"#text\": \"performance\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Le marché est soumis à une condition d'exécution sociale visant à favoriser l'accès ou le retour à l'emploi des publics qui en sont éloignés. Les exigences et modalités de mise en oeuvre sont définies dans le CCAP de la phase offre\"}}], \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;IDM=1867201\"}, \"cac:AppealTerms\": {\"cac:AppealInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0004\"}}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0003\"}}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"false\", \"cbc:ElectronicPaymentUsageIndicator\": \"false\"}}, \"cac:TenderingProcess\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:AccessToolName\": \"AW Solutions\"}}}}, \"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:CandidateReductionConstraintIndicator\": \"true\", \"cbc:GovernmentAgreementConstraintIndicator\": \"true\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-10-07+02:00\", \"cbc:EndTime\": \"16:00:00+02:00\"}, \"cac:InvitationSubmissionPeriod\": {\"cbc:StartDate\": \"2026-12-04+01:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:FrameworkAgreement\": {\"cbc:MaximumOperatorQuantity\": \"1\"}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"fa-wo-rc\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": {\"@schemeName\": \"InternalID\", \"#text\": \"S-PF-1867201\"}, \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Prestations d'infogérance de l'environnement numérique utilisateur (lot 1)\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"La présente consultation vise la mise en place d'accords-cadres portant sur l'infogérance de l'environnement numérique utilisateur (lot 1) et l'infogérance sur le système d'information de la Ville de Lyon (lot 2). Le lot 2 &amp;quot;Prestation d'infogérance du système d'information de la Ville de Lyon&amp;quot; sera relancé ultérieurement.\\nLot 1 : accord-cadre mixte avec un montant minimum de 3 000 000  euro(s)  HT et un montant maximum de 12 000 000  euro(s)  HT pour toute la durée du marché.\\nPériode de prise en charge de 4 mois après la notification de l'accord-cadre\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:ProcurementAdditionalType\": [{\"cbc:ProcurementTypeCode\": {\"@listName\": \"environmental-impact\", \"#text\": \"other\"}}, {\"cbc:ProcurementTypeCode\": {\"@listName\": \"social-objective\", \"#text\": \"other\"}}], \"cac:RequestedTenderTotal\": {\"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"4000000\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72500000\"}}, \"cac:AdditionalCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72500000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:CityName\": \"Lyon\", \"cbc:PostalZone\": \"69000\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK26\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:StartDate\": \"2027-10-01+02:00\", \"cbc:EndDate\": \"2031-01-31+01:00\"}, \"cac:ContractExtension\": {\"cbc:MaximumNumberNumeric\": \"1\", \"cac:Renewal\": {\"cac:Period\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Reconductible 1 fois 1 an\"}}}}}}}}}",
-      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-85267",
-      "_source_categories": [
-        "CDS",
-        "CDC"
-      ],
-      "score": 3.5,
-      "category": "Digital",
-      "categories": [
-        "Digital",
-        "CDS",
-        "CDC"
-      ],
-      "category_color": "#1D4ED8",
-      "budget": null,
-      "days_left": 0,
-      "match_pct": 60,
-      "match_detail": "Pertinence faible",
-      "tier": "medium",
-      "ao_type": "Autre",
-      "ao_legitimacy": 1,
-      "matched_products": [],
-      "matched_rex": [],
-      "matched_tech": [],
-      "matched_expertises": [],
-      "matched_delivery": [],
-      "matched_profils": [],
-      "relevance_summary": [
-        "Objet : Prestations d'infogérance de l'environnement numérique utilisateur (lot 1)",
-        "Acheteur : Ville de Lyon",
-        "Type d'AO \"Autre\" : légitimité limitée",
-        "Zone géographique : Dept. 69",
-        "Date limite de réponse : 2026-10-07",
-        "Descripteurs BOAMP : Informatique (prestations de services)"
-      ],
-      "geo_label": "Dept. 69",
-      "deep_analysis": null,
-      "breakdown": {
-        "stack_match": 3.0,
-        "stack_sub": {
-          "tech_stack": 1,
-          "products": 1,
-          "expertises": 1,
-          "delivery": 1,
-          "profils": 1
-        },
-        "deadline": 5.0,
-        "budget": 3.0,
-        "geo": 2.0
       }
     },
     {
@@ -2990,7 +2997,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 1,
+      "days_left": 0,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -3099,7 +3106,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 2,
+      "days_left": 1,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -3113,6 +3120,117 @@
       "matched_profils": [],
       "relevance_summary": [
         "Objet : Fourniture d'une sortie Internet, à l'interconnexion WAN MPLS et à la fourniture de lien Trunk SIP pour les sites de la CADEMA",
+        "Acheteur : Communauté d'Agglomération de Dembéni-Mamoudzou (976)",
+        "Type d'AO \"Autre\" : légitimité limitée",
+        "Zone géographique : Dept. 976",
+        "Date limite de réponse : 2026-10-09",
+        "Descripteurs BOAMP : Informatique (maintenance serveurs et réseaux), Informatique (prestations de services)"
+      ],
+      "geo_label": "Dept. 976",
+      "deep_analysis": null,
+      "breakdown": {
+        "stack_match": 3.0,
+        "stack_sub": {
+          "tech_stack": 1,
+          "products": 1,
+          "expertises": 1.5,
+          "delivery": 1,
+          "profils": 1
+        },
+        "deadline": 5.0,
+        "budget": 3.0,
+        "geo": 2.0
+      }
+    },
+    {
+      "idweb": "26-96957",
+      "id": "26_96957",
+      "contractfolderid": "640757ac-a64a-4596-b73c-bf61f49aba83",
+      "objet": "Fourniture d’une sortie Internet, interconnexion WAN MPLS et fourniture de liens Trunk SIP",
+      "filename": "26-96957",
+      "famille": "JOUE",
+      "code_departement": [
+        "976"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés européens",
+      "dateparution": "2026-10-08",
+      "datefindiffusion": "2026-10-20",
+      "datelimitereponse": "2026-10-09T09:00:00+00:00",
+      "nomacheteur": "Communauté d'Agglomération de Dembéni-Mamoudzou (976)",
+      "titulaire": null,
+      "perimetre": "DIRECTIVE-24",
+      "type_procedure": "OUVERT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Ouverte",
+      "procedure_categorise": "OUVERT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": "STANDARD",
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": null,
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "RECTIFICATIF",
+      "descripteur_code": [
+        "454",
+        "163"
+      ],
+      "dc": [
+        "454",
+        "163"
+      ],
+      "descripteur_libelle": [
+        "Informatique (maintenance serveurs et réseaux)",
+        "Informatique (prestations de services)"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": [
+        "26-86996"
+      ],
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-96957\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"ANNONCE_ANTERIEUR\": {\"IDWEB\": \"26-86996\"}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Communauté d'Agglomération de Dembéni-Mamoudzou (976)\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-10-08\", \"DATE_LIMITE_REPONSE\": \"2026-10-09T12:00:00+03:00\", \"DATE_FIN_DIFFUSION\": \"2026-10-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"454\", \"LIBELLE\": \"Informatique (maintenance serveurs et réseaux)\"}, {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}]}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"DEP_PUBLICATION\": \"976\", \"RESUME_OBJET\": \"Fourniture d’une sortie Internet, interconnexion WAN MPLS et fourniture de liens Trunk SIP\"}}",
+      "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:Changes\": {\"efbc:ChangedNoticeIdentifier\": \"621109-2026\", \"efac:Change\": {\"efbc:ProcurementDocumentsChangeDate\": \"2026-10-07+03:00\", \"efbc:ProcurementDocumentsChangeIndicator\": \"true\", \"efac:ChangedSection\": {\"efbc:ChangedSectionIdentifier\": \"PROCEDURE\"}}, \"efac:ChangeReason\": {\"cbc:ReasonCode\": {\"@listName\": \"change-corrig-justification\", \"#text\": \"update-add\"}, \"efbc:ReasonDescription\": {\"@languageID\": \"FRA\", \"#text\": \"La date de clôture est reportée au 23 octobre 2026.\"}}}, \"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"16\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efac:Company\": {\"cbc:WebsiteURI\": \"https://v2.marches-securises.fr/\", \"cbc:EndpointID\": \"https://v2.marches-securises.fr\", \"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Communauté d'Agglomération de Dembéni-Mamoudzou (976)\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"452 boulevard Mze Mandela\", \"cbc:Department\": \"Mayotte\", \"cbc:CityName\": \"Dembéni\", \"cbc:PostalZone\": \"97660\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRY50\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"20006045700013\"}, \"cac:Contact\": {\"cbc:Telephone\": \"+33 6269530000\", \"cbc:ElectronicMail\": \"MARCHESPUBLICS@cadema.yt\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"https://mayotte.tribunal-administratif.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0003\"}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"TRIBUNAL ADMINISTRATIF DE MAYOTTE (TA)\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"LES HAUTS DU JARDIN DU COLLEGE, RUE DE L'INTERNAT\", \"cbc:Department\": \"Mayotte\", \"cbc:CityName\": \"MAMOUDZOU\", \"cbc:PostalZone\": \"97600\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRY50\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"13000503600012\"}, \"cac:Contact\": {\"cbc:Telephone\": \"+33 269611856\", \"cbc:ElectronicMail\": \"greffe.ta-mayotte@juradm.fr\"}}}]}}}}}, \"cbc:UBLVersionID\": \"2.3\", \"cbc:CustomizationID\": \"eforms-sdk-1.12\", \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"3de02688-4dab-429d-9633-0c55bc2e1062\"}, \"cbc:ContractFolderID\": \"640757ac-a64a-4596-b73c-bf61f49aba83\", \"cbc:IssueDate\": \"2026-10-07Z\", \"cbc:IssueTime\": \"14:53:01Z\", \"cbc:VersionID\": \"01\", \"cbc:RegulatoryDomain\": \"32014L0024\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": {\"@listName\": \"language\", \"#text\": \"FRA\"}, \"cac:ContractingParty\": {\"cbc:BuyerProfileURI\": \"https://v2.marches-securises.fr/\", \"cac:ContractingPartyType\": {\"cbc:PartyTypeCode\": {\"@listName\": \"buyer-legal-type\", \"#text\": \"body-pl\"}}, \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"authority-activity\", \"#text\": \"gen-pub\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}}, \"cac:TenderingTerms\": {\"cac:TendererQualificationRequest\": {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-procurement-document\"}}}, \"cac:LotDistribution\": {\"cbc:MaximumLotsAwardedNumeric\": \"3\", \"cbc:MaximumLotsSubmittedNumeric\": \"3\"}}, \"cac:TenderingProcess\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:ProcedureRelaunchIndicator\": \"false\"}}}}, \"cbc:ProcedureCode\": {\"@listName\": \"procurement-procedure-type\", \"#text\": \"open\"}, \"cbc:PartPresentationCode\": {\"@listName\": \"tenderlot-presentation\", \"#text\": \"all\"}, \"cac:ProcessJustification\": {\"cbc:ProcessReasonCode\": {\"@listName\": \"accelerated-procedure\", \"#text\": \"false\"}}}, \"cac:ProcurementProject\": {\"cbc:ID\": \"20260006\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"La fourniture d'une sortie Internet, à l'interconnexion WAN MPLS et à la fourniture de lien Trunk SIP pour  les sites de la CADEMA\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"La fourniture d'une sortie Internet, à l'interconnexion WAN MPLS et à la fourniture de lien Trunk SIP pour les sites de la CADEMA\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:RequestedTenderTotal\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:FrameworkMaximumAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"500000\"}}}}}, \"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"500000\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"64221000\"}}, \"cac:AdditionalCommodityClassification\": [{\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"32412110\"}}, {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72400000\"}}], \"cac:RealizedLocation\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"La procédure de passation utilisée est : l'appel d'offres ouvert. Elle est soumise aux dispositions des  articles L. 2124-2, R. 2124-2 1° et R. 2161-2 à R. 2161-5 du Code de la commande publique.\"}, \"cac:Address\": {\"cbc:StreetName\": \"Les sites de la CADEMA  97660 Dembeni\", \"cbc:CityName\": \"DEMBENI\", \"cbc:PostalZone\": \"97660\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRY50\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": [{\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0001\"}, \"cac:TenderingTerms\": {\"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"_DEFAULT_VALUE_CHANGE_ME_\", \"cbc:DocumentType\": \"non-restricted-document\", \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.marches-securises.fr/\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-procurement-document\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}}, {\"cbc:CompanyLegalFormCode\": {\"@listName\": \"required\", \"#text\": \"false\"}}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}], \"cac:AwardingTerms\": {\"cac:AwardingCriterion\": {\"cac:SubordinateAwardingCriterion\": {\"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Valeur technique\"}}}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.marches-securises.fr/\"}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"DAY\", \"#text\": \"180\"}}, \"cac:AppealTerms\": {\"cac:PresentationPeriod\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Les voies de recours ouvertes aux candidats sont les suivantes : Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours de pleine juridiction ouvert aux tiers justifiant d’un \\nintérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\"}}, \"cac:AppealInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0003\"}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"true\", \"cbc:ElectronicPaymentUsageIndicator\": \"true\"}}, \"cac:TenderingProcess\": {\"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"allowed\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"true\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-10-09+03:00\", \"cbc:EndTime\": \"12:00:00+03:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:FrameworkAgreement\": {\"cbc:MaximumOperatorQuantity\": \"3\"}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"fa-wo-rc\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": \"20260006-1\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Sortie Internet\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Sortie Internet\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cbc:SMESuitableIndicator\": \"true\", \"cac:RequestedTenderTotal\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:FrameworkMaximumAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"500000\"}}}}}, \"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"150000\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"64221000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:StreetName\": \"452 boulevard Mze mandela\", \"cbc:AdditionalStreetName\": \"Sur les sites de la CADEMA\", \"cbc:CityName\": \"DEMBENI\", \"cbc:PostalZone\": \"97660\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRY50\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"48\"}}, \"cac:ContractExtension\": {\"cbc:OptionsDescription\": {\"@languageID\": \"FRA\", \"#text\": \"12 mois à compter de la notification, reconductible tacitement 3 fois 1 an (durée totale maximale : 48 mois)\"}}}}, {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0002\"}, \"cac:TenderingTerms\": {\"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"_DEFAULT_VALUE_CHANGE_ME_\", \"cbc:DocumentType\": \"non-restricted-document\", \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.marches-securises.fr/\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-procurement-document\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}}, {\"cbc:CompanyLegalFormCode\": {\"@listName\": \"required\", \"#text\": \"false\"}}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}], \"cac:AwardingTerms\": {\"cac:AwardingCriterion\": {\"cac:SubordinateAwardingCriterion\": {\"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Valeur technique\"}}}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.marches-securises.fr/\"}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"DAY\", \"#text\": \"180\"}}, \"cac:AppealTerms\": {\"cac:PresentationPeriod\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Les voies de recours ouvertes aux candidats sont les suivantes : Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours de pleine juridiction ouvert aux tiers justifiant d’un \\nintérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\"}}, \"cac:AppealInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0003\"}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"true\", \"cbc:ElectronicPaymentUsageIndicator\": \"true\"}}, \"cac:TenderingProcess\": {\"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"allowed\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"true\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-10-09+03:00\", \"cbc:EndTime\": \"12:00:00+03:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:FrameworkAgreement\": {\"cbc:MaximumOperatorQuantity\": \"3\"}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"fa-wo-rc\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": \"20260006-2\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"WAN MPLS\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"WAN MPLS\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cbc:SMESuitableIndicator\": \"true\", \"cac:RequestedTenderTotal\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:FrameworkMaximumAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"500000\"}}}}}, \"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"250000\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"64221000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:StreetName\": \"452 boulevard Mze mandela\", \"cbc:AdditionalStreetName\": \"Sur les sites de la CADEMA\", \"cbc:CityName\": \"DEMBENI\", \"cbc:PostalZone\": \"97660\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRY50\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"48\"}}, \"cac:ContractExtension\": {\"cbc:OptionsDescription\": {\"@languageID\": \"FRA\", \"#text\": \"12 mois à compter de la notification, reconductible tacitement 3 fois 1 an (durée totale maximale : 48 mois)\"}}}}, {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0003\"}, \"cac:TenderingTerms\": {\"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"_DEFAULT_VALUE_CHANGE_ME_\", \"cbc:DocumentType\": \"non-restricted-document\", \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.marches-securises.fr/\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-procurement-document\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}}, {\"cbc:CompanyLegalFormCode\": {\"@listName\": \"required\", \"#text\": \"false\"}}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}], \"cac:AwardingTerms\": {\"cac:AwardingCriterion\": {\"cac:SubordinateAwardingCriterion\": {\"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Valeur technique\"}}}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.marches-securises.fr/\"}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"DAY\", \"#text\": \"180\"}}, \"cac:AppealTerms\": {\"cac:PresentationPeriod\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Les voies de recours ouvertes aux candidats sont les suivantes : Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours de pleine juridiction ouvert aux tiers justifiant d’un \\nintérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\"}}, \"cac:AppealInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0003\"}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"true\", \"cbc:ElectronicPaymentUsageIndicator\": \"true\"}}, \"cac:TenderingProcess\": {\"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"allowed\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"true\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-10-09+03:00\", \"cbc:EndTime\": \"12:00:00+03:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:FrameworkAgreement\": {\"cbc:MaximumOperatorQuantity\": \"3\"}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"fa-wo-rc\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": \"20260006-3\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Trunk SIP\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Trunk SIP\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cbc:SMESuitableIndicator\": \"true\", \"cac:RequestedTenderTotal\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:FrameworkMaximumAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"500000\"}}}}}, \"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"100000\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"64221000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:StreetName\": \"452 boulevard Mze mandela\", \"cbc:AdditionalStreetName\": \"Sur les sites de la CADEMA\", \"cbc:CityName\": \"DEMBENI\", \"cbc:PostalZone\": \"97660\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRY50\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"48\"}}, \"cac:ContractExtension\": {\"cbc:OptionsDescription\": {\"@languageID\": \"FRA\", \"#text\": \"12 mois à compter de la notification, reconductible tacitement 3 fois 1 an (durée totale maximale : 48 mois)\"}}}}]}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-96957",
+      "_source_categories": [
+        "CDS",
+        "CDC"
+      ],
+      "score": 3.5,
+      "category": "Digital",
+      "categories": [
+        "Digital",
+        "CDS",
+        "CDC"
+      ],
+      "category_color": "#1D4ED8",
+      "budget": null,
+      "days_left": 1,
+      "match_pct": 60,
+      "match_detail": "Pertinence faible",
+      "tier": "medium",
+      "ao_type": "Autre",
+      "ao_legitimacy": 1,
+      "matched_products": [],
+      "matched_rex": [],
+      "matched_tech": [],
+      "matched_expertises": [],
+      "matched_delivery": [],
+      "matched_profils": [],
+      "relevance_summary": [
+        "Objet : Fourniture d’une sortie Internet, interconnexion WAN MPLS et fourniture de liens Trunk SIP",
         "Acheteur : Communauté d'Agglomération de Dembéni-Mamoudzou (976)",
         "Type d'AO \"Autre\" : légitimité limitée",
         "Zone géographique : Dept. 976",
@@ -3208,7 +3326,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 2,
+      "days_left": 1,
       "match_pct": 70,
       "match_detail": "E-commerce & Digital",
       "tier": "high",
@@ -3319,7 +3437,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 2,
+      "days_left": 1,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -3428,7 +3546,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 2,
+      "days_left": 1,
       "match_pct": 70,
       "match_detail": "Modernisation & Legacy",
       "tier": "high",
@@ -3542,7 +3660,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 2,
+      "days_left": 1,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -3650,7 +3768,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 2,
+      "days_left": 1,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -3747,16 +3865,18 @@
       "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"16\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efbc:AwardingCPBIndicator\": \"false\", \"efac:Company\": {\"cbc:WebsiteURI\": \"https://www.reseau-canope.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Réseau Canopé\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"1 avenue du Futuroscope\", \"cbc:AdditionalStreetName\": \"Téléport 1 – arobase 4\", \"cbc:CityName\": \"Futuroscope \", \"cbc:PostalZone\": \"86961\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRI34\"}, \"cac:AddressLine\": {\"cbc:Line\": \"CS 80158\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"18004301001485\"}, \"cac:Contact\": {\"cbc:Name\": \"Pôle Achats-Marchés\", \"cbc:Telephone\": \"05 49 49 78 78\", \"cbc:ElectronicMail\": \"achats.dsfjs@reseau-canope.fr\"}}}, {\"efac:Company\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal administratif de Poitiers\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"15 Rue de Blossac\", \"cbc:CityName\": \"Poitiers\", \"cbc:PostalZone\": \"86000\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRI34\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"17860004500029\"}, \"cac:Contact\": {\"cbc:Telephone\": \"05 49 60 79 19\", \"cbc:ElectronicMail\": \"greffe.ta-poitiers@juradm.fr\"}}}]}}}}}, \"cbc:UBLVersionID\": {\"@schemeName\": \"notice-id\", \"#text\": \"2.3\"}, \"cbc:CustomizationID\": {\"@schemeName\": \"notice-id\", \"#text\": \"eforms-sdk-1.13\"}, \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"b1b4b42f-069a-4950-aa97-98dcedd4fdf7\"}, \"cbc:ContractFolderID\": \"f5f90a03-42b5-46ae-84be-33132fccb8ae\", \"cbc:IssueDate\": \"2026-09-04+02:00\", \"cbc:IssueTime\": \"14:50:34.000+02:00\", \"cbc:VersionID\": {\"@schemeName\": \"notice-id\", \"#text\": \"01\"}, \"cbc:RegulatoryDomain\": \"32014L0024\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": {\"@listName\": \"language\", \"#text\": \"FRA\"}, \"cac:ContractingParty\": {\"cbc:BuyerProfileURI\": \"https://www.marches-publics.gouv.fr/entreprise\", \"cac:ContractingPartyType\": {\"cbc:PartyTypeCode\": {\"@listName\": \"buyer-legal-type\", \"#text\": \"body-pl\"}}, \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"authority-activity\", \"#text\": \"education\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}}, \"cac:TenderingTerms\": {\"cac:ProcurementLegislationDocumentReference\": [{\"cbc:ID\": \"LocalLegalBasis\", \"cbc:DocumentDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Sans objet\"}}, {\"cbc:ID\": \"CrossBorderLaw\", \"cbc:DocumentDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Sans objet\"}}], \"cac:TendererQualificationRequest\": {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-procurement-document\"}}}}, \"cac:TenderingProcess\": {\"cbc:ProcedureCode\": {\"@listName\": \"procurement-procedure-type\", \"#text\": \"open\"}, \"cac:ProcessJustification\": {\"cbc:ProcessReasonCode\": {\"@listName\": \"accelerated-procedure\", \"#text\": \"false\"}}}, \"cac:ProcurementProject\": {\"cbc:ID\": \"26-025\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Migration du Système d’information Financier, Comptable et Commercial (SIFC/SIC) de Réseau CANOPE en mode SAAS\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Migration du Système d’information Financier, Comptable et Commercial (SIFC/SIC) de Réseau CANOPE en mode SAAS\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72250000\"}}, \"cac:AdditionalCommodityClassification\": [{\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72263000\"}}, {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72265000\"}}], \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:Region\": \"anyw-cou\", \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0001\"}, \"cac:TenderingTerms\": {\"cbc:VariantConstraintCode\": {\"@listName\": \"permission\", \"#text\": \"allowed\"}, \"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cbc:RequiredCurriculaCode\": {\"@listName\": \"requirement-stage\", \"#text\": \"t-requ\"}, \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"25-026 DCE\", \"cbc:DocumentTypeCode\": {\"@listName\": \"communication-justification\", \"#text\": \"sen-info\"}, \"cbc:DocumentType\": \"restricted-document\", \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.marches-publics.gouv.fr/entreprise/consultation/3062999?orgAcronyme=f0g\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-procurement-document\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"conditions\", \"#text\": \"performance\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}], \"cac:AwardingTerms\": {\"cac:AwardingCriterion\": {\"cac:SubordinateAwardingCriterion\": [{\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"50\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Valeur technique des prestations\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Valeur technique des prestations\"}}, {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"40\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"price\"}, \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Prix\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Prix\"}}, {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"10\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Critère RSE\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Critère RSE\"}}]}}, \"cac:AdditionalInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}, \"cac:DocumentProviderParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.marches-publics.gouv.fr/entreprise/consultation/3062999?orgAcronyme=f0g\"}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"4\"}}, \"cac:AppealTerms\": {\"cac:AppealInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}, \"cac:MediationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"false\", \"cbc:ElectronicPaymentUsageIndicator\": \"true\"}}, \"cac:TenderingProcess\": {\"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"true\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-10-12+02:00\", \"cbc:EndTime\": \"12:00:00.000+02:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:FrameworkAgreement\": {\"cbc:MaximumOperatorQuantity\": \"1\", \"cac:SubsequentProcessTenderRequirement\": {\"cbc:Name\": \"buyer-categories\"}}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"fa-wo-rc\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": \"26-025\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Migration du Système d’information Financier, Comptable et Commercial (SIFC/SIC) de Réseau CANOPE en mode SAAS\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Migration du Système d’information Financier, Comptable et Commercial (SIFC/SIC) de Réseau CANOPE en mode SAAS\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:RequestedTenderTotal\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:FrameworkMaximumAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"280000\"}}}}}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72250000\"}}, \"cac:AdditionalCommodityClassification\": [{\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72263000\"}}, {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72265000\"}}], \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:Region\": \"anyw-cou\", \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"48\"}}, \"cac:ContractExtension\": {\"cbc:OptionsDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Reconductions tacites, 3 fois 12 mois\"}}}}}}}",
       "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-86195",
       "_source_categories": [
-        "Digital"
+        "Digital",
+        "CDC"
       ],
       "score": 3.5,
       "category": "Digital",
       "categories": [
-        "Digital"
+        "Digital",
+        "CDC"
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 5,
+      "days_left": 4,
       "match_pct": 70,
       "match_detail": "Saas · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -3877,7 +3997,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 5,
+      "days_left": 4,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -3985,7 +4105,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 5,
+      "days_left": 4,
       "match_pct": 70,
       "match_detail": "TMA / Maintenance applicative · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -4106,7 +4226,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 5,
+      "days_left": 4,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -4210,7 +4330,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 8,
+      "days_left": 7,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -4241,7 +4361,7 @@
           "delivery": 1,
           "profils": 1
         },
-        "deadline": 4.5,
+        "deadline": 5.0,
         "budget": 3.0,
         "geo": 5.0
       }
@@ -4318,7 +4438,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 8,
+      "days_left": 7,
       "match_pct": 70,
       "match_detail": "Saas · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -4358,7 +4478,7 @@
           "delivery": 1,
           "profils": 1
         },
-        "deadline": 4.5,
+        "deadline": 5.0,
         "budget": 3.0,
         "geo": 2.0
       }
@@ -4431,7 +4551,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 12,
+      "days_left": 11,
       "match_pct": 70,
       "match_detail": "Audit & Urbanisation SI · E-commerce & Digital · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "high",
@@ -4553,7 +4673,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 14,
+      "days_left": 13,
       "match_pct": 65,
       "match_detail": "Régie / AT · IA Générative & Agentique · Intelligence Artificielle · Ia · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "medium",
@@ -4601,122 +4721,6 @@
         "deadline": 4.5,
         "budget": 3.0,
         "geo": 2.0
-      }
-    },
-    {
-      "idweb": "26-89705",
-      "id": "26_89705",
-      "contractfolderid": "ae75af59-80a9-462c-83c4-7d259a4033f9",
-      "objet": "Infogérance (MCO, TMA) et hébergement du site et des applications mobiles SYTADIN",
-      "filename": "26-89705",
-      "famille": "JOUE",
-      "code_departement": [
-        "75",
-        "94"
-      ],
-      "code_departement_prestation": null,
-      "famille_libelle": "Marchés européens",
-      "dateparution": "2026-09-18",
-      "datefindiffusion": "2026-10-30",
-      "datelimitereponse": "2026-10-22T12:00:00+00:00",
-      "nomacheteur": "Direction régionale et interdépartementale de l'Environnement, de l’Aménagement et des Transports d’Île-de-France (DRIEAT IF)",
-      "titulaire": null,
-      "perimetre": "DIRECTIVE-24",
-      "type_procedure": "OUVERT",
-      "soustype_procedure": null,
-      "procedure_libelle": "Procédure Ouverte",
-      "procedure_categorise": "OUVERT/",
-      "nature": "APPEL_OFFRE",
-      "sousnature": "STANDARD",
-      "nature_libelle": "Avis de marché",
-      "sousnature_libelle": null,
-      "nature_categorise": "appeloffre/standard",
-      "nature_categorise_libelle": "Avis de marché/",
-      "criteres": [
-        "environnementaux"
-      ],
-      "marche_public_simplifie": null,
-      "marche_public_simplifie_label": null,
-      "etat": "INITIAL",
-      "descripteur_code": [
-        "163"
-      ],
-      "dc": [
-        "163"
-      ],
-      "descripteur_libelle": [
-        "Informatique (prestations de services)"
-      ],
-      "type_marche": [
-        "SERVICES"
-      ],
-      "type_marche_facette": [
-        "Services"
-      ],
-      "type_avis": [
-        "5",
-        "1"
-      ],
-      "annonce_lie": null,
-      "annonces_anterieures": null,
-      "source_schema": "3.2.5",
-      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-89705\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Direction régionale et interdépartementale de l'Environnement, de l’Aménagement et des Transports d’Île-de-France (DRIEAT IF)\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-09-18\", \"DATE_LIMITE_REPONSE\": \"2026-10-22T12:00:00.000+02:00\", \"DATE_FIN_DIFFUSION\": \"2026-10-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"75\", \"94\"], \"RESUME_OBJET\": \"Infogérance (MCO, TMA) et hébergement du site et des applications mobiles SYTADIN\"}}",
-      "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"16\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efac:Company\": {\"cbc:WebsiteURI\": \"https://www.drieat.ile-de-france.developpement-durable.gouv.fr/\", \"cbc:EndpointID\": \"https://www.drieat.ile-de-france.developpement-durable.gouv.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Direction régionale et interdépartementale de l'Environnement, de l’Aménagement et des Transports d’Île-de-France\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"21/23 Rue Miollis\", \"cbc:CityName\": \"PARIS\", \"cbc:PostalZone\": \"75015\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR101\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"13002932500011\"}, \"cac:Contact\": {\"cbc:Name\": \"DCPPA\", \"cbc:Telephone\": \"01 40 61 86 30\", \"cbc:ElectronicMail\": \"dcppa.sg.drieat-if@developpement-durable.gouv.fr\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"https://paris.tribunal-administratif.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal administratif de Paris\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"7 rue de Jouy\", \"cbc:CityName\": \"Paris cedex 04\", \"cbc:PostalZone\": \"75181\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR101\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"17750005500013\"}, \"cac:Contact\": {\"cbc:Telephone\": \"0144594400\", \"cbc:ElectronicMail\": \"greffe.ta-paris@juradm.fr\"}}}]}}}}}, \"cbc:UBLVersionID\": {\"@schemeName\": \"notice-id\", \"#text\": \"2.3\"}, \"cbc:CustomizationID\": {\"@schemeName\": \"notice-id\", \"#text\": \"eforms-sdk-1.13\"}, \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"fcaa4ba5-dd33-47b0-a9f5-fbcbad2b6ac0\"}, \"cbc:ContractFolderID\": \"ae75af59-80a9-462c-83c4-7d259a4033f9\", \"cbc:IssueDate\": \"2026-09-16+02:00\", \"cbc:IssueTime\": \"15:16:03.000+02:00\", \"cbc:VersionID\": \"01\", \"cbc:RegulatoryDomain\": \"32014L0024\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": {\"@listName\": \"language\", \"#text\": \"FRA\"}, \"cac:ContractingParty\": {\"cbc:BuyerProfileURI\": \"https://www.marches-publics.gouv.fr/entreprise\", \"cac:ContractingPartyType\": {\"cbc:PartyTypeCode\": {\"@listName\": \"buyer-legal-type\", \"#text\": \"body-pl\"}}, \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"authority-activity\", \"#text\": \"env-pro\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}}, \"cac:TenderingTerms\": {\"cac:ProcurementLegislationDocumentReference\": [{\"cbc:ID\": \"LocalLegalBasis\", \"cbc:DocumentDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Sans objet\"}}, {\"cbc:ID\": \"CrossBorderLaw\", \"cbc:DocumentDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Sans objet\"}}], \"cac:TendererQualificationRequest\": {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-procurement-document\"}}}}, \"cac:TenderingProcess\": {\"cbc:ProcedureCode\": {\"@listName\": \"procurement-procedure-type\", \"#text\": \"open\"}, \"cac:ProcessJustification\": {\"cbc:ProcessReasonCode\": {\"@listName\": \"accelerated-procedure\", \"#text\": \"false\"}}}, \"cac:ProcurementProject\": {\"cbc:ID\": \"DRIEAT-DIRIF-STT-AOO-26-066\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Infogérance (MCO, TMA) et hébergement du site et des applications mobiles SYTADIN\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Infogérance (MCO, TMA) et hébergement du site et des applications mobiles SYTADIN\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72267100\"}}, \"cac:RealizedLocation\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Les prestations du marché auront lieu dans les locaux du titulaire et/ou ceux de ses sous-traitants\"}, \"cac:Address\": {\"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR101\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0001\"}, \"cac:TenderingTerms\": {\"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"DRIEAT-DIRIF-STT-AOO-26-066\", \"cbc:DocumentTypeCode\": {\"@listName\": \"communication-justification\", \"#text\": \"sen-info\"}, \"cbc:DocumentType\": \"restricted-document\", \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.dir.ile-de-france.developpement-durable.gouv.fr/\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-procurement-document\"}}}, {\"cac:SpecificTendererRequirement\": [{\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}, {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}]}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"conditions\", \"#text\": \"performance\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"not-allowed\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"esignature-submission\", \"#text\": \"true\"}}], \"cac:AwardingTerms\": {\"cac:AwardingCriterion\": {\"cac:SubordinateAwardingCriterion\": [{\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"60\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"price\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Le prix, apprécié au regard du montant total indiqué dans le détail estimatif (DE)\"}}, {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"30\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"La valeur technique de l'offre, appréciée au regard du mémoire technique\"}}, {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"10\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"La valeur environnementale de l’offre, appréciée au regard du mémoire technique\"}}]}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.marches-publics.gouv.fr/?page=Entreprise.EntrepriseAdvancedSearch&AllCons&id=3045559&orgAcronyme=d4t\"}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"6\"}}, \"cac:AppealTerms\": {\"cac:PresentationPeriod\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Durant le délai de suspension susvisé, et jusqu’à la signature du contrat, le concurrent évincé pourra contester la décision d’attribution par la voie du référé précontractuel prévu aux articles L.551-1 à L.551-12 et R.551-1 à R.551-6 du Code de justice administrative. Postérieurement à la signature du contrat, et dans un délai de 31 jours suivant la publication au Journal officiel de l’Union européenne de l’avis d’attribution du contrat, le concurrent évincé pourra former un référé contractuel en contestation de la décision d’attribution, conformément aux articles L.551-13 à L.551-23 et R.551-7 à R.551-10 du Code de justice administrative. De plus, à partir de la conclusion du contrat et dans un délai de 2 mois à compter de la date à laquelle sont rendues publiques la conclusion du contrat et les modalités de sa consultation, le concurrent évincé peut introduire un recours de plein contentieux contestant la validité du contrat ou de certaines de ses clauses qui en sont divisibles assorti, le cas échéant, de demandes indemnitaires. Toutefois, à partir de la conclusion du contrat, et dès lors qu’il dispose du recours ci-dessus défini, un concurrent évincé n’est plus recevable à demander l’annulation pour excès de pouvoir des actes préalables qui en sont détachables. Le cas échéant, l’ensemble des voies de recours susmentionnées devront être introduites devant le tribunal administratif territorialement compétent.\"}}, \"cac:AppealInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"true\", \"cbc:ElectronicPaymentUsageIndicator\": \"true\"}}, \"cac:TenderingProcess\": {\"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"true\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-10-22+02:00\", \"cbc:EndTime\": \"12:00:00.000+02:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:FrameworkAgreement\": {\"cbc:MaximumOperatorQuantity\": \"0\", \"cac:SubsequentProcessTenderRequirement\": {\"cbc:Name\": \"buyer-categories\"}}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"fa-wo-rc\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": \"DRIEAT-DIRIF-STT-AOO-26-066\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Infogérance (MCO, TMA) et hébergement du site et des applications mobiles SYTADIN\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Infogérance (MCO, TMA) et hébergement du site et des applications mobiles SYTADIN\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cbc:Note\": {\"@languageID\": \"FRA\", \"#text\": \"Conformément à l’article R.2132-5 du Code de la commande publique, l’acheteur protège la confidentialité de certains documents et informations techniques qu’il met à disposition des candidats (Code source, DAT, spécifications, conception). Le candidat peut les obtenir selon les modalités suivantes : remise sur un support physique à récupérer sur demande sur le site de Créteil (79B avenue du maréchal de Lattre de Tassigny). Les candidats seront invités à signer une décharge stipulant qu’ils s’engagent à ne pas divulguer les informations et à ne pas les utiliser dans un cadre autre que celui de cette consultation. Pour les demandes, les opérateurs économiques sont invités à prendre rendez-vous auprès d’un agent UIRC en téléphonant au 01.41.78.74.14 ou en écrivant à uirc.dett.stt.dirif.driea-if@developpement-durable.gouv.fr\"}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72267100\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:CityName\": \"Paris\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR101\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"48\"}}}}}}}",
-      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-89705",
-      "_source_categories": [
-        "CDS"
-      ],
-      "score": 3.5,
-      "category": "Digital",
-      "categories": [
-        "Digital",
-        "CDS"
-      ],
-      "category_color": "#1D4ED8",
-      "budget": null,
-      "days_left": 15,
-      "match_pct": 70,
-      "match_detail": "TMA / Maintenance applicative · REX McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
-      "tier": "high",
-      "ao_type": "TMA / Maintenance applicative",
-      "ao_legitimacy": 5,
-      "matched_products": [],
-      "matched_rex": [
-        {
-          "label": "McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
-          "sector": "Restauration (QSR)",
-          "duration": "7+ ans"
-        }
-      ],
-      "matched_tech": [],
-      "matched_expertises": [],
-      "matched_delivery": [
-        "TMA / Maintenance applicative"
-      ],
-      "matched_profils": [],
-      "relevance_summary": [
-        "Objet : Infogérance (MCO, TMA) et hébergement du site et des applications mobiles SYTADIN",
-        "Acheteur : Direction régionale et interdépartementale de l'Environnement, de l’Aménagement et des Transports d’Île-de-France (DRIEAT IF)",
-        "Type d'AO \"TMA / Maintenance applicative\" : forte légitimité Harington",
-        "Mode de delivery : TMA / Maintenance applicative",
-        "REX sectoriel : McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA (Restauration (QSR), 7+ ans)",
-        "Zone géographique : Île-de-France",
-        "Date limite de réponse : 2026-10-22"
-      ],
-      "geo_label": "Île-de-France",
-      "deep_analysis": null,
-      "breakdown": {
-        "stack_match": 3.5,
-        "stack_sub": {
-          "tech_stack": 1,
-          "products": 1,
-          "expertises": 1,
-          "delivery": 3,
-          "profils": 1
-        },
-        "deadline": 4.0,
-        "budget": 3.0,
-        "geo": 5.0
       }
     },
     {
@@ -4796,7 +4800,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 19,
+      "days_left": 18,
       "match_pct": 70,
       "match_detail": "TMA / Maintenance applicative",
       "tier": "high",
@@ -4905,7 +4909,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 19,
+      "days_left": 18,
       "match_pct": 65,
       "match_detail": "Forfait · TMA / Maintenance applicative · Angular · Jquery",
       "tier": "medium",
@@ -5034,7 +5038,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 19,
+      "days_left": 18,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -5147,7 +5151,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 21,
+      "days_left": 20,
       "match_pct": 70,
       "match_detail": "IAM & Sécurité",
       "tier": "high",
@@ -5254,7 +5258,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 21,
+      "days_left": 20,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -5361,7 +5365,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 22,
+      "days_left": 21,
       "match_pct": 70,
       "match_detail": "TMA / Maintenance applicative",
       "tier": "high",
@@ -5395,7 +5399,7 @@
           "delivery": 3,
           "profils": 1
         },
-        "deadline": 3.5,
+        "deadline": 4.0,
         "budget": 3.0,
         "geo": 2.0
       }
@@ -5467,7 +5471,7 @@
       ],
       "category_color": "#D97706",
       "budget": null,
-      "days_left": 23,
+      "days_left": 22,
       "match_pct": 70,
       "match_detail": "TMA / Maintenance applicative",
       "tier": "high",
@@ -5579,7 +5583,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 28,
+      "days_left": 27,
       "match_pct": 70,
       "match_detail": "TMA / Maintenance applicative",
       "tier": "high",
@@ -5688,7 +5692,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 40,
+      "days_left": 39,
       "match_pct": 90,
       "match_detail": "TMA / Maintenance applicative · Saas",
       "tier": "high",
@@ -5780,7 +5784,226 @@
             "label": "Échéance",
             "score": 2.0,
             "score_label": "Faible",
-            "detail": "J-40",
+            "detail": "J-39",
+            "weight_pct": 20
+          },
+          {
+            "label": "Budget",
+            "score": 3.0,
+            "score_label": "Correct",
+            "detail": "Non communiqué",
+            "weight_pct": 20
+          },
+          {
+            "label": "Géographie",
+            "score": 2.0,
+            "score_label": "Faible",
+            "detail": "Dept. 18",
+            "weight_pct": 10
+          }
+        ],
+        "strengths": [],
+        "gaps": [
+          {
+            "dimension": "Accélérateurs & Offres",
+            "score": 1,
+            "recommendation": "Aucun accélérateur Harington directement applicable — positionner les outils internes comme avantage concurrentiel dans le mémoire technique"
+          },
+          {
+            "dimension": "Expertises",
+            "score": 1.5,
+            "recommendation": "Domaine d'expertise non détecté — identifier l'angle métier dans le CCTP et mapper vers les REX Harington"
+          },
+          {
+            "dimension": "Profils Consultants",
+            "score": 1,
+            "recommendation": "Profils requis non explicitement mentionnés — vérifier les compétences demandées dans le RC/CCTP"
+          }
+        ],
+        "synergies": [],
+        "confidence": "type d'AO à forte légitimité",
+        "rex": [],
+        "products_applicable": []
+      },
+      "breakdown": {
+        "stack_match": 4.5,
+        "stack_sub": {
+          "tech_stack": 3,
+          "products": 1,
+          "expertises": 1.5,
+          "delivery": 3,
+          "profils": 1
+        },
+        "deadline": 2.0,
+        "budget": 3.0,
+        "geo": 2.0
+      }
+    },
+    {
+      "idweb": "26-96810",
+      "id": "26_96810",
+      "contractfolderid": "633d7fee-b70e-450a-a5a9-b629a0fe476c",
+      "objet": "Acquisition, déploiement, migration et maintien en conditions opérationnelles d'une suite collaborative, bureautique et de messagerie sécurisée en mode SaaS",
+      "filename": "26-96810",
+      "famille": "JOUE",
+      "code_departement": [
+        "18"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés européens",
+      "dateparution": "2026-10-08",
+      "datefindiffusion": "2026-12-31",
+      "datelimitereponse": "2026-11-16T21:55:00+00:00",
+      "nomacheteur": "SDIS 18 Cher",
+      "titulaire": null,
+      "perimetre": "DIRECTIVE-24",
+      "type_procedure": "OUVERT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Ouverte",
+      "procedure_categorise": "OUVERT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": "STANDARD",
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": [
+        "sociaux",
+        "environnementaux"
+      ],
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "163"
+      ],
+      "dc": [
+        "163"
+      ],
+      "descripteur_libelle": [
+        "Informatique (prestations de services)"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": [
+        "26-95303"
+      ],
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-96810\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"ANNONCE_ANTERIEUR\": {\"IDWEB\": \"26-95303\"}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"SDIS 18 Cher\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-10-08\", \"DATE_LIMITE_REPONSE\": \"2026-11-16T23:55:00+02:00\", \"DATE_FIN_DIFFUSION\": \"2026-12-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"18\", \"RESUME_OBJET\": \"Acquisition, déploiement, migration et maintien en conditions opérationnelles d'une suite collaborative, bureautique et de messagerie sécurisée en mode SaaS\"}}",
+      "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:Changes\": {\"efbc:ChangedNoticeIdentifier\": \"07e4759f-4447-495b-977e-9225d1894565-01\"}, \"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"16\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efac:Company\": {\"cbc:EndpointID\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2026_vg0NfM7PrE\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0001\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"SDIS 18 Cher\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"224 rue Louis Mallet\", \"cbc:CityName\": \"Bourges cedex\", \"cbc:PostalZone\": \"18023\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRB01\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"28180013600018\"}, \"cac:Contact\": {\"cbc:Telephone\": \"+33248234700\", \"cbc:ElectronicMail\": \"marches.publics@sdis18.fr\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"http://orleans.tribunal-administratif.fr\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0002\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal administratif d'Orléans\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"28 Rue de la Bretonnerie\", \"cbc:CityName\": \"Orléans\", \"cbc:PostalZone\": \"45000\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRB06\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"17450005800022\"}, \"cac:Contact\": {\"cbc:Telephone\": \"+33238775900\", \"cbc:Telefax\": \"+33238538516\", \"cbc:ElectronicMail\": \"greffe.ta-orleans@juradm.fr\"}}}]}}}}}, \"cbc:UBLVersionID\": \"2.3\", \"cbc:CustomizationID\": \"eforms-sdk-1.13\", \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"b23c3670-3122-4c1a-8b7c-40df685ae7c5\"}, \"cbc:ContractFolderID\": \"633d7fee-b70e-450a-a5a9-b629a0fe476c\", \"cbc:IssueDate\": \"2026-10-07+02:00\", \"cbc:IssueTime\": \"10:29:40+02:00\", \"cbc:VersionID\": \"02\", \"cbc:RegulatoryDomain\": \"32014L0024\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": {\"@listName\": \"language\", \"#text\": \"FRA\"}, \"cac:ContractingParty\": {\"cbc:BuyerProfileURI\": \"https://www.achatpublic.com/sdm/ent2/gen/index.jsp\", \"cac:ContractingPartyType\": {\"cbc:PartyTypeCode\": {\"@listName\": \"buyer-legal-type\", \"#text\": \"body-pl\"}}, \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"authority-activity\", \"#text\": \"pub-os\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}}, \"cac:TenderingTerms\": {\"cac:TendererQualificationRequest\": {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-procurement-document\"}}}}, \"cac:TenderingProcess\": {\"cbc:ProcedureCode\": {\"@listName\": \"procurement-procedure-type\", \"#text\": \"open\"}, \"cac:ProcessJustification\": {\"cbc:ProcessReasonCode\": {\"@listName\": \"accelerated-procedure\", \"#text\": \"false\"}}}, \"cac:ProcurementProject\": {\"cbc:ID\": \"202609091507\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Acquisition, déploiement, migration et maintien en conditions opérationnelles d'une suite collaborative, bureautique et de messagerie sécurisée en mode SaaS\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Acquisition, déploiement, migration et maintien en conditions opérationnelles d'une suite collaborative, bureautique et de messagerie sécurisée en mode SaaS\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cbc:Note\": {\"@languageID\": \"FRA\", \"#text\": \"Phase de négociation : NON.\\nL'acheteur exige la présentation de variantes : NON. Les variantes « libres » à l'initiative des candidats sont autorisées à condition de remettre également une offre conforme à l'offre de base.\\nLes candidats doivent remettre une proposition entièrement conforme à la solution de base du dossier de consultation. L'acheteur se réserve le droit de retenir ou non ces variantes au moment de la notification.\"}, \"cac:RequestedTenderTotal\": {\"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"85000\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72220000\"}}, \"cac:RealizedLocation\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Présentation des offres par catalogue électronique : interdite.\\nRéduction du nombre de candidat : sans objet\\nNombre maximum de candidat : sans objet\\nConditions de participation : \\nAptitude à exercer l'activité professionnelle conditions / moyens de preuve : les candidats doivent être inscrits sur un registre professionnel et liste des principales prestations effectuées au cours des trois dernières années.\\nCapacité économique et financière conditions / moyens de preuve : Déclaration du chiffre d'affaires global du candidat pour les prestations objet du marché, réalisées au cours des trois derniers exercices disponibles.\\nCapacités techniques et professionnelles conditions / moyens de preuve : Déclaration indiquant les effectifs, l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation du marché.\\nLieu principal d'exécution du marché : Département du Cher\\nDélai d'exécution : Les soumissionnaires présenteront le planning de mise en oeuvre du projet, faisant apparaître les différentes phases de réalisation. Les livrables indiqués sont à produire par le titulaire en complément de la prestation à réaliser suivant le planning proposé par le candidat et dans le respect du délai d'exécution du marché.\\nDurée du marché : 12 mois à compter de la date indiquée à la notification du marché. Le marché est reconductible de manière tacite, dans les conditions définies au CCAP, 3 fois, pour une période de 12 mois, soit pour une durée maximale de 48 mois. \\nLa consultation prévoit des tranches : non.\\nLa consultation prévoit une réservation de tout ou partie du marché : NON\\nType de marché réservé : sans objet\\nLa consultation n'est pas décomposée en lots pour les motifs suivants : Impossible d'identifier des prestations distinctes\\nAuditions - Présentation de la solution lors d'une démonstration : OUI\\nLes démonstrations se dérouleront sur le site de la Direction du SDIS du Cher. \\nLes démonstrations devront être réalisées pendant la période de la consultation soit avant la date de remise des offres.\\nLes candidats devront prendre rendez-vous auprès du service Groupement des Systèmes d'Information et Communication au 02.48.23.47.00 (standard) ou par mail xavier.charpagne@sdis18.fr / mathieu.grandclement@sdis18.fr .\\nMode de règlement : mandat administratif suivi d'un virement bancaire.\\nFinancement par le budget du SDIS\\nEn cas d'attribution du contrat à un groupement, celui-ci devra revêtir la forme d'un groupement Conjoint avec mandataire solidaire.\\nLes offres doivent être déposées de manière électronique sur le profil d'acheteur : https://achatpublic.com.\\nLes copies de sauvegarde et les éléments de la proposition qui ne peuvent être transmis par voie électronique doivent être adressés à SDIS du Cher - 224 rue Louis Mallet - 18023 BOURGES CEDEX\\nContact : Plateforme achatpublic.com \\nLes propositions doivent être remises en euros et rédigées en langue française. Si les propositions sont rédigées dans une autre langue, elles doivent être accompagnées d'une traduction en français.\\nLe mode de transmission des éléments de la candidature et de l'offre est dématérialisé. \\nLa réponse électronique est indispensable mais aucune signature n'est exigée à la remise des offres. La signature sera demandée à la seule entreprise retenue. Seul le candidat informé que son offre est retenue devra la signer ultérieurement par voie dématérialisée via la plateforme Achatpublic.com. Le certificat de signature électronique du titulaire devra être conforme aux exigences du règlement « eIDAS » avec un niveau de sécurité de type 3 ou 4.\\nContenu des plis : Attestation d'assurance professionnelle en cours de validité et couvrant la durée du marché, Déclaration du candidat individuelle ou du membre du groupement  (DC2 disponible sur le site du Ministère de l'Economie) ou DUME, Lettre de candidature Habilitation du mandataire par ses cotraitants (DC1 disponible sur le site du Ministère de l'Economie), Déclarations et attestations sur l'honneur dûment datées et signées, notamment pour justifier que le candidat n'entre dans aucun des cas mentionnés aux articles L.2141-1 à L.2141-5 et L.2141-7 à L.2141-11 et l'article R. 2143-3 du CCP, Copie du ou des jugements prononcés en cas de redressement judiciaire, Documents relatifs aux pouvoirs de la personne habilitée pour engager le candidat, Références  Liste des principaux services effectués en lien avec le présent marché (3 dernières années) indiquant le montant, la date et l'opérateur économique\\nL'offre des candidats est composée des documents suivants : Acte d'engagement (AE) dûment complété accompagné d'un RIB IBAN et d'une proposition financière détaillée par poste et phase, Bordereau des prix unitaires (BPU) dûment complété, Mémoire technique, social et environnemental justificatif des dispositions que l'entreprise se propose d'adopter pour l'exécution des prestations comprenant :\\n Un projet de contrat de maintenance, comprenant les conditions de la maintenance classique et de l'assistance technique et fonctionnelle, qui démarrera à compter de la fin de la période de garantie et portera sur l'ensemble du système livré. Les dispositions stipulées aux CCTP et CCAP prévaudront sur le contrat proposé par le titulaire.\\n Un plan de formation type\\n Le planning de déploiement de la solution détaillé\\n Une présentation détaillée et visuelle de la solution proposée dans le cadre d'une démonstration \\nPour obtenir tous renseignements complémentaires qui leur seraient nécessaires au cours de leur étude, les candidats font parvenir au plus tard 6 jours avant la date limite de remise des offres leurs questions par voie électronique sur le profil acheteur https://achatpublic.com.\"}, \"cac:Address\": {\"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRB01\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0001\"}, \"cac:TenderingTerms\": {\"cbc:VariantConstraintCode\": {\"@listName\": \"permission\", \"#text\": \"allowed\"}, \"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cac:CallForTendersDocumentReference\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:OfficialLanguages\": {\"cac:Language\": {\"cbc:ID\": \"FRA\"}}}}}}, \"cbc:ID\": \"202609091507\", \"cbc:DocumentType\": \"non-restricted-document\", \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2026_vg0NfM7PrE\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-procurement-document\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"conditions\", \"#text\": \"performance\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}], \"cac:AwardingTerms\": {\"cac:AwardingCriterion\": {\"cac:SubordinateAwardingCriterion\": [{\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": [{\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"poi-exa\"}, \"efbc:ParameterNumeric\": \"55\"}, {\"efbc:ParameterNumeric\": \"3\"}]}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"La valeur technique sera appréciée au regard des modalités d'organisation et des moyens du candidat :\\n- l’accompagnement, la migration et réversibilité de la solution (pondération 20%),\\n- la démonstration de la solution proposée (pondération 10%) \\n- et la qualité de la reprise des données (pondération 7,5%)\\n- performances sociétales et environnementales développées au sein de l’entreprise et en lien avec la réalisation des prestations (démarche environnementale, réduction empreinte carbone, labels numériques responsables ou éco-labels, mesures concrètes engagements en matière d’égalité professionnelle, accessibilité, lutte contre les discriminations…) (pondération 15%)\\n- la certification de la solution proposée (pondération 2,5%)\"}}, {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": [{\"efbc:ParameterNumeric\": \"3\"}, {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"poi-exa\"}, \"efbc:ParameterNumeric\": \"40\"}]}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"price\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Prix des prestations au vu du bordereau des prix unitaires\"}}, {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": [{\"efbc:ParameterNumeric\": \"3\"}, {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"poi-exa\"}, \"efbc:ParameterNumeric\": \"5\"}]}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Délai de déploiement de la solution proposée\"}}]}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2026_vg0NfM7PrE&v=1&selected=0\"}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"4\"}}, \"cac:AppealTerms\": {\"cac:PresentationPeriod\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Compétence juridictionnelle pour toute contestation de la procédure : \\nLes personnes souhaitant exercer un recours devront le faire dans un délai de 2 mois à compter de la notification du courrier au candidat devant le Tribunal administratif d'Orléans, 28 rue de la Bretonnerie – 45000 ORLEANS - Tel : +33 2 38 77 59 00 – Fax : +33 2 38 53 85 16 – Email : greffe.ta-orleans@juradm.fr – URL : http://orleans.tribunal-administratif.fr .\\t\\nLe tribunal administratif peut être saisi par l’application informatique \\\" Télérecours citoyens\\\" accessible par le site Internet http://www.telerecours.fr \\nLes informations peuvent être obtenues auprès du greffe du Tribunal administratif d’Orléans – même adresse et même coordonnées\"}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"false\", \"cbc:ElectronicPaymentUsageIndicator\": \"false\"}}, \"cac:TenderingProcess\": {\"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"true\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-11-16+02:00\", \"cbc:EndTime\": \"23:55:00+02:00\"}, \"cac:OpenTenderEvent\": {\"cbc:OccurrenceDate\": \"2026-11-17+02:00\", \"cbc:OccurrenceTime\": \"09:00:00+02:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"none\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": \"1\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Acquisition, déploiement, migration et maintien en conditions opérationnelles d'une suite collaborative, bureautique et de messagerie sécurisée en mode SaaS\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Acquisition, déploiement, migration et maintien en conditions opérationnelles d'une suite collaborative, bureautique et de messagerie sécurisée en mode SaaS\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cbc:SMESuitableIndicator\": \"true\", \"cac:RequestedTenderTotal\": {\"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"85000\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72220000\"}}, \"cac:RealizedLocation\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Lieu d'exécution : département du Cher (18)\"}, \"cac:Address\": {\"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRB01\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"12\"}}}}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-96810",
+      "_source_categories": [
+        "Digital"
+      ],
+      "score": 3.5,
+      "category": "Digital",
+      "categories": [
+        "Digital"
+      ],
+      "category_color": "#1D4ED8",
+      "budget": null,
+      "days_left": 39,
+      "match_pct": 90,
+      "match_detail": "TMA / Maintenance applicative · Saas",
+      "tier": "high",
+      "ao_type": "TMA / Maintenance applicative",
+      "ao_legitimacy": 5,
+      "matched_products": [],
+      "matched_rex": [],
+      "matched_tech": [
+        "saas"
+      ],
+      "matched_expertises": [],
+      "matched_delivery": [
+        "TMA / Maintenance applicative"
+      ],
+      "matched_profils": [],
+      "relevance_summary": [
+        "Objet : Acquisition, déploiement, migration et maintien en conditions opérationnelles d'une suite collaborative, bureautique et de messagerie sécurisée en mod",
+        "Acheteur : SDIS 18 Cher",
+        "Type d'AO \"TMA / Maintenance applicative\" : forte légitimité Harington",
+        "Mode de delivery : TMA / Maintenance applicative",
+        "Stack technique : Saas",
+        "Zone géographique : Dept. 18",
+        "Date limite de réponse : 2026-11-16"
+      ],
+      "geo_label": "Dept. 18",
+      "deep_analysis": {
+        "fit_summary": "Adéquation partielle — score élevé grâce aux synergies. Valider le positionnement.",
+        "ao_assessment": "Type d'AO \"TMA / Maintenance applicative\" — forte légitimité Harington, historique de succès sur ce segment",
+        "recommendation": "GO — Forte adéquation. Préparer le dossier en anticipation.",
+        "stack_match_score": 4.5,
+        "dimensions": [
+          {
+            "key": "tech_stack",
+            "label": "Stack Technique",
+            "score": 3,
+            "score_label": "Correct",
+            "weight_pct": 30,
+            "contribution": 0.9,
+            "items": [
+              "Saas"
+            ],
+            "status": "good"
+          },
+          {
+            "key": "products",
+            "label": "Accélérateurs & Offres",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 15,
+            "contribution": 0.15,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "expertises",
+            "label": "Expertises",
+            "score": 1.5,
+            "score_label": "Marginal",
+            "weight_pct": 20,
+            "contribution": 0.3,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "delivery",
+            "label": "Modes de Delivery",
+            "score": 3,
+            "score_label": "Correct",
+            "weight_pct": 20,
+            "contribution": 0.6,
+            "items": [
+              "TMA / Maintenance applicative"
+            ],
+            "status": "good"
+          },
+          {
+            "key": "profils",
+            "label": "Profils Consultants",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 15,
+            "contribution": 0.15,
+            "items": [],
+            "status": "gap"
+          }
+        ],
+        "context_dims": [
+          {
+            "label": "Échéance",
+            "score": 2.0,
+            "score_label": "Faible",
+            "detail": "J-39",
             "weight_pct": 20
           },
           {
@@ -5903,7 +6126,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": 108333.33,
-      "days_left": 5,
+      "days_left": 4,
       "match_pct": 20,
       "match_detail": "Pertinence faible",
       "tier": "low",
@@ -6009,7 +6232,7 @@
       ],
       "category_color": "#D97706",
       "budget": null,
-      "days_left": 12,
+      "days_left": 11,
       "match_pct": 30,
       "match_detail": "TMA / Maintenance applicative · REX McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
       "tier": "low",
@@ -6130,7 +6353,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 16,
+      "days_left": 15,
       "match_pct": 60,
       "match_detail": "Pertinence faible",
       "tier": "medium",
@@ -6164,120 +6387,6 @@
         "deadline": 4.0,
         "budget": 3.0,
         "geo": 2.0
-      }
-    },
-    {
-      "idweb": "26-87866",
-      "id": "26_87866",
-      "contractfolderid": "b0bfa3d0-5a44-4571-b43f-8062612ee56c",
-      "objet": "DSI-2026-20-RSSI",
-      "filename": "26-87866",
-      "famille": "JOUE",
-      "code_departement": [
-        "35",
-        "22",
-        "29",
-        "44"
-      ],
-      "code_departement_prestation": null,
-      "famille_libelle": "Marchés européens",
-      "dateparution": "2026-09-12",
-      "datefindiffusion": "2026-10-07",
-      "datelimitereponse": "2026-10-07T12:00:00+00:00",
-      "nomacheteur": "SPL EAU DU BASSIN RENNAIS",
-      "titulaire": null,
-      "perimetre": "DIRECTIVE-24",
-      "type_procedure": "AUTRE",
-      "soustype_procedure": null,
-      "procedure_libelle": "Procédure NC",
-      "procedure_categorise": "AUTRE/",
-      "nature": "APPEL_OFFRE",
-      "sousnature": "STANDARD",
-      "nature_libelle": "Avis de marché",
-      "sousnature_libelle": null,
-      "nature_categorise": "appeloffre/standard",
-      "nature_categorise_libelle": "Avis de marché/",
-      "criteres": [
-        "environnementaux"
-      ],
-      "marche_public_simplifie": null,
-      "marche_public_simplifie_label": null,
-      "etat": "INITIAL",
-      "descripteur_code": [
-        "453"
-      ],
-      "dc": [
-        "453"
-      ],
-      "descripteur_libelle": [
-        "Informatique (assistance)"
-      ],
-      "type_marche": [
-        "SERVICES"
-      ],
-      "type_marche_facette": [
-        "Services"
-      ],
-      "type_avis": [
-        "5",
-        "1"
-      ],
-      "annonce_lie": null,
-      "annonces_anterieures": null,
-      "source_schema": "3.2.5",
-      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-87866\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"SPL EAU DU BASSIN RENNAIS\", \"TYPE_PROCEDURE\": {\"AUTRE\": \"\"}, \"DATE_PUBLICATION\": \"2026-09-12\", \"DATE_LIMITE_REPONSE\": \"2026-10-07T14:00:00+02:00\", \"DATE_FIN_DIFFUSION\": \"2026-10-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"453\", \"LIBELLE\": \"Informatique (assistance)\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"35\", \"22\", \"29\", \"44\"], \"RESUME_OBJET\": \"DSI-2026-20-RSSI\"}}",
-      "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"16\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efac:Company\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0002\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"TRIBUNAL JUDICIAIRE DE RENNES\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"7 rue Pierre Abélard\", \"cbc:AdditionalStreetName\": \"CS 73127\", \"cbc:CityName\": \"Rennes\", \"cbc:PostalZone\": \"35000\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRH03\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"173 501 115 00161\"}, \"cac:Contact\": {\"cbc:Telephone\": \"02 99 65 37 37\", \"cbc:ElectronicMail\": \"accueil.tj-rennes@justice.fr\"}}}, {\"efac:Company\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0001\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"SPL EAU DU BASSIN RENNAIS\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"15 RUE DU DOYEN DENIS LEROY - CS 51156\", \"cbc:CityName\": \"RENNES\", \"cbc:PostalZone\": \"35011\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRH03\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"79820357600029\"}, \"cac:Contact\": {\"cbc:Name\": \"Stéphane POIRIER\", \"cbc:Telephone\": \"0223408116\", \"cbc:ElectronicMail\": \"achats@eaudubassinrennais.fr\"}}}]}}}}}, \"cbc:UBLVersionID\": \"2.3\", \"cbc:CustomizationID\": \"eforms-sdk-1.13\", \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"1ff3956b-5f67-44aa-a2cb-ace0c24cfaef\"}, \"cbc:ContractFolderID\": \"b0bfa3d0-5a44-4571-b43f-8062612ee56c\", \"cbc:IssueDate\": \"2026-09-10+02:00\", \"cbc:IssueTime\": \"15:07:04+02:00\", \"cbc:VersionID\": \"01\", \"cbc:RegulatoryDomain\": \"32014L0024\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": {\"@listName\": \"language\", \"#text\": \"FRA\"}, \"cac:ContractingParty\": {\"cac:ContractingPartyType\": {\"cbc:PartyTypeCode\": {\"@listName\": \"buyer-legal-type\", \"#text\": \"spec-rights-entity\"}}, \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"authority-activity\", \"#text\": \"health\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}}, \"cac:TenderingTerms\": {\"cac:TendererQualificationRequest\": {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-procurement-document\"}}}}, \"cac:TenderingProcess\": {\"cbc:ProcedureCode\": {\"@listName\": \"procurement-procedure-type\", \"#text\": \"oth-single\"}}, \"cac:ProcurementProject\": {\"cbc:ID\": \"DSI-2026-20-RSSI\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"DSI-2026-20-RSSI\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"La Direction des Systèmes d?information (DSI) de la SPL Eau du bassin Rennais souhaite mettre en place une prestation externe désignée sous le nom de « RSSI externalisé », pour l'accompagnement à la mise en oeuvre de l'homologation de sécurité des systèmes de l'information par la direction générale de la SPL EBR, ainsi que le conseil et l'accompagnement à la mise en oeuvre d'une politique globale de sécurité applicable aux différents systèmes d'informations (SI).\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72246000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRH03\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0001\"}, \"cac:TenderingTerms\": {\"cbc:VariantConstraintCode\": {\"@listName\": \"permission\", \"#text\": \"not-allowed\"}, \"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cbc:RecurringProcurementIndicator\": \"true\", \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"DSI-2026-20\", \"cbc:DocumentType\": \"non-restricted-document\", \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://marches.megalis.bretagne.bzh/entreprise\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-procurement-document\"}}}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"conditions\", \"#text\": \"performance\"}}], \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://marches.megalis.bretagne.bzh/entreprise\", \"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}, \"cac:TenderEvaluationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"DAY\", \"#text\": \"120\"}}, \"cac:AppealTerms\": {\"cac:PresentationPeriod\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"cf article 11 du Réglement de la consultation\"}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"false\", \"cbc:ElectronicPaymentUsageIndicator\": \"true\"}}, \"cac:TenderingProcess\": {\"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"true\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-10-07+02:00\", \"cbc:EndTime\": \"14:00:00+02:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:FrameworkAgreement\": {\"cbc:MaximumOperatorQuantity\": \"20\", \"cac:SubsequentProcessTenderRequirement\": {\"cbc:Name\": \"buyer-categories\"}}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"fa-wo-rc\"}}]}, \"cac:ProcurementProject\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"PRESTATION D’ASSISTANCE A LA SECURITE DES SYSTEMES D’INFORMATION\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"PRESTATION D'ASSISTANCE A LA SECURITE DES SYSTEMES D'INFORMATION\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"72246000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:CityName\": \"Rennes\", \"cbc:PostalZone\": \"35000\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRH03\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"YEAR\", \"#text\": \"4\"}}}}}}}",
-      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-87866",
-      "_source_categories": [
-        "CDS",
-        "CDC"
-      ],
-      "score": 2.5,
-      "category": "Digital",
-      "categories": [
-        "Digital",
-        "CDS",
-        "CDC"
-      ],
-      "category_color": "#1D4ED8",
-      "budget": null,
-      "days_left": 0,
-      "match_pct": 27,
-      "match_detail": "QA & Tests",
-      "tier": "low",
-      "ao_type": "QA/Test Automation",
-      "ao_legitimacy": 4,
-      "matched_products": [],
-      "matched_rex": [],
-      "matched_tech": [],
-      "matched_expertises": [
-        "QA & Tests"
-      ],
-      "matched_delivery": [],
-      "matched_profils": [],
-      "relevance_summary": [
-        "Objet : DSI-2026-20-RSSI",
-        "Acheteur : SPL EAU DU BASSIN RENNAIS",
-        "Type d'AO \"QA/Test Automation\" : forte légitimité Harington",
-        "Expertises matchées : QA & Tests",
-        "Zone géographique : National",
-        "Date limite de réponse : 2026-10-07",
-        "Descripteurs BOAMP : Informatique (assistance)"
-      ],
-      "geo_label": "National",
-      "deep_analysis": null,
-      "breakdown": {
-        "stack_match": 1.4,
-        "stack_sub": {
-          "tech_stack": 1,
-          "products": 1,
-          "expertises": 3,
-          "delivery": 1,
-          "profils": 1
-        },
-        "deadline": 5.0,
-        "budget": 3.0,
-        "geo": 3.5
       }
     },
     {
@@ -6348,7 +6457,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": 140000.0,
-      "days_left": 2,
+      "days_left": 1,
       "match_pct": 21,
       "match_detail": "REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -6461,7 +6570,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 5,
+      "days_left": 4,
       "match_pct": 21,
       "match_detail": "REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -6573,7 +6682,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 5,
+      "days_left": 4,
       "match_pct": 30,
       "match_detail": "Forfait",
       "tier": "low",
@@ -6680,7 +6789,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 5,
+      "days_left": 4,
       "match_pct": 27,
       "match_detail": "E-commerce & Digital · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -6794,7 +6903,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 6,
+      "days_left": 5,
       "match_pct": 20,
       "match_detail": "Pertinence faible",
       "tier": "low",
@@ -6901,7 +7010,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 7,
+      "days_left": 6,
       "match_pct": 21,
       "match_detail": "REX McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
       "tier": "low",
@@ -7014,7 +7123,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 8,
+      "days_left": 7,
       "match_pct": 27,
       "match_detail": "E-commerce & Digital",
       "tier": "low",
@@ -7048,7 +7157,7 @@
           "delivery": 1,
           "profils": 1
         },
-        "deadline": 4.5,
+        "deadline": 5.0,
         "budget": 3.0,
         "geo": 2.0
       }
@@ -7121,7 +7230,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 9,
+      "days_left": 8,
       "match_pct": 36,
       "match_detail": "Régie / AT · IAM & Sécurité",
       "tier": "low",
@@ -7237,7 +7346,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 9,
+      "days_left": 8,
       "match_pct": 27,
       "match_detail": "Régie / AT · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -7357,7 +7466,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 9,
+      "days_left": 8,
       "match_pct": 27,
       "match_detail": "Régie / AT · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -7474,7 +7583,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 9,
+      "days_left": 8,
       "match_pct": 27,
       "match_detail": "Régie / AT · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -7588,7 +7697,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 12,
+      "days_left": 11,
       "match_pct": 21,
       "match_detail": "REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -7700,7 +7809,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 12,
+      "days_left": 11,
       "match_pct": 30,
       "match_detail": "Audit & Urbanisation SI",
       "tier": "low",
@@ -7813,7 +7922,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 12,
+      "days_left": 11,
       "match_pct": 30,
       "match_detail": "Forfait",
       "tier": "low",
@@ -7923,7 +8032,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 13,
+      "days_left": 12,
       "match_pct": 30,
       "match_detail": "Régie / AT",
       "tier": "low",
@@ -8035,7 +8144,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 13,
+      "days_left": 12,
       "match_pct": 30,
       "match_detail": "Régie / AT",
       "tier": "low",
@@ -8149,7 +8258,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 15,
+      "days_left": 14,
       "match_pct": 20,
       "match_detail": "Pertinence faible",
       "tier": "low",
@@ -8180,7 +8289,7 @@
           "delivery": 1,
           "profils": 1
         },
-        "deadline": 4.0,
+        "deadline": 4.5,
         "budget": 3.0,
         "geo": 5.0
       }
@@ -8253,7 +8362,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 16,
+      "days_left": 15,
       "match_pct": 30,
       "match_detail": "Régie / AT",
       "tier": "low",
@@ -8362,7 +8471,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 16,
+      "days_left": 15,
       "match_pct": 30,
       "match_detail": "Régie / AT",
       "tier": "low",
@@ -8477,7 +8586,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 16,
+      "days_left": 15,
       "match_pct": 27,
       "match_detail": "Régie / AT · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -8597,7 +8706,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 19,
+      "days_left": 18,
       "match_pct": 27,
       "match_detail": "E-commerce & Digital · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -8721,7 +8830,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 19,
+      "days_left": 18,
       "match_pct": 36,
       "match_detail": "Forfait · E-commerce & Digital · REX McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
       "tier": "low",
@@ -8838,7 +8947,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": 150000.0,
-      "days_left": 23,
+      "days_left": 22,
       "match_pct": 34,
       "match_detail": "Régie / AT · MigratorFlow",
       "tier": "low",
@@ -8958,7 +9067,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 23,
+      "days_left": 22,
       "match_pct": 34,
       "match_detail": "Go · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -9077,7 +9186,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 23,
+      "days_left": 22,
       "match_pct": 27,
       "match_detail": "MOA / AMOA · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -9192,7 +9301,7 @@
       ],
       "category_color": "#D97706",
       "budget": null,
-      "days_left": 28,
+      "days_left": 27,
       "match_pct": 27,
       "match_detail": "TMA / Maintenance applicative",
       "tier": "low",
@@ -9299,7 +9408,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 9,
+      "days_left": 8,
       "match_pct": 20,
       "match_detail": "REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -9424,7 +9533,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 13,
+      "days_left": 12,
       "match_pct": 20,
       "match_detail": "REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -9540,7 +9649,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 14,
+      "days_left": 13,
       "match_pct": 21,
       "match_detail": "Pertinence faible",
       "tier": "low",
@@ -9643,7 +9752,7 @@
       ],
       "category_color": "#6B7280",
       "budget": null,
-      "days_left": 16,
+      "days_left": 15,
       "match_pct": 20,
       "match_detail": "Pertinence faible",
       "tier": "low",
@@ -9750,7 +9859,7 @@
       ],
       "category_color": "#7C3AED",
       "budget": 40000.0,
-      "days_left": 19,
+      "days_left": 18,
       "match_pct": 27,
       "match_detail": "E-commerce & Digital · REX Sephora — Agent IA multi-agents, compliance-first",
       "tier": "low",
@@ -9867,7 +9976,7 @@
       ],
       "category_color": "#059669",
       "budget": null,
-      "days_left": 26,
+      "days_left": 25,
       "match_pct": 27,
       "match_detail": "Régie / AT",
       "tier": "low",
@@ -9904,6 +10013,113 @@
         "deadline": 3.5,
         "budget": 3.0,
         "geo": 2.0
+      }
+    },
+    {
+      "idweb": "26-96804",
+      "id": "26_96804",
+      "contractfolderid": "17319965-4d1f-4b7b-9067-4d65cffe3839",
+      "objet": "Lot 6 : Droit des nouvelles technologies de l'information et de la communication, RGPD, propriété intellectuelle",
+      "filename": "26-96804",
+      "famille": "JOUE",
+      "code_departement": [
+        "92"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés européens",
+      "dateparution": "2026-10-08",
+      "datefindiffusion": "2026-11-14",
+      "datelimitereponse": "2026-11-13T10:00:00+00:00",
+      "nomacheteur": "PARIS LA DEFENSE",
+      "titulaire": null,
+      "perimetre": "DIRECTIVE-24",
+      "type_procedure": "OUVERT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Ouverte",
+      "procedure_categorise": "OUVERT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": "STANDARD",
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": null,
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "434"
+      ],
+      "dc": [
+        "434"
+      ],
+      "descripteur_libelle": [
+        "Assistance juridique"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-96804\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"PARIS LA DEFENSE\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-10-08\", \"DATE_LIMITE_REPONSE\": \"2026-11-13T12:00:00+02:00\", \"DATE_FIN_DIFFUSION\": \"2026-11-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"434\", \"LIBELLE\": \"Assistance juridique\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"DEP_PUBLICATION\": \"92\", \"RESUME_OBJET\": \"Lot 6 : Droit des nouvelles technologies de l'information et de la communication, RGPD, propriété intellectuelle\"}}",
+      "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"16\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efac:Company\": {\"cbc:WebsiteURI\": \"https://cergy-pontoise.tribunal-administratif.fr/\", \"cbc:EndpointID\": \"https://cergy-pontoise.tribunal-administratif.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0002\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal Administratif de Cergy Pontoise\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"2-4 boulevard de l'Hautil\", \"cbc:AdditionalStreetName\": \"BP 30322\", \"cbc:Department\": \"Val-d'Oise\", \"cbc:CityName\": \"Cergy-Pontoise\", \"cbc:PostalZone\": \"95027\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR108\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"17950702500015\"}, \"cac:Contact\": {\"cbc:Telephone\": \"0130173400\", \"cbc:ElectronicMail\": \"greffe.ta-cergy-pontoise@juradm.fr\"}}}, {\"efac:Company\": {\"cbc:EndpointID\": \"https://www.achatpublic.com/sdm/ent2/gen/ficheCsl.action?PCSLID=CSL_2026_MpGPC83U8N#tab2\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0001\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"PARIS LA DEFENSE\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"Coeur Défense, Tour B, 110 esplanade du Général de Gaulle\", \"cbc:AdditionalStreetName\": \"110 esplanade du Général de Gaulle\", \"cbc:Department\": \"Hauts-de-Seine\", \"cbc:CityName\": \"Paris la defense\", \"cbc:PostalZone\": \"92931\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR105\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"83371879400013\"}, \"cac:Contact\": {\"cbc:Telephone\": \"0672844861\", \"cbc:ElectronicMail\": \"marchespublics@parisladefense.com\"}}}]}}}}}, \"cbc:UBLVersionID\": \"2.3\", \"cbc:CustomizationID\": \"eforms-sdk-1.13\", \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"0700607b-51e1-41f3-b3a1-61b4a0d662f1\"}, \"cbc:ContractFolderID\": \"17319965-4d1f-4b7b-9067-4d65cffe3839\", \"cbc:IssueDate\": \"2026-10-07+02:00\", \"cbc:IssueTime\": \"10:18:25+02:00\", \"cbc:VersionID\": \"01\", \"cbc:RegulatoryDomain\": \"32014L0024\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": {\"@listName\": \"language\", \"#text\": \"FRA\"}, \"cac:ContractingParty\": {\"cbc:BuyerProfileURI\": \"https://www.achatpublic.com/sdm/ent2/gen/ficheCsl.action?PCSLID=CSL_2026_MpGPC83U8N\", \"cac:ContractingPartyType\": {\"cbc:PartyTypeCode\": {\"@listName\": \"buyer-legal-type\", \"#text\": \"body-pl\"}}, \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"authority-activity\", \"#text\": \"gen-pub\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}}, \"cac:TenderingTerms\": {\"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-ground\", \"#text\": \"exg-sitn-other\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Dispositions indiquées au RC.\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-notice\"}}}]}, \"cac:TenderingProcess\": {\"cbc:ProcedureCode\": {\"@listName\": \"procurement-procedure-type\", \"#text\": \"open\"}, \"cac:ProcessJustification\": {\"cbc:ProcessReasonCode\": {\"@listName\": \"accelerated-procedure\", \"#text\": \"false\"}}}, \"cac:ProcurementProject\": {\"cbc:ID\": \"2026 00067\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Lot 6 : Droit des nouvelles technologies de l'information et de la communication, RGPD, propriété intellectuelle\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Missions de prestations d'assistance et de conseils juridiques. Les missions prévues sont les suivantes : \\n\\n1.\\tAssistance et conseils juridiques\\n2.\\tAssistance lors de réunions\\n3. Veille juridique\\n4. Mise à disposition d'avocat\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cbc:Note\": {\"@languageID\": \"FRA\", \"#text\": \"L'acheteur procède à l'inversion des phases candidatures et offres. En ce sens, il examinera les offres avant les candidatures. La vérification de l'aptitude à exercer l'activité professionnelle, de la capacité économique et financière et des capacités techniques et professionnelles des candidats se fera au plus tard avant l'attribution du marché.\\n\\nPour obtenir tous les renseignements complémentaires qui leur seraient nécessaires au cours de leurs prestations, les soumissionnaires devront faire parvenir au plus tard le 5 novembre 2026 à 12 heures 00, une demande écrite à :\\n\\nhttps://www.achatpublic.com/sdm/ent2/gen/ficheCsl.action?PCSLID=CSL_2026_MpGPC83U8N\\n\\nUne réponse sera alors adressée, sur le profil acheteur de la plateforme « achatpublic.com », à tous les soumissionnaires ayant reçu le dossier, six (6) jours calendaires au plus tard avant la date limite de réception des offres.\"}, \"cac:RequestedTenderTotal\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:FrameworkMaximumAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"150000\"}}}}}, \"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"75000\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"79111000\"}}, \"cac:RealizedLocation\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Le marché est mono-attributaire conclu sous la forme d'un accord-cadre à bons de commande conclu à prix unitaires renseignés au Bordereau Des Prix Unitaires (B.P.U), sans minimum avec un maximum de 150 000 Euros H.T sur toute sa durée. \\n\\nL'accord-cadre est conclu pour une durée comprise entre le 1er février 2027 ou à compter de sa notification si celle-ci intervient ultérieurement, et le 31 octobre 2030. L'accord-cadre n'est pas reconductible.\\n\\nLe pouvoir adjudicateur se réserve le droit d’apporter des modifications de détail au dossier de consultation. Ces modifications devront être reçues par le soumissionnaire au plus tard six (6) jours avant la date limite de réception des offres. Le soumissionnaire devra alors répondre sur la base du dossier modifié sans pouvoir élever aucune réclamation à ce sujet. Si, pendant l’étude du dossier par le soumissionnaire, la date limite de réception des offres est reportée, la disposition précédente est applicable en fonction de cette nouvelle date.\"}, \"cac:Address\": {\"cbc:CityName\": \"Hauts-de-Seine\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR105\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0001\"}, \"cac:TenderingTerms\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:SelectionCriteria\": [{\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criterion\", \"#text\": \"slc-stand-other\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"•\\tLettre de candidature : imprimé DC1 ou équivalent sur papier libre, dûment rempli et signé ;\\n•\\tDéclaration du candidat : imprimé DC2 ou équivalent sur papier libre dûment rempli et signé ;\\n•\\tCopie du ou des jugements prononcés, accompagnée du plan de redressement ou de l'habilitation à poursuivre les activités, si le candidat est en redressement judiciaire. À défaut, production du numéro unique d'identification permettant à l'acheteur de vérifier l'absence de motif d'exclusion lié à la défaillance économique ;\\n•\\tDéclaration sur l'honneur, dûment datée et signée, attestant que le candidat n'entre dans aucun des cas d'exclusion prévus aux articles L2141-1 à L2141-11 du Code de la commande publique et qu'il satisfait aux obligations concernant l'emploi des travailleurs handicapés définies aux articles L5212-1 à L5212-11 du Code du travail.\\n•\\tPrésentation d'une liste des principaux services de conseil juridique effectués au cours des trente-six derniers mois précédant la date limite de réception des candidatures. Cette liste, limitée à un minimum de trois références et un maximum de six références, doit indiquer pour chaque prestation : le montant, la période d'exécution, le destinataire (public ou privé) avec ses coordonnées complètes, le type d'intervention juridique réalisée, l'état d'avancement ou d'achèvement de la mission, et si possible une attestation de bonne exécution. Les candidats ne disposant pas de références de même nature peuvent présenter des références pour des prestations similaires ou démontrer leurs capacités par d'autres moyens appropriés.\\\"\\n•\\tAttestation d’inscription à l’ordre concerné, datant de moins de 3 mois (attestation d’inscription au barreau signé du bâtonnier).\\n\\n• Capacités professionnelles : le candidat (entreprise individuelle ou groupement solidaire ou groupement conjoint) devra présenter les certifications ou à défaut une liste de références équivalentes chiffrées de moins de cinq ans pour des prestations d'importance et de nature similaires. \\n\\n• Capacités techniques : le candidat (entreprise individuelle ou groupement solidaire ou groupement conjoint) devra être doté d'un personnel suffisant pour exécuter les prestations objet du marché.\"}}, {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criterion\", \"#text\": \"slc-stand-other\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"• Capacités financières : le candidat (entreprise individuelle ou groupement solidaire ou groupement conjoint) devra présenter un chiffre d'affaires suffisant pour exécuter les prestations objet du marché. Ce niveau de capacité sera apprécié au regard des indications relatives aux chiffres d'affaires fournis dans le DC2 ou dans un document annexé.\"}}]}}}}, \"cbc:VariantConstraintCode\": {\"@listName\": \"permission\", \"#text\": \"not-allowed\"}, \"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cac:RequiredFinancialGuarantee\": {\"cbc:GuaranteeTypeCode\": {\"@listName\": \"tender-guarantee-required\", \"#text\": \"false\"}}, \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"DCE avec RC\", \"cbc:DocumentType\": \"non-restricted-document\", \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.achatpublic.com/sdm/ent2/gen/ficheCsl.action?PCSLID=CSL_2026_MpGPC83U8N\"}}}, \"cac:TendererQualificationRequest\": [{\"cbc:CompanyLegalFormCode\": {\"@listName\": \"required\", \"#text\": \"false\"}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"missing-info-submission\", \"#text\": \"late-none\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-notice\"}}}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"allowed\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"conditions\", \"#text\": \"performance\"}}], \"cac:AwardingTerms\": {\"cac:AwardingCriterion\": {\"cac:SubordinateAwardingCriterion\": [{\"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Ce critère est noté sur 70 points et sur la base des éléments transmis dans le mémoire technique du soumissionnaire. Le sous-détail de notation est indiqué au RC ainsi que la présence d'une note éliminatoire.\"}}, {\"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"price\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Critère prix sur 30 points noté sur le total du DQE en Euros H.T\\n\\nLe résultat de la formule suivante : \\n\\nPondération X (Montant de l'offre Moins-disante* / Montant de l'offre du soumissionnaire)\"}}]}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.achatpublic.com/sdm/ent2/gen/ficheCsl.action?PCSLID=CSL_2026_MpGPC83U8N\", \"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}, \"cac:TenderEvaluationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"6\"}}, \"cac:AppealTerms\": {\"cac:AppealInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}, \"cac:MediationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"true\", \"cbc:ElectronicPaymentUsageIndicator\": \"true\"}}, \"cac:TenderingProcess\": {\"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"false\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-11-13+02:00\", \"cbc:EndTime\": \"12:00:00+02:00\"}, \"cac:AdditionalInformationRequestPeriod\": {\"cbc:EndDate\": \"2026-11-05+02:00\", \"cbc:EndTime\": \"12:00:00+02:00\"}, \"cac:OpenTenderEvent\": {\"cbc:OccurrenceDate\": \"2026-11-13+02:00\", \"cbc:OccurrenceTime\": \"14:00:00+02:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:FrameworkAgreement\": {\"cbc:MaximumOperatorQuantity\": \"1\", \"cac:SubsequentProcessTenderRequirement\": {\"cbc:Name\": \"buyer-categories\"}}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"fa-wo-rc\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": \"2026 00067\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Lot 6 : Droit des nouvelles technologies de l'information et de la communication, RGPD, propriété intellectuelle\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Le marché est un accord-cadre mono attributaire relatif à des missions de prestations d’assistance et de conseils juridiques. Les missions prévues sont les suivantes : \\n\\n1.\\tAssistance et conseils juridiques\\n\\n-\\t1.1 Assistance juridique téléphonique : Le titulaire fournira, par téléphone, une analyse rapide et peut fournir une confirmation écrite si demandé.\\n\\n-\\t1.2 Assistance juridique écrite : Le titulaire intervient par écrit pour :\\n•\\tAnalyser une problématique juridique : présenter le cadre applicable, proposer des solutions, formuler des recommandations.\\n•\\tRelire et corriger des projets d'actes ou de conventions : apporter des observations claires, proposer des modifications, expliquer les conséquences juridiques.\\n•\\tRédiger des actes (délibérations, arrêtés, conventions, courriers, contrats, avenants, etc.), accompagnés d’une note explicative.\\n\\nLe titulaire remet ses analyses sous format informatique (ou papier si nécessaire) et intègre les compléments ou corrections demandés par l’acheteur. Pour les prestations hors forfait, une estimation préalable du temps et du coût peut être demandée.\\n\\n2.\\tAssistance lors de réunions\\n\\nLe titulaire peut participer à des réunions (en présentiel ou à distance) pour :\\n\\n•\\tPréparer ou préciser la stratégie juridique de Paris La Défense,\\n•\\tRédiger des notes en amont ou après la réunion,\\n•\\tReprésenter et défendre la position de Paris La Défense.\\n\\n3. Veille juridique\\n\\nLe titulaire peut assurer une veille sur les évolutions législatives, réglementaires ou jurisprudentielles affectant les missions de Paris La Défense. Il doit analyser et expliquer les impacts concrets de ces évolutions.\\n\\n4. Mise à disposition d’avocat\\n\\nLe titulaire peut mettre à disposition un avocat au sein des locaux de Paris La Défense, pour des durées variables (quelques heures à plusieurs semaines). Les missions possibles incluent :\\n\\n•\\tConseil juridique,\\n•\\tRédaction de consultations, actes ou conventions,\\n•\\tSuivi de dossiers,\\n•\\tParticipation à réunions,\\n•\\tFormations internes.\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:ProcurementAdditionalType\": {\"cbc:ProcurementTypeCode\": {\"@listName\": \"social-objective\", \"#text\": \"other\"}}, \"cac:RequestedTenderTotal\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:FrameworkMaximumAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"150000\"}}}}}, \"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"75000\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"79111000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:StreetName\": \"Coeur Défense Tour B\", \"cbc:AdditionalStreetName\": \"110 Esplanade du Général de Gaulle\", \"cbc:CityName\": \"Hauts-de-Seine\", \"cbc:PostalZone\": \"92932\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR105\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:StartDate\": \"2027-02-01+02:00\", \"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"45\"}}, \"cac:ContractExtension\": {\"cbc:OptionsDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Le marché ne comporte pas de tranches optionnelles.\"}}}}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-96804",
+      "_source_categories": [
+        "Impact"
+      ],
+      "score": 2.0,
+      "category": "Digital",
+      "categories": [
+        "Digital",
+        "Impact"
+      ],
+      "category_color": "#1D4ED8",
+      "budget": null,
+      "days_left": 36,
+      "match_pct": 30,
+      "match_detail": "Régie / AT",
+      "tier": "low",
+      "ao_type": "Data/ETL/DataWarehouse",
+      "ao_legitimacy": 4,
+      "matched_products": [],
+      "matched_rex": [],
+      "matched_tech": [],
+      "matched_expertises": [],
+      "matched_delivery": [
+        "Régie / AT"
+      ],
+      "matched_profils": [],
+      "relevance_summary": [
+        "Objet : Lot 6 : Droit des nouvelles technologies de l'information et de la communication, RGPD, propriété intellectuelle",
+        "Acheteur : PARIS LA DEFENSE",
+        "Type d'AO \"Data/ETL/DataWarehouse\" : forte légitimité Harington",
+        "Mode de delivery : Régie / AT",
+        "Zone géographique : Île-de-France",
+        "Date limite de réponse : 2026-11-13",
+        "Descripteurs BOAMP : Assistance juridique"
+      ],
+      "geo_label": "Île-de-France",
+      "deep_analysis": null,
+      "breakdown": {
+        "stack_match": 1.5,
+        "stack_sub": {
+          "tech_stack": 1,
+          "products": 1,
+          "expertises": 1.5,
+          "delivery": 3,
+          "profils": 1
+        },
+        "deadline": 2.0,
+        "budget": 3.0,
+        "geo": 5.0
       }
     },
     {
@@ -9978,7 +10194,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": 80000.0,
-      "days_left": 50,
+      "days_left": 49,
       "match_pct": 38,
       "match_detail": "TMA / Maintenance applicative · IAM & Sécurité · E-commerce & Digital",
       "tier": "low",
@@ -10093,7 +10309,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 36,
+      "days_left": 35,
       "match_pct": 20,
       "match_detail": "Pertinence faible",
       "tier": "low",
@@ -10204,7 +10420,7 @@
       ],
       "category_color": "#1D4ED8",
       "budget": null,
-      "days_left": 40,
+      "days_left": 39,
       "match_pct": 20,
       "match_detail": "Pertinence faible",
       "tier": "low",
