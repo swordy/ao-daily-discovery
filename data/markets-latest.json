@@ -1,8 +1,8 @@
 {
   "date": "2026-10-12",
-  "total_fetched": 135,
-  "total_scored": 82,
-  "filtered_count": 53,
+  "total_fetched": 137,
+  "total_scored": 83,
+  "filtered_count": 54,
   "priority_count": 13,
   "preferences": null,
   "markets": [
@@ -6769,6 +6769,118 @@
         "deadline": 3.5,
         "budget": 3.0,
         "geo": 5.0
+      }
+    },
+    {
+      "idweb": "26-98463",
+      "id": "26_98463",
+      "contractfolderid": null,
+      "objet": "Supervision Et Centralisation Des Donnees Des Reseaux De Distribution Des  Secteurs Centre Et Sud Manche",
+      "filename": "26-98463",
+      "famille": "FNS",
+      "code_departement": [
+        "50"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+      "dateparution": "2026-10-12",
+      "datefindiffusion": "2026-11-12",
+      "datelimitereponse": "2026-11-12T12:00:00+00:00",
+      "nomacheteur": "Syndicat Départemental de l'eau de la Manche",
+      "titulaire": null,
+      "perimetre": "FNSimple",
+      "type_procedure": "RESTREINT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Restreinte",
+      "procedure_categorise": "RESTREINT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": null,
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": [
+        "environnementaux"
+      ],
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "163",
+        "209"
+      ],
+      "dc": [
+        "163",
+        "209"
+      ],
+      "descripteur_libelle": [
+        "Informatique (prestations de services)",
+        "Matériel de sécurité"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-98463\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Syndicat Départemental de l'eau de la Manche\", \"TYPE_PROCEDURE\": {\"RESTREINT\": \"\"}, \"DATE_PUBLICATION\": \"2026-10-12\", \"DATE_LIMITE_REPONSE\": \"2026-11-12T12:00:00\", \"DATE_FIN_DIFFUSION\": \"2026-11-12\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}, {\"CODE\": \"209\", \"LIBELLE\": \"Matériel de sécurité\"}]}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"50\", \"RESUME_OBJET\": \"Supervision Et Centralisation Des Donnees Des Reseaux De Distribution Des  Secteurs Centre Et Sud Manche\"}}",
+      "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"Syndicat Départemental de l'eau de la Manche\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"20003346200074\", \"ville\": \"SAINT LO\", \"cp\": \"50000\", \"grpCommandes\": {\"non\": \"\"}}, \"initial\": {\"communication\": {\"urlDocConsul\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematent.login&type=Dce&Idm=1887505\", \"identifiantInterne\": \"26-SDE-19\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"non\": \"\"}, \"nomContact\": \"accueil@sdeau50.fr\", \"telContact\": \"+33 233574016\"}, \"procedure\": {\"procedureAdapteeR\": \"\", \"capaciteExercice\": \"Formulaire Dc1 : Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner Formulaire Dc2 : Renseignements sur le respect de l'obligation d'emploi mentionnée aux articles L. 5212-1 à L. 5212-11 du Code du travail\", \"capaciteEcoFin\": \"Chiffre d'affaires annuel spécifique : Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles Assurance responsabilité professionnelle pour les risques : Preuve d'une assurance pour les risques professionnels Effectif moyen annuel : Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années\", \"capaciteTech\": \"Références sur des services spécifiés : Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat\", \"techAchat\": {\"autres\": \"\"}, \"dateReceptionOffres\": \"2026-11-12T12:00:00\", \"presOffres\": {\"interdite\": \"\"}, \"nbCandidatReduit\": {\"oui\": {\"nbCandidat\": \"3\", \"criteres\": \"Pondération selon les critres suivants :\\nCertificat de capacité Fntp n° 6341/6342/6343 et/ou liste des références liées au développement d'une supervision >= à 50 télégestions - 40.0%\\nMoyens humains de l'entreprise - 20.0%\\nMoyens techniques de l'entreprise - 20.0%\\nMoyens économique et financier - 20.0%\"}}, \"attributionSansNegociation\": {\"oui\": \"\"}, \"variantes\": {\"non\": \"\"}, \"criteresAttrib\": \"Valeur technique : 45%\\nPrix des prestations : 55%\"}, \"natureMarche\": {\"intitule\": \"SUPERVISION ET CENTRALISATION DES DONNEES DES RESEAUX DE DISTRIBUTION DES  SECTEURS CENTRE ET SUD MANCHE\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"72263000\"}}, \"natureMarche\": {\"services\": \"\"}, \"description\": \"Les prestations sont réglées par des prix forfaitaires\", \"lieuExecution\": \"FRD12 - Manche, TERRITOIRE DU SDEAU50\\n50000\\nSaint-lô\", \"dureeMois\": \"24\", \"tranches\": {\"non\": \"\"}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"non\": \"\"}}, \"informComplementaire\": {\"oui\": {\"visiteDetail\": \"Une audition obligatoire est prévue pour les candidats admis à présenter une offre.\\nCette audition se déroulera au cours de la phase d'analyse des offres, après la réception des offres et la transmission des questionnaires aux trois candidats concernés.\\nLa date, l'heure et le lieu de l'audition s\"}}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-98463",
+      "_source_categories": [
+        "Cyber"
+      ],
+      "score": 3.0,
+      "category": "Digital",
+      "categories": [
+        "Digital",
+        "Cyber"
+      ],
+      "category_color": "#1D4ED8",
+      "budget": null,
+      "days_left": 31,
+      "match_pct": 70,
+      "match_detail": "Forfait",
+      "tier": "high",
+      "ao_type": "Forfait développement",
+      "ao_legitimacy": 5,
+      "matched_products": [],
+      "matched_rex": [],
+      "matched_tech": [],
+      "matched_expertises": [],
+      "matched_delivery": [
+        "Forfait"
+      ],
+      "matched_profils": [],
+      "relevance_summary": [
+        "Objet : Supervision Et Centralisation Des Donnees Des Reseaux De Distribution Des  Secteurs Centre Et Sud Manche",
+        "Acheteur : Syndicat Départemental de l'eau de la Manche",
+        "Type d'AO \"Forfait développement\" : forte légitimité Harington",
+        "Mode de delivery : Forfait",
+        "Zone géographique : Dept. 50",
+        "Date limite de réponse : 2026-11-12",
+        "Descripteurs BOAMP : Informatique (prestations de services), Matériel de sécurité"
+      ],
+      "geo_label": "Dept. 50",
+      "deep_analysis": null,
+      "breakdown": {
+        "stack_match": 3.5,
+        "stack_sub": {
+          "tech_stack": 1,
+          "products": 1,
+          "expertises": 1.5,
+          "delivery": 3,
+          "profils": 1
+        },
+        "deadline": 2.0,
+        "budget": 3.0,
+        "geo": 2.0
       }
     },
     {
