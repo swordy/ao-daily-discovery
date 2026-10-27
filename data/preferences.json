@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "genere_le": "2026-10-27",
+  "source": "cockpit-dashboard — cases Lu / Pas important",
+  "marques": {
+    "lu": 1,
+    "pas_important": 0
+  },
+  "poids": {
+    "mots": {},
+    "acheteurs": {},
+    "types": {}
+  }
+}
