@@ -1,9 +1,9 @@
 {
   "date": "2026-10-27",
-  "total_fetched": 140,
-  "total_scored": 80,
-  "filtered_count": 60,
-  "priority_count": 8,
+  "total_fetched": 143,
+  "total_scored": 81,
+  "filtered_count": 62,
+  "priority_count": 9,
   "preferences": null,
   "markets": [
     {
@@ -1728,6 +1728,226 @@
           "profils": 1
         },
         "deadline": 3.5,
+        "budget": 3.0,
+        "geo": 5.0
+      }
+    },
+    {
+      "idweb": "26-104005",
+      "id": "26_104005",
+      "contractfolderid": "cec9f54f-48dd-4447-85c1-70499caabae4",
+      "objet": "Accord-cadre d'assistance à maîtrise d'ouvrage pour l'intégration opérationnelle des objectifs de développement durable dans les projets de l'EPAMSA",
+      "filename": "26-104005",
+      "famille": "JOUE",
+      "code_departement": [
+        "78"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés européens",
+      "dateparution": "2026-10-27",
+      "datefindiffusion": "2026-12-03",
+      "datelimitereponse": "2026-12-03T12:00:00+00:00",
+      "nomacheteur": "EPAMSA",
+      "titulaire": null,
+      "perimetre": "DIRECTIVE-24",
+      "type_procedure": "OUVERT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Ouverte",
+      "procedure_categorise": "OUVERT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": "STANDARD",
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": [
+        "environnementaux"
+      ],
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "19"
+      ],
+      "dc": [
+        "19"
+      ],
+      "descripteur_libelle": [
+        "Assistance technique"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-104005\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"EPAMSA\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-10-27\", \"DATE_LIMITE_REPONSE\": \"2026-12-03T12:00:00.000+01:00\", \"DATE_FIN_DIFFUSION\": \"2026-12-03\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"19\", \"LIBELLE\": \"Assistance technique\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"78\", \"RESUME_OBJET\": \"Accord-cadre d'assistance à maîtrise d'ouvrage pour l'intégration opérationnelle des objectifs de développement durable dans les projets de l'EPAMSA\"}}",
+      "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"16\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efbc:AwardingCPBIndicator\": \"false\", \"efac:Company\": {\"cbc:WebsiteURI\": \"https://www.epamsa.fr\", \"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"EPAMSA\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"1 rue de Champagne\", \"cbc:CityName\": \"Mantes-la-Jolie\", \"cbc:PostalZone\": \"78200\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR103\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"41063810000033\"}, \"cac:Contact\": {\"cbc:Name\": \"Tatiana Courteille\", \"cbc:Telephone\": \"+33 139292409\", \"cbc:ElectronicMail\": \"t.courteille@epamsa.fr\"}}}, {\"efac:Company\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal administratif de Versailles\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"56 avenue de Saint Cloud\", \"cbc:CityName\": \"Versailles\", \"cbc:PostalZone\": \"78000\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FR103\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"17780005900012\"}, \"cac:Contact\": {\"cbc:Telephone\": \"+33 139205400\", \"cbc:ElectronicMail\": \"greffe.ta-versailles@juradm.fr\"}}}]}}}}}, \"cbc:UBLVersionID\": {\"@schemeName\": \"notice-id\", \"#text\": \"2.3\"}, \"cbc:CustomizationID\": {\"@schemeName\": \"notice-id\", \"#text\": \"eforms-sdk-1.13\"}, \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"9cfd1aa2-f615-492b-ac3b-4fc8576abe78\"}, \"cbc:ContractFolderID\": \"cec9f54f-48dd-4447-85c1-70499caabae4\", \"cbc:IssueDate\": \"2026-10-26+01:00\", \"cbc:IssueTime\": \"14:51:53.000+01:00\", \"cbc:VersionID\": \"01\", \"cbc:RegulatoryDomain\": \"32014L0024\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": {\"@listName\": \"language\", \"#text\": \"FRA\"}, \"cac:ContractingParty\": {\"cbc:BuyerProfileURI\": \"https://www.marches-publics.gouv.fr/entreprise\", \"cac:ContractingPartyType\": {\"cbc:PartyTypeCode\": {\"@listName\": \"buyer-legal-type\", \"#text\": \"body-pl\"}}, \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"authority-activity\", \"#text\": \"hc-am\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}}, \"cac:TenderingTerms\": {\"cac:ProcurementLegislationDocumentReference\": [{\"cbc:ID\": \"LocalLegalBasis\", \"cbc:DocumentDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Sans objet\"}}, {\"cbc:ID\": \"CrossBorderLaw\", \"cbc:DocumentDescription\": {\"@languageID\": \"FRA\", \"#text\": \"Sans objet\"}}], \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-notice\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-ground\", \"#text\": \"exg-mis-distortion\"}}}]}, \"cac:TenderingProcess\": {\"cbc:ProcedureCode\": {\"@listName\": \"procurement-procedure-type\", \"#text\": \"open\"}, \"cac:ProcessJustification\": {\"cbc:ProcessReasonCode\": {\"@listName\": \"accelerated-procedure\", \"#text\": \"false\"}}}, \"cac:ProcurementProject\": {\"cbc:ID\": \"2026-001\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Accord-cadre d'assistance à maîtrise d'ouvrage pour l'intégration opérationnelle des objectifs de développement durable dans les projets de l'EPAMSA\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Accord-cadre d'assistance à maîtrise d'ouvrage pour l'intégration opérationnelle des objectifs de développement durable dans les projets de l'EPAMSA\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"71313000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:Region\": \"anyw-cou\", \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0001\"}, \"cac:TenderingTerms\": {\"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"https://www.marches-publics.gouv.fr/entreprise/consultation/3093677?orgAcronyme=d4t\", \"cbc:DocumentType\": \"non-restricted-document\", \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.marches-publics.gouv.fr/entreprise/consultation/3093677?orgAcronyme=d4t\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-procurement-document\"}}}, {\"cac:SpecificTendererRequirement\": [{\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}, {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}]}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"conditions\", \"#text\": \"performance\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}], \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.marches-publics.gouv.fr/entreprise/consultation/3093677?orgAcronyme=d4t\"}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"6\"}}, \"cac:AppealTerms\": {\"cac:AppealInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}, \"cac:MediationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"false\", \"cbc:ElectronicPaymentUsageIndicator\": \"false\"}}, \"cac:TenderingProcess\": {\"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"true\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-12-03+01:00\", \"cbc:EndTime\": \"12:00:00.000+01:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:FrameworkAgreement\": {\"cbc:MaximumOperatorQuantity\": \"10\", \"cac:SubsequentProcessTenderRequirement\": {\"cbc:Name\": \"buyer-categories\"}}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"fa-wo-rc\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": \"2026-001\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Accord-cadre d'assistance à maîtrise d'ouvrage pour l'intégration opérationnelle des objectifs de développement durable dans les projets de l'EPAMSA\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Accord-cadre d'assistance à maîtrise d'ouvrage pour l'intégration opérationnelle des objectifs de développement durable dans les projets de l'EPAMSA\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cbc:SMESuitableIndicator\": \"true\", \"cac:RequestedTenderTotal\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:FrameworkMaximumAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"600000\"}}}}}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"71313000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:Region\": \"anyw-cou\", \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"YEAR\", \"#text\": \"4\"}}}}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-104005",
+      "_source_categories": [
+        "IA",
+        "Impact"
+      ],
+      "score": 4.0,
+      "category": "IA",
+      "categories": [
+        "IA",
+        "Impact"
+      ],
+      "category_color": "#7C3AED",
+      "budget": null,
+      "days_left": 37,
+      "match_pct": 100,
+      "match_detail": "Régie / AT · RSE & Impact · MOA / AMOA",
+      "tier": "high",
+      "ao_type": "Dev IA/ML/GenAI",
+      "ao_legitimacy": 5,
+      "matched_products": [],
+      "matched_rex": [],
+      "matched_tech": [],
+      "matched_expertises": [
+        "RSE & Impact"
+      ],
+      "matched_delivery": [
+        "Régie / AT"
+      ],
+      "matched_profils": [
+        "MOA / AMOA"
+      ],
+      "relevance_summary": [
+        "Objet : Accord-cadre d'assistance à maîtrise d'ouvrage pour l'intégration opérationnelle des objectifs de développement durable dans les projets de l'EPAMSA",
+        "Acheteur : EPAMSA",
+        "Type d'AO \"Dev IA/ML/GenAI\" : forte légitimité Harington",
+        "Mode de delivery : Régie / AT",
+        "Expertises matchées : RSE & Impact",
+        "Profils demandés : MOA / AMOA",
+        "Zone géographique : Île-de-France"
+      ],
+      "geo_label": "Île-de-France",
+      "deep_analysis": {
+        "fit_summary": "Adéquation partielle — score élevé grâce aux synergies. Valider le positionnement.",
+        "ao_assessment": "Type d'AO \"Dev IA/ML/GenAI\" — forte légitimité Harington, historique de succès sur ce segment",
+        "recommendation": "GO — Forte adéquation. Préparer le dossier en anticipation.",
+        "stack_match_score": 5.0,
+        "dimensions": [
+          {
+            "key": "tech_stack",
+            "label": "Stack Technique",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 30,
+            "contribution": 0.3,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "products",
+            "label": "Accélérateurs & Offres",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 15,
+            "contribution": 0.15,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "expertises",
+            "label": "Expertises",
+            "score": 3,
+            "score_label": "Correct",
+            "weight_pct": 20,
+            "contribution": 0.6,
+            "items": [
+              "RSE & Impact"
+            ],
+            "status": "good"
+          },
+          {
+            "key": "delivery",
+            "label": "Modes de Delivery",
+            "score": 3,
+            "score_label": "Correct",
+            "weight_pct": 20,
+            "contribution": 0.6,
+            "items": [
+              "Régie / AT"
+            ],
+            "status": "good"
+          },
+          {
+            "key": "profils",
+            "label": "Profils Consultants",
+            "score": 3,
+            "score_label": "Correct",
+            "weight_pct": 15,
+            "contribution": 0.45,
+            "items": [
+              "MOA / AMOA"
+            ],
+            "status": "good"
+          }
+        ],
+        "context_dims": [
+          {
+            "label": "Échéance",
+            "score": 2.0,
+            "score_label": "Faible",
+            "detail": "J-37",
+            "weight_pct": 20
+          },
+          {
+            "label": "Budget",
+            "score": 3.0,
+            "score_label": "Correct",
+            "detail": "Non communiqué",
+            "weight_pct": 20
+          },
+          {
+            "label": "Géographie",
+            "score": 5.0,
+            "score_label": "Excellent",
+            "detail": "Île-de-France",
+            "weight_pct": 10
+          }
+        ],
+        "strengths": [],
+        "gaps": [
+          {
+            "dimension": "Stack Technique",
+            "score": 1,
+            "recommendation": "Stack non explicitement mentionnée dans l'AO — vérifier le CCTP pour identifier les technos requises"
+          },
+          {
+            "dimension": "Accélérateurs & Offres",
+            "score": 1,
+            "recommendation": "Aucun accélérateur Harington directement applicable — positionner les outils internes comme avantage concurrentiel dans le mémoire technique"
+          }
+        ],
+        "synergies": [
+          "Profils + Expertises : consulting ESN pur (consultants qualifiés + domaine d'expertise)",
+          "Delivery + Profils : capacité de staffing confirmée (mise à disposition de ressources)"
+        ],
+        "confidence": "2 synergies détectées, type d'AO à forte légitimité",
+        "rex": [],
+        "products_applicable": []
+      },
+      "breakdown": {
+        "stack_match": 5.0,
+        "stack_sub": {
+          "tech_stack": 1,
+          "products": 1,
+          "expertises": 3,
+          "delivery": 3,
+          "profils": 3
+        },
+        "deadline": 2.0,
         "budget": 3.0,
         "geo": 5.0
       }
@@ -8105,45 +8325,47 @@
       }
     },
     {
-      "idweb": "26-44179",
-      "id": "26_44179",
-      "contractfolderid": null,
-      "objet": "Services de Développement",
-      "filename": "26-44179",
-      "famille": "FNS",
+      "idweb": "26-103940",
+      "id": "26_103940",
+      "contractfolderid": "7a491a88-2b33-4310-86f4-8757558912c6",
+      "objet": "Prestations de formation des agents du Département de la Savoie aux outils d'intelligence artificielle générative (IAG)",
+      "filename": "26-103940",
+      "famille": "JOUE",
       "code_departement": [
-        "80"
+        "73"
       ],
       "code_departement_prestation": null,
-      "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-      "dateparution": "2026-04-30",
-      "datefindiffusion": "2027-05-28",
-      "datelimitereponse": "2027-05-28T10:00:00+00:00",
-      "nomacheteur": "Somme Numérique",
+      "famille_libelle": "Marchés européens",
+      "dateparution": "2026-10-27",
+      "datefindiffusion": "2026-12-03",
+      "datelimitereponse": "2026-12-03T11:00:00+00:00",
+      "nomacheteur": "Département de la Savoie",
       "titulaire": null,
-      "perimetre": "FNSimple",
+      "perimetre": "DIRECTIVE-24",
       "type_procedure": "OUVERT",
       "soustype_procedure": null,
       "procedure_libelle": "Procédure Ouverte",
       "procedure_categorise": "OUVERT/",
       "nature": "APPEL_OFFRE",
-      "sousnature": null,
+      "sousnature": "STANDARD",
       "nature_libelle": "Avis de marché",
       "sousnature_libelle": null,
       "nature_categorise": "appeloffre/standard",
       "nature_categorise_libelle": "Avis de marché/",
-      "criteres": null,
+      "criteres": [
+        "environnementaux"
+      ],
       "marche_public_simplifie": null,
       "marche_public_simplifie_label": null,
       "etat": "INITIAL",
       "descripteur_code": [
-        "186"
+        "410"
       ],
       "dc": [
-        "186"
+        "410"
       ],
       "descripteur_libelle": [
-        "Logiciel"
+        "Formation"
       ],
       "type_marche": [
         "SERVICES"
@@ -8158,58 +8380,70 @@
       "annonce_lie": null,
       "annonces_anterieures": null,
       "source_schema": "3.2.5",
-      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-44179\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Somme Numérique\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-04-30\", \"DATE_LIMITE_REPONSE\": \"2027-05-28T10:00:00.000+02:00\", \"DATE_FIN_DIFFUSION\": \"2027-05-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"186\", \"LIBELLE\": \"Logiciel\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"DEP_PUBLICATION\": \"80\", \"RESUME_OBJET\": \"Services de Développement\"}}",
-      "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"Somme Numérique\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"25800436500049\", \"ville\": \"Amiens\", \"cp\": \"80090\", \"grpCommandes\": {\"non\": \"\"}}, \"initial\": {\"communication\": {\"urlDocConsul\": \"https://marchespublics596280.fr/entreprise/consultation/584473?orgAcronyme=SNUM\", \"identifiantInterne\": \"SN_PA_26_11\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"non\": \"\"}, \"nomContact\": \"Monsieur BAZIZ Sabri\", \"adresseMailContact\": \"courrier@sommenumerique.fr\", \"telContact\": \"+33 322222727\"}, \"procedure\": {\"procedureAdapteeO\": \"\", \"capaciteExercice\": \"Conditions énoncées dans les documents de la consultation\", \"capaciteEcoFin\": \"Conditions énoncées dans les documents de la consultation\", \"capaciteTech\": \"Conditions énoncées dans les documents de la consultation\", \"techAchat\": {\"accordCadre\": \"\"}, \"dateReceptionOffres\": \"2027-05-28T10:00:00.000+02:00\", \"presOffres\": {\"autorisee\": \"\"}, \"nbCandidatReduit\": {\"non\": \"\"}, \"attributionSansNegociation\": {\"oui\": {\"@xsi:type\": \"xs:string\"}}, \"variantes\": {\"non\": {\"@xsi:type\": \"xs:string\"}}, \"categorieAcheteur\": \"Syndicat mixte ouvert Somme Numérique\", \"criteresAttrib\": \"Critères énoncés dans les documents de la consultation\"}, \"natureMarche\": {\"intitule\": \"Services de Développement\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"72000000\"}}, \"natureMarche\": {\"services\": \"\"}, \"description\": \"Le présent marché a pour objet la mise en oeuvre de prestations de développements à partir de diverses plateformes web, pour l’évolution de la base de données et du site web de Somme Numérique, mais également pour des besoins spécifiques liés à son activité de déploiement de réseau très haut débit et de services numériques.\", \"lieuExecution\": \"(80) Somme\", \"dureeMois\": \"48\", \"tranches\": {\"non\": {\"@xsi:type\": \"xs:string\"}}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"non\": {\"@xsi:type\": \"xs:string\"}}}, \"informComplementaire\": {\"non\": \"\"}}}}",
-      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-44179",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-103940\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Département de la Savoie\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-10-27\", \"DATE_LIMITE_REPONSE\": \"2026-12-03T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2026-12-03\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"410\", \"LIBELLE\": \"Formation\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"73\", \"RESUME_OBJET\": \"Prestations de formation des agents du Département de la Savoie aux outils d'intelligence artificielle générative (IAG)\"}}",
+      "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"16\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efac:Company\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0001\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Avenue-Web Systèmes\"}}, \"cac:PostalAddress\": {\"cbc:CityName\": \"Seyssinet-Pariset\", \"cbc:PostalZone\": \"38170\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK24\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"AF08CB31-E46F-E182-56FF64A110DB486B\"}}, \"cac:Contact\": {\"cbc:Telephone\": \"+33480041260\", \"cbc:ElectronicMail\": \"publications-joue@aws-france.com\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"http://www.savoie.fr\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0002\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Département de la Savoie\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"Château des Ducs de Savoie\", \"cbc:AdditionalStreetName\": \"Cs 31802\", \"cbc:CityName\": \"Chambery\", \"cbc:PostalZone\": \"73018\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK27\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"51844\"}}, \"cac:Contact\": {\"cbc:Name\": \"LE POUVOIR ADJUDICATEUR\", \"cbc:Telephone\": \"0479967373\", \"cbc:ElectronicMail\": \"correspondre@aws-france.com\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"https://www.telerecours.fr\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0003\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal administratif de Grenoble\"}}, \"cac:PostalAddress\": {\"cbc:Postbox\": \"1135\", \"cbc:StreetName\": \"2 Place de Verdun\", \"cbc:CityName\": \"Grenoble\", \"cbc:PostalZone\": \"38022\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK24\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"AF08CB87-F665-AE8A-92B8F1DD566A2330\"}}, \"cac:Contact\": {\"cbc:Telephone\": \"0476429000\", \"cbc:Telefax\": \"0476422269\", \"cbc:ElectronicMail\": \"greffe.ta-grenoble@juradm.fr\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"https://www.telerecours.fr\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0004\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal administratif de Grenoble\"}}, \"cac:PostalAddress\": {\"cbc:Postbox\": \"1135\", \"cbc:StreetName\": \"2 Place de Verdun\", \"cbc:CityName\": \"Grenoble\", \"cbc:PostalZone\": \"38022\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK24\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"AF08CBA0-B452-4E2F-FE05C0D3B69DEAEF\"}}, \"cac:Contact\": {\"cbc:Telephone\": \"0476429000\", \"cbc:Telefax\": \"0476422269\", \"cbc:ElectronicMail\": \"greffe.ta-grenoble@juradm.fr\"}}}]}}}}}, \"cbc:UBLVersionID\": \"2.3\", \"cbc:CustomizationID\": \"eforms-sdk-1.13\", \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"f8771093-e16b-4e0d-834d-d1e4af143df4\"}, \"cbc:ContractFolderID\": \"7a491a88-2b33-4310-86f4-8757558912c6\", \"cbc:IssueDate\": \"2026-10-26+01:00\", \"cbc:IssueTime\": \"12:10:08+01:00\", \"cbc:VersionID\": \"01\", \"cbc:RegulatoryDomain\": \"32014L0024\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": \"FRA\", \"cac:ContractingParty\": {\"cbc:BuyerProfileURI\": \"http://www.savoie.fr/marches-publics\", \"cac:ContractingPartyType\": {\"cbc:PartyTypeCode\": {\"@listName\": \"buyer-legal-type\", \"#text\": \"la\"}}, \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"authority-activity\", \"#text\": \"gen-pub\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0002\"}}, \"cac:ServiceProviderParty\": {\"cbc:ServiceTypeCode\": {\"@listName\": \"organisation-role\", \"#text\": \"ted-esen\"}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0001\"}}}}}}, \"cac:TenderingTerms\": {\"cac:TendererQualificationRequest\": {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-procurement-document\"}}}, \"cac:LotDistribution\": {\"cbc:MaximumLotsAwardedNumeric\": \"2\", \"cbc:MaximumLotsSubmittedNumeric\": \"2\"}}, \"cac:TenderingProcess\": {\"cbc:ProcedureCode\": {\"@languageID\": \"FRA\", \"@listName\": \"procurement-procedure-type\", \"#text\": \"open\"}, \"cac:ProcessJustification\": {\"cbc:ProcessReasonCode\": {\"@listName\": \"accelerated-procedure\", \"#text\": \"false\"}}}, \"cac:ProcurementProject\": {\"cbc:ID\": \"26MA008\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Prestations de formation des agents du Département de la Savoie aux outils d'intelligence artificielle générative (IAG)\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"L'accord-cadre sera exécuté par l'émission de bons de commande.\\nChaque lot fera l'objet d'une attribution séparée.\\nLes prestations sont réglées par des prix unitaires.\\nLe Département de la Savoie a déployé, entre novembre 2025 et avril 2026, un premier cycle de formation de sensibilisation à l'IA générative à destination de ses 230 cadres, soit 15 sessions d'une demi-journée. Ce cycle poursuivait trois objectifs : comprendre les fondamentaux de l'IA et le fonctionnement de l'IA générative, acquérir les bases de la formulation de requêtes (prompts), et identifier des cas d'usage métiers.\\nLe bilan de ce premier cycle (213 réponses recueillies) fait apparaître un niveau de satisfaction élevé (note moyenne  de recommandation de 8,6/10, 47,5 % de promoteurs) et un gain pédagogique mesuré avant/après de +1,07 point sur 5 en moyenne sur six compétences évaluées.\\nLa présente consultation s'inscrit dans la continuité directe de ce premier cycle : le lot n° 1 Formation de sensibilisation aux outils d'IA générative ; le lot n° 2 Formation à la maîtrise de l'art du prompting\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"80511000\"}}, \"cac:AdditionalCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"80511000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK27\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": [{\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0001\"}, \"cac:TenderingTerms\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:SelectionCriteria\": [{\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criterion\", \"#text\": \"slc-abil-facil-tools\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation du contrat\"}}, {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criterion\", \"#text\": \"slc-abil-staff-yrly-avg-mp\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années\"}}, {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criterion\", \"#text\": \"slc-stand-other\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner\"}}, {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criterion\", \"#text\": \"slc-stand-to-spec\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles\"}}, {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criterion\", \"#text\": \"slc-abil-ref-services\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat\"}}]}}}}, \"cbc:VariantConstraintCode\": {\"@listName\": \"permission\", \"#text\": \"not-allowed\"}, \"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cbc:RequiredCurriculaCode\": {\"@listName\": \"requirement-stage\", \"#text\": \"t-requ\"}, \"cbc:RecurringProcurementIndicator\": \"false\", \"cbc:MultipleTendersCode\": {\"@listName\": \"permission\", \"#text\": \"not-allowed\"}, \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"1894741\", \"cbc:DocumentType\": \"non-restricted-document\", \"cbc:LanguageID\": \"FRA\", \"cbc:DocumentStatusCode\": {\"@listName\": \"linguistic-status\", \"#text\": \"official\"}, \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1894741\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-notice\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"esignature-submission\", \"#text\": \"false\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"conditions\", \"#text\": \"performance\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"L'exécution des prestations débute à compter de la date de notification du contrat.\\nAucune clause de garantie financière prévue.\\nLe contrat prévoit le versement d'une avance, sans obligation de constituer une garantie financière pour en bénéficier.\\nLes prix sont révisables.\\nLe paiement des prestations se fera dans le respect du délai global de paiement applicable à l'acheteur.\\nLa consultation comporte des conditions d'exécution à caractère environnemental détaillées au cahier des charges.\\nRessources propres du Département\"}}], \"cac:AwardingTerms\": {\"cac:AwardingCriterion\": {\"cac:SubordinateAwardingCriterion\": [{\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"40\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Valeur technique\"}}, {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"10\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Valeur environnementale\"}}, {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"50\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"price\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Prix des prestations\"}}]}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;IDM=1894741\"}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"4\"}}, \"cac:AppealTerms\": {\"cac:AppealInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0004\"}}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0003\"}}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"false\", \"cbc:ElectronicPaymentUsageIndicator\": \"false\"}}, \"cac:TenderingProcess\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:AccessToolName\": \"AW Solutions\"}}}}, \"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"false\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-12-03+01:00\", \"cbc:EndTime\": \"12:00:00+01:00\"}, \"cac:OpenTenderEvent\": {\"cbc:OccurrenceDate\": \"2026-12-03+01:00\", \"cbc:OccurrenceTime\": \"00:00:00+01:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:FrameworkAgreement\": {\"cbc:MaximumOperatorQuantity\": \"1\"}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"fa-wo-rc\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": {\"@schemeName\": \"InternalID\", \"#text\": \"01\"}, \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Formation de sensibilisation aux outils d'IA générative\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Formation de sensibilisation aux outils d'IA générative\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:ProcurementAdditionalType\": {\"cbc:ProcurementTypeCode\": {\"@listName\": \"environmental-impact\", \"#text\": \"other\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"80511000\"}}, \"cac:AdditionalCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"80511000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Territoire du département de la Savoie - 73000 - Chambéry\"}, \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK27\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:StartDate\": \"2027-03-01+01:00\", \"cbc:EndDate\": \"2028-02-29+01:00\"}, \"cac:ContractExtension\": {\"cbc:MaximumNumberNumeric\": \"3\", \"cac:Renewal\": {\"cac:Period\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Le contrat  est susceptible d'être reconduit dans les conditions du cahier des charges. Pour chaque lot, la  période initiale débutera à compter de la notification du contrat\"}}}}}}, {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0002\"}, \"cac:TenderingTerms\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:SelectionCriteria\": [{\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criterion\", \"#text\": \"slc-abil-facil-tools\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation du contrat\"}}, {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criterion\", \"#text\": \"slc-abil-staff-yrly-avg-mp\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années\"}}, {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criterion\", \"#text\": \"slc-stand-other\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner\"}}, {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criterion\", \"#text\": \"slc-stand-to-spec\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles\"}}, {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criterion\", \"#text\": \"slc-abil-ref-services\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat\"}}]}}}}, \"cbc:VariantConstraintCode\": {\"@listName\": \"permission\", \"#text\": \"not-allowed\"}, \"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cbc:RequiredCurriculaCode\": {\"@listName\": \"requirement-stage\", \"#text\": \"t-requ\"}, \"cbc:RecurringProcurementIndicator\": \"false\", \"cbc:MultipleTendersCode\": {\"@listName\": \"permission\", \"#text\": \"not-allowed\"}, \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"1894741\", \"cbc:DocumentType\": \"non-restricted-document\", \"cbc:LanguageID\": \"FRA\", \"cbc:DocumentStatusCode\": {\"@listName\": \"linguistic-status\", \"#text\": \"official\"}, \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1894741\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-notice\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"esignature-submission\", \"#text\": \"false\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"conditions\", \"#text\": \"performance\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"L'exécution des prestations débute à compter de la date de notification du contrat.\\nAucune clause de garantie financière prévue.\\nLe contrat prévoit le versement d'une avance, sans obligation de constituer une garantie financière pour en bénéficier.\\nLes prix sont révisables.\\nLe paiement des prestations se fera dans le respect du délai global de paiement applicable à l'acheteur.\\nLa consultation comporte des conditions d'exécution à caractère environnemental détaillées au cahier des charges.\\nRessources propres du Département\"}}], \"cac:AwardingTerms\": {\"cac:AwardingCriterion\": {\"cac:SubordinateAwardingCriterion\": [{\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"40\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Valeur technique\"}}, {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"10\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Valeur environnementale\"}}, {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"50\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"price\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Prix des prestations\"}}]}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;IDM=1894741\"}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"4\"}}, \"cac:AppealTerms\": {\"cac:AppealInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0004\"}}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0003\"}}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"false\", \"cbc:ElectronicPaymentUsageIndicator\": \"false\"}}, \"cac:TenderingProcess\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:AccessToolName\": \"AW Solutions\"}}}}, \"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"false\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-12-03+01:00\", \"cbc:EndTime\": \"12:00:00+01:00\"}, \"cac:OpenTenderEvent\": {\"cbc:OccurrenceDate\": \"2026-12-03+01:00\", \"cbc:OccurrenceTime\": \"00:00:00+01:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:FrameworkAgreement\": {\"cbc:MaximumOperatorQuantity\": \"1\"}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"fa-wo-rc\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": {\"@schemeName\": \"InternalID\", \"#text\": \"02\"}, \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Formation à la maîtrise de l'art du prompting\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Formation à la maîtrise de l'art du prompting\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:ProcurementAdditionalType\": {\"cbc:ProcurementTypeCode\": {\"@listName\": \"environmental-impact\", \"#text\": \"other\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"80511000\"}}, \"cac:AdditionalCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"80511000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Territoire du département de la Savoie - 73000 - Chambéry\"}, \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK27\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:StartDate\": \"2027-03-01+01:00\", \"cbc:EndDate\": \"2028-02-29+01:00\"}, \"cac:ContractExtension\": {\"cbc:MaximumNumberNumeric\": \"3\", \"cac:Renewal\": {\"cac:Period\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Le contrat  est susceptible d'être reconduit dans les conditions du cahier des charges. Pour chaque lot, la  période initiale débutera à compter de la notification du contrat\"}}}}}}]}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-103940",
       "_source_categories": [
         "IA"
       ],
       "score": 2.5,
-      "category": "Digital",
+      "category": "IA",
       "categories": [
-        "Digital",
         "IA"
       ],
-      "category_color": "#1D4ED8",
+      "category_color": "#7C3AED",
       "budget": null,
-      "days_left": 213,
-      "match_pct": 60,
-      "match_detail": "MigratorFlow",
+      "days_left": 37,
+      "match_pct": 54,
+      "match_detail": "IA Générative & Agentique · E-commerce & Digital · Intelligence Artificielle · Ia · Ia Générative · Dev Brain",
       "tier": "medium",
-      "ao_type": "DevOps/CI-CD",
-      "ao_legitimacy": 4,
+      "ao_type": "Dev IA/ML/GenAI",
+      "ao_legitimacy": 5,
       "matched_products": [
         {
-          "label": "MigratorFlow",
-          "description": "Plateforme de migration IA (Data, ETL, BDD, Cloud) — accélérateur interne transférable"
+          "label": "Dev Brain",
+          "description": "Assistant IA de développement — accélérateur vibe coding, formation & autonomisation équipes"
         }
       ],
-      "matched_rex": [],
-      "matched_tech": [],
-      "matched_expertises": [],
+      "matched_rex": [
+        {
+          "label": "Sephora — Agent IA multi-agents, compliance-first",
+          "sector": "Luxe & Retail",
+          "duration": "1+ an"
+        }
+      ],
+      "matched_tech": [
+        "intelligence artificielle",
+        "ia",
+        "ia générative"
+      ],
+      "matched_expertises": [
+        "IA Générative & Agentique",
+        "E-commerce & Digital"
+      ],
       "matched_delivery": [],
       "matched_profils": [],
       "relevance_summary": [
-        "Objet : Services de Développement",
-        "Acheteur : Somme Numérique",
-        "Type d'AO \"DevOps/CI-CD\" : forte légitimité Harington",
-        "Produit applicable : MigratorFlow — Plateforme de migration IA (Data, ETL, BDD, Cloud) — accélérateur interne transférable",
-        "Zone géographique : Dept. 80",
-        "Date limite de réponse : 2027-05-28",
-        "Descripteurs BOAMP : Logiciel"
+        "Objet : Prestations de formation des agents du Département de la Savoie aux outils d'intelligence artificielle générative (IAG)",
+        "Acheteur : Département de la Savoie",
+        "Type d'AO \"Dev IA/ML/GenAI\" : forte légitimité Harington",
+        "Stack technique : Intelligence Artificielle, Ia, Ia Générative",
+        "Expertises matchées : IA Générative & Agentique, E-commerce & Digital",
+        "Produit applicable : Dev Brain — Assistant IA de développement — accélérateur vibe coding, formation & autonomisation équipes",
+        "REX sectoriel : Sephora — Agent IA multi-agents, compliance-first (Luxe & Retail, 1+ an)"
       ],
-      "geo_label": "Dept. 80",
+      "geo_label": "Dept. 73",
       "deep_analysis": null,
       "breakdown": {
-        "stack_match": 3.0,
+        "stack_match": 2.7,
         "stack_sub": {
-          "tech_stack": 1,
+          "tech_stack": 4,
           "products": 3,
-          "expertises": 1.5,
+          "expertises": 3.5,
           "delivery": 1,
           "profils": 1
         },
-        "deadline": 1.0,
+        "deadline": 2.0,
         "budget": 3.0,
         "geo": 2.0
       }
