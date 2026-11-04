@@ -1,9 +1,9 @@
 {
   "date": "2026-11-04",
-  "total_fetched": 145,
-  "total_scored": 92,
-  "filtered_count": 53,
-  "priority_count": 18,
+  "total_fetched": 150,
+  "total_scored": 95,
+  "filtered_count": 55,
+  "priority_count": 19,
   "preferences": {
     "genere_le": "2026-10-27",
     "traits": 0,
@@ -3931,6 +3931,225 @@
         "deadline": 3.5,
         "budget": 3.0,
         "geo": 5.0
+      }
+    },
+    {
+      "idweb": "26-106736",
+      "id": "26_106736",
+      "contractfolderid": "5f49d283-df07-463f-baf6-9af9dc09ba6f",
+      "objet": "ASSISTANCE À MAÎTRISE D'OUVRAGE POUR LE CONTRÔLE ET LE SUIVI DES PRESTATIONS DE RESTAURATION SCOLAIRE EN RÉGIE DIRECTE DANS LES COLLÈGES PUBLICS DE LA MÉTROPOLE DE LYON",
+      "filename": "26-106736",
+      "famille": "JOUE",
+      "code_departement": [
+        "69"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés européens",
+      "dateparution": "2026-11-04",
+      "datefindiffusion": "2026-12-04",
+      "datelimitereponse": "2026-12-04T16:00:00+00:00",
+      "nomacheteur": "GRANDLYON Métropole",
+      "titulaire": null,
+      "perimetre": "DIRECTIVE-24",
+      "type_procedure": "OUVERT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Ouverte",
+      "procedure_categorise": "OUVERT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": "STANDARD",
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": [
+        "environnementaux"
+      ],
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "21"
+      ],
+      "dc": [
+        "21"
+      ],
+      "descripteur_libelle": [
+        "Audit"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-106736\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"GRANDLYON Métropole\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-11-04\", \"DATE_LIMITE_REPONSE\": \"2026-12-04T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2026-12-04\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"21\", \"LIBELLE\": \"Audit\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"69\", \"RESUME_OBJET\": \"ASSISTANCE À MAÎTRISE D'OUVRAGE POUR LE CONTRÔLE ET LE SUIVI DES PRESTATIONS DE RESTAURATION SCOLAIRE EN RÉGIE DIRECTE DANS LES COLLÈGES PUBLICS DE LA MÉTROPOLE DE LYON\"}}",
+      "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"16\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efac:Company\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0001\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Avenue-Web Systèmes\"}}, \"cac:PostalAddress\": {\"cbc:CityName\": \"Seyssinet-Pariset\", \"cbc:PostalZone\": \"38170\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK24\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"4F50860A-C282-A613-6822F8E7D2DC4651\"}}, \"cac:Contact\": {\"cbc:Telephone\": \"+33480041260\", \"cbc:ElectronicMail\": \"publications-joue@aws-france.com\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"http://www.grandlyon.com\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0002\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"GRANDLYON Métropole\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"20 rue du Lac\", \"cbc:AdditionalStreetName\": \"Cs 33569\", \"cbc:CityName\": \"Lyon\", \"cbc:PostalZone\": \"69505\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK26\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"54465\"}}, \"cac:Contact\": {\"cbc:Name\": \"La Présidente\", \"cbc:Telephone\": \"0478634040\", \"cbc:ElectronicMail\": \"scp-assistance@grandlyon.com\"}}}, {\"efac:Company\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0003\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Hotel de Métropole\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"20 rue du Lac\", \"cbc:CityName\": \"Lyon\", \"cbc:PostalZone\": \"69003\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK26\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"4F508646-FEE4-F48C-A9309EAF9AB223E6\"}}, \"cac:Contact\": {\"cbc:Name\": \"Service commande publique DSHE\", \"cbc:Telephone\": \"0478634040\", \"cbc:ElectronicMail\": \"dshe_commande_publique@grandlyon.com\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"https://www.telerecours.fr\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0004\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal administratif de Lyon\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"184 rue Duguesclin\", \"cbc:CityName\": \"Lyon\", \"cbc:PostalZone\": \"69433\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK26\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"4F508676-D6E0-A5E6-FA7779A51DA9FFC6\"}}, \"cac:Contact\": {\"cbc:Telephone\": \"0487635000\", \"cbc:Telefax\": \"0487635250\", \"cbc:ElectronicMail\": \"greffe.ta-lyon@juradm.fr\"}}}, {\"efac:Company\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0005\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal administratif de Lyon\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"184, rue Duguesclin\", \"cbc:CityName\": \"Lyon\", \"cbc:PostalZone\": \"69433\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK26\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": {\"@schemeName\": \"eu\", \"#text\": \"4F508691-CE21-F880-3B9B8515CB56171B\"}}, \"cac:Contact\": {\"cbc:Telephone\": \"0478141010\", \"cbc:Telefax\": \"0478141065\", \"cbc:ElectronicMail\": \"greffe.ta-lyon@juradm.fr\"}}}]}}}}}, \"cbc:UBLVersionID\": \"2.3\", \"cbc:CustomizationID\": \"eforms-sdk-1.13\", \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"02e4cda3-ee5a-4eb5-800b-3f06ac4516a4\"}, \"cbc:ContractFolderID\": \"5f49d283-df07-463f-baf6-9af9dc09ba6f\", \"cbc:IssueDate\": \"2026-11-03+01:00\", \"cbc:IssueTime\": \"14:10:10+01:00\", \"cbc:VersionID\": \"01\", \"cbc:RegulatoryDomain\": \"32014L0024\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": \"FRA\", \"cac:ContractingParty\": {\"cbc:BuyerProfileURI\": \"http://www.marchespublics.grandlyon.com\", \"cac:ContractingPartyType\": {\"cbc:PartyTypeCode\": {\"@listName\": \"buyer-legal-type\", \"#text\": \"la\"}}, \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"authority-activity\", \"#text\": \"gen-pub\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0002\"}}, \"cac:ServiceProviderParty\": {\"cbc:ServiceTypeCode\": {\"@listName\": \"organisation-role\", \"#text\": \"ted-esen\"}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0001\"}}}}}}, \"cac:TenderingTerms\": {\"cac:TendererQualificationRequest\": {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-procurement-document\"}}}}, \"cac:TenderingProcess\": {\"cbc:ProcedureCode\": {\"@languageID\": \"FRA\", \"@listName\": \"procurement-procedure-type\", \"#text\": \"open\"}, \"cac:ProcessJustification\": {\"cbc:ProcessReasonCode\": {\"@listName\": \"accelerated-procedure\", \"#text\": \"false\"}}}, \"cac:ProcurementProject\": {\"cbc:ID\": \"26DSHE57\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"ASSISTANCE À MAÎTRISE D'OUVRAGE POUR LE CONTRÔLE ET LE SUIVI DES PRESTATIONS DE RESTAURATION SCOLAIRE EN RÉGIE DIRECTE DANS LES COLLÈGES PUBLICS DE LA MÉTROPOLE DE LYON\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Il s'agit d'un appel d'offre ouvert passé sous la forme d'un accord cadre à bon de commande mono attributaire avec des prix mixtes d'une durée de 2 ans, reconductible une fois et avec un engagement minimum de 85.000,00  euro(s)  HT et 250.000,00  euro(s)  HT sur la période ferme. Les montants sont identiques pour la période reconductible. Toutes les prestations sont clairement définies dans le CCTP\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:RequestedTenderTotal\": {\"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"500000\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"79212000\"}}, \"cac:AdditionalCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"79212000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK26\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0000\"}, \"cac:TenderingTerms\": {\"cbc:VariantConstraintCode\": {\"@listName\": \"permission\", \"#text\": \"not-allowed\"}, \"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cbc:RecurringProcurementIndicator\": \"false\", \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"1898177\", \"cbc:DocumentType\": \"non-restricted-document\", \"cbc:LanguageID\": \"FRA\", \"cbc:DocumentStatusCode\": {\"@listName\": \"linguistic-status\", \"#text\": \"official\"}, \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1898177\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-procurement-document\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"esignature-submission\", \"#text\": \"false\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"conditions\", \"#text\": \"performance\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Le marché prévoit une clause social et environnementale + un critère prévu à l'article 16 du CCAG\"}}], \"cac:AwardingTerms\": {\"cac:AwardingCriterion\": {\"cac:SubordinateAwardingCriterion\": [{\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"55\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"valeur technique\"}}, {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"10\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"quality\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Performance en matière de protection de l'environnement\"}}, {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:AwardCriterionParameter\": {\"efbc:ParameterCode\": {\"@listName\": \"number-weight\", \"#text\": \"per-exa\"}, \"efbc:ParameterNumeric\": \"35\"}}}}}, \"cbc:AwardingCriterionTypeCode\": {\"@listName\": \"award-criterion-type\", \"#text\": \"price\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"prix des prestations\"}}]}}, \"cac:AdditionalInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"touchpoint\", \"#text\": \"ORG-0003\"}}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;IDM=1898177\"}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"7\"}}, \"cac:AppealTerms\": {\"cac:AppealInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0005\"}}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0004\"}}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"false\", \"cbc:ElectronicPaymentUsageIndicator\": \"false\"}}, \"cac:TenderingProcess\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:AccessToolName\": \"AW Solutions\"}}}}, \"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"true\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-12-04+01:00\", \"cbc:EndTime\": \"17:00:00+01:00\"}, \"cac:OpenTenderEvent\": {\"cbc:OccurrenceDate\": \"2026-12-07+01:00\", \"cbc:OccurrenceTime\": \"08:00:00+01:00\", \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"La ou les représentants du pouvoir adjudicateur\"}, \"cac:OccurenceLocation\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Métropole de Lyon\"}}}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"none\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": {\"@schemeName\": \"InternalID\", \"#text\": \"S-PF-1898177\"}, \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"ASSISTANCE À MAÎTRISE D'OUVRAGE POUR LE CONTRÔLE ET LE SUIVI DES PRESTATIONS DE RESTAURATION SCOLAIRE EN RÉGIE DIRECTE DANS LES COLLÈGES PUBLICS DE LA MÉTROPOLE DE LYON\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Il s'agit d'un appel d'offre ouvert passé sous la forme d'un accord cadre à bon de commande mono attributaire avec des prix mixtes d'une durée de 2 ans, reconductible une fois et avec un engagement minimum de 85.000,00  euro(s)  HT et 250.000,00  euro(s)  HT sur la période ferme. Les montants sont identiques pour la période reconductible. Toutes les prestations sont clairement définies dans le CCTP\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:ProcurementAdditionalType\": {\"cbc:ProcurementTypeCode\": {\"@listName\": \"environmental-impact\", \"#text\": \"other\"}}, \"cac:RequestedTenderTotal\": {\"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"500000\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"79212000\"}}, \"cac:AdditionalCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"79212000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:StreetName\": \"térritoire de la métropole de Lyon\", \"cbc:CityName\": \"Lyon\", \"cbc:PostalZone\": \"69000\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRK26\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:StartDate\": \"2027-04-01+02:00\", \"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"48\"}}, \"cac:ContractExtension\": {\"cbc:MaximumNumberNumeric\": \"1\", \"cac:Renewal\": {\"cac:Period\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Marché reconductible 1 fois pour une durée de deux ans dans les mêmes conditions que la période ferme\"}}}}}}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-106736",
+      "_source_categories": [
+        "CDS"
+      ],
+      "score": 4.0,
+      "category": "IA",
+      "categories": [
+        "IA",
+        "CDS"
+      ],
+      "category_color": "#7C3AED",
+      "budget": null,
+      "days_left": 30,
+      "match_pct": 100,
+      "match_detail": "Régie / AT · MOA / AMOA",
+      "tier": "high",
+      "ao_type": "Dev IA/ML/GenAI",
+      "ao_legitimacy": 5,
+      "matched_products": [],
+      "matched_rex": [],
+      "matched_tech": [],
+      "matched_expertises": [],
+      "matched_delivery": [
+        "Régie / AT"
+      ],
+      "matched_profils": [
+        "MOA / AMOA"
+      ],
+      "relevance_summary": [
+        "Objet : ASSISTANCE À MAÎTRISE D'OUVRAGE POUR LE CONTRÔLE ET LE SUIVI DES PRESTATIONS DE RESTAURATION SCOLAIRE EN RÉGIE DIRECTE DANS LES COLLÈGES PUBLICS DE LA",
+        "Acheteur : GRANDLYON Métropole",
+        "Type d'AO \"Dev IA/ML/GenAI\" : forte légitimité Harington",
+        "Mode de delivery : Régie / AT",
+        "Profils demandés : MOA / AMOA",
+        "Zone géographique : Dept. 69",
+        "Date limite de réponse : 2026-12-04"
+      ],
+      "geo_label": "Dept. 69",
+      "deep_analysis": {
+        "fit_summary": "Adéquation partielle — score élevé grâce aux synergies. Valider le positionnement.",
+        "ao_assessment": "Type d'AO \"Dev IA/ML/GenAI\" — forte légitimité Harington, historique de succès sur ce segment",
+        "recommendation": "GO — Forte adéquation. Préparer le dossier en anticipation.",
+        "stack_match_score": 5.0,
+        "dimensions": [
+          {
+            "key": "tech_stack",
+            "label": "Stack Technique",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 30,
+            "contribution": 0.3,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "products",
+            "label": "Accélérateurs & Offres",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 15,
+            "contribution": 0.15,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "expertises",
+            "label": "Expertises",
+            "score": 1.5,
+            "score_label": "Marginal",
+            "weight_pct": 20,
+            "contribution": 0.3,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "delivery",
+            "label": "Modes de Delivery",
+            "score": 3,
+            "score_label": "Correct",
+            "weight_pct": 20,
+            "contribution": 0.6,
+            "items": [
+              "Régie / AT"
+            ],
+            "status": "good"
+          },
+          {
+            "key": "profils",
+            "label": "Profils Consultants",
+            "score": 3,
+            "score_label": "Correct",
+            "weight_pct": 15,
+            "contribution": 0.45,
+            "items": [
+              "MOA / AMOA"
+            ],
+            "status": "good"
+          }
+        ],
+        "context_dims": [
+          {
+            "label": "Échéance",
+            "score": 3.5,
+            "score_label": "Bon",
+            "detail": "J-30",
+            "weight_pct": 20
+          },
+          {
+            "label": "Budget",
+            "score": 3.0,
+            "score_label": "Correct",
+            "detail": "Non communiqué",
+            "weight_pct": 20
+          },
+          {
+            "label": "Géographie",
+            "score": 2.0,
+            "score_label": "Faible",
+            "detail": "Dept. 69",
+            "weight_pct": 10
+          }
+        ],
+        "strengths": [],
+        "gaps": [
+          {
+            "dimension": "Stack Technique",
+            "score": 1,
+            "recommendation": "Stack non explicitement mentionnée dans l'AO — vérifier le CCTP pour identifier les technos requises"
+          },
+          {
+            "dimension": "Accélérateurs & Offres",
+            "score": 1,
+            "recommendation": "Aucun accélérateur Harington directement applicable — positionner les outils internes comme avantage concurrentiel dans le mémoire technique"
+          },
+          {
+            "dimension": "Expertises",
+            "score": 1.5,
+            "recommendation": "Domaine d'expertise non détecté — identifier l'angle métier dans le CCTP et mapper vers les REX Harington"
+          }
+        ],
+        "synergies": [
+          "Delivery + Profils : capacité de staffing confirmée (mise à disposition de ressources)"
+        ],
+        "confidence": "1 synergies détectées, type d'AO à forte légitimité",
+        "rex": [],
+        "products_applicable": []
+      },
+      "breakdown": {
+        "stack_match": 5.0,
+        "stack_sub": {
+          "tech_stack": 1,
+          "products": 1,
+          "expertises": 1.5,
+          "delivery": 3,
+          "profils": 3
+        },
+        "deadline": 3.5,
+        "budget": 3.0,
+        "geo": 2.0
       }
     },
     {
@@ -11138,6 +11357,113 @@
       }
     },
     {
+      "idweb": "26-106397",
+      "id": "26_106397",
+      "contractfolderid": "8ebededd-3e65-45f0-afce-66cf46f1e7c4",
+      "objet": "Prestations d’agence de voyage pour la Régie Personnalisée Opéra National de Bordeaux",
+      "filename": "26-106397",
+      "famille": "JOUE",
+      "code_departement": [
+        "33"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés européens",
+      "dateparution": "2026-11-04",
+      "datefindiffusion": "2026-12-02",
+      "datelimitereponse": "2026-12-02T11:00:00+00:00",
+      "nomacheteur": "Opéra National de Bordeaux",
+      "titulaire": null,
+      "perimetre": "DIRECTIVE-24",
+      "type_procedure": "OUVERT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Ouverte",
+      "procedure_categorise": "OUVERT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": "STANDARD",
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": null,
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "367"
+      ],
+      "dc": [
+        "367"
+      ],
+      "descripteur_libelle": [
+        "Voyage"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-106397\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Opéra National de Bordeaux\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-11-04\", \"DATE_LIMITE_REPONSE\": \"2026-12-02T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2026-12-02\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"367\", \"LIBELLE\": \"Voyage\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"DEP_PUBLICATION\": \"33\", \"RESUME_OBJET\": \"Prestations d’agence de voyage pour la Régie Personnalisée Opéra National de Bordeaux\"}}",
+      "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"16\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efac:Company\": {\"cbc:WebsiteURI\": \"https://www.opera-bordeaux.com/\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0001\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Opéra National de Bordeaux\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"Place de la Comédie\", \"cbc:CityName\": \"Bordeaux cedex\", \"cbc:PostalZone\": \"33025\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts-lvl3\", \"#text\": \"FRI12\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"44042396000010\"}, \"cac:Contact\": {\"cbc:Name\": \"Julie GAUVREAU\", \"cbc:Telephone\": \"+33 556007871\", \"cbc:ElectronicMail\": \"j.gauvreau@onb.fr\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"https://bordeaux.tribunal-administratif.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0002\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal Administratif de Bordeaux\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"9 rue Tastet\", \"cbc:CityName\": \"Birdeaux\", \"cbc:PostalZone\": \"33000\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts-lvl3\", \"#text\": \"FRI12\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"17330005400025\"}}}]}}}}}, \"cbc:UBLVersionID\": \"2.3\", \"cbc:CustomizationID\": \"eforms-sdk-1.13\", \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"2b87411c-2389-4ce4-897d-9842f92abce1\"}, \"cbc:ContractFolderID\": \"8ebededd-3e65-45f0-afce-66cf46f1e7c4\", \"cbc:IssueDate\": \"2026-11-02+01:00\", \"cbc:IssueTime\": \"16:18:21+01:00\", \"cbc:VersionID\": \"01\", \"cbc:RegulatoryDomain\": \"32014L0024\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": {\"@listName\": \"eu-official-language\", \"#text\": \"FRA\"}, \"cac:ContractingParty\": {\"cac:ContractingPartyType\": {\"cbc:PartyTypeCode\": {\"@listName\": \"buyer-legal-type\", \"#text\": \"body-pl\"}}, \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"authority-activity\", \"#text\": \"rcr\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}}, \"cac:TenderingTerms\": {\"cac:TendererQualificationRequest\": {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-sub-espd\"}}}}, \"cac:TenderingProcess\": {\"cbc:ProcedureCode\": {\"@listName\": \"procurement-procedure-type\", \"#text\": \"open\"}, \"cac:ProcessJustification\": {\"cbc:ProcessReasonCode\": {\"@listName\": \"accelerated-procedure\", \"#text\": \"false\"}}}, \"cac:ProcurementProject\": {\"cbc:ID\": \"202605\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Prestations d’agence de voyage pour la Régie Personnalisée Opéra National de Bordeaux\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"La présente consultation a pour objet des prestations d’agence de voyages pour la Régie Personnalisée Opéra National de Bordeaux. La description des prestations attendues et leurs spécifications sont précisées dans le Cahier des Clauses Techniques Particulières (CCTP).\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"63000000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:CountrySubentityCode\": {\"@listName\": \"nuts-lvl3\", \"#text\": \"FRI12\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0001\"}, \"cac:TenderingTerms\": {\"cbc:VariantConstraintCode\": {\"@listName\": \"permission\", \"#text\": \"not-allowed\"}, \"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cbc:RecurringProcurementIndicator\": \"false\", \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"1\", \"cbc:DocumentType\": \"non-restricted-document\", \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://demat-ampa.fr/entreprise/consultation/611587?orgAcronyme=ONBA\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-sub-espd\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"conditions\", \"#text\": \"performance\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"esignature-submission\", \"#text\": \"false\"}}], \"cac:AdditionalInformationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}, \"cac:DocumentProviderParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://demat-ampa.fr/entreprise/consultation/611587?orgAcronyme=ONBA\", \"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}, \"cac:TenderEvaluationParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0001\"}}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"DAY\", \"#text\": \"210\"}}, \"cac:AppealTerms\": {\"cac:PresentationPeriod\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"voir documents de la consultation\"}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": \"ORG-0002\"}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"false\", \"cbc:ElectronicPaymentUsageIndicator\": \"false\"}}, \"cac:TenderingProcess\": {\"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"true\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-12-02+01:00\", \"cbc:EndTime\": \"12:00:00+01:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:FrameworkAgreement\": {\"cbc:MaximumOperatorQuantity\": \"1\"}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"fa-wo-rc\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": \"0\", \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Prestations d’agence de voyage pour la Régie Personnalisée Opéra National de Bordeaux\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"La présente consultation a pour objet des prestations d’agence de voyages pour la Régie Personnalisée Opéra National de Bordeaux. La description des prestations attendues et leurs spécifications sont précisées dans le Cahier des Clauses Techniques Particulières (CCTP).\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cbc:SMESuitableIndicator\": \"true\", \"cac:RequestedTenderTotal\": {\"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"270000.0\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"63000000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:CountrySubentityCode\": {\"@listName\": \"nuts-lvl3\", \"#text\": \"FRI12\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"12\"}}, \"cac:ContractExtension\": {\"cbc:MaximumNumberNumeric\": \"3\", \"cac:Renewal\": {\"cac:Period\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Il peut être reconduit deux (2) fois par reconduction tacite pour une durée d’un (1) an à chaque fois. La durée totale du marché ne peut excéder trois (3) ans.\"}}}}}}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-106397",
+      "_source_categories": [
+        "CDS"
+      ],
+      "score": 2.5,
+      "category": "Digital",
+      "categories": [
+        "Digital",
+        "CDS"
+      ],
+      "category_color": "#1D4ED8",
+      "budget": null,
+      "days_left": 28,
+      "match_pct": 30,
+      "match_detail": "Régie / AT",
+      "tier": "low",
+      "ao_type": "Assistance technique / Régie",
+      "ao_legitimacy": 4,
+      "matched_products": [],
+      "matched_rex": [],
+      "matched_tech": [],
+      "matched_expertises": [],
+      "matched_delivery": [
+        "Régie / AT"
+      ],
+      "matched_profils": [],
+      "relevance_summary": [
+        "Objet : Prestations d’agence de voyage pour la Régie Personnalisée Opéra National de Bordeaux",
+        "Acheteur : Opéra National de Bordeaux",
+        "Type d'AO \"Assistance technique / Régie\" : forte légitimité Harington",
+        "Mode de delivery : Régie / AT",
+        "Zone géographique : Dept. 33",
+        "Date limite de réponse : 2026-12-02",
+        "Descripteurs BOAMP : Voyage"
+      ],
+      "geo_label": "Dept. 33",
+      "deep_analysis": null,
+      "breakdown": {
+        "stack_match": 1.5,
+        "stack_sub": {
+          "tech_stack": 1,
+          "products": 1,
+          "expertises": 1.5,
+          "delivery": 3,
+          "profils": 1
+        },
+        "deadline": 3.5,
+        "budget": 3.0,
+        "geo": 2.0
+      }
+    },
+    {
       "idweb": "26-106251",
       "id": "26_106251",
       "contractfolderid": "b586b639-9d3b-454a-831f-a1469d69fc6e",
@@ -12032,6 +12358,120 @@
         },
         "deadline": 4.0,
         "budget": 2,
+        "geo": 2.0
+      }
+    },
+    {
+      "idweb": "26-107043",
+      "id": "26_107043",
+      "contractfolderid": null,
+      "objet": "Formations aux permis de conduire routiers (BE, C, CE) et d'embarcations (mers et fluviaux) pour le SDIS de Saône-et-Loire",
+      "filename": "26-107043",
+      "famille": "FNS",
+      "code_departement": [
+        "71"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+      "dateparution": "2026-11-04",
+      "datefindiffusion": "2026-12-01",
+      "datelimitereponse": "2026-11-30T12:00:00+00:00",
+      "nomacheteur": "SDIS de Saône-et-Loire",
+      "titulaire": null,
+      "perimetre": "FNSimple",
+      "type_procedure": "OUVERT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Ouverte",
+      "procedure_categorise": "OUVERT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": null,
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": [
+        "environnementaux"
+      ],
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "410"
+      ],
+      "dc": [
+        "410"
+      ],
+      "descripteur_libelle": [
+        "Formation"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-107043\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"SDIS de Saône-et-Loire\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-11-04\", \"DATE_LIMITE_REPONSE\": \"2026-11-30T12:00:00\", \"DATE_FIN_DIFFUSION\": \"2026-12-01\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"410\", \"LIBELLE\": \"Formation\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"71\", \"RESUME_OBJET\": \"Formations aux permis de conduire routiers (BE, C, CE) et d'embarcations (mers et fluviaux) pour le SDIS de Saône-et-Loire\"}}",
+      "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"SDIS de Saône-et-Loire\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"28710001000019\", \"ville\": \"Sancé\", \"cp\": \"71000\", \"grpCommandes\": {\"non\": \"\"}}, \"initial\": {\"communication\": {\"urlProfilAch\": \"https://marches.ternum-bfc.fr/?page=Entreprise.EntrepriseAdvancedSearch&AllCons&id=695921&orgAcronyme=q9t\", \"identifiantInterne\": \"2026_permis_conduite\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"non\": \"\"}, \"nomContact\": \"Marcel CHABLIS\", \"adresseMailContact\": \"service.marches@sdis71.fr\", \"telContact\": \"0385353732\"}, \"procedure\": {\"procedureAdapteeO\": \"\", \"capaciteExercice\": \"- justification de l'inscription sur un registre professionnel (RCS, RM notamment)\\nLes entreprises créées après le 31 décembre de l'année précédente devront produire un récépissé de dépôt auprès du centre de formalité des entreprises ;\\n- déclaration de non-exclusion des marchés publics : Déclaration sur l'honneur certifiant que l'opérateur n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles L.2141-1 à L.2141-5 et L.2141-7 à L.2141-11 du Code de la commande publique\", \"capaciteEcoFin\": \"- déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles, en fonction de la date de création ou du début d'activité de l'opérateur économique.\", \"capaciteTech\": \"- présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique ;\\n- agrément préfectoral permettant l’exploitation d’un établissement d’enseignement\\nde la conduite de véhicules à moteur\", \"techAchat\": {\"accordCadre\": \"\"}, \"dateReceptionOffres\": \"2026-11-30T12:00:00\", \"presOffres\": {\"interdite\": \"\"}, \"nbCandidatReduit\": {\"non\": \"\"}, \"attributionSansNegociation\": {\"oui\": \"\"}, \"variantes\": {\"non\": \"\"}, \"categorieAcheteur\": \"SDIS de Saône-et-Loire\"}, \"natureMarche\": {\"intitule\": \"Formations aux permis de conduire routiers (BE, C, CE) et d'embarcations (mers et fluviaux) pour le SDIS de Saône-et-Loire\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"80411000\"}}, \"natureMarche\": {\"services\": \"\"}, \"description\": \"Le contrat porte sur les prestations de : formations aux permis de conduire routiers (BE, C, CE) et d'embarcations (mers et fluviaux) pour le SDIS de Saône-et-Loire.\\nLe SDIS de Saône-et-Loire inscrit, chaque année, à son plan de formation, des formations pour l’acquisition du permis C, du permis BE, du permis CE et du permis bateau avec « option eaux intérieures » et « option côtière » au bénéfice de ses sapeurs-pompiers professionnels et volontaires. Ces formations sont indispensables au maintien et au développement du vivier de conducteurs adaptés aux besoins d’engagement opérationnel du service\", \"lieuExecution\": \"4 rue des Grandes Varennes, 71000 sancé\", \"tranches\": {\"non\": \"\"}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"oui\": \"\"}}, \"lots\": {\"lot\": [{\"description\": \"Permis routiers BE, C et CE\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"80411000\"}}, \"lieuExecutionLivraison\": \"4 rue des Grandes Varennes, 71000 Sancé\"}, {\"description\": \"Permis bateau « option eaux intérieures » et « option côtière »\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"80411000\"}}, \"lieuExecutionLivraison\": \"4 rue des Grandes Varennes, 71000 Sancé\"}]}, \"informComplementaire\": {\"non\": \"\", \"autresInformComplementaire\": \"Toutes questions des opérateurs économiques qui seraient nécessaires à la préparation des propositions devront être formulées par écrit via la plateforme électronique https://marches.ternum-bfc.fr\\nLes opérateurs économiques doivent poser les questions au plus tard 10 jours avant la date limite de remise des offres. En cas de difficultés concernant l'utilisation de la plateforme, les opérateurs peuvent joindre le service support de la plateforme ARNIA ou le service commande publique du SDIS de Saône-et-Loire.\\nEn cas de difficultés concernant l'utilisation de la plateforme, les opérateurs peuvent joindre le service support de la plateforme ARNIA ou le service commande publique du SDIS de Saône-et-Loire.\\nLa forme retenue pour l'exécution du contrat est un accord-cadre à bons de commande sans montant minimum et avec montant maximum par période contractuelle (lot n°1 : 37 000 Euros HT, lot n°2 : 8 000 Euros HT), mono-attributaire, en application des articles R2162-2 et suivants du code de la commande publique (CCP).\\nLes offres seront jugées selon la grille de critères indiquée dans le règlement de consultation.\\nLes candidats sont invités à remettre d'emblée leur meilleure proposition. L'acheteur se réserve la possibilité d'engager des négociations dans les conditions prévues au règlement de consultation.\\nLe délai de validité des offres est de 180 jours à compter de la date limite de réception des offres. En cas de nécessité, le service pourra demander à tous les soumissionnaires de renouveler ou de prolonger la durée de validité de leur offre.\\nLe marché est conclu à compter de la notification du contrat. Les parties sont engagées juridiquement l'une envers l'autre dès cette date.\\nLes prestations débuteront à partir du 1er janvier 2027 (ou à la date notification si celle-ci est postérieure) et s'achèveront, pour la période initiale, le 31 décembre 2027. Le marché est reconductible tacitement 3 fois par période d'un an.\\nBudget de l'acheteur - Facture électronique exclusivement sur https://chorus-pro.gouv.fr - Délai de 30 jours \\navance : sans objet.\\nLes recours contentieux ouverts aux candidats sont les suivants :\\n- référé précontractuel avant la signature du contrat (articles L.551-1 à 12 du code de justice administrative) ;\\n- référé contractuel après la signature du contrat, dans les 31 jours qui suivent la publication de l'avis\\nd'attribution du contrat, ou, à défaut d'un tel avis, dans les six mois qui suivent la date de conclusion de celui-ci (dans les conditions décrites aux articles L.551-13 à 23 du même code) ;\\n- recours en contestation de la validité du contrat, conformément à la décision du Conseil d'État du 4 avril 2014 n° 358994 « Tarn et Garonne », dans un délai de 2 mois à compter de la publication de l'avis\\nd'attribution ou à défaut de toute autre mesure de publicité concernant la conclusion du contrat.\\nLes particuliers et les personnes morales de droit privé peuvent saisir la juridiction administrative via le site www.telerecours.fr\"}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-107043",
+      "_source_categories": [
+        "Digital"
+      ],
+      "score": 2.0,
+      "category": "Digital",
+      "categories": [
+        "Digital"
+      ],
+      "category_color": "#1D4ED8",
+      "budget": null,
+      "days_left": 26,
+      "match_pct": 27,
+      "match_detail": "E-commerce & Digital · REX Sephora — Agent IA multi-agents, compliance-first",
+      "tier": "low",
+      "ao_type": "Dev IA/ML/GenAI",
+      "ao_legitimacy": 5,
+      "matched_products": [],
+      "matched_rex": [
+        {
+          "label": "Sephora — Agent IA multi-agents, compliance-first",
+          "sector": "Luxe & Retail",
+          "duration": "1+ an"
+        }
+      ],
+      "matched_tech": [],
+      "matched_expertises": [
+        "E-commerce & Digital"
+      ],
+      "matched_delivery": [],
+      "matched_profils": [],
+      "relevance_summary": [
+        "Objet : Formations aux permis de conduire routiers (BE, C, CE) et d'embarcations (mers et fluviaux) pour le SDIS de Saône-et-Loire",
+        "Acheteur : SDIS de Saône-et-Loire",
+        "Type d'AO \"Dev IA/ML/GenAI\" : forte légitimité Harington",
+        "Expertises matchées : E-commerce & Digital",
+        "REX sectoriel : Sephora — Agent IA multi-agents, compliance-first (Luxe & Retail, 1+ an)",
+        "Zone géographique : Dept. 71",
+        "Date limite de réponse : 2026-11-30"
+      ],
+      "geo_label": "Dept. 71",
+      "deep_analysis": null,
+      "breakdown": {
+        "stack_match": 1.4,
+        "stack_sub": {
+          "tech_stack": 1,
+          "products": 1,
+          "expertises": 3,
+          "delivery": 1,
+          "profils": 1
+        },
+        "deadline": 3.5,
+        "budget": 3.0,
         "geo": 2.0
       }
     },
