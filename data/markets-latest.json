@@ -1,7 +1,7 @@
 {
   "date": "2026-11-09",
-  "total_fetched": 150,
-  "total_scored": 98,
+  "total_fetched": 151,
+  "total_scored": 99,
   "filtered_count": 52,
   "priority_count": 16,
   "preferences": {
@@ -12262,6 +12262,117 @@
           "tech_stack": 1,
           "products": 1,
           "expertises": 3,
+          "delivery": 1,
+          "profils": 1
+        },
+        "deadline": 3.5,
+        "budget": 3.0,
+        "geo": 2.0
+      }
+    },
+    {
+      "idweb": "26-108651",
+      "id": "26_108651",
+      "contractfolderid": null,
+      "objet": "Marché de location, installation, maintenance et fourniture des consommables de diffuseur de parfum pour le compte de la REGIE PARCS D’AZUR.",
+      "filename": "26-108651",
+      "famille": "FNS",
+      "code_departement": [
+        "6"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+      "dateparution": "2026-11-09",
+      "datefindiffusion": "2026-12-05",
+      "datelimitereponse": "2026-12-07T12:00:00+00:00",
+      "nomacheteur": "Régie Parcs d'Azur (06)",
+      "titulaire": null,
+      "perimetre": "FNSimple",
+      "type_procedure": "OUVERT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Ouverte",
+      "procedure_categorise": "OUVERT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": null,
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": null,
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "115"
+      ],
+      "dc": [
+        "115"
+      ],
+      "descripteur_libelle": [
+        "Equipements spécialisés"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-108651\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Régie Parcs d'Azur (06)\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-11-09\", \"DATE_LIMITE_REPONSE\": \"2026-12-07T12:00:00\", \"DATE_FIN_DIFFUSION\": \"2026-12-05\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"115\", \"LIBELLE\": \"Equipements spécialisés\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"DEP_PUBLICATION\": \"06\", \"RESUME_OBJET\": \"Marché de location, installation, maintenance et fourniture des consommables de diffuseur de parfum pour le compte de la REGIE PARCS D’AZUR.\"}}",
+      "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"Régie Parcs d'Azur (06)\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"83187208000013\", \"ville\": \"Nice Cedex 1\", \"cp\": \"06009\", \"grpCommandes\": {\"non\": \"\"}}, \"initial\": {\"communication\": {\"urlProfilAch\": \"https://www.marches-securises.fr\", \"identifiantInterne\": \"RPA260052\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"non\": \"\"}, \"nomContact\": \"MICHAUD\", \"adresseMailContact\": \"nicolas.michaud@parkingsdazur.fr\", \"telContact\": \"+33 489982644\"}, \"procedure\": {\"procedureAdapteeO\": \"\", \"capaciteExercice\": \"Lettre de candidature (DC1) ou équivalent ; complétée, datée et signée +  Déclaration du candidat (DC2) ou équivalent, complétée.+ Pouvoirs : Les documents relatifs aux pouvoirs des personnes habilitées à engager le candidat, si le signataire n'est pas le représentant légal.\", \"capaciteEcoFin\": \"Chiffres d'affaires : Déclaration concernant le chiffre d'affaires global réalisé au cours du dernier exercice disponible.\", \"capaciteTech\": \"Présentation d'une liste de principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé.Le candidat pourra prouver sa capacité par tout autre document considéré comme équivalent par le Pouvoir Adjudicateur s’il est objectivement dans l’impossibilité de produire l’un des renseignements demandés relatifs à sa capacité.\", \"techAchat\": {\"autres\": \"\"}, \"dateReceptionOffres\": \"2026-12-07T12:00:00\", \"presOffres\": {\"interdite\": \"\"}, \"nbCandidatReduit\": {\"non\": \"\"}, \"attributionSansNegociation\": {\"oui\": \"\"}, \"variantes\": {\"non\": \"\"}, \"criteresAttrib\": \"Critère n°1 : Le prix noté sur 20 points (60 %).Le prix sera jugé sur la base des prix figurant dans la Pièce Financière Unique (PFU). \\nCritère n°2 : La valeur technique noté sur 40 points (40 %).Sous-critère n°1 : Qualité de service, organisation et deploiement (10 points).Sous-critère 2 - Retrait des diffuseurs existants et installations (10 points).Sous-critère 3 - Les Délais (10 points).Sous-critère n°4 : Matériels, produits, sécurité et performances environnementales (10 points).En cas d'égalité de la note globale, c'est le candidat le mieux placé sur le critère prix qui sera attributaire du marché public.\"}, \"natureMarche\": {\"intitule\": \"Marché de location, installation, maintenance et fourniture des consommables de diffuseur de parfum pour le compte de la REGIE PARCS D’AZUR.\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"39811000\"}}, \"natureMarche\": {\"services\": \"\"}, \"description\": \"Le marché ne fait pas l'objet d'une décomposition en lot. Les prestations de l'accord-cadre avec bons de commande sont exécutées par l'émission de bons de commande successifs selon les besoins. Chaque bon de commande précise les prestations décrites dans l'accord-cadre dont l'exécution est demandée et en détermine la quantité. Les montants minimum et maximum sont :Montant minimum annuel HT :  5 000,00 EUR / Montant maximum annuel HT : 35 000,00 EUR.Le marché est conclu pour une période initiale de 1 an à compter de la date de notification. Le marché pourra faire l'objet de 3 reconductions sans que sa durée totale ne puisse excéder 4 ans.\", \"lieuExecution\": \"NICE FRANCE\", \"dureeMois\": \"12\", \"valeurEstimee\": {\"@devise\": \"EUR\", \"fourchette\": \"\"}, \"tranches\": {\"non\": \"\"}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"non\": \"\"}}, \"informComplementaire\": {\"non\": \"\"}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-108651",
+      "_source_categories": [
+        "CDS"
+      ],
+      "score": 2.0,
+      "category": "IA",
+      "categories": [
+        "IA",
+        "CDS"
+      ],
+      "category_color": "#7C3AED",
+      "budget": null,
+      "days_left": 28,
+      "match_pct": 21,
+      "match_detail": "REX Sephora — Agent IA multi-agents, compliance-first",
+      "tier": "low",
+      "ao_type": "Dev IA/ML/GenAI",
+      "ao_legitimacy": 5,
+      "matched_products": [],
+      "matched_rex": [
+        {
+          "label": "Sephora — Agent IA multi-agents, compliance-first",
+          "sector": "Luxe & Retail",
+          "duration": "1+ an"
+        }
+      ],
+      "matched_tech": [],
+      "matched_expertises": [],
+      "matched_delivery": [],
+      "matched_profils": [],
+      "relevance_summary": [
+        "Objet : Marché de location, installation, maintenance et fourniture des consommables de diffuseur de parfum pour le compte de la REGIE PARCS D’AZUR.",
+        "Acheteur : Régie Parcs d'Azur (06)",
+        "Type d'AO \"Dev IA/ML/GenAI\" : forte légitimité Harington",
+        "REX sectoriel : Sephora — Agent IA multi-agents, compliance-first (Luxe & Retail, 1+ an)",
+        "Zone géographique : Dept. 6",
+        "Date limite de réponse : 2026-12-07",
+        "Descripteurs BOAMP : Equipements spécialisés"
+      ],
+      "geo_label": "Dept. 6",
+      "deep_analysis": null,
+      "breakdown": {
+        "stack_match": 1.1,
+        "stack_sub": {
+          "tech_stack": 1,
+          "products": 1,
+          "expertises": 1.5,
           "delivery": 1,
           "profils": 1
         },
