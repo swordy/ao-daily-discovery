@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
-  "total_fetched": 143,
-  "total_scored": 95,
+  "total_fetched": 144,
+  "total_scored": 96,
   "filtered_count": 48,
   "priority_count": 18,
   "preferences": {
@@ -5581,6 +5581,254 @@
         "deadline": 3.5,
         "budget": 3.0,
         "geo": 5.0
+      }
+    },
+    {
+      "idweb": "26-109140",
+      "id": "26_109140",
+      "contractfolderid": null,
+      "objet": "Réalisation d'audits de conformité en matière d'accessibilité numérique des sites internet, intranet, extranets, applications web et applications mobiles de la collectivité ainsi q",
+      "filename": "26-109140",
+      "famille": "FNS",
+      "code_departement": [
+        "35"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+      "dateparution": "2026-11-10",
+      "datefindiffusion": "2026-12-14",
+      "datelimitereponse": "2026-12-14T12:00:00+00:00",
+      "nomacheteur": "Rennes Métropole",
+      "titulaire": null,
+      "perimetre": "FNSimple",
+      "type_procedure": "OUVERT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Ouverte",
+      "procedure_categorise": "OUVERT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": null,
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": [
+        "environnementaux"
+      ],
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "21",
+        "163"
+      ],
+      "dc": [
+        "21",
+        "163"
+      ],
+      "descripteur_libelle": [
+        "Audit",
+        "Informatique (prestations de services)"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-109140\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Rennes Métropole\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-11-10\", \"DATE_LIMITE_REPONSE\": \"2026-12-14T12:00:00\", \"DATE_FIN_DIFFUSION\": \"2026-12-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"21\", \"LIBELLE\": \"Audit\"}, {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}]}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"35\", \"RESUME_OBJET\": \"Réalisation d'audits de conformité en matière d'accessibilité numérique des sites internet, intranet, extranets, applications web et applications mobiles de la collectivité ainsi q\"}}",
+      "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"Rennes Métropole\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"24350013900189\", \"ville\": \"RENNES\", \"cp\": \"35031\", \"grpCommandes\": {\"non\": \"\"}}, \"initial\": {\"communication\": {\"urlProfilAch\": \"https://www.megalis.bretagne.bzh\", \"identifiantInterne\": \"26DSN37\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"non\": \"\"}, \"nomContact\": \"dsn.finances]rennesmetropole.fr\", \"telContact\": \"+33 223621700\"}, \"procedure\": {\"procedureAdapteeO\": \"\", \"capaciteExercice\": \"Formulaire Dc1 : Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner\", \"capaciteEcoFin\": \"Chiffre d'affaires annuel spécifique : Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles Assurance responsabilité professionnelle pour les risques : Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels Ratio financier : Bilans ou extraits de bilans, concernant les trois dernières années, des opérateurs économiques pour lesquels l'établissement des bilans est obligatoire en vertu de la loi Effectif moyen annuel : Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années\", \"capaciteTech\": \"Références sur des services spécifiés : Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat\", \"techAchat\": {\"accordCadre\": \"\"}, \"dateReceptionOffres\": \"2026-12-14T12:00:00\", \"presOffres\": {\"interdite\": \"\"}, \"nbCandidatReduit\": {\"non\": \"\"}, \"attributionSansNegociation\": {\"oui\": \"\"}, \"variantes\": {\"non\": \"\"}, \"categorieAcheteur\": \"Acheteur(s) habilité(s) à passer les marchés subséquents ou bons de commande\", \"criteresAttrib\": \"énoncé dans le Rc\"}, \"natureMarche\": {\"intitule\": \"Réalisation d'audits de conformité en matière d'accessibilité numérique des sites internet, intranet, extranets, applications web et applications mobiles de la collectivité ainsi que les contre-audits et des prestations d'accompagnement associées\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"72421000\"}}, \"natureMarche\": {\"services\": \"\"}, \"description\": \"L'accord-cadre sera exécuté par l'émission de bons de commande.\\nLes prestations sont réglées par des prix unitaires.\\nLes principales prestations attendues sont notamment :\\n-\\tRéalisation d'audits de conformité à l'accessibilité numérique (selon le RGAA en vigueur) et d'audits partiels ou ciblés sur tous types de services numériques : sites internet, intranets, extranets, applications web et applications mobiles, progiciels, services en lignes, bornes numériques, des fonctionnalités, parcours utilisateurs, composants ou documents numériques (PDF, bureautiques, etc.).\\n-\\tRéalisation de contre-audits et de vérification de la prise en compte des actions correctives.\\n-\\tPrestations d'expertise et de conseil en accessibilité numérique.\\n-\\tSensibilisation, accompagnement au changement, transfert de compétences et formations des agents, des chefs de projets, des concepteurs-développeurs et décisionnaires de projets numériques de la collectivité.\\n-\\tRéalisation de bilans et recommandations\", \"lieuExecution\": \"FRH03 - Ille-et-Vilaine, Rennes Métropole\\n35000\\nRennes\", \"dureeMois\": \"48\", \"valeurEstimee\": {\"@devise\": \"EUR\", \"fourchette\": {\"valeurHaute\": \"210000\"}}, \"tranches\": {\"non\": \"\"}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"non\": \"\"}}, \"informComplementaire\": {\"non\": \"\"}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-109140",
+      "_source_categories": [
+        "CDS"
+      ],
+      "score": 3.5,
+      "category": "Digital",
+      "categories": [
+        "Digital",
+        "CDS"
+      ],
+      "category_color": "#1D4ED8",
+      "budget": null,
+      "days_left": 34,
+      "match_pct": 100,
+      "match_detail": "Audit & Urbanisation SI · IAM & Sécurité · MOA / AMOA · REX McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
+      "tier": "high",
+      "ao_type": "Dev IA/ML/GenAI",
+      "ao_legitimacy": 5,
+      "matched_products": [],
+      "matched_rex": [
+        {
+          "label": "McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
+          "sector": "Restauration (QSR)",
+          "duration": "7+ ans"
+        }
+      ],
+      "matched_tech": [],
+      "matched_expertises": [
+        "Audit & Urbanisation SI",
+        "IAM & Sécurité",
+        "RSE & Impact",
+        "E-commerce & Digital"
+      ],
+      "matched_delivery": [],
+      "matched_profils": [
+        "MOA / AMOA",
+        "Consultant IT"
+      ],
+      "relevance_summary": [
+        "Objet : Réalisation d'audits de conformité en matière d'accessibilité numérique des sites internet, intranet, extranets, applications web et applications mobi",
+        "Acheteur : Rennes Métropole",
+        "Type d'AO \"Dev IA/ML/GenAI\" : forte légitimité Harington",
+        "Expertises matchées : Audit & Urbanisation SI, IAM & Sécurité, RSE & Impact, E-commerce & Digital",
+        "Profils demandés : MOA / AMOA, Consultant IT",
+        "REX sectoriel : McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA (Restauration (QSR), 7+ ans)",
+        "Zone géographique : Dept. 35"
+      ],
+      "geo_label": "Dept. 35",
+      "deep_analysis": {
+        "fit_summary": "Adéquation partielle — score élevé grâce aux synergies. Valider le positionnement.",
+        "ao_assessment": "Type d'AO \"Dev IA/ML/GenAI\" — forte légitimité Harington, historique de succès sur ce segment",
+        "recommendation": "GO — Forte adéquation. Préparer le dossier en anticipation.",
+        "stack_match_score": 5.0,
+        "dimensions": [
+          {
+            "key": "tech_stack",
+            "label": "Stack Technique",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 30,
+            "contribution": 0.3,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "products",
+            "label": "Accélérateurs & Offres",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 15,
+            "contribution": 0.15,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "expertises",
+            "label": "Expertises",
+            "score": 5,
+            "score_label": "Excellent",
+            "weight_pct": 20,
+            "contribution": 1.0,
+            "items": [
+              "Audit & Urbanisation SI",
+              "IAM & Sécurité",
+              "RSE & Impact",
+              "E-commerce & Digital"
+            ],
+            "status": "strong"
+          },
+          {
+            "key": "delivery",
+            "label": "Modes de Delivery",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 20,
+            "contribution": 0.2,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "profils",
+            "label": "Profils Consultants",
+            "score": 3.5,
+            "score_label": "Bon",
+            "weight_pct": 15,
+            "contribution": 0.53,
+            "items": [
+              "MOA / AMOA",
+              "Consultant IT"
+            ],
+            "status": "good"
+          }
+        ],
+        "context_dims": [
+          {
+            "label": "Échéance",
+            "score": 2.0,
+            "score_label": "Faible",
+            "detail": "J-34",
+            "weight_pct": 20
+          },
+          {
+            "label": "Budget",
+            "score": 3.0,
+            "score_label": "Correct",
+            "detail": "Non communiqué",
+            "weight_pct": 20
+          },
+          {
+            "label": "Géographie",
+            "score": 2.0,
+            "score_label": "Faible",
+            "detail": "Dept. 35",
+            "weight_pct": 10
+          }
+        ],
+        "strengths": [
+          {
+            "dimension": "Expertises",
+            "score": 5,
+            "detail": "Audit & Urbanisation SI, IAM & Sécurité, RSE & Impact"
+          }
+        ],
+        "gaps": [
+          {
+            "dimension": "Stack Technique",
+            "score": 1,
+            "recommendation": "Stack non explicitement mentionnée dans l'AO — vérifier le CCTP pour identifier les technos requises"
+          },
+          {
+            "dimension": "Accélérateurs & Offres",
+            "score": 1,
+            "recommendation": "Aucun accélérateur Harington directement applicable — positionner les outils internes comme avantage concurrentiel dans le mémoire technique"
+          },
+          {
+            "dimension": "Modes de Delivery",
+            "score": 1,
+            "recommendation": "Mode de delivery non précisé dans l'AO — proposer le modèle le plus adapté (CDS/forfait/régie) dans la réponse"
+          }
+        ],
+        "synergies": [
+          "Profils + Expertises : consulting ESN pur (consultants qualifiés + domaine d'expertise)"
+        ],
+        "confidence": "1 synergies détectées, type d'AO à forte légitimité, 1 REX sectoriel(s) pertinent(s)",
+        "rex": [
+          {
+            "label": "McDonald's France — TMA 75 apps, 7 ans, 98.5% SLA",
+            "sector": "Restauration (QSR)",
+            "duration": "7+ ans"
+          }
+        ],
+        "products_applicable": []
+      },
+      "breakdown": {
+        "stack_match": 5.0,
+        "stack_sub": {
+          "tech_stack": 1,
+          "products": 1,
+          "expertises": 5,
+          "delivery": 1,
+          "profils": 3.5
+        },
+        "deadline": 2.0,
+        "budget": 3.0,
+        "geo": 2.0
       }
     },
     {
