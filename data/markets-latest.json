@@ -1,9 +1,9 @@
 {
   "date": "2026-11-12",
-  "total_fetched": 145,
-  "total_scored": 95,
-  "filtered_count": 50,
-  "priority_count": 19,
+  "total_fetched": 147,
+  "total_scored": 96,
+  "filtered_count": 51,
+  "priority_count": 20,
   "preferences": {
     "genere_le": "2026-10-27",
     "traits": 0,
@@ -3449,6 +3449,225 @@
         "deadline": 4.0,
         "budget": 3.0,
         "geo": 5.0
+      }
+    },
+    {
+      "idweb": "26-109727",
+      "id": "26_109727",
+      "contractfolderid": null,
+      "objet": "Assistance à maitrise d'ouvrage pour la gestion comptable financière et fiscale du syndicat mixte de l'aéroport de Saint Etienne Loire et de sa régie d'exploitation",
+      "filename": "26-109727",
+      "famille": "MAPA",
+      "code_departement": [
+        "42"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés <90 k€ (MAPA)",
+      "dateparution": "2026-11-12",
+      "datefindiffusion": "2026-12-04",
+      "datelimitereponse": "2026-12-04T12:00:00+00:00",
+      "nomacheteur": "Syndicat Mixte de l'Aéroport Saint-Etienne Loire",
+      "titulaire": null,
+      "perimetre": "MAPA",
+      "type_procedure": "PROCEDURE_ADAPTE",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Adaptée",
+      "procedure_categorise": "PROCEDURE_ADAPTE/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": null,
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": [
+        "environnementaux"
+      ],
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "433"
+      ],
+      "dc": [
+        "433"
+      ],
+      "descripteur_libelle": [
+        "Assistance à maîtrise d'ouvrage"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-109727\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"MAPA\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Syndicat Mixte de l'Aéroport Saint-Etienne Loire\", \"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"DATE_PUBLICATION\": \"2026-11-12\", \"DATE_LIMITE_REPONSE\": \"2026-12-04T12:00:00\", \"DATE_FIN_DIFFUSION\": \"2026-12-04\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"433\", \"LIBELLE\": \"Assistance à maîtrise d'ouvrage\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"42\", \"RESUME_OBJET\": \"Assistance à maitrise d'ouvrage pour la gestion comptable financière et fiscale du syndicat mixte de l'aéroport de Saint Etienne Loire et de sa régie d'exploitation\"}}",
+      "donnees": "{\"MAPA\": {\"organisme\": {\"correspondantPRM\": {\"nom\": \"Le Président\"}, \"acheteurPublic\": \"Syndicat Mixte de l'Aéroport Saint-Etienne Loire\", \"adr\": {\"voie\": {\"nomvoie\": \"2 rue Charles de Gaulle\"}, \"cp\": \"42022\", \"ville\": \"SAINT-ETIENNE\"}, \"coord\": {\"tel\": \"0477484242\", \"mel\": \"etap-superviseur@saint-etienne.cci.fr\", \"url\": \"http://www.saint-etienne.aeroport.fr/\"}, \"urlProfilAcheteur\": \"http://www.saint-etienne-metropole.fr\", \"classificationOrganisme\": \"6\"}, \"initial\": {\"natureMarche\": {\"services\": \"\"}, \"description\": {\"objet\": \"Assistance à maitrise d'ouvrage pour la gestion comptable financière et fiscale du syndicat mixte de l'aéroport de Saint Etienne Loire et de sa régie d'exploitation\", \"lieuExecutionLivraison\": {\"voie\": {\"nomvoie\": \"FRK25 - Loire\"}}}, \"caracteristiques\": {\"variantes\": {\"non\": \"\"}, \"principales\": \"Le contrat  est susceptible d'être reconduit dans les conditions du cahier des charges.\\nContenu de la mission :\\n- Etablissement de la liasse fiscale de la régie d'exploitation ;\\n- Préparation Budgétaire ;\\n- accompagnement à la recherche de financement pour le financement des investissements (emprunt subvention), à la négociation et contractualisation bancaire ;\\n- Assistance et conseils à la définition de la stratégie financière du SM et de sa régie ;\\n-\"}, \"duree\": {\"nbMois\": \"12\"}, \"conditions\": {\"euro\": \"\", \"langue\": {\"langEC\": \"fr\"}}, \"justifications\": {\"justificationAutre\": \"Autres exigences économiques ou financières : Les pièces de candidature à remettre par les candidats sont définies dans le règlement de la consultation\"}, \"criteres\": {\"criterePondere\": [{\"criterePCT\": \"50\", \"critere\": \"Valeur technique\"}, {\"criterePCT\": \"40\", \"critere\": \"Prix des prestations\"}, {\"criterePCT\": \"10\", \"critere\": \"Performances en matière de protection de l'environnement\"}]}, \"procedure\": {\"procedureAdaptee\": \"\"}, \"delais\": {\"receptionOffres\": \"2026-12-04T12:00:00\", \"validite\": {\"nbMois\": \"3\"}}, \"renseignements\": {\"idMarche\": \"2026-SEM-0008\", \"rensgComplt\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.\\nCette consultation bénéficie du Service DUME.\\nPour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.saint-etienne-metropole.fr\\nCode NUTS : FRK25\\nModalités d'ouverture des offres :\\nDate: 04 déc. 2026\\nLieu :Marché périodique : NON\\nCalendrier prévisionnel de publication des prochains avis :L'execution du marché est soumise à d'autres conditions particulières :Fonds propre du syndicat mixte de l'aéroport Saint-Etienne Loire.\\nInstance chargée des procédures de recours : Tribunal administratif de Lyon, 184, rue Duguesclin\\n69433 LyonCedex 03\\nTél : 0478141010 Fax : 0478141065Mel : greffe.ta-lyon@juradm.fr\\nPrécisions concernant le(s) délai(s) d'introduction des recours : Avant la signature du contrat, les candidats ont la possibilité d'introduire devant le Tribunal administratif de Lyon un référé précontractuel dans les conditions prévues par les articles L. 551-1 et suivants du code de justice administrative.\\nUne fois le contrat conclu, les candidats ont la possibilité d'introduire devant ce même tribunal un référé contractuel dans les conditions prévues par les articles L. 551-13 et suivants du code de justice administrative.\\nComme tout tiers au contrat, les candidats peuvent par ailleurs introduire un recours en contestation de la validité du contrat issu de la jurisprudence « Tarn-et-Garonne », dans un délai de deux mois à compter des mesures de publicité appropriées.\\nS'agissant d'une procédure de type ouverte, les plis devront comporter les pièces relatives à la candidature et les pièces relatives à l'offre.\\nLes candidats transmettent, avant la date et l'heure limite, leur offre selon les modalités et comportant les documents précisés dans le Règlement de la Consultation\"}, \"adressesComplt\": {\"admOuTech\": {\"adm\": {\"PersonneMorale\": \"Saint-Etienne Métropole : QUESTIONS A POSER VIA PROFIL ACHETEUR\", \"adr\": {\"voie\": {\"nomvoie\": \"2 Avenue Grüner, CS80257\"}, \"cp\": \"42006\", \"cx\": \"1\", \"ville\": \"Saint Etienne\"}, \"coord\": {\"tel\": \"0477492149\", \"mel\": \"marches@saint-etienne-metropole.fr\", \"url\": \"http://www.saint-etienne-metropole.fr\"}}}}, \"marcheUnique\": \"\", \"infosSup\": \"\\n       \"}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-109727",
+      "_source_categories": [
+        "CDS"
+      ],
+      "score": 4.0,
+      "category": "IA",
+      "categories": [
+        "IA",
+        "CDS"
+      ],
+      "category_color": "#7C3AED",
+      "budget": null,
+      "days_left": 22,
+      "match_pct": 100,
+      "match_detail": "Régie / AT · MOA / AMOA",
+      "tier": "high",
+      "ao_type": "Dev IA/ML/GenAI",
+      "ao_legitimacy": 5,
+      "matched_products": [],
+      "matched_rex": [],
+      "matched_tech": [],
+      "matched_expertises": [],
+      "matched_delivery": [
+        "Régie / AT"
+      ],
+      "matched_profils": [
+        "MOA / AMOA"
+      ],
+      "relevance_summary": [
+        "Objet : Assistance à maitrise d'ouvrage pour la gestion comptable financière et fiscale du syndicat mixte de l'aéroport de Saint Etienne Loire et de sa régie ",
+        "Acheteur : Syndicat Mixte de l'Aéroport Saint-Etienne Loire",
+        "Type d'AO \"Dev IA/ML/GenAI\" : forte légitimité Harington",
+        "Mode de delivery : Régie / AT",
+        "Profils demandés : MOA / AMOA",
+        "Zone géographique : Dept. 42",
+        "Date limite de réponse : 2026-12-04"
+      ],
+      "geo_label": "Dept. 42",
+      "deep_analysis": {
+        "fit_summary": "Adéquation partielle — score élevé grâce aux synergies. Valider le positionnement.",
+        "ao_assessment": "Type d'AO \"Dev IA/ML/GenAI\" — forte légitimité Harington, historique de succès sur ce segment",
+        "recommendation": "GO — Forte adéquation. Préparer le dossier en anticipation.",
+        "stack_match_score": 5.0,
+        "dimensions": [
+          {
+            "key": "tech_stack",
+            "label": "Stack Technique",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 30,
+            "contribution": 0.3,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "products",
+            "label": "Accélérateurs & Offres",
+            "score": 1,
+            "score_label": "Non couvert",
+            "weight_pct": 15,
+            "contribution": 0.15,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "expertises",
+            "label": "Expertises",
+            "score": 1.5,
+            "score_label": "Marginal",
+            "weight_pct": 20,
+            "contribution": 0.3,
+            "items": [],
+            "status": "gap"
+          },
+          {
+            "key": "delivery",
+            "label": "Modes de Delivery",
+            "score": 3,
+            "score_label": "Correct",
+            "weight_pct": 20,
+            "contribution": 0.6,
+            "items": [
+              "Régie / AT"
+            ],
+            "status": "good"
+          },
+          {
+            "key": "profils",
+            "label": "Profils Consultants",
+            "score": 3,
+            "score_label": "Correct",
+            "weight_pct": 15,
+            "contribution": 0.45,
+            "items": [
+              "MOA / AMOA"
+            ],
+            "status": "good"
+          }
+        ],
+        "context_dims": [
+          {
+            "label": "Échéance",
+            "score": 3.5,
+            "score_label": "Bon",
+            "detail": "J-22",
+            "weight_pct": 20
+          },
+          {
+            "label": "Budget",
+            "score": 3.0,
+            "score_label": "Correct",
+            "detail": "Non communiqué",
+            "weight_pct": 20
+          },
+          {
+            "label": "Géographie",
+            "score": 2.0,
+            "score_label": "Faible",
+            "detail": "Dept. 42",
+            "weight_pct": 10
+          }
+        ],
+        "strengths": [],
+        "gaps": [
+          {
+            "dimension": "Stack Technique",
+            "score": 1,
+            "recommendation": "Stack non explicitement mentionnée dans l'AO — vérifier le CCTP pour identifier les technos requises"
+          },
+          {
+            "dimension": "Accélérateurs & Offres",
+            "score": 1,
+            "recommendation": "Aucun accélérateur Harington directement applicable — positionner les outils internes comme avantage concurrentiel dans le mémoire technique"
+          },
+          {
+            "dimension": "Expertises",
+            "score": 1.5,
+            "recommendation": "Domaine d'expertise non détecté — identifier l'angle métier dans le CCTP et mapper vers les REX Harington"
+          }
+        ],
+        "synergies": [
+          "Delivery + Profils : capacité de staffing confirmée (mise à disposition de ressources)"
+        ],
+        "confidence": "1 synergies détectées, type d'AO à forte légitimité",
+        "rex": [],
+        "products_applicable": []
+      },
+      "breakdown": {
+        "stack_match": 5.0,
+        "stack_sub": {
+          "tech_stack": 1,
+          "products": 1,
+          "expertises": 1.5,
+          "delivery": 3,
+          "profils": 3
+        },
+        "deadline": 3.5,
+        "budget": 3.0,
+        "geo": 2.0
       }
     },
     {
