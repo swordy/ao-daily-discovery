@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
-  "total_fetched": 125,
-  "total_scored": 79,
+  "total_fetched": 126,
+  "total_scored": 80,
   "filtered_count": 46,
   "priority_count": 15,
   "preferences": {
@@ -9367,6 +9367,121 @@
       }
     },
     {
+      "idweb": "26-112304",
+      "id": "26_112304",
+      "contractfolderid": null,
+      "objet": "Mise en place d'un outil chatbot IA touristique dans le cadre des escales Sambre",
+      "filename": "26-112304",
+      "famille": "FNS",
+      "code_departement": [
+        "59"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+      "dateparution": "2026-11-19",
+      "datefindiffusion": "2026-12-18",
+      "datelimitereponse": "2026-12-18T12:00:00+00:00",
+      "nomacheteur": "AGGLOMERATION MAUBEUGE VAL DE SAMBRE (AMVS)",
+      "titulaire": null,
+      "perimetre": "FNSimple",
+      "type_procedure": "OUVERT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Ouverte",
+      "procedure_categorise": "OUVERT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": null,
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": [
+        "environnementaux"
+      ],
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "186"
+      ],
+      "dc": [
+        "186"
+      ],
+      "descripteur_libelle": [
+        "Logiciel"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-112304\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"AGGLOMERATION MAUBEUGE VAL DE SAMBRE (AMVS)\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-11-19\", \"DATE_LIMITE_REPONSE\": \"2026-12-18T12:00:00\", \"DATE_FIN_DIFFUSION\": \"2026-12-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"186\", \"LIBELLE\": \"Logiciel\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"59\", \"RESUME_OBJET\": \"Mise en place d'un outil chatbot IA touristique dans le cadre des escales Sambre\"}}",
+      "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"AGGLOMERATION MAUBEUGE VAL DE SAMBRE (AMVS)\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"20004339600015\", \"ville\": \"Maubeuge cedex\", \"cp\": \"59603\", \"grpCommandes\": {\"non\": \"\"}}, \"initial\": {\"communication\": {\"urlProfilAch\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2026_j4DStewG4w\", \"identifiantInterne\": \"AM26.23\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"non\": \"\"}, \"nomContact\": \"Service commande publique\", \"adresseMailContact\": \"marches-publics@amvs.fr\"}, \"procedure\": {\"procedureAdapteeO\": \"\", \"capaciteExercice\": \"- Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner.\\n- Renseignements sur le respect de l'obligation d'emploi mentionnée aux articles L. 5212-1 à L. 5212-11 du Code du travail.\", \"capaciteEcoFin\": \"- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles.\\n- Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels.\", \"capaciteTech\": \"- Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat.\\n- Description de l'équipement technique, des mesures employées par l'opérateur économique pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise.\\n- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.\\n- Indication des titres d'études et professionnels de l'opérateur économique et/ou des cadres de l'entreprise, et notamment des responsables de prestation de services ou de conduite des travaux de même nature que celle du contrat.\", \"techAchat\": {\"autres\": \"\"}, \"dateReceptionOffres\": \"2026-12-18T12:00:00\", \"presOffres\": {\"interdite\": \"\"}, \"nbCandidatReduit\": {\"non\": \"\"}, \"attributionSansNegociation\": {\"oui\": \"\"}, \"variantes\": {\"non\": \"\"}}, \"natureMarche\": {\"intitule\": \"Mise en place d'un outil chatbot IA touristique dans le cadre des escales Sambre\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"72200000\"}}, \"natureMarche\": {\"services\": \"\"}, \"description\": \"Mise en place d'un outil chatbot IA touristique dans le cadre des escales Sambre\", \"lieuExecution\": \"Territoire de la CAMVS\", \"dureeMois\": \"60\", \"tranches\": {\"oui\": \"\"}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"non\": \"\"}}, \"informComplementaire\": {\"non\": \"\", \"autresInformComplementaire\": \"Marché comportant une tranche ferme (Outil chatbot IA en mode texte) et une tranche optionnelle (Outil chatbot IA en mode voix), ainsi qu'une prestation supplémentaire éventuelle facultative (mise en place d'un outil chatbot IA en interaction orale avec personnage animé).\\nMarché d'une durée d'un an, reconductible 4 fois 1 an, soit une durée de 5 ans au total.\\nLes candidats ayant présenté les trois meilleures offres à l'issue d'une première phase d'analyse seront invités à une présentation à distance (1 heure) permettant une démonstration de l'outil, d'un prototype existant ou d'une réalisation similaire déjà développée, se rapprochant des besoins exprimés dans le cahier des charges.\\nCette présentation permettra aux candidats d'expliquer leurs choix techniques et fonctionnels, les possibilités et les limites. Elle permettra également aux candidats et à la CAMVS d'échanger les questions et réponses sur les possibilités d'adaptation de la solution aux besoins du projet « Escales Sambre ».\"}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-112304",
+      "_source_categories": [
+        "IA"
+      ],
+      "score": 2.5,
+      "category": "IA",
+      "categories": [
+        "IA"
+      ],
+      "category_color": "#7C3AED",
+      "budget": null,
+      "days_left": 29,
+      "match_pct": 37,
+      "match_detail": "Ia · Chatbot · REX Sephora — Agent IA multi-agents, compliance-first",
+      "tier": "low",
+      "ao_type": "Dev IA/ML/GenAI",
+      "ao_legitimacy": 5,
+      "matched_products": [],
+      "matched_rex": [
+        {
+          "label": "Sephora — Agent IA multi-agents, compliance-first",
+          "sector": "Luxe & Retail",
+          "duration": "1+ an"
+        }
+      ],
+      "matched_tech": [
+        "ia",
+        "chatbot"
+      ],
+      "matched_expertises": [],
+      "matched_delivery": [],
+      "matched_profils": [],
+      "relevance_summary": [
+        "Objet : Mise en place d'un outil chatbot IA touristique dans le cadre des escales Sambre",
+        "Acheteur : AGGLOMERATION MAUBEUGE VAL DE SAMBRE (AMVS)",
+        "Type d'AO \"Dev IA/ML/GenAI\" : forte légitimité Harington",
+        "Stack technique : Ia, Chatbot",
+        "REX sectoriel : Sephora — Agent IA multi-agents, compliance-first (Luxe & Retail, 1+ an)",
+        "Zone géographique : Dept. 59",
+        "Date limite de réponse : 2026-12-18"
+      ],
+      "geo_label": "Dept. 59",
+      "deep_analysis": null,
+      "breakdown": {
+        "stack_match": 1.85,
+        "stack_sub": {
+          "tech_stack": 3.5,
+          "products": 1,
+          "expertises": 1.5,
+          "delivery": 1,
+          "profils": 1
+        },
+        "deadline": 3.5,
+        "budget": 3.0,
+        "geo": 2.0
+      }
+    },
+    {
       "idweb": "26-108581",
       "id": "26_108581",
       "contractfolderid": "9ba2429f-7d28-4feb-9add-c2cfd2d88377",
@@ -9481,127 +9596,6 @@
         "deadline": 3.5,
         "budget": 3.0,
         "geo": 5.0
-      }
-    },
-    {
-      "idweb": "26-111160",
-      "id": "26_111160",
-      "contractfolderid": "9e385a35-e126-4f8c-92f2-6dd36def00d3",
-      "objet": "Régie publicitaire des magazines de Rennes, Ville et Métropole et de l'agenda annuel",
-      "filename": "26-111160",
-      "famille": "JOUE",
-      "code_departement": [
-        "22",
-        "29",
-        "35",
-        "44",
-        "53",
-        "56",
-        "72"
-      ],
-      "code_departement_prestation": null,
-      "famille_libelle": "Marchés européens",
-      "dateparution": "2026-11-18",
-      "datefindiffusion": "2026-12-18",
-      "datelimitereponse": "2026-12-18T16:00:00+00:00",
-      "nomacheteur": "Rennes Métropole",
-      "titulaire": null,
-      "perimetre": "DIRECTIVE-24",
-      "type_procedure": "AUTRE",
-      "soustype_procedure": null,
-      "procedure_libelle": "Procédure NC",
-      "procedure_categorise": "AUTRE/",
-      "nature": "APPEL_OFFRE",
-      "sousnature": "STANDARD",
-      "nature_libelle": "Avis de marché",
-      "sousnature_libelle": null,
-      "nature_categorise": "appeloffre/standard",
-      "nature_categorise_libelle": "Avis de marché/",
-      "criteres": [
-        "environnementaux"
-      ],
-      "marche_public_simplifie": null,
-      "marche_public_simplifie_label": null,
-      "etat": "INITIAL",
-      "descripteur_code": [
-        "285"
-      ],
-      "dc": [
-        "285"
-      ],
-      "descripteur_libelle": [
-        "Publicité, Communication"
-      ],
-      "type_marche": [
-        "SERVICES"
-      ],
-      "type_marche_facette": [
-        "Services"
-      ],
-      "type_avis": [
-        "5",
-        "1"
-      ],
-      "annonce_lie": null,
-      "annonces_anterieures": null,
-      "source_schema": "3.2.5",
-      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-111160\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Rennes Métropole\", \"TYPE_PROCEDURE\": {\"AUTRE\": \"\"}, \"DATE_PUBLICATION\": \"2026-11-18\", \"DATE_LIMITE_REPONSE\": \"2026-12-18T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2026-12-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"285\", \"LIBELLE\": \"Publicité, Communication\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"22\", \"29\", \"35\", \"44\", \"53\", \"56\", \"72\"], \"RESUME_OBJET\": \"Régie publicitaire des magazines de Rennes, Ville et Métropole et de l'agenda annuel\"}}",
-      "donnees": "{\"EFORMS\": {\"ContractNotice\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efac:NoticeSubType\": {\"cbc:SubTypeCode\": {\"@listName\": \"notice-subtype\", \"#text\": \"16\"}}, \"efac:Organizations\": {\"efac:Organization\": [{\"efac:Company\": {\"cbc:WebsiteURI\": \"https://metropole.rennes.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0001\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"RENNES METROPOLE\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"Hôtel de Rennes Métropole, 4, avenue Henri Fréville\", \"cbc:CityName\": \"RENNES\", \"cbc:PostalZone\": \"35031\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRH03\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"243 500 139 001 89\"}, \"cac:Contact\": {\"cbc:Telephone\": \"0223621248\", \"cbc:ElectronicMail\": \"rescom@rennesmetropole.fr\"}}}, {\"efac:Company\": {\"cbc:WebsiteURI\": \"https://rennes.tribunal-administratif.fr/\", \"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0002\"}}, \"cac:PartyName\": {\"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Tribunal administratif de Rennes\"}}, \"cac:PostalAddress\": {\"cbc:StreetName\": \"Hôtel de Bizien 3, Contour de la Motte\", \"cbc:CityName\": \"Rennes\", \"cbc:PostalZone\": \"35044\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRH03\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}, \"cac:PartyLegalEntity\": {\"cbc:CompanyID\": \"173 500 059 00014\"}, \"cac:Contact\": {\"cbc:Telephone\": \"02 23 21 28 28\", \"cbc:ElectronicMail\": \"greffe.ta-rennes@juradm.fr\"}}}]}}}}}, \"cbc:UBLVersionID\": \"2.3\", \"cbc:CustomizationID\": \"eforms-sdk-1.13\", \"cbc:ID\": {\"@schemeName\": \"notice-id\", \"#text\": \"7555b564-5858-4476-a305-730b745e1868\"}, \"cbc:ContractFolderID\": \"9e385a35-e126-4f8c-92f2-6dd36def00d3\", \"cbc:IssueDate\": \"2026-11-16+01:00\", \"cbc:IssueTime\": \"15:13:47.278+01:00\", \"cbc:VersionID\": \"01\", \"cbc:RegulatoryDomain\": \"32014L0024\", \"cbc:NoticeTypeCode\": {\"@listName\": \"competition\", \"#text\": \"cn-standard\"}, \"cbc:NoticeLanguageCode\": \"FRA\", \"cac:ContractingParty\": {\"cbc:BuyerProfileURI\": \"https://services.megalis.bretagne.bzh/\", \"cac:ContractingPartyType\": {\"cbc:PartyTypeCode\": {\"@listName\": \"buyer-legal-type\", \"#text\": \"body-pl\"}}, \"cac:ContractingActivity\": {\"cbc:ActivityTypeCode\": {\"@listName\": \"authority-activity\", \"#text\": \"gen-pub\"}}, \"cac:Party\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0001\"}}}}, \"cac:TenderingTerms\": {\"cac:TendererQualificationRequest\": {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"exclusion-grounds-source\", \"#text\": \"epo-procurement-document\"}}}}, \"cac:TenderingProcess\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:ProcedureRelaunchIndicator\": \"true\"}}}}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"La concession, dont la valeur estimée est inférieure au seuil européen, est passée selon la procédure simplifiée, en application des dispositions des articles R. 3126-1 à R. 3126-14 du code de la commande publique.\\nCe contrat constitue une concession de services au sens des articles L. 1121-1 et L. 1121-3 du code de la commande publique. Il ne constitue pas une délégation de service public : les dispositions des articles L. 1411-1 et suivants du code général des collectivités territoriales ne lui sont pas applicables. \\n\\nLa procédure prévoyant la remise simultanée des candidatures et des offres, la candidature et l'offre seront réceptionnées à la même date.\"}, \"cbc:ProcedureCode\": {\"@listName\": \"procurement-procedure-type\", \"#text\": \"oth-single\"}}, \"cac:ProcurementProject\": {\"cbc:ID\": {\"@schemeName\": \"InternalID\", \"#text\": \"RM_261638_25_CS\"}, \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Régie publicitaire des magazines de Rennes, Ville et Métropole  et de l'agenda annuel\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Les autorités concédantes concèdent au concessionnaire, qui l'accepte, l'exploitation de la régie publicitaire :\\n-\\tDu magazine mensuel métropolitain de 32 pages (« Ici Rennes Métropole »), édité par Rennes Métropole ;\\n-\\tDu magazine mensuel municipal de 16 pages (« Ici Rennes »), glissé à l'intérieur du précédent, édité par la Ville de Rennes ;\\n-\\tÀ titre optionnel, dans les conditions fixées à l'article 7, de l'agenda annuel de Rennes Métropole.\\nLe concessionnaire assure, à ses risques et périls, la commercialisation des espaces publicitaires de ces supports, dans le respect des lignes éditoriales et de l'image des autorités concédantes, moyennant le versement d'une redevance dans les conditions fixées à l'article 10.\\nLe nombre et l'emplacement des pages de publicité de chaque support sont fixés à l'Annexe 1. À titre indicatif, chaque numéro comporte 4 pages de publicité pour le magazine métropolitain et 2 pages pour le magazine municipal (hors numéro de juillet-août, sans publicité) ; l'agenda annuel comporte 16 pages de publicité (dont 2 réservées à l’autorité concédante).\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cac:RequestedTenderTotal\": {\"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"713000\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"79341200\"}}, \"cac:AdditionalCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"79341000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:CityName\": \"Rennes\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRH03\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}}, \"cac:ProcurementProjectLot\": {\"cbc:ID\": {\"@schemeName\": \"Lot\", \"#text\": \"LOT-0001\"}, \"cac:TenderingTerms\": {\"cbc:VariantConstraintCode\": {\"@listName\": \"permission\", \"#text\": \"not-allowed\"}, \"cbc:FundingProgramCode\": {\"@listName\": \"eu-funded\", \"#text\": \"no-eu-funds\"}, \"cbc:RequiredCurriculaCode\": {\"@listName\": \"requirement-stage\", \"#text\": \"nyk\"}, \"cbc:RecurringProcurementIndicator\": \"true\", \"cbc:MultipleTendersCode\": {\"@listName\": \"permission\", \"#text\": \"not-allowed\"}, \"cac:CallForTendersDocumentReference\": {\"cbc:ID\": \"RM_261638_25_CS\", \"cbc:DocumentType\": \"non-restricted-document\", \"cac:Attachment\": {\"cac:ExternalReference\": {\"cbc:URI\": \"https://www.megalis.bretagne.bzh/\"}}}, \"cac:TendererQualificationRequest\": [{\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"selection-criteria-source\", \"#text\": \"epo-procurement-document\"}}}, {\"cac:SpecificTendererRequirement\": {\"cbc:TendererRequirementTypeCode\": {\"@listName\": \"reserved-procurement\", \"#text\": \"none\"}}}], \"cac:ContractExecutionRequirement\": [{\"cbc:ExecutionRequirementCode\": {\"@listName\": \"reserved-execution\", \"#text\": \"no\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"conditions\", \"#text\": \"performance\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Voir documents de consultation\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"einvoicing\", \"#text\": \"required\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"ecatalog-submission\", \"#text\": \"not-allowed\"}}, {\"cbc:ExecutionRequirementCode\": {\"@listName\": \"esignature-submission\", \"#text\": \"true\"}}], \"cac:AwardingTerms\": {\"cac:AwardingCriterion\": {\"cbc:CalculationExpression\": {\"@languageID\": \"FRA\", \"#text\": \"Voir Règlement de consultation\"}}}, \"cac:TenderRecipientParty\": {\"cbc:EndpointID\": \"https://www.megalis.bretagne.bzh/\"}, \"cac:TenderValidityPeriod\": {\"cbc:DurationMeasure\": {\"@unitCode\": \"DAY\", \"#text\": \"240\"}}, \"cac:AppealTerms\": {\"cac:PresentationPeriod\": {\"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Tout différend relatif à la formation, l'interprétation ou l'exécution du présent contrat relève de la compétence du Tribunal administratif de Rennes (3, contours de la Motte, CS 44416, 35044 Rennes Cedex), sans préjudice de la faculté pour les parties de recourir, préalablement à toute action contentieuse, aux modes alternatifs de règlement des différends prévus par le code de la commande publique (conciliation, médiation, transaction).\"}}, \"cac:AppealReceiverParty\": {\"cac:PartyIdentification\": {\"cbc:ID\": {\"@schemeName\": \"organization\", \"#text\": \"ORG-0002\"}}}}, \"cac:Language\": {\"cbc:ID\": \"FRA\"}, \"cac:PostAwardProcess\": {\"cbc:ElectronicOrderUsageIndicator\": \"false\", \"cbc:ElectronicPaymentUsageIndicator\": \"false\"}}, \"cac:TenderingProcess\": {\"ext:UBLExtensions\": {\"ext:UBLExtension\": {\"ext:ExtensionContent\": {\"efext:EformsExtension\": {\"efbc:ProcedureRelaunchIndicator\": \"false\"}}}}, \"cbc:SubmissionMethodCode\": {\"@listName\": \"esubmission\", \"#text\": \"required\"}, \"cbc:GovernmentAgreementConstraintIndicator\": \"false\", \"cac:TenderSubmissionDeadlinePeriod\": {\"cbc:EndDate\": \"2026-12-18+01:00\", \"cbc:EndTime\": \"17:00:00+01:00\"}, \"cac:AuctionTerms\": {\"cbc:AuctionConstraintIndicator\": \"false\"}, \"cac:FrameworkAgreement\": {\"cac:SubsequentProcessTenderRequirement\": {\"cbc:Name\": \"buyer-categories\"}}, \"cac:ContractingSystem\": [{\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"framework-agreement\", \"#text\": \"none\"}}, {\"cbc:ContractingSystemTypeCode\": {\"@listName\": \"dps-usage\", \"#text\": \"none\"}}]}, \"cac:ProcurementProject\": {\"cbc:ID\": {\"@schemeName\": \"InternalID\", \"#text\": \"RM_261638_25_CS\"}, \"cbc:Name\": {\"@languageID\": \"FRA\", \"#text\": \"Régie publicitaire des magazines de Rennes, Ville et Métropole\\n et de l'agenda annuel\"}, \"cbc:Description\": {\"@languageID\": \"FRA\", \"#text\": \"Les autorités concédantes concèdent au concessionnaire, qui l'accepte, l'exploitation de la régie publicitaire :\\n-\\tDu magazine mensuel métropolitain de 32 pages (« Ici Rennes Métropole »), édité par Rennes Métropole ;\\n-\\tDu magazine mensuel municipal de 16 pages (« Ici Rennes »), glissé à l'intérieur du précédent, édité par la Ville de Rennes ;\\n-\\tÀ titre optionnel, dans les conditions fixées à l'article 7, de l'agenda annuel de Rennes Métropole.\\nLe concessionnaire assure, à ses risques et périls, la commercialisation des espaces publicitaires de ces supports, dans le respect des lignes éditoriales et de l'image des autorités concédantes, moyennant le versement d'une redevance dans les conditions fixées à l'article 10.\\nLe nombre et l'emplacement des pages de publicité de chaque support sont fixés à l'Annexe 1. À titre indicatif, chaque numéro comporte 4 pages de publicité pour le magazine métropolitain et 2 pages pour le magazine municipal (hors numéro de juillet-août, sans publicité) ; l'agenda annuel comporte 16 pages de publicité (dont 2 réservées à l’autorité concédante).\"}, \"cbc:ProcurementTypeCode\": {\"@listName\": \"contract-nature\", \"#text\": \"services\"}, \"cbc:SMESuitableIndicator\": \"true\", \"cac:RequestedTenderTotal\": {\"cbc:EstimatedOverallContractAmount\": {\"@currencyID\": \"EUR\", \"#text\": \"713000\"}}, \"cac:MainCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"79341200\"}}, \"cac:AdditionalCommodityClassification\": {\"cbc:ItemClassificationCode\": {\"@listName\": \"cpv\", \"#text\": \"79341000\"}}, \"cac:RealizedLocation\": {\"cac:Address\": {\"cbc:CityName\": \"Rennes\", \"cbc:CountrySubentityCode\": {\"@listName\": \"nuts\", \"#text\": \"FRH03\"}, \"cac:Country\": {\"cbc:IdentificationCode\": {\"@listName\": \"country\", \"#text\": \"FRA\"}}}}, \"cac:PlannedPeriod\": {\"cbc:StartDate\": \"2027-06-01+01:00\", \"cbc:DurationMeasure\": {\"@unitCode\": \"MONTH\", \"#text\": \"53\"}}}}}}}",
-      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-111160",
-      "_source_categories": [
-        "CDS"
-      ],
-      "score": 2.5,
-      "category": "IA",
-      "categories": [
-        "IA",
-        "CDS"
-      ],
-      "category_color": "#7C3AED",
-      "budget": null,
-      "days_left": 29,
-      "match_pct": 30,
-      "match_detail": "Régie / AT · REX Sephora — Agent IA multi-agents, compliance-first",
-      "tier": "low",
-      "ao_type": "Dev IA/ML/GenAI",
-      "ao_legitimacy": 5,
-      "matched_products": [],
-      "matched_rex": [
-        {
-          "label": "Sephora — Agent IA multi-agents, compliance-first",
-          "sector": "Luxe & Retail",
-          "duration": "1+ an"
-        }
-      ],
-      "matched_tech": [],
-      "matched_expertises": [],
-      "matched_delivery": [
-        "Régie / AT"
-      ],
-      "matched_profils": [],
-      "relevance_summary": [
-        "Objet : Régie publicitaire des magazines de Rennes, Ville et Métropole et de l'agenda annuel",
-        "Acheteur : Rennes Métropole",
-        "Type d'AO \"Dev IA/ML/GenAI\" : forte légitimité Harington",
-        "Mode de delivery : Régie / AT",
-        "REX sectoriel : Sephora — Agent IA multi-agents, compliance-first (Luxe & Retail, 1+ an)",
-        "Zone géographique : National",
-        "Date limite de réponse : 2026-12-18"
-      ],
-      "geo_label": "National",
-      "deep_analysis": null,
-      "breakdown": {
-        "stack_match": 1.5,
-        "stack_sub": {
-          "tech_stack": 1,
-          "products": 1,
-          "expertises": 1.5,
-          "delivery": 3,
-          "profils": 1
-        },
-        "deadline": 3.5,
-        "budget": 3.0,
-        "geo": 3.5
       }
     },
     {
@@ -10043,6 +10037,116 @@
         },
         "deadline": 4.0,
         "budget": 3.0,
+        "geo": 2.0
+      }
+    },
+    {
+      "idweb": "26-112337",
+      "id": "26_112337",
+      "contractfolderid": null,
+      "objet": "Gestion de la paie pour les salariés de la régie des parkings métropolitains",
+      "filename": "26-112337",
+      "famille": "FNS",
+      "code_departement": [
+        "13",
+        "83"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+      "dateparution": "2026-11-19",
+      "datefindiffusion": "2026-12-09",
+      "datelimitereponse": "2026-12-09T12:00:00+00:00",
+      "nomacheteur": "Métropole Aix-Marseille-Provence",
+      "titulaire": null,
+      "perimetre": "FNSimple",
+      "type_procedure": "OUVERT",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure Ouverte",
+      "procedure_categorise": "OUVERT/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": null,
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": [
+        "environnementaux"
+      ],
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "274"
+      ],
+      "dc": [
+        "274"
+      ],
+      "descripteur_libelle": [
+        "Prestations de services"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-112337\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Métropole Aix-Marseille-Provence\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-11-19\", \"DATE_LIMITE_REPONSE\": \"2026-12-09T12:00:00\", \"DATE_FIN_DIFFUSION\": \"2026-12-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"13\", \"83\"], \"RESUME_OBJET\": \"Gestion de la paie pour les salariés de la régie des parkings métropolitains\"}}",
+      "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"Métropole Aix-Marseille-Provence\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"20005480700017\", \"ville\": \"Marseille\", \"cp\": \"13007\", \"grpCommandes\": {\"non\": \"\"}}, \"initial\": {\"communication\": {\"urlProfilAch\": \"https://marchespublics.ampmetropole.fr/?page=Entreprise.EntrepriseAdvancedSearch&AllCons&id=510875&orgAcronyme=t5y\", \"identifiantInterne\": \"726A269\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"non\": \"\"}, \"nomContact\": \"DRC MDIV\", \"adresseMailContact\": \"sarah.geryville@ampmetropole.fr\", \"telContact\": \"0613979678\"}, \"procedure\": {\"procedureAdapteeO\": \"\", \"capaciteExercice\": \"Les déclarations, certificats et attestations prévus aux articles R. 2142-1, R. 2143-3 et R. 2143-11 du code de la commande publique permettant de vérifier que le candidat satisfait aux conditions de participation à la consultation ; une lettre de candidature ; une déclaration sur l'honneur justifiant qu'il n'entre dans aucun des cas d'exclusion.\", \"capaciteEcoFin\": \"Déclaration concernant le chiffre d'affaires global portant sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique.\", \"capaciteTech\": \"Liste des principaux services fournis au cours des trois dernières années indiquant le montant, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique.\", \"techAchat\": {\"accordCadre\": \"\"}, \"dateReceptionOffres\": \"2026-12-09T12:00:00\", \"presOffres\": {\"exigee\": \"\"}, \"nbCandidatReduit\": {\"non\": \"\"}, \"attributionSansNegociation\": {\"oui\": \"\"}, \"variantes\": {\"non\": \"\"}, \"categorieAcheteur\": \"Metropole Aix Marseille Provence\"}, \"natureMarche\": {\"intitule\": \"Gestion de la paie pour les salariés de la régie des parkings métropolitains\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"79211110\"}}, \"natureMarche\": {\"services\": \"\"}, \"description\": \"Le présent marché a pour objet la gestion de la paie pour les salariés de la régie des parkings métropolitains. Il s'agit d'un marché public composite correspondant pour partie à un marché et pour partie à un accord-cadre exécuté au fur et à mesure de l'émission de bons de commande.\", \"lieuExecution\": \"Marseille\", \"dureeMois\": \"12\", \"valeurEstimee\": {\"@devise\": \"EUR\", \"valeur\": \"18980\"}, \"tranches\": {\"non\": \"\"}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"non\": \"\"}}, \"informComplementaire\": {\"non\": \"\", \"autresInformComplementaire\": \"Le marché est passé pour une durée de 12 mois à compter de sa notification.\\nLe présent marché est reconductible.\\nIl sera renouvelable 3 fois un an par tacite reconduction sans que sa durée totale ne puisse excéder\\n4 ans.\\n\\nL'accord-cadre est passé pour un montant minimum annuel de 3 800 euros HT et un montant\\nmaximum annuel de 30 000 euros HT\\n\\nLes offres sont examinées en fonction des critères pondérés suivants :\\n- Prix : 70 %\\n- Valeur technique : 25 %\\n* Sous-critère A : Organisation et moyens humains : 60 %\\n* Sous-critère B : Solution technique et méthodologie de démarrage : 40 %\\nValeur environnementale : 5 %\\n* Sous-critère A : Démarche environnementale appliquée aux prestations : 100 %\\nLes notes de chacun des critères (prix, valeur technique et valeur environnementale) seront, par\\ndéfaut, établies au centième.\\n\\nDossier de consultation disponible via\\nhttps://marchespublics.ampmetropole.fr. Le candidat doit fournir une adresse mail valide et consultée régulièrement. \\no Pour tous renseignements complémentaires sur cette consultation, le candidat doit se reporter au Règlement de la Consultation.\\n\\nInformations sur les recours : le requérant peut saisir le tribunal administratif de Marseille de manière dématérialisée, par le biais de l'application informatique \\\"Télérecours citoyen\\\" accessible depuis le site internet www.telerecours.fr.\"}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-112337",
+      "_source_categories": [
+        "CDS"
+      ],
+      "score": 2.0,
+      "category": "Digital",
+      "categories": [
+        "Digital",
+        "CDS"
+      ],
+      "category_color": "#1D4ED8",
+      "budget": 18980.0,
+      "days_left": 20,
+      "match_pct": 27,
+      "match_detail": "Régie / AT",
+      "tier": "low",
+      "ao_type": "Assistance technique / Régie",
+      "ao_legitimacy": 4,
+      "matched_products": [],
+      "matched_rex": [],
+      "matched_tech": [],
+      "matched_expertises": [],
+      "matched_delivery": [
+        "Régie / AT"
+      ],
+      "matched_profils": [],
+      "relevance_summary": [
+        "Objet : Gestion de la paie pour les salariés de la régie des parkings métropolitains",
+        "Acheteur : Métropole Aix-Marseille-Provence",
+        "Type d'AO \"Assistance technique / Régie\" : forte légitimité Harington",
+        "Mode de delivery : Régie / AT",
+        "Zone géographique : Dept. 13, 83",
+        "Date limite de réponse : 2026-12-09",
+        "Descripteurs BOAMP : Prestations de services"
+      ],
+      "geo_label": "Dept. 13, 83",
+      "deep_analysis": null,
+      "breakdown": {
+        "stack_match": 1.4,
+        "stack_sub": {
+          "tech_stack": 1,
+          "products": 1,
+          "expertises": 1,
+          "delivery": 3,
+          "profils": 1
+        },
+        "deadline": 4.0,
+        "budget": 1,
         "geo": 2.0
       }
     },
