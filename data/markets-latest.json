@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
-  "total_fetched": 121,
-  "total_scored": 77,
+  "total_fetched": 122,
+  "total_scored": 78,
   "filtered_count": 44,
   "priority_count": 17,
   "preferences": {
@@ -10240,6 +10240,113 @@
         },
         "deadline": 4.0,
         "budget": 1,
+        "geo": 2.0
+      }
+    },
+    {
+      "idweb": "26-113839",
+      "id": "26_113839",
+      "contractfolderid": null,
+      "objet": "Contrat de régie intéressée pour l'exploitation du camping municipal",
+      "filename": "26-113839",
+      "famille": "DSP",
+      "code_departement": [
+        "89"
+      ],
+      "code_departement_prestation": null,
+      "famille_libelle": "Délégation de service public",
+      "dateparution": "2026-11-24",
+      "datefindiffusion": "2027-01-04",
+      "datelimitereponse": "2027-01-04T12:00:00+00:00",
+      "nomacheteur": "Ville de Tonnerre",
+      "titulaire": null,
+      "perimetre": "DSP",
+      "type_procedure": "DSP",
+      "soustype_procedure": null,
+      "procedure_libelle": "Procédure NC",
+      "procedure_categorise": "DSP/",
+      "nature": "APPEL_OFFRE",
+      "sousnature": null,
+      "nature_libelle": "Avis de marché",
+      "sousnature_libelle": null,
+      "nature_categorise": "appeloffre/standard",
+      "nature_categorise_libelle": "Avis de marché/",
+      "criteres": null,
+      "marche_public_simplifie": null,
+      "marche_public_simplifie_label": null,
+      "etat": "INITIAL",
+      "descripteur_code": [
+        "406"
+      ],
+      "dc": [
+        "406"
+      ],
+      "descripteur_libelle": [
+        "Délégation de service public"
+      ],
+      "type_marche": [
+        "SERVICES"
+      ],
+      "type_marche_facette": [
+        "Services"
+      ],
+      "type_avis": [
+        "5",
+        "1",
+        "2"
+      ],
+      "annonce_lie": null,
+      "annonces_anterieures": null,
+      "source_schema": "3.2.5",
+      "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-113839\", \"TYPE_AVIS\": {\"FAMILLE\": {\"DSP\": \"\"}, \"PERIMETRE\": {\"DSP\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Ville de Tonnerre\", \"TYPE_PROCEDURE\": {\"DSP\": \"\"}, \"DATE_PUBLICATION\": \"2026-11-24\", \"DATE_LIMITE_REPONSE\": \"2027-01-04T12:00:00Z\", \"DATE_FIN_DIFFUSION\": \"2027-01-04\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"406\", \"LIBELLE\": \"Délégation de service public\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"DEP_PUBLICATION\": \"89\", \"RESUME_OBJET\": \"Contrat de régie intéressée pour l'exploitation du camping municipal\"}}",
+      "donnees": "{\"DSP\": {\"organisme\": {\"acheteurPublic\": \"Ville de Tonnerre\", \"adr\": {\"voie\": {\"nomvoie\": \"rue de l'Hôtel de ville\"}, \"cp\": \"89700\", \"ville\": \"TONNERRE\"}, \"coord\": {\"tel\": \"0632176094\", \"mel\": \"chargedeprojet@mairie-tonnerre.fr\", \"url\": \"http://www.ville-tonnerre.com/\"}, \"urlProfilAcheteur\": \"https://mairie-tonnerre.e-marchespublics.com/pack/annonce_marche_public_2983_1188963.html\", \"activitesOrganisme\": {\"activites\": {\"servicesGenerauxAdmPub\": \"\"}}, \"classificationOrganismeJOUE\": \"5\", \"codeNUTS\": \"FRC14\"}, \"initial\": {\"communication\": {\"documentMarche\": {\"accesComplet\": \"\", \"urlDocument\": \"http://mairie-tonnerre.e-marchespublics.com/dossier_de_consultation_electronique_2983_1188963.html\"}, \"infosCompl\": {\"adresseContact\": \"\"}, \"participation\": {\"adresseContact\": \"\"}}, \"descriptionMarche\": {\"titreMarche\": \"Contrat de régie intéressée pour l'exploitation du camping municipal\", \"CPV\": {\"objetPrincipal\": {\"classPrincipale\": \"55200000\"}}, \"natureMarche\": {\"services\": \"\"}, \"description\": \"Dans le cadre de la mise en place d'une régie intéressée, le pouvoir adjudicateur recherche un délégataire qui aura à sa charge l'exploitation et l'entretien du camping municipal.\", \"divisibleLotNon\": \"\", \"lot\": {\"CPV\": {\"objetComplementaire\": {\"classPrincipale\": \"55200000\"}}, \"lieuCodeNUTS\": {\"codeNUTS\": \"FRC14\"}, \"description\": \"Régie intéressée camping\", \"criteres\": {\"critereDoc\": \"\"}, \"infosSup\": {\"fondsCommunautairesNon\": \"\"}}}, \"situation\": {\"situationPropre\": \"la description des moyens qu'il entend mettre en oeuvre pour assurer les missions qui lui sont déléguées. Etre rigoureux dans la gestion de l'équipement, tant au niveau de l'application du règlement intérieur qu'au niveau de la gestion financière.la forme juridique retenue pour l'exercice de sa mission. les attestations d'assurance professionnelles et responsabilité civile en cours de validité en rapport avec l'objet de la délégation. une attestation sur l'honneur que le candidat n'a pas fait l'objet au cours des 5 dernières années d'une condamnation inscrite au bulletin numéro 2 du casier judiciaire pour les infractions visées aux articles L.324-9, L.324-10, L.324-16, L.125-1 et L1253 du code du travail. Des déclarations attestant qu'il est à jour de ses obligations fiscales et sociales et, éventuellement, pour les organismes ou entreprises, les comptes d'exploitation et les bilans, au plus des trois dernières années.\", \"capaEcoFiInfo\": \"La rémunération des co-régisseurs intéressés comprend une part fixe et une part variable liée à l'exploitation du camping municipal. Tous ces éléments de la rémunération sont versés par la collectivité. La rémunération n'est pas assurée par les usagers.\", \"capaEcoFiMin\": \"Aucune capacité économique et financière ne sont exigées.\", \"capaTechInfo\": \"Il est demandé aux candidats de remettre une lettre de motivation mettant en oeuvre les capacités du candidat (rigueur dans la gestion de l'équipement, rigueur dans la gestion financière, application du règlement intérieur...), les moyens techniques et humains ainsi que les horaires d'ouverture et de fermeture de l'accueil du camping que le candidat souhaiterait appliquer (pour rappel l'accueil doit être ouvert à minima 8 heures par jour, 7 jours sur 7). Il devra également remettre un CV de nature à apprécier ses références dans le domaine du tourisme et cela avant la date limite de réception des candidatures.\", \"capaTechMin\": \"Une expérience dans la gestion et l'entretien de campings municipaux et des connaissances en anglais seraient un plus.\", \"marcheReserve\": {\"marcheReserveNON\": \"\"}, \"executionMarche\": \"Le délégataire devra exploiter et entretenir le camping municipal. La gestion du camping sera exercée par les co-régisseurs intéressés au nom et pour le compte de la ville.\", \"executionPersonnel\": \"\"}, \"AMP\": {\"non\": \"\"}, \"renseignementsAdm\": {\"receptionInteret\": \"2027-01-04T12:00:00Z\", \"langue\": {\"langEC\": \"fr\"}}, \"renseignementsCompl\": {\"recurrentNon\": \"\", \"instanceChargeeRecours\": {\"nomOfficiel\": \"Tribunal administratif de Dijon\", \"adr\": {\"voie\": {\"nomvoie\": \"22 rue d'Asas\"}, \"cp\": \"21000\", \"ville\": \"DIJON\"}, \"coord\": {\"mel\": \"greffe.ta-dijon@juradm.fr\"}}, \"instanceChargeeMediation\": {\"nomOfficiel\": \"Tribunal administratif de Dijon\", \"adr\": {\"voie\": {\"nomvoie\": \"22 rue d'Asas\"}, \"cp\": \"21000\", \"ville\": \"Dijon\"}, \"coord\": {\"mel\": \"greffe.ta-dijon@juradm.fr\"}}}}}}",
+      "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-113839",
+      "_source_categories": [
+        "CDS"
+      ],
+      "score": 2.0,
+      "category": "CDS",
+      "categories": [
+        "CDS"
+      ],
+      "category_color": "#D97706",
+      "budget": null,
+      "days_left": 41,
+      "match_pct": 27,
+      "match_detail": "Régie / AT",
+      "tier": "low",
+      "ao_type": "Assistance technique / Régie",
+      "ao_legitimacy": 4,
+      "matched_products": [],
+      "matched_rex": [],
+      "matched_tech": [],
+      "matched_expertises": [],
+      "matched_delivery": [
+        "Régie / AT"
+      ],
+      "matched_profils": [],
+      "relevance_summary": [
+        "Objet : Contrat de régie intéressée pour l'exploitation du camping municipal",
+        "Acheteur : Ville de Tonnerre",
+        "Type d'AO \"Assistance technique / Régie\" : forte légitimité Harington",
+        "Mode de delivery : Régie / AT",
+        "Zone géographique : Dept. 89",
+        "Date limite de réponse : 2027-01-04",
+        "Descripteurs BOAMP : Délégation de service public"
+      ],
+      "geo_label": "Dept. 89",
+      "deep_analysis": null,
+      "breakdown": {
+        "stack_match": 1.4,
+        "stack_sub": {
+          "tech_stack": 1,
+          "products": 1,
+          "expertises": 1,
+          "delivery": 3,
+          "profils": 1
+        },
+        "deadline": 2.0,
+        "budget": 3.0,
         "geo": 2.0
       }
     },
